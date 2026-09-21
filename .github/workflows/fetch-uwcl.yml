@@ -35,95 +35,37 @@ jobs:
         run: |
           python fetch_uwcl.py
 
+      - name: Build UWCL decision data
+        run: |
+          python build_uwcl_transformed.py
+
       - name: Show generated data summary
         run: |
-          echo "UWCL data files:"
-          find data/uwcl -maxdepth 4 -type f -print
-
-          echo
-          echo "UWCL data summary:"
-
           python - <<'PY'
           import json
 
-          with open(
-              "data/uwcl/meta.json",
-              encoding="utf-8"
-          ) as f:
+          with open("data/uwcl/meta.json", encoding="utf-8") as f:
               meta = json.load(f)
 
-          counts = meta.get("counts", {})
+          with open("data/uwcl/transformed_data.json", encoding="utf-8") as f:
+              transformed = json.load(f)
+
+          print("Players:", meta.get("counts", {}).get("players"))
+          print("Teams:", meta.get("counts", {}).get("teams"))
+          print("Matches:", meta.get("counts", {}).get("matches"))
+          print("Matchdays:", meta.get("counts", {}).get("matchdays"))
+          print("Transformed players:", transformed.get("count"))
+          print("Decision model:", transformed.get("model", {}).get("status"))
+
           nationality = meta.get("nationality_data", {})
-          feed_status = meta.get("feed_status", {})
-
           print(
-              "Players:",
-              counts.get("players", "?")
-          )
-          print(
-              "Teams:",
-              counts.get("teams", "?")
-          )
-          print(
-              "Matches:",
-              counts.get("matches", "?")
-          )
-          print(
-              "Matchdays:",
-              counts.get("matchdays", "?")
-          )
-
-          print()
-          print("Nationality coverage:")
-          print(
-              "All players:",
-              nationality.get("matched_players", "?"),
+              "Active nationality coverage:",
+              nationality.get("active_matched_players"),
               "/",
-              counts.get("players", "?")
-          )
-          print(
-              "Active players:",
-              nationality.get(
-                  "active_matched_players",
-                  "?"
-              ),
-              "/",
-              nationality.get(
-                  "active_players",
-                  "?"
-              )
-          )
-          print(
-              "Active unmatched:",
-              nationality.get(
-                  "active_unmatched_players",
-                  "?"
-              )
+              nationality.get("active_players")
           )
 
-          print()
-          print("Feed status:")
-          for feed in (
-              "players",
-              "teams",
-              "fixtures",
-          ):
-              print(
-                  f"{feed}:",
-                  feed_status.get(
-                      feed,
-                      "unknown"
-                  )
-              )
-
-          print()
-          print(
-              "Fetched at:",
-              meta.get(
-                  "fetched_at_utc",
-                  "unknown"
-              )
-          )
+          print("Feed status:", meta.get("feed_status", {}))
           PY
 
       - name: Commit changed UWCL data
