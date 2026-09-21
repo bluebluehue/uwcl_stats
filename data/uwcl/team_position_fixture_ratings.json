@@ -4,7 +4,7 @@
   "current_matchday": 1,
   "model": {
     "status": "provisional_preseason_v1",
-    "note": "Team-position fixture ratings use the Opta-driven team fixture score with modest position lenses. They are not xG/market-derived attack and clean-sheet probabilities yet."
+    "note": "Team-position fixture ratings use the Opta matchup edge (own team versus opponent) with modest position lenses. They are not xG/market-derived attack and clean-sheet probabilities yet."
   },
   "teams": [
     {
@@ -23,11 +23,14 @@
         "day_number": 1,
         "day_short": "TUE",
         "date_iso": "2026-09-22",
+        "own_opta_rating": 92.9,
         "opponent_opta_rating": 76.6,
+        "opta_strength_edge": 16.3,
+        "matchup_standard_score": 1.909,
         "opponent_uefa_rank": 29,
         "opponent_uefa_coefficient": 13.5,
-        "rating": 66.8,
-        "method": "opponent Opta strength z-score + home/away adjustment"
+        "rating": 69.3,
+        "method": "own Opta minus opponent Opta, standardized across UWCL clubs, plus home/away adjustment"
       },
       "following_fixture": {
         "match_id": "2050533",
@@ -40,31 +43,34 @@
         "day_number": 1,
         "day_short": "WED",
         "date_iso": "2026-09-30",
+        "own_opta_rating": 92.9,
         "opponent_opta_rating": 81.6,
+        "opta_strength_edge": 11.3,
+        "matchup_standard_score": 1.323,
         "opponent_uefa_rank": 13,
         "opponent_uefa_coefficient": 33.75,
-        "rating": 51.8,
-        "method": "opponent Opta strength z-score + home/away adjustment"
+        "rating": 56.6,
+        "method": "own Opta minus opponent Opta, standardized across UWCL clubs, plus home/away adjustment"
       },
       "positions": {
         "GK": {
-          "current": 88.8,
-          "following": 66.7,
+          "current": 84.8,
+          "following": 66.2,
           "lens": "clean-sheet / defensive fixture lens"
         },
         "DEF": {
-          "current": 87.0,
-          "following": 66.0,
+          "current": 83.2,
+          "following": 65.5,
           "lens": "clean-sheet / defensive fixture lens"
         },
         "MID": {
-          "current": 82.2,
-          "following": 62.9,
+          "current": 78.7,
+          "following": 62.4,
           "lens": "attacking-return fixture lens"
         },
         "FWD": {
-          "current": 84.3,
-          "following": 63.7,
+          "current": 80.6,
+          "following": 63.2,
           "lens": "attacking-return fixture lens"
         }
       }
@@ -85,11 +91,14 @@
         "day_number": 2,
         "day_short": "WED",
         "date_iso": "2026-09-23",
+        "own_opta_rating": 65.7,
         "opponent_opta_rating": 94.7,
+        "opta_strength_edge": -29.0,
+        "matchup_standard_score": -3.396,
         "opponent_uefa_rank": 3,
         "opponent_uefa_coefficient": 90.5,
-        "rating": 33.4,
-        "method": "opponent Opta strength z-score + home/away adjustment"
+        "rating": 20.0,
+        "method": "own Opta minus opponent Opta, standardized across UWCL clubs, plus home/away adjustment"
       },
       "following_fixture": {
         "match_id": "2050534",
@@ -102,31 +111,34 @@
         "day_number": 2,
         "day_short": "THU",
         "date_iso": "2026-10-01",
+        "own_opta_rating": 65.7,
         "opponent_opta_rating": 82.2,
+        "opta_strength_edge": -16.5,
+        "matchup_standard_score": -1.932,
         "opponent_uefa_rank": 52,
         "opponent_uefa_coefficient": 8,
-        "rating": 58.9,
-        "method": "opponent Opta strength z-score + home/away adjustment"
+        "rating": 38.5,
+        "method": "own Opta minus opponent Opta, standardized across UWCL clubs, plus home/away adjustment"
       },
       "positions": {
         "GK": {
-          "current": 15.3,
-          "following": 78.7,
+          "current": 3.4,
+          "following": 14.0,
           "lens": "clean-sheet / defensive fixture lens"
         },
         "DEF": {
-          "current": 16.9,
-          "following": 77.4,
+          "current": 5.5,
+          "following": 15.6,
           "lens": "clean-sheet / defensive fixture lens"
         },
         "MID": {
-          "current": 21.4,
-          "following": 73.4,
+          "current": 10.9,
+          "following": 20.2,
           "lens": "attacking-return fixture lens"
         },
         "FWD": {
-          "current": 19.5,
-          "following": 74.9,
+          "current": 8.4,
+          "following": 18.2,
           "lens": "attacking-return fixture lens"
         }
       }
@@ -147,11 +159,14 @@
         "day_number": 2,
         "day_short": "WED",
         "date_iso": "2026-09-23",
+        "own_opta_rating": 100.0,
         "opponent_opta_rating": 81.6,
+        "opta_strength_edge": 18.4,
+        "matchup_standard_score": 2.155,
         "opponent_uefa_rank": 13,
         "opponent_uefa_coefficient": 33.75,
-        "rating": 59.8,
-        "method": "opponent Opta strength z-score + home/away adjustment"
+        "rating": 71.2,
+        "method": "own Opta minus opponent Opta, standardized across UWCL clubs, plus home/away adjustment"
       },
       "following_fixture": {
         "match_id": "2050530",
@@ -164,31 +179,34 @@
         "day_number": 1,
         "day_short": "WED",
         "date_iso": "2026-09-30",
+        "own_opta_rating": 100.0,
         "opponent_opta_rating": 84.6,
+        "opta_strength_edge": 15.4,
+        "matchup_standard_score": 1.804,
         "opponent_uefa_rank": 8,
         "opponent_uefa_coefficient": 50,
-        "rating": 47.6,
-        "method": "opponent Opta strength z-score + home/away adjustment"
+        "rating": 60.4,
+        "method": "own Opta minus opponent Opta, standardized across UWCL clubs, plus home/away adjustment"
       },
       "positions": {
         "GK": {
-          "current": 78.6,
-          "following": 54.2,
+          "current": 89.6,
+          "following": 81.7,
           "lens": "clean-sheet / defensive fixture lens"
         },
         "DEF": {
-          "current": 77.3,
-          "following": 54.1,
+          "current": 87.8,
+          "following": 80.3,
           "lens": "clean-sheet / defensive fixture lens"
         },
         "MID": {
-          "current": 73.3,
-          "following": 51.9,
+          "current": 82.9,
+          "following": 76.0,
           "lens": "attacking-return fixture lens"
         },
         "FWD": {
-          "current": 74.8,
-          "following": 52.1,
+          "current": 85.1,
+          "following": 77.7,
           "lens": "attacking-return fixture lens"
         }
       }
@@ -209,11 +227,14 @@
         "day_number": 1,
         "day_short": "TUE",
         "date_iso": "2026-09-22",
+        "own_opta_rating": 95.9,
         "opponent_opta_rating": 93.6,
+        "opta_strength_edge": 2.3,
+        "matchup_standard_score": 0.269,
         "opponent_uefa_rank": 15,
         "opponent_uefa_coefficient": 31,
-        "rating": 42.9,
-        "method": "opponent Opta strength z-score + home/away adjustment"
+        "rating": 56.2,
+        "method": "own Opta minus opponent Opta, standardized across UWCL clubs, plus home/away adjustment"
       },
       "following_fixture": {
         "match_id": "2050531",
@@ -226,31 +247,34 @@
         "day_number": 1,
         "day_short": "WED",
         "date_iso": "2026-09-30",
+        "own_opta_rating": 95.9,
         "opponent_opta_rating": 84.4,
+        "opta_strength_edge": 11.5,
+        "matchup_standard_score": 1.347,
         "opponent_uefa_rank": 12,
         "opponent_uefa_coefficient": 39,
-        "rating": 47.8,
-        "method": "opponent Opta strength z-score + home/away adjustment"
+        "rating": 56.8,
+        "method": "own Opta minus opponent Opta, standardized across UWCL clubs, plus home/away adjustment"
       },
       "positions": {
         "GK": {
-          "current": 31.2,
-          "following": 58.5,
+          "current": 63.3,
+          "following": 70.0,
           "lens": "clean-sheet / defensive fixture lens"
         },
         "DEF": {
-          "current": 32.0,
-          "following": 58.2,
+          "current": 62.8,
+          "following": 69.1,
           "lens": "clean-sheet / defensive fixture lens"
         },
         "MID": {
-          "current": 35.3,
-          "following": 55.7,
+          "current": 59.9,
+          "following": 65.7,
           "lens": "attacking-return fixture lens"
         },
         "FWD": {
-          "current": 34.3,
-          "following": 56.1,
+          "current": 60.6,
+          "following": 66.8,
           "lens": "attacking-return fixture lens"
         }
       }
@@ -271,11 +295,14 @@
         "day_number": 1,
         "day_short": "TUE",
         "date_iso": "2026-09-22",
+        "own_opta_rating": 84.4,
         "opponent_opta_rating": 83.2,
+        "opta_strength_edge": 1.2,
+        "matchup_standard_score": 0.141,
         "opponent_uefa_rank": 11,
         "opponent_uefa_coefficient": 43.25,
-        "rating": 49.5,
-        "method": "opponent Opta strength z-score + home/away adjustment"
+        "rating": 47.1,
+        "method": "own Opta minus opponent Opta, standardized across UWCL clubs, plus home/away adjustment"
       },
       "following_fixture": {
         "match_id": "2050531",
@@ -288,31 +315,34 @@
         "day_number": 1,
         "day_short": "WED",
         "date_iso": "2026-09-30",
+        "own_opta_rating": 84.4,
         "opponent_opta_rating": 95.9,
+        "opta_strength_edge": -11.5,
+        "matchup_standard_score": -1.347,
         "opponent_uefa_rank": 4,
         "opponent_uefa_coefficient": 73.25,
-        "rating": 39.7,
-        "method": "opponent Opta strength z-score + home/away adjustment"
+        "rating": 43.2,
+        "method": "own Opta minus opponent Opta, standardized across UWCL clubs, plus home/away adjustment"
       },
       "positions": {
         "GK": {
-          "current": 38.8,
-          "following": 22.2,
+          "current": 39.2,
+          "following": 32.0,
           "lens": "clean-sheet / defensive fixture lens"
         },
         "DEF": {
-          "current": 39.2,
-          "following": 23.4,
+          "current": 39.6,
+          "following": 32.8,
           "lens": "clean-sheet / defensive fixture lens"
         },
         "MID": {
-          "current": 41.9,
-          "following": 27.4,
+          "current": 42.3,
+          "following": 36.0,
           "lens": "attacking-return fixture lens"
         },
         "FWD": {
-          "current": 41.4,
-          "following": 25.9,
+          "current": 41.8,
+          "following": 35.1,
           "lens": "attacking-return fixture lens"
         }
       }
@@ -333,11 +363,14 @@
         "day_number": 2,
         "day_short": "WED",
         "date_iso": "2026-09-23",
+        "own_opta_rating": 94.7,
         "opponent_opta_rating": 65.7,
+        "opta_strength_edge": 29.0,
+        "matchup_standard_score": 3.396,
         "opponent_uefa_rank": 26,
         "opponent_uefa_coefficient": 17,
-        "rating": 82.1,
-        "method": "opponent Opta strength z-score + home/away adjustment"
+        "rating": 81.2,
+        "method": "own Opta minus opponent Opta, standardized across UWCL clubs, plus home/away adjustment"
       },
       "following_fixture": {
         "match_id": "2050529",
@@ -350,31 +383,34 @@
         "day_number": 1,
         "day_short": "WED",
         "date_iso": "2026-09-30",
+        "own_opta_rating": 94.7,
         "opponent_opta_rating": 93.6,
+        "opta_strength_edge": 1.1,
+        "matchup_standard_score": 0.129,
         "opponent_uefa_rank": 2,
         "opponent_uefa_coefficient": 98.75,
-        "rating": 34.9,
-        "method": "opponent Opta strength z-score + home/away adjustment"
+        "rating": 47.0,
+        "method": "own Opta minus opponent Opta, standardized across UWCL clubs, plus home/away adjustment"
       },
       "positions": {
         "GK": {
-          "current": 97.0,
-          "following": 14.4,
+          "current": 96.8,
+          "following": 41.5,
           "lens": "clean-sheet / defensive fixture lens"
         },
         "DEF": {
-          "current": 94.9,
-          "following": 16.0,
+          "current": 94.7,
+          "following": 41.8,
           "lens": "clean-sheet / defensive fixture lens"
         },
         "MID": {
-          "current": 89.5,
-          "following": 20.6,
+          "current": 89.3,
+          "following": 44.3,
           "lens": "attacking-return fixture lens"
         },
         "FWD": {
-          "current": 92.0,
-          "following": 18.6,
+          "current": 91.8,
+          "following": 43.9,
           "lens": "attacking-return fixture lens"
         }
       }
@@ -395,11 +431,14 @@
         "day_number": 1,
         "day_short": "TUE",
         "date_iso": "2026-09-22",
+        "own_opta_rating": 76.6,
         "opponent_opta_rating": 92.9,
+        "opta_strength_edge": -16.3,
+        "matchup_standard_score": -1.909,
         "opponent_uefa_rank": 5,
         "opponent_uefa_coefficient": 73,
-        "rating": 35.9,
-        "method": "opponent Opta strength z-score + home/away adjustment"
+        "rating": 30.7,
+        "method": "own Opta minus opponent Opta, standardized across UWCL clubs, plus home/away adjustment"
       },
       "following_fixture": {
         "match_id": "2050536",
@@ -412,31 +451,34 @@
         "day_number": 2,
         "day_short": "THU",
         "date_iso": "2026-10-01",
+        "own_opta_rating": 76.6,
         "opponent_opta_rating": 78.9,
+        "opta_strength_edge": -2.3,
+        "matchup_standard_score": -0.269,
         "opponent_uefa_rank": 38,
         "opponent_uefa_coefficient": 11.5,
-        "rating": 63.6,
-        "method": "opponent Opta strength z-score + home/away adjustment"
+        "rating": 51.8,
+        "method": "own Opta minus opponent Opta, standardized across UWCL clubs, plus home/away adjustment"
       },
       "positions": {
         "GK": {
-          "current": 19.3,
-          "following": 83.4,
+          "current": 14.5,
+          "following": 53.7,
           "lens": "clean-sheet / defensive fixture lens"
         },
         "DEF": {
-          "current": 20.7,
-          "following": 81.9,
+          "current": 16.1,
+          "following": 53.6,
           "lens": "clean-sheet / defensive fixture lens"
         },
         "MID": {
-          "current": 24.9,
-          "following": 77.5,
+          "current": 20.7,
+          "following": 51.5,
           "lens": "attacking-return fixture lens"
         },
         "FWD": {
-          "current": 23.2,
-          "following": 79.3,
+          "current": 18.7,
+          "following": 51.6,
           "lens": "attacking-return fixture lens"
         }
       }
@@ -457,11 +499,14 @@
         "day_number": 1,
         "day_short": "TUE",
         "date_iso": "2026-09-22",
+        "own_opta_rating": 88.3,
         "opponent_opta_rating": 82.2,
+        "opta_strength_edge": 6.1,
+        "matchup_standard_score": 0.714,
         "opponent_uefa_rank": 52,
         "opponent_uefa_coefficient": 8,
-        "rating": 50.9,
-        "method": "opponent Opta strength z-score + home/away adjustment"
+        "rating": 51.7,
+        "method": "own Opta minus opponent Opta, standardized across UWCL clubs, plus home/away adjustment"
       },
       "following_fixture": {
         "match_id": "2050532",
@@ -474,31 +519,34 @@
         "day_number": 1,
         "day_short": "WED",
         "date_iso": "2026-09-30",
+        "own_opta_rating": 88.3,
         "opponent_opta_rating": 83.2,
+        "opta_strength_edge": 5.1,
+        "matchup_standard_score": 0.597,
         "opponent_uefa_rank": 11,
         "opponent_uefa_coefficient": 43.25,
-        "rating": 57.5,
-        "method": "opponent Opta strength z-score + home/away adjustment"
+        "rating": 58.8,
+        "method": "own Opta minus opponent Opta, standardized across UWCL clubs, plus home/away adjustment"
       },
       "positions": {
         "GK": {
-          "current": 46.2,
-          "following": 72.0,
+          "current": 47.7,
+          "following": 74.0,
           "lens": "clean-sheet / defensive fixture lens"
         },
         "DEF": {
-          "current": 46.3,
-          "following": 71.0,
+          "current": 47.7,
+          "following": 73.0,
           "lens": "clean-sheet / defensive fixture lens"
         },
         "MID": {
-          "current": 48.4,
-          "following": 67.5,
+          "current": 49.7,
+          "following": 69.3,
           "lens": "attacking-return fixture lens"
         },
         "FWD": {
-          "current": 48.3,
-          "following": 68.6,
+          "current": 49.7,
+          "following": 70.6,
           "lens": "attacking-return fixture lens"
         }
       }
@@ -519,11 +567,14 @@
         "day_number": 1,
         "day_short": "TUE",
         "date_iso": "2026-09-22",
+        "own_opta_rating": 82.2,
         "opponent_opta_rating": 88.3,
+        "opta_strength_edge": -6.1,
+        "matchup_standard_score": -0.714,
         "opponent_uefa_rank": 10,
         "opponent_uefa_coefficient": 38,
-        "rating": 50.4,
-        "method": "opponent Opta strength z-score + home/away adjustment"
+        "rating": 48.3,
+        "method": "own Opta minus opponent Opta, standardized across UWCL clubs, plus home/away adjustment"
       },
       "following_fixture": {
         "match_id": "2050534",
@@ -536,31 +587,34 @@
         "day_number": 2,
         "day_short": "THU",
         "date_iso": "2026-10-01",
+        "own_opta_rating": 82.2,
         "opponent_opta_rating": 65.7,
+        "opta_strength_edge": 16.5,
+        "matchup_standard_score": 1.932,
         "opponent_uefa_rank": 26,
         "opponent_uefa_coefficient": 17,
-        "rating": 74.1,
-        "method": "opponent Opta strength z-score + home/away adjustment"
+        "rating": 61.5,
+        "method": "own Opta minus opponent Opta, standardized across UWCL clubs, plus home/away adjustment"
       },
       "positions": {
         "GK": {
-          "current": 42.8,
-          "following": 94.5,
+          "current": 43.2,
+          "following": 86.1,
           "lens": "clean-sheet / defensive fixture lens"
         },
         "DEF": {
-          "current": 43.0,
-          "following": 92.5,
+          "current": 43.4,
+          "following": 84.5,
           "lens": "clean-sheet / defensive fixture lens"
         },
         "MID": {
-          "current": 45.4,
-          "following": 87.3,
+          "current": 45.8,
+          "following": 79.9,
           "lens": "attacking-return fixture lens"
         },
         "FWD": {
-          "current": 45.1,
-          "following": 89.7,
+          "current": 45.5,
+          "following": 81.8,
           "lens": "attacking-return fixture lens"
         }
       }
@@ -581,11 +635,14 @@
         "day_number": 1,
         "day_short": "TUE",
         "date_iso": "2026-09-22",
+        "own_opta_rating": 83.2,
         "opponent_opta_rating": 84.4,
+        "opta_strength_edge": -1.2,
+        "matchup_standard_score": -0.141,
         "opponent_uefa_rank": 12,
         "opponent_uefa_coefficient": 39,
-        "rating": 55.8,
-        "method": "opponent Opta strength z-score + home/away adjustment"
+        "rating": 52.9,
+        "method": "own Opta minus opponent Opta, standardized across UWCL clubs, plus home/away adjustment"
       },
       "following_fixture": {
         "match_id": "2050532",
@@ -598,31 +655,34 @@
         "day_number": 1,
         "day_short": "WED",
         "date_iso": "2026-09-30",
+        "own_opta_rating": 83.2,
         "opponent_opta_rating": 88.3,
+        "opta_strength_edge": -5.1,
+        "matchup_standard_score": -0.597,
         "opponent_uefa_rank": 10,
         "opponent_uefa_coefficient": 38,
-        "rating": 42.4,
-        "method": "opponent Opta strength z-score + home/away adjustment"
+        "rating": 41.2,
+        "method": "own Opta minus opponent Opta, standardized across UWCL clubs, plus home/away adjustment"
       },
       "positions": {
         "GK": {
-          "current": 72.8,
-          "following": 34.6,
+          "current": 55.7,
+          "following": 27.3,
           "lens": "clean-sheet / defensive fixture lens"
         },
         "DEF": {
-          "current": 71.8,
-          "following": 35.2,
+          "current": 55.5,
+          "following": 28.3,
           "lens": "clean-sheet / defensive fixture lens"
         },
         "MID": {
-          "current": 68.2,
-          "following": 38.2,
+          "current": 53.2,
+          "following": 31.9,
           "lens": "attacking-return fixture lens"
         },
         "FWD": {
-          "current": 69.4,
-          "following": 37.5,
+          "current": 53.4,
+          "following": 30.7,
           "lens": "attacking-return fixture lens"
         }
       }
@@ -643,11 +703,14 @@
         "day_number": 1,
         "day_short": "TUE",
         "date_iso": "2026-09-22",
+        "own_opta_rating": 93.6,
         "opponent_opta_rating": 95.9,
+        "opta_strength_edge": -2.3,
+        "matchup_standard_score": -0.269,
         "opponent_uefa_rank": 4,
         "opponent_uefa_coefficient": 73.25,
-        "rating": 31.7,
-        "method": "opponent Opta strength z-score + home/away adjustment"
+        "rating": 43.8,
+        "method": "own Opta minus opponent Opta, standardized across UWCL clubs, plus home/away adjustment"
       },
       "following_fixture": {
         "match_id": "2050537",
@@ -660,31 +723,34 @@
         "day_number": 2,
         "day_short": "THU",
         "date_iso": "2026-10-01",
+        "own_opta_rating": 93.6,
         "opponent_opta_rating": 88.1,
+        "opta_strength_edge": 5.5,
+        "matchup_standard_score": 0.644,
         "opponent_uefa_rank": 7,
         "opponent_uefa_coefficient": 58.5,
-        "rating": 50.6,
-        "method": "opponent Opta strength z-score + home/away adjustment"
+        "rating": 59.2,
+        "method": "own Opta minus opponent Opta, standardized across UWCL clubs, plus home/away adjustment"
       },
       "positions": {
         "GK": {
-          "current": 11.8,
-          "following": 62.8,
+          "current": 32.2,
+          "following": 77.3,
           "lens": "clean-sheet / defensive fixture lens"
         },
         "DEF": {
-          "current": 13.5,
-          "following": 62.3,
+          "current": 33.0,
+          "following": 76.1,
           "lens": "clean-sheet / defensive fixture lens"
         },
         "MID": {
-          "current": 18.3,
-          "following": 59.5,
+          "current": 36.2,
+          "following": 72.2,
           "lens": "attacking-return fixture lens"
         },
         "FWD": {
-          "current": 16.2,
-          "following": 60.1,
+          "current": 35.3,
+          "following": 73.6,
           "lens": "attacking-return fixture lens"
         }
       }
@@ -705,11 +771,14 @@
         "day_number": 2,
         "day_short": "WED",
         "date_iso": "2026-09-23",
+        "own_opta_rating": 72.8,
         "opponent_opta_rating": 84.6,
+        "opta_strength_edge": -11.8,
+        "matchup_standard_score": -1.382,
         "opponent_uefa_rank": 8,
         "opponent_uefa_coefficient": 50,
-        "rating": 55.6,
-        "method": "opponent Opta strength z-score + home/away adjustment"
+        "rating": 42.9,
+        "method": "own Opta minus opponent Opta, standardized across UWCL clubs, plus home/away adjustment"
       },
       "following_fixture": {
         "match_id": "2050535",
@@ -722,31 +791,34 @@
         "day_number": 2,
         "day_short": "THU",
         "date_iso": "2026-10-01",
+        "own_opta_rating": 72.8,
         "opponent_opta_rating": 85.7,
+        "opta_strength_edge": -12.9,
+        "matchup_standard_score": -1.511,
         "opponent_uefa_rank": 9,
         "opponent_uefa_coefficient": 55,
-        "rating": 46.0,
-        "method": "opponent Opta strength z-score + home/away adjustment"
+        "rating": 33.9,
+        "method": "own Opta minus opponent Opta, standardized across UWCL clubs, plus home/away adjustment"
       },
       "positions": {
         "GK": {
-          "current": 64.5,
-          "following": 44.9,
+          "current": 25.7,
+          "following": 8.6,
           "lens": "clean-sheet / defensive fixture lens"
         },
         "DEF": {
-          "current": 63.9,
-          "following": 45.0,
+          "current": 26.8,
+          "following": 10.5,
           "lens": "clean-sheet / defensive fixture lens"
         },
         "MID": {
-          "current": 60.9,
-          "following": 47.2,
+          "current": 30.5,
+          "following": 15.5,
           "lens": "attacking-return fixture lens"
         },
         "FWD": {
-          "current": 61.7,
-          "following": 47.1,
+          "current": 29.2,
+          "following": 13.2,
           "lens": "attacking-return fixture lens"
         }
       }
@@ -767,11 +839,14 @@
         "day_number": 2,
         "day_short": "WED",
         "date_iso": "2026-09-23",
+        "own_opta_rating": 93.6,
         "opponent_opta_rating": 78.9,
+        "opta_strength_edge": 14.7,
+        "matchup_standard_score": 1.722,
         "opponent_uefa_rank": 38,
         "opponent_uefa_coefficient": 11.5,
-        "rating": 55.6,
-        "method": "opponent Opta strength z-score + home/away adjustment"
+        "rating": 59.8,
+        "method": "own Opta minus opponent Opta, standardized across UWCL clubs, plus home/away adjustment"
       },
       "following_fixture": {
         "match_id": "2050529",
@@ -784,31 +859,34 @@
         "day_number": 1,
         "day_short": "WED",
         "date_iso": "2026-09-30",
+        "own_opta_rating": 93.6,
         "opponent_opta_rating": 94.7,
+        "opta_strength_edge": -1.1,
+        "matchup_standard_score": -0.129,
         "opponent_uefa_rank": 3,
         "opponent_uefa_coefficient": 90.5,
-        "rating": 41.4,
-        "method": "opponent Opta strength z-score + home/away adjustment"
+        "rating": 53.0,
+        "method": "own Opta minus opponent Opta, standardized across UWCL clubs, plus home/away adjustment"
       },
       "positions": {
         "GK": {
-          "current": 64.5,
-          "following": 28.5,
+          "current": 76.2,
+          "following": 59.5,
           "lens": "clean-sheet / defensive fixture lens"
         },
         "DEF": {
-          "current": 63.9,
-          "following": 29.4,
+          "current": 75.0,
+          "following": 59.1,
           "lens": "clean-sheet / defensive fixture lens"
         },
         "MID": {
-          "current": 60.9,
-          "following": 32.9,
+          "current": 71.2,
+          "following": 56.5,
           "lens": "attacking-return fixture lens"
         },
         "FWD": {
-          "current": 61.7,
-          "following": 31.8,
+          "current": 72.5,
+          "following": 57.0,
           "lens": "attacking-return fixture lens"
         }
       }
@@ -829,11 +907,14 @@
         "day_number": 2,
         "day_short": "WED",
         "date_iso": "2026-09-23",
+        "own_opta_rating": 81.6,
         "opponent_opta_rating": 100.0,
+        "opta_strength_edge": -18.4,
+        "matchup_standard_score": -2.155,
         "opponent_uefa_rank": 1,
         "opponent_uefa_coefficient": 117,
-        "rating": 25.9,
-        "method": "opponent Opta strength z-score + home/away adjustment"
+        "rating": 28.8,
+        "method": "own Opta minus opponent Opta, standardized across UWCL clubs, plus home/away adjustment"
       },
       "following_fixture": {
         "match_id": "2050533",
@@ -846,31 +927,34 @@
         "day_number": 1,
         "day_short": "WED",
         "date_iso": "2026-09-30",
+        "own_opta_rating": 81.6,
         "opponent_opta_rating": 92.9,
+        "opta_strength_edge": -11.3,
+        "matchup_standard_score": -1.323,
         "opponent_uefa_rank": 5,
         "opponent_uefa_coefficient": 73,
-        "rating": 43.9,
-        "method": "opponent Opta strength z-score + home/away adjustment"
+        "rating": 43.4,
+        "method": "own Opta minus opponent Opta, standardized across UWCL clubs, plus home/away adjustment"
       },
       "positions": {
         "GK": {
-          "current": 5.9,
-          "following": 39.5,
+          "current": 10.0,
+          "following": 36.3,
           "lens": "clean-sheet / defensive fixture lens"
         },
         "DEF": {
-          "current": 7.9,
-          "following": 39.9,
+          "current": 11.8,
+          "following": 36.9,
           "lens": "clean-sheet / defensive fixture lens"
         },
         "MID": {
-          "current": 13.1,
-          "following": 42.5,
+          "current": 16.7,
+          "following": 39.8,
           "lens": "attacking-return fixture lens"
         },
         "FWD": {
-          "current": 10.7,
-          "following": 42.1,
+          "current": 14.5,
+          "following": 39.1,
           "lens": "attacking-return fixture lens"
         }
       }
@@ -891,11 +975,14 @@
         "day_number": 1,
         "day_short": "TUE",
         "date_iso": "2026-09-22",
+        "own_opta_rating": 85.7,
         "opponent_opta_rating": 88.1,
+        "opta_strength_edge": -2.4,
+        "matchup_standard_score": -0.281,
         "opponent_uefa_rank": 7,
         "opponent_uefa_coefficient": 58.5,
-        "rating": 42.6,
-        "method": "opponent Opta strength z-score + home/away adjustment"
+        "rating": 43.8,
+        "method": "own Opta minus opponent Opta, standardized across UWCL clubs, plus home/away adjustment"
       },
       "following_fixture": {
         "match_id": "2050535",
@@ -908,31 +995,34 @@
         "day_number": 2,
         "day_short": "THU",
         "date_iso": "2026-10-01",
+        "own_opta_rating": 85.7,
         "opponent_opta_rating": 72.8,
+        "opta_strength_edge": 12.9,
+        "matchup_standard_score": 1.511,
         "opponent_uefa_rank": 24,
         "opponent_uefa_coefficient": 19.5,
-        "rating": 72.1,
-        "method": "opponent Opta strength z-score + home/away adjustment"
+        "rating": 66.1,
+        "method": "own Opta minus opponent Opta, standardized across UWCL clubs, plus home/away adjustment"
       },
       "positions": {
         "GK": {
-          "current": 25.4,
-          "following": 90.0,
+          "current": 32.2,
+          "following": 91.6,
           "lens": "clean-sheet / defensive fixture lens"
         },
         "DEF": {
-          "current": 26.5,
-          "following": 88.2,
+          "current": 33.0,
+          "following": 89.7,
           "lens": "clean-sheet / defensive fixture lens"
         },
         "MID": {
-          "current": 30.2,
-          "following": 83.3,
+          "current": 36.2,
+          "following": 84.7,
           "lens": "attacking-return fixture lens"
         },
         "FWD": {
-          "current": 28.9,
-          "following": 85.5,
+          "current": 35.3,
+          "following": 86.9,
           "lens": "attacking-return fixture lens"
         }
       }
@@ -953,11 +1043,14 @@
         "day_number": 1,
         "day_short": "TUE",
         "date_iso": "2026-09-22",
+        "own_opta_rating": 88.1,
         "opponent_opta_rating": 85.7,
+        "opta_strength_edge": 2.4,
+        "matchup_standard_score": 0.281,
         "opponent_uefa_rank": 9,
         "opponent_uefa_coefficient": 55,
-        "rating": 54.0,
-        "method": "opponent Opta strength z-score + home/away adjustment"
+        "rating": 56.2,
+        "method": "own Opta minus opponent Opta, standardized across UWCL clubs, plus home/away adjustment"
       },
       "following_fixture": {
         "match_id": "2050537",
@@ -970,31 +1063,34 @@
         "day_number": 2,
         "day_short": "THU",
         "date_iso": "2026-10-01",
+        "own_opta_rating": 88.1,
         "opponent_opta_rating": 93.6,
+        "opta_strength_edge": -5.5,
+        "matchup_standard_score": -0.644,
         "opponent_uefa_rank": 15,
         "opponent_uefa_coefficient": 31,
-        "rating": 34.9,
-        "method": "opponent Opta strength z-score + home/away adjustment"
+        "rating": 40.8,
+        "method": "own Opta minus opponent Opta, standardized across UWCL clubs, plus home/away adjustment"
       },
       "positions": {
         "GK": {
-          "current": 55.4,
-          "following": 14.4,
+          "current": 63.3,
+          "following": 22.6,
           "lens": "clean-sheet / defensive fixture lens"
         },
         "DEF": {
-          "current": 55.2,
-          "following": 16.0,
+          "current": 62.8,
+          "following": 23.8,
           "lens": "clean-sheet / defensive fixture lens"
         },
         "MID": {
-          "current": 52.9,
-          "following": 20.6,
+          "current": 59.9,
+          "following": 27.7,
           "lens": "attacking-return fixture lens"
         },
         "FWD": {
-          "current": 53.1,
-          "following": 18.6,
+          "current": 60.6,
+          "following": 26.3,
           "lens": "attacking-return fixture lens"
         }
       }
@@ -1015,11 +1111,14 @@
         "day_number": 2,
         "day_short": "WED",
         "date_iso": "2026-09-23",
+        "own_opta_rating": 84.6,
         "opponent_opta_rating": 72.8,
+        "opta_strength_edge": 11.8,
+        "matchup_standard_score": 1.382,
         "opponent_uefa_rank": 24,
         "opponent_uefa_coefficient": 19.5,
-        "rating": 64.1,
-        "method": "opponent Opta strength z-score + home/away adjustment"
+        "rating": 57.1,
+        "method": "own Opta minus opponent Opta, standardized across UWCL clubs, plus home/away adjustment"
       },
       "following_fixture": {
         "match_id": "2050530",
@@ -1032,31 +1131,34 @@
         "day_number": 1,
         "day_short": "WED",
         "date_iso": "2026-09-30",
+        "own_opta_rating": 84.6,
         "opponent_opta_rating": 100.0,
+        "opta_strength_edge": -15.4,
+        "matchup_standard_score": -1.804,
         "opponent_uefa_rank": 1,
         "opponent_uefa_coefficient": 117,
-        "rating": 33.9,
-        "method": "opponent Opta strength z-score + home/away adjustment"
+        "rating": 39.6,
+        "method": "own Opta minus opponent Opta, standardized across UWCL clubs, plus home/away adjustment"
       },
       "positions": {
         "GK": {
-          "current": 84.1,
-          "following": 8.0,
+          "current": 69.7,
+          "following": 17.9,
           "lens": "clean-sheet / defensive fixture lens"
         },
         "DEF": {
-          "current": 82.6,
-          "following": 9.9,
+          "current": 68.9,
+          "following": 19.3,
           "lens": "clean-sheet / defensive fixture lens"
         },
         "MID": {
-          "current": 78.2,
-          "following": 14.9,
+          "current": 65.5,
+          "following": 23.6,
           "lens": "attacking-return fixture lens"
         },
         "FWD": {
-          "current": 80.0,
-          "following": 12.7,
+          "current": 66.6,
+          "following": 21.9,
           "lens": "attacking-return fixture lens"
         }
       }
@@ -1077,11 +1179,14 @@
         "day_number": 2,
         "day_short": "WED",
         "date_iso": "2026-09-23",
+        "own_opta_rating": 78.9,
         "opponent_opta_rating": 93.6,
+        "opta_strength_edge": -14.7,
+        "matchup_standard_score": -1.722,
         "opponent_uefa_rank": 2,
         "opponent_uefa_coefficient": 98.75,
-        "rating": 42.9,
-        "method": "opponent Opta strength z-score + home/away adjustment"
+        "rating": 40.2,
+        "method": "own Opta minus opponent Opta, standardized across UWCL clubs, plus home/away adjustment"
       },
       "following_fixture": {
         "match_id": "2050536",
@@ -1094,31 +1199,34 @@
         "day_number": 2,
         "day_short": "THU",
         "date_iso": "2026-10-01",
+        "own_opta_rating": 78.9,
         "opponent_opta_rating": 76.6,
+        "opta_strength_edge": 2.3,
+        "matchup_standard_score": 0.269,
         "opponent_uefa_rank": 29,
         "opponent_uefa_coefficient": 13.5,
-        "rating": 58.8,
-        "method": "opponent Opta strength z-score + home/away adjustment"
+        "rating": 48.2,
+        "method": "own Opta minus opponent Opta, standardized across UWCL clubs, plus home/away adjustment"
       },
       "positions": {
         "GK": {
-          "current": 31.2,
-          "following": 75.5,
+          "current": 20.8,
+          "following": 45.3,
           "lens": "clean-sheet / defensive fixture lens"
         },
         "DEF": {
-          "current": 32.0,
-          "following": 74.4,
+          "current": 22.1,
+          "following": 45.4,
           "lens": "clean-sheet / defensive fixture lens"
         },
         "MID": {
-          "current": 35.3,
-          "following": 70.6,
+          "current": 26.2,
+          "following": 47.6,
           "lens": "attacking-return fixture lens"
         },
         "FWD": {
-          "current": 34.3,
-          "following": 72.0,
+          "current": 24.6,
+          "following": 47.5,
           "lens": "attacking-return fixture lens"
         }
       }
