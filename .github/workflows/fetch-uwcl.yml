@@ -35,36 +35,94 @@ jobs:
         run: |
           python fetch_uwcl.py
 
-      - name: Show generated files
+      - name: Show generated data summary
         run: |
+          echo "UWCL data files:"
           find data/uwcl -maxdepth 4 -type f -print
+
           echo
-          echo "Meta:"
-          cat data/uwcl/meta.json
-          echo
-          echo "Nationality summary:"
+          echo "UWCL data summary:"
+
           python - <<'PY'
           import json
 
           with open(
-              "data/uwcl/nationalities.json",
+              "data/uwcl/meta.json",
               encoding="utf-8"
           ) as f:
-              data = json.load(f)
+              meta = json.load(f)
+
+          counts = meta.get("counts", {})
+          nationality = meta.get("nationality_data", {})
+          feed_status = meta.get("feed_status", {})
 
           print(
-              "Matched:",
-              data["matched_players"],
+              "Players:",
+              counts.get("players", "?")
+          )
+          print(
+              "Teams:",
+              counts.get("teams", "?")
+          )
+          print(
+              "Matches:",
+              counts.get("matches", "?")
+          )
+          print(
+              "Matchdays:",
+              counts.get("matchdays", "?")
+          )
+
+          print()
+          print("Nationality coverage:")
+          print(
+              "All players:",
+              nationality.get("matched_players", "?"),
               "/",
-              data["fantasy_players"]
+              counts.get("players", "?")
           )
           print(
-              "Unmatched:",
-              data["unmatched_players"]
+              "Active players:",
+              nationality.get(
+                  "active_matched_players",
+                  "?"
+              ),
+              "/",
+              nationality.get(
+                  "active_players",
+                  "?"
+              )
           )
           print(
-              "Nationalities:",
-              data["nationality_count"]
+              "Active unmatched:",
+              nationality.get(
+                  "active_unmatched_players",
+                  "?"
+              )
+          )
+
+          print()
+          print("Feed status:")
+          for feed in (
+              "players",
+              "teams",
+              "fixtures",
+          ):
+              print(
+                  f"{feed}:",
+                  feed_status.get(
+                      feed,
+                      "unknown"
+                  )
+              )
+
+          print()
+          print(
+              "Fetched at:",
+              meta.get(
+                  "fetched_at_utc",
+                  "unknown"
+              )
           )
           PY
 
