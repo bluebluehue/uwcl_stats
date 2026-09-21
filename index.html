@@ -16,52 +16,36 @@
       <div>
         <p class="eyebrow">2026/27 UWCL Fantasy</p>
         <h1>Player Explorer</h1>
-        <p class="subtitle">
-          Search and filter the fantasy player pool by team, nationality, position,
-          availability, price and historical performance.
-        </p>
       </div>
-
-      <div class="header-badge" aria-label="Unofficial fan project">
-        Unofficial data explorer
-      </div>
+      <p class="header-note">
+        Search, filter, shortlist and export the full fantasy player pool.
+      </p>
     </div>
   </header>
 
   <main class="shell">
-    <section class="status-grid" aria-label="Data status">
-      <article class="status-card">
-        <span class="status-label">Matchday</span>
+    <section class="compact-status" aria-label="Data status">
+      <div>
+        <span>MD</span>
         <strong id="status-matchday">—</strong>
-      </article>
-
-      <article class="status-card">
-        <span class="status-label">Players</span>
+      </div>
+      <div>
+        <span>Players</span>
         <strong id="status-players">—</strong>
-      </article>
-
-      <article class="status-card">
-        <span class="status-label">Nationality coverage</span>
+      </div>
+      <div>
+        <span>Nationality</span>
         <strong id="status-nationality">—</strong>
-      </article>
-
-      <article class="status-card status-card-wide">
-        <span class="status-label">Latest refresh</span>
+      </div>
+      <div class="refresh-status">
+        <span>Refresh</span>
         <strong id="status-refresh">—</strong>
         <span id="status-feeds" class="feed-status"></span>
-      </article>
-    </section>
-
-    <section class="panel rules-strip" aria-labelledby="rules-title">
-      <div>
-        <p class="eyebrow">League-phase squad rules</p>
-        <h2 id="rules-title">15 players · €100m · max 3 per club</h2>
       </div>
-      <div class="rule-pills" aria-label="Squad composition">
-        <span>2 GK</span>
-        <span>5 DEF</span>
-        <span>5 MID</span>
-        <span>3 FWD</span>
+      <div class="rules-inline">
+        <span>League phase</span>
+        <strong>15 players · €100m · max 3/club</strong>
+        <small>2 GK · 5 DEF · 5 MID · 3 FWD</small>
       </div>
     </section>
 
@@ -72,9 +56,17 @@
           <h2 id="filters-title">Find players</h2>
         </div>
 
-        <button id="reset-filters" class="button button-secondary" type="button">
-          Reset filters
-        </button>
+        <div class="panel-actions">
+          <button id="export-all" class="button button-secondary" type="button">
+            Export all CSV
+          </button>
+          <button id="export-view" class="button button-secondary" type="button">
+            Export current view
+          </button>
+          <button id="reset-filters" class="button button-secondary" type="button">
+            Reset
+          </button>
+        </div>
       </div>
 
       <div class="filters">
@@ -122,13 +114,23 @@
           </select>
         </label>
 
-        <label class="check-field">
-          <input id="filter-active" type="checkbox" checked>
-          <span>Active players only</span>
+        <label class="field">
+          <span>Saved</span>
+          <select id="filter-saved">
+            <option value="">All players</option>
+            <option value="team">On my team</option>
+            <option value="watchlist">Watchlist</option>
+            <option value="either">Team or watchlist</option>
+          </select>
         </label>
       </div>
 
-      <div class="range-row">
+      <div class="filter-footer">
+        <label class="check-field">
+          <input id="filter-active" type="checkbox" checked>
+          <span>Active only</span>
+        </label>
+
         <label class="field compact-field">
           <span>Max price (€m)</span>
           <input id="filter-max-price" type="number" min="0" max="20" step="0.5" placeholder="Any">
@@ -141,28 +143,41 @@
 
         <div class="result-count" aria-live="polite">
           <strong id="result-count">—</strong>
-          <span>players shown</span>
+          <span>matching</span>
         </div>
       </div>
     </section>
 
     <section class="panel table-panel" aria-labelledby="table-title">
-      <div class="panel-heading table-heading">
+      <div class="table-toolbar">
         <div>
           <p class="eyebrow">Player pool</p>
-          <h2 id="table-title">2026/27 fantasy data + 2025/26 carried-forward stats</h2>
+          <h2 id="table-title">Fantasy data + 2025/26 carried-forward stats</h2>
         </div>
-        <p class="table-note">
-          Click any column heading to sort.
-        </p>
+
+        <div class="pager pager-top">
+          <label class="page-size">
+            <span>Rows</span>
+            <select id="page-size">
+              <option value="25">25</option>
+              <option value="50" selected>50</option>
+              <option value="100">100</option>
+            </select>
+          </label>
+          <button class="page-button" data-page-action="prev" type="button">Previous</button>
+          <span id="page-info">Page 1 of 1</span>
+          <button class="page-button" data-page-action="next" type="button">Next</button>
+        </div>
       </div>
 
       <div class="table-wrap">
         <table id="player-table">
           <thead>
             <tr>
+              <th class="save-col">Team</th>
+              <th class="save-col">Watch</th>
               <th data-sort="name">Player</th>
-              <th data-sort="team">Team</th>
+              <th data-sort="team">Club</th>
               <th data-sort="nationality">Nat.</th>
               <th data-sort="position">Pos.</th>
               <th data-sort="price" class="num">Price</th>
@@ -184,27 +199,33 @@
       <div id="empty-state" class="empty-state" hidden>
         No players match those filters.
       </div>
+
+      <div class="table-footer">
+        <div class="list-summary">
+          <span id="team-count">0</span> on team ·
+          <span id="watch-count">0</span> watchlisted
+        </div>
+
+        <div class="pager">
+          <button class="page-button" data-page-action="prev" type="button">Previous</button>
+          <span id="page-info-bottom">Page 1 of 1</span>
+          <button class="page-button" data-page-action="next" type="button">Next</button>
+        </div>
+      </div>
     </section>
 
-    <section class="panel legend-panel" aria-labelledby="legend-title">
-      <div>
-        <p class="eyebrow">Notes</p>
-        <h2 id="legend-title">How to read the table</h2>
-      </div>
-      <p>
-        Price, ownership, status and fixture information are 2026/27 fantasy fields.
-        Columns shaded under the historical grouping are carried-forward 2025/26 values
-        until the UEFA feed begins returning current-season totals.
-      </p>
+    <section class="notes">
+      <strong>Notes:</strong>
+      price, ownership, status and fixture fields are 2026/27 fantasy data.
+      Historical columns are carried-forward 2025/26 values until UEFA begins
+      returning current-season totals. “In contention to start next game” is
+      treated as available, not flagged.
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="shell">
-      <p>
-        Unofficial UWCL fantasy data explorer. Data sourced from UEFA fantasy feeds and
-        UEFA squad-page nationality records.
-      </p>
+      Unofficial UWCL fantasy data explorer.
     </div>
   </footer>
 
