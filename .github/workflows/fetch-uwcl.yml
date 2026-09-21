@@ -56,6 +56,11 @@ jobs:
           print("Matchdays:", meta.get("counts", {}).get("matchdays"))
           print("Transformed players:", transformed.get("count"))
           print("Decision model:", transformed.get("model", {}).get("status"))
+          print("GK role override file supported: data/uwcl/gk_roles.json")
+
+          with open("data/uwcl/team_position_fixture_ratings.json", encoding="utf-8") as f:
+              team_position = json.load(f)
+          print("Team-position board teams:", len(team_position.get("teams", [])))
 
           nationality = meta.get("nationality_data", {})
           print(
