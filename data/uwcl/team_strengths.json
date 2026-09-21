@@ -1,0 +1,290 @@
+{
+  "competition": "UWCL",
+  "season": "2026/27",
+  "source_note": "User-supplied UEFA ranking/coefficient history and Opta ratings on 2026-09-21. Opta is used as the primary current team-strength input for fixture difficulty; UEFA data is retained as context.",
+  "fixture_model": {
+    "primary_strength_metric": "opta_rating",
+    "formula": "raw fixture rating = 50 - 12 * opponent Opta z-score + home/away adjustment",
+    "home_adjustment": 4.0,
+    "away_adjustment": -4.0,
+    "raw_clamp": [
+      20.0,
+      85.0
+    ],
+    "why_opta_primary": "Opta better reflects current cross-league team strength; UEFA coefficient is multi-season and can understate strong clubs with limited recent European participation.",
+    "opta_mean": 85.7111,
+    "opta_population_sd": 8.5387
+  },
+  "teams": [
+    {
+      "team_id": "81199",
+      "team": "Arsenal",
+      "code": "ARS",
+      "uefa_rank": 5,
+      "uefa_points": {
+        "2022/23": 18,
+        "2023/24": 2,
+        "2024/25": 23,
+        "2025/26": 23
+      },
+      "uefa_coefficient": 73,
+      "uefa_avg": 16.5,
+      "opta_rating": 92.9
+    },
+    {
+      "team_id": "2612002",
+      "team": "Austria Wien",
+      "code": "AUS",
+      "uefa_rank": 26,
+      "uefa_points": {
+        "2022/23": null,
+        "2023/24": null,
+        "2024/25": null,
+        "2025/26": 10
+      },
+      "uefa_coefficient": 17,
+      "uefa_avg": 10.0,
+      "opta_rating": 65.7
+    },
+    {
+      "team_id": "2601945",
+      "team": "Barcelona",
+      "code": "BAR",
+      "uefa_rank": 1,
+      "uefa_points": {
+        "2022/23": 26,
+        "2023/24": 26,
+        "2024/25": 25,
+        "2025/26": 33
+      },
+      "uefa_coefficient": 117,
+      "uefa_avg": 27.5,
+      "opta_rating": 100.0
+    },
+    {
+      "team_id": "2600661",
+      "team": "Bayern",
+      "code": "BAY",
+      "uefa_rank": 4,
+      "uefa_points": {
+        "2022/23": 17,
+        "2023/24": 10,
+        "2024/25": 14,
+        "2025/26": 25.25
+      },
+      "uefa_coefficient": 73.25,
+      "uefa_avg": 16.6,
+      "opta_rating": 95.9
+    },
+    {
+      "team_id": "2610349",
+      "team": "Benfica",
+      "code": "BEN",
+      "uefa_rank": 12,
+      "uefa_points": {
+        "2022/23": 8,
+        "2023/24": 12,
+        "2024/25": 3,
+        "2025/26": 9
+      },
+      "uefa_coefficient": 39,
+      "uefa_avg": 8.0,
+      "opta_rating": 84.4
+    },
+    {
+      "team_id": "2600827",
+      "team": "Chelsea",
+      "code": "CHE",
+      "uefa_rank": 3,
+      "uefa_points": {
+        "2022/23": 20,
+        "2023/24": 21,
+        "2024/25": 20,
+        "2025/26": 22.5
+      },
+      "uefa_coefficient": 90.5,
+      "uefa_avg": 20.9,
+      "opta_rating": 94.7
+    },
+    {
+      "team_id": "2611087",
+      "team": "HB Køge",
+      "code": "HBK",
+      "uefa_rank": 29,
+      "uefa_points": {
+        "2022/23": 5,
+        "2023/24": 1.5,
+        "2024/25": null,
+        "2025/26": null
+      },
+      "uefa_coefficient": 13.5,
+      "uefa_avg": 3.3,
+      "opta_rating": 76.6
+    },
+    {
+      "team_id": "2600867",
+      "team": "Häcken",
+      "code": "HAC",
+      "uefa_rank": 10,
+      "uefa_points": {
+        "2022/23": 5,
+        "2023/24": 15,
+        "2024/25": 3,
+        "2025/26": 8
+      },
+      "uefa_coefficient": 38,
+      "uefa_avg": 7.8,
+      "opta_rating": 88.3
+    },
+    {
+      "team_id": "2609776",
+      "team": "Inter",
+      "code": "INT",
+      "uefa_rank": 52,
+      "uefa_points": {
+        "2022/23": null,
+        "2023/24": null,
+        "2024/25": null,
+        "2025/26": 1
+      },
+      "uefa_coefficient": 8,
+      "uefa_avg": 1.0,
+      "opta_rating": 82.2
+    },
+    {
+      "team_id": "2609590",
+      "team": "Juventus",
+      "code": "JUV",
+      "uefa_rank": 11,
+      "uefa_points": {
+        "2022/23": 11,
+        "2023/24": 2,
+        "2024/25": 8,
+        "2025/26": 15.25
+      },
+      "uefa_coefficient": 43.25,
+      "uefa_avg": 9.1,
+      "opta_rating": 83.2
+    },
+    {
+      "team_id": "2603520",
+      "team": "Man City",
+      "code": "MCI",
+      "uefa_rank": 15,
+      "uefa_points": {
+        "2022/23": 7,
+        "2023/24": null,
+        "2024/25": 17,
+        "2025/26": null
+      },
+      "uefa_coefficient": 31,
+      "uefa_avg": 12.0,
+      "opta_rating": 93.6
+    },
+    {
+      "team_id": "2601983",
+      "team": "OH Leuven",
+      "code": "OHL",
+      "uefa_rank": 24,
+      "uefa_points": {
+        "2022/23": null,
+        "2023/24": null,
+        "2024/25": null,
+        "2025/26": 12.5
+      },
+      "uefa_coefficient": 19.5,
+      "uefa_avg": 12.5,
+      "opta_rating": 72.8
+    },
+    {
+      "team_id": "2600241",
+      "team": "OL Lyonnes",
+      "code": "LYO",
+      "uefa_rank": 2,
+      "uefa_points": {
+        "2022/23": 15,
+        "2023/24": 25,
+        "2024/25": 24,
+        "2025/26": 27.75
+      },
+      "uefa_coefficient": 98.75,
+      "uefa_avg": 22.9,
+      "opta_rating": 93.6
+    },
+    {
+      "team_id": "2609779",
+      "team": "Paris",
+      "code": "PAR",
+      "uefa_rank": 13,
+      "uefa_points": {
+        "2022/23": 2,
+        "2023/24": 9,
+        "2024/25": 2,
+        "2025/26": 13.75
+      },
+      "uefa_coefficient": 33.75,
+      "uefa_avg": 6.7,
+      "opta_rating": 81.6
+    },
+    {
+      "team_id": "2600841",
+      "team": "Paris SG",
+      "code": "PSG",
+      "uefa_rank": 9,
+      "uefa_points": {
+        "2022/23": 15,
+        "2023/24": 17,
+        "2024/25": 7,
+        "2025/26": 9
+      },
+      "uefa_coefficient": 55,
+      "uefa_avg": 12.0,
+      "opta_rating": 85.7
+    },
+    {
+      "team_id": "2611347",
+      "team": "Real Madrid",
+      "code": "RMA",
+      "uefa_rank": 7,
+      "uefa_points": {
+        "2022/23": 11,
+        "2023/24": 8,
+        "2024/25": 15,
+        "2025/26": 17.5
+      },
+      "uefa_coefficient": 58.5,
+      "uefa_avg": 12.9,
+      "opta_rating": 88.1
+    },
+    {
+      "team_id": "2610208",
+      "team": "Roma",
+      "code": "ROM",
+      "uefa_rank": 8,
+      "uefa_points": {
+        "2022/23": 15,
+        "2023/24": 8,
+        "2024/25": 10,
+        "2025/26": 10
+      },
+      "uefa_coefficient": 50,
+      "uefa_avg": 10.8,
+      "opta_rating": 84.6
+    },
+    {
+      "team_id": "2611086",
+      "team": "Servette",
+      "code": "SER",
+      "uefa_rank": 38,
+      "uefa_points": {
+        "2022/23": 1.5,
+        "2023/24": null,
+        "2024/25": 3,
+        "2025/26": null
+      },
+      "uefa_coefficient": 11.5,
+      "uefa_avg": 2.3,
+      "opta_rating": 78.9
+    }
+  ]
+}
