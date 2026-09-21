@@ -395,3 +395,135 @@ tbody tr:hover td { background: #eef5ff; }
   .filter-row select { min-width: 100px; }
   .key-grid { grid-template-columns: 1fr; }
 }
+
+
+.tabs {
+  display:flex;
+  gap:4px;
+  align-items:center;
+  flex:1;
+  justify-content:center;
+}
+
+.tab {
+  border:1px solid var(--line);
+  border-radius:8px;
+  background:#fff;
+  padding:6px 10px;
+  color:var(--text);
+  cursor:pointer;
+  font-weight:600;
+}
+
+.tab.active {
+  border-color:var(--purple);
+  background:var(--purple);
+  color:#fff;
+}
+
+.tab-panel { display:none; }
+.tab-panel.active { display:block; }
+
+.tool-card {
+  border:1px solid var(--line);
+  border-radius:12px;
+  background:#fff;
+  overflow:hidden;
+}
+
+.tool-heading {
+  display:flex;
+  align-items:end;
+  justify-content:space-between;
+  gap:20px;
+  padding:12px 14px;
+  border-bottom:1px solid var(--line);
+}
+
+.tool-heading h2 {
+  margin:0;
+  font-size:18px;
+}
+
+.tool-note {
+  max-width:620px;
+  color:var(--muted);
+  font-size:11px;
+  line-height:1.4;
+  text-align:right;
+}
+
+.position-board-controls {
+  display:flex;
+  flex-wrap:wrap;
+  gap:16px;
+  align-items:center;
+  padding:8px 14px;
+  border-bottom:1px solid var(--line);
+  color:var(--muted);
+}
+
+.position-board-controls label {
+  display:flex;
+  align-items:center;
+  gap:6px;
+}
+
+.position-board-controls select,
+.position-board-controls input[type=number] {
+  height:30px;
+  border:1px solid var(--line);
+  border-radius:6px;
+  background:#fff;
+  padding:4px 7px;
+}
+
+.position-board-wrap { overflow-x:auto; }
+
+.position-board {
+  width:100%;
+  min-width:850px;
+  border-collapse:collapse;
+  font-size:12px;
+}
+
+.position-board th,
+.position-board td {
+  padding:8px 9px;
+  border-bottom:1px solid #e7eaf0;
+  text-align:left;
+}
+
+.position-board th {
+  background:#eef1f5;
+  color:#4c596d;
+  font-size:10px;
+}
+
+.tp-score {
+  display:inline-block;
+  min-width:45px;
+  padding:3px 6px;
+  border-radius:8px;
+  text-align:center;
+  font-weight:700;
+}
+
+.tp-great { background:#149a54; color:#fff; }
+.tp-good { background:#bfeccb; color:#155b36; }
+.tp-mid { background:#fff0a8; color:#745d00; }
+.tp-bad { background:#ffd9d7; color:#8d2e29; }
+
+.fixture-cell small,
+.gk-sub {
+  display:block;
+  margin-top:2px;
+  color:var(--muted);
+  font-size:10px;
+}
+
+@media (max-width: 900px) {
+  .tabs { justify-content:flex-start; flex-wrap:wrap; }
+  .tool-heading { align-items:flex-start; flex-direction:column; }
+  .tool-note { text-align:left; }
+}

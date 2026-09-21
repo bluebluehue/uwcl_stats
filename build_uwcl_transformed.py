@@ -14,8 +14,10 @@ TEAMS_PATH = DATA_DIR / "teams.json"
 FIXTURES_PATH = DATA_DIR / "fixtures.json"
 META_PATH = DATA_DIR / "meta.json"
 OUTPUT_PATH = DATA_DIR / "transformed_data.json"
+TEAM_POSITION_PATH = DATA_DIR / "team_position_fixture_ratings.json"
 
 TEAM_STRENGTHS_PATH = DATA_DIR / "team_strengths.json"
+GK_ROLES_PATH = DATA_DIR / "gk_roles.json"
 
 FIXTURE_STRENGTH_SCALE = 12.0
 HOME_BONUS = 4.0
@@ -27,9 +29,8 @@ COMPARISON_PERCENTILE_WEIGHT = 0.70
 COMPARISON_RAW_WEIGHT = 0.30
 
 OUTFIELD_DECISION_WEIGHTS = {
-    "fixture": 0.35,
-    "form": 0.35,
-    "involvement": 0.30,
+    "fixture": 0.55,
+    "form": 0.45,
 }
 GK_DECISION_WEIGHTS = {
     "fixture": 0.85,
@@ -298,21 +299,38 @@ def historical_metrics(player: dict[str, Any]) -> dict[str, float]:
 def build_form_ratings(
     rows: list[dict[str, Any]],
 ) -> None:
+    """
+    Preseason EURO PRIOR, not current form.
+
+    This intentionally excludes price/value. Price belongs to a separate
+    value decision, not a performance/form signal.
+    """
     by_position: dict[str, list[dict[str, Any]]] = defaultdict(list)
     for row in rows:
         by_position[str(row.get("Position") or "")].append(row)
 
     for position_rows in by_position.values():
-        p90_pop = [safe_float(r.get("Historical Points Per 90")) for r in position_rows]
-        total_pop = [safe_float(r.get("Previous Season Points")) for r in position_rows]
-        ppm_pop = [safe_float(r.get("Previous Season Points Per Million")) for r in position_rows]
+        p90_pop = [
+            safe_float(r.get("Historical Points Per 90"))
+            for r in position_rows
+        ]
+        total_pop = [
+            safe_float(r.get("Previous Season Points"))
+            for r in position_rows
+        ]
 
         for row in position_rows:
-            p90_pct = percentile_rank(safe_float(row.get("Historical Points Per 90")), p90_pop)
-            total_pct = percentile_rank(safe_float(row.get("Previous Season Points")), total_pop)
-            ppm_pct = percentile_rank(safe_float(row.get("Previous Season Points Per Million")), ppm_pop)
+            p90_pct = percentile_rank(
+                safe_float(row.get("Historical Points Per 90")),
+                p90_pop,
+            )
+            total_pct = percentile_rank(
+                safe_float(row.get("Previous Season Points")),
+                total_pop,
+            )
 
-            raw = 0.50 * p90_pct + 0.30 * total_pct + 0.20 * ppm_pct
+            raw = 0.65 * p90_pct + 0.35 * total_pct
+
             minutes = safe_float(row.get("Previous Season Minutes"))
             confidence = min(1.0, minutes / 720.0)
 
@@ -321,60 +339,148 @@ def build_form_ratings(
             row["Form Rating"] = round(clamp(rating), 1)
             row["Form Confidence"] = round(confidence, 3)
             row["Form Rating Method"] = (
-                "2025/26 position-relative prior: 50% points/90, "
-                "30% total points, 20% points/€m; shrunk toward 50 below 720 minutes"
+                "2025/26 UWCL performance prior: 65% position-relative "
+                "fantasy points/90 + 35% total fantasy points; "
+                "shrunk toward 50 below 720 minutes. Price is excluded."
             )
 
 
-def build_involvement_ratings(
+def load_gk_role_overrides() -> dict[str, dict[str, Any]]:
+    if not GK_ROLES_PATH.exists():
+        return {}
+
+    try:
+        payload = load_json(GK_ROLES_PATH)
+    except Exception:
+        return {}
+
+    players = payload.get("players") or {}
+    if isinstance(players, list):
+        return {
+            str(item.get("player_id") or ""): item
+            for item in players
+            if isinstance(item, dict) and item.get("player_id")
+        }
+
+    if isinstance(players, dict):
+        return {
+            str(player_id): value
+            for player_id, value in players.items()
+            if isinstance(value, dict)
+        }
+
+    return {}
+
+
+def assign_gk_roles(
     rows: list[dict[str, Any]],
 ) -> None:
-    by_position: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    """
+    Conservative provisional keeper hierarchy.
+
+    Manual overrides in data/uwcl/gk_roles.json take precedence.
+    Otherwise we infer only when the 2025/26 UWCL minutes gap is clear.
+    We do NOT silently call every cheapest/highest-rated keeper a starter.
+    """
+    overrides = load_gk_role_overrides()
+
+    by_team: dict[str, list[dict[str, Any]]] = defaultdict(list)
     for row in rows:
-        if str(row.get("Position") or "") != "GK":
-            by_position[str(row.get("Position") or "")].append(row)
-
-    weights = {
-        "FWD": {"ga": 0.65, "br": 0.20, "potm": 0.15},
-        "MID": {"ga": 0.50, "br": 0.35, "potm": 0.15},
-        "DEF": {"ga": 0.30, "br": 0.55, "potm": 0.15},
-    }
-
-    for pos, position_rows in by_position.items():
-        ga_pop = [safe_float(r.get("Historical G+A Per 90")) for r in position_rows]
-        br_pop = [safe_float(r.get("Historical Recoveries Per 90")) for r in position_rows]
-        potm_pop = [safe_float(r.get("Historical POTM Per 90")) for r in position_rows]
-        w = weights.get(pos, weights["MID"])
-
-        for row in position_rows:
-            ga_pct = percentile_rank(safe_float(row.get("Historical G+A Per 90")), ga_pop)
-            br_pct = percentile_rank(safe_float(row.get("Historical Recoveries Per 90")), br_pop)
-            potm_pct = percentile_rank(safe_float(row.get("Historical POTM Per 90")), potm_pop)
-
-            raw = (
-                w["ga"] * ga_pct
-                + w["br"] * br_pct
-                + w["potm"] * potm_pct
-            )
-
-            minutes = safe_float(row.get("Previous Season Minutes"))
-            confidence = min(0.85, minutes / 900.0 * 0.85)
-            rating = 50.0 + confidence * (raw - 50.0)
-
-            row["Player Involvement Rating"] = round(clamp(rating), 1)
-            row["Player Involvement Confidence"] = round(confidence, 3)
-            row["Player Involvement Method"] = (
-                "provisional UEFA scoring-action proxy using position-relative "
-                "G+A/90, ball recoveries/90 and POTM/90; shrunk toward neutral"
-            )
+        if row.get("Position") == "GK" and row.get("Active"):
+            by_team[str(row.get("Team ID") or "")].append(row)
 
     for row in rows:
-        if str(row.get("Position") or "") == "GK":
-            row["Player Involvement Rating"] = None
-            row["Player Involvement Confidence"] = None
-            row["Player Involvement Method"] = (
-                "not calculated for goalkeepers; Decision uses Fixture + Form"
+        if row.get("Position") != "GK":
+            row["GK Role"] = ""
+            row["GK Role Confidence"] = None
+            row["GK Role Source"] = ""
+            continue
+
+        player_id = str(row.get("Player ID") or "")
+        override = overrides.get(player_id)
+        if override:
+            row["GK Role"] = str(override.get("role") or "Uncertain")
+            row["GK Role Confidence"] = override.get("confidence")
+            row["GK Role Source"] = str(
+                override.get("source")
+                or "manual gk_roles.json override"
             )
+
+    for team_id, keepers in by_team.items():
+        # Do not overwrite manual roles.
+        auto_candidates = [
+            row for row in keepers
+            if not row.get("GK Role")
+        ]
+        if not auto_candidates:
+            continue
+
+        ranked = sorted(
+            auto_candidates,
+            key=lambda row: safe_float(row.get("Previous Season Minutes")),
+            reverse=True,
+        )
+
+        top = ranked[0]
+        top_minutes = safe_float(top.get("Previous Season Minutes"))
+        second_minutes = (
+            safe_float(ranked[1].get("Previous Season Minutes"))
+            if len(ranked) > 1 else 0.0
+        )
+
+        clear_high = (
+            top_minutes >= 360
+            and top_minutes >= second_minutes + 180
+            and top_minutes >= max(1.5 * second_minutes, 360)
+        )
+        clear_medium = (
+            top_minutes >= 180
+            and top_minutes >= second_minutes + 120
+        )
+
+        if len(ranked) == 1:
+            top["GK Role"] = "Likely starter"
+            top["GK Role Confidence"] = 0.65
+            top["GK Role Source"] = (
+                "only active fantasy goalkeeper for club; provisional"
+            )
+        elif clear_high:
+            top["GK Role"] = "Likely starter"
+            top["GK Role Confidence"] = 0.75
+            top["GK Role Source"] = (
+                "clear lead in 2025/26 UWCL goalkeeper minutes; provisional"
+            )
+        elif clear_medium:
+            top["GK Role"] = "Likely starter"
+            top["GK Role Confidence"] = 0.60
+            top["GK Role Source"] = (
+                "lead in 2025/26 UWCL goalkeeper minutes; provisional"
+            )
+        else:
+            top["GK Role"] = "Uncertain"
+            top["GK Role Confidence"] = 0.35
+            top["GK Role Source"] = (
+                "2025/26 UWCL minutes do not establish a clear current starter"
+            )
+
+        for backup in ranked[1:]:
+            if backup.get("GK Role"):
+                continue
+
+            # If the hierarchy was uncertain, preserve that uncertainty rather
+            # than pretending the lower-minute keeper is definitely a backup.
+            if top.get("GK Role") == "Uncertain":
+                backup["GK Role"] = "Uncertain"
+                backup["GK Role Confidence"] = 0.25
+                backup["GK Role Source"] = (
+                    "club goalkeeper hierarchy unclear from available UWCL data"
+                )
+            else:
+                backup["GK Role"] = "Backup"
+                backup["GK Role Confidence"] = 0.55
+                backup["GK Role Source"] = (
+                    "behind provisional likely starter in 2025/26 UWCL minutes"
+                )
 
 
 def availability_confidence(player: dict[str, Any]) -> tuple[float, str]:
@@ -400,8 +506,11 @@ def availability_confidence(player: dict[str, Any]) -> tuple[float, str]:
     return 1.00, "No negative UEFA availability signal"
 
 
-def apply_comparison_and_decision(rows: list[dict[str, Any]]) -> None:
+def apply_comparison_and_decision(
+    rows: list[dict[str, Any]],
+) -> None:
     active_rows = [r for r in rows if r.get("Active")]
+
     fixture_pop = [
         safe_float(r.get("Next Fixture Rating"), 50.0)
         for r in active_rows
@@ -422,48 +531,172 @@ def apply_comparison_and_decision(rows: list[dict[str, Any]]) -> None:
 
         raw_fix = safe_float(row.get("Next Fixture Rating"), 50.0)
         fix_pct = percentile_rank(raw_fix, fixture_pop)
-        row["Comparison Fixture Rating"] = comparison_rating(raw_fix, fix_pct)
+        row["Comparison Fixture Rating"] = comparison_rating(
+            raw_fix,
+            fix_pct,
+        )
 
         if row.get("Following Fixture Rating") is None:
             row["Comparison Following Fixture Rating"] = None
         else:
-            raw_follow = safe_float(row.get("Following Fixture Rating"), 50.0)
-            follow_pct = percentile_rank(raw_follow, following_pop)
-            row["Comparison Following Fixture Rating"] = comparison_rating(raw_follow, follow_pct)
+            raw_follow = safe_float(
+                row.get("Following Fixture Rating"),
+                50.0,
+            )
+            follow_pct = percentile_rank(
+                raw_follow,
+                following_pop,
+            )
+            row["Comparison Following Fixture Rating"] = comparison_rating(
+                raw_follow,
+                follow_pct,
+            )
 
         peers = by_position.get(pos) or active_rows
-        form_pop = [safe_float(r.get("Form Rating"), 50.0) for r in peers]
+        form_pop = [
+            safe_float(r.get("Form Rating"), 50.0)
+            for r in peers
+        ]
         form_raw = safe_float(row.get("Form Rating"), 50.0)
         form_pct = percentile_rank(form_raw, form_pop)
-        row["Comparison Form Rating"] = comparison_rating(form_raw, form_pct)
+        row["Comparison Form Rating"] = comparison_rating(
+            form_raw,
+            form_pct,
+        )
 
         if pos == "GK":
-            row["Comparison Involvement Rating"] = None
             base = (
-                row["Comparison Fixture Rating"] * GK_DECISION_WEIGHTS["fixture"]
-                + row["Comparison Form Rating"] * GK_DECISION_WEIGHTS["form"]
+                row["Comparison Fixture Rating"]
+                * GK_DECISION_WEIGHTS["fixture"]
+                + row["Comparison Form Rating"]
+                * GK_DECISION_WEIGHTS["form"]
             )
         else:
-            inv_pop = [
-                safe_float(r.get("Player Involvement Rating"), 50.0)
-                for r in peers
-                if r.get("Player Involvement Rating") is not None
-            ]
-            inv_raw = safe_float(row.get("Player Involvement Rating"), 50.0)
-            inv_pct = percentile_rank(inv_raw, inv_pop)
-            row["Comparison Involvement Rating"] = comparison_rating(inv_raw, inv_pct)
-
             base = (
-                row["Comparison Fixture Rating"] * OUTFIELD_DECISION_WEIGHTS["fixture"]
-                + row["Comparison Form Rating"] * OUTFIELD_DECISION_WEIGHTS["form"]
-                + row["Comparison Involvement Rating"] * OUTFIELD_DECISION_WEIGHTS["involvement"]
+                row["Comparison Fixture Rating"]
+                * OUTFIELD_DECISION_WEIGHTS["fixture"]
+                + row["Comparison Form Rating"]
+                * OUTFIELD_DECISION_WEIGHTS["form"]
             )
 
-        row["Base Decision Rating Before Availability"] = round(base, 1)
+        row["Base Decision Rating Before Availability"] = round(
+            base,
+            1,
+        )
 
-        confidence = safe_float(row.get("Availability Confidence"), 1.0)
-        adjusted = ROLE_CONFIDENCE_BASELINE + confidence * (base - ROLE_CONFIDENCE_BASELINE)
+        confidence = safe_float(
+            row.get("Availability Confidence"),
+            1.0,
+        )
+        adjusted = (
+            ROLE_CONFIDENCE_BASELINE
+            + confidence * (base - ROLE_CONFIDENCE_BASELINE)
+        )
         row["Decision Rating"] = round(clamp(adjusted), 1)
+
+
+def build_team_position_fixture_ratings(
+    rows: list[dict[str, Any]],
+    current_matchday: int,
+) -> dict[str, Any]:
+    """
+    Create a team x fantasy-position fixture board.
+
+    Fixture strength is team-level, but the score is translated by fantasy
+    position so attacking roles care about opponent defensive strength and
+    GK/DEF care about opponent attacking strength. With no market team-totals
+    wired in yet, Opta is used as the opponent-strength backbone.
+
+    Position adjustments are intentionally modest:
+      - GK/DEF receive a clean-sheet-oriented boost/penalty based on opponent strength.
+      - MID/FWD receive an attacking-oriented boost/penalty based on opponent strength.
+    """
+    by_team: dict[str, dict[str, Any]] = {}
+
+    # One representative row per team is enough for fixture metadata.
+    representative: dict[str, dict[str, Any]] = {}
+    for row in rows:
+        team_id = str(row.get("Team ID") or "")
+        if team_id and team_id not in representative:
+            representative[team_id] = row
+
+    position_bias = {
+        "GK": 1.05,
+        "DEF": 1.00,
+        "MID": 0.92,
+        "FWD": 0.98,
+    }
+
+    for team_id, row in representative.items():
+        fixture = row.get("Next Fixture Details") or {}
+        follow = row.get("Following Fixture Details") or {}
+
+        base_current = safe_float(row.get("Comparison Fixture Rating"), 50.0)
+        base_follow = (
+            safe_float(row.get("Comparison Following Fixture Rating"), 50.0)
+            if row.get("Comparison Following Fixture Rating") is not None
+            else None
+        )
+
+        opp_opta = safe_float(fixture.get("opponent_opta_rating"), 0.0)
+
+        # Opponent-strength direction:
+        # weaker opponent -> better for both attacking and defensive fantasy outlook.
+        # We vary amplitude by position rather than invent separate attack/defense models.
+        team_positions: dict[str, Any] = {}
+        for pos in ("GK","DEF","MID","FWD"):
+            bias = position_bias[pos]
+
+            # Center on the team fixture comparison score, with a small role-specific
+            # spread to make the board useful without overstating precision.
+            if pos in ("GK","DEF"):
+                current = clamp(50.0 + (base_current - 50.0) * bias + (2.0 if base_current >= 50 else -2.0))
+                following = (
+                    clamp(50.0 + (base_follow - 50.0) * bias + (2.0 if base_follow >= 50 else -2.0))
+                    if base_follow is not None else None
+                )
+                lens = "clean-sheet / defensive fixture lens"
+            else:
+                current = clamp(50.0 + (base_current - 50.0) * bias)
+                following = (
+                    clamp(50.0 + (base_follow - 50.0) * bias)
+                    if base_follow is not None else None
+                )
+                lens = "attacking-return fixture lens"
+
+            team_positions[pos] = {
+                "current": round(current, 1),
+                "following": round(following, 1) if following is not None else None,
+                "lens": lens,
+            }
+
+        by_team[team_id] = {
+            "team_id": team_id,
+            "club": row.get("Club"),
+            "club_name": row.get("Club Name"),
+            "current_matchday": current_matchday,
+            "fixture": fixture,
+            "following_fixture": follow,
+            "positions": team_positions,
+        }
+
+    return {
+        "competition": "UWCL",
+        "season": "2026/27",
+        "current_matchday": current_matchday,
+        "model": {
+            "status": "provisional_preseason_v1",
+            "note": (
+                "Team-position fixture ratings use the Opta-driven team fixture score "
+                "with modest position lenses. They are not xG/market-derived attack and "
+                "clean-sheet probabilities yet."
+            ),
+        },
+        "teams": sorted(
+            by_team.values(),
+            key=lambda x: str(x.get("club_name") or "")
+        ),
+    }
 
 
 def transform() -> dict[str, Any]:
@@ -641,7 +874,7 @@ def transform() -> dict[str, Any]:
         rows.append(row)
 
     build_form_ratings(rows)
-    build_involvement_ratings(rows)
+    assign_gk_roles(rows)
     apply_comparison_and_decision(rows)
 
     rows.sort(
@@ -661,6 +894,7 @@ def transform() -> dict[str, Any]:
             "fixtures": str(FIXTURES_PATH),
             "meta": str(META_PATH),
             "team_strengths": str(TEAM_STRENGTHS_PATH),
+            "gk_role_overrides": str(GK_ROLES_PATH),
         },
         "current_matchday": current_matchday,
         "count": len(rows),
@@ -682,23 +916,15 @@ def transform() -> dict[str, Any]:
                 ),
             },
             "form": {
+                "label": "EURO PRIOR",
                 "method": (
-                    "2025/26 position-relative fantasy prior using points/90, "
-                    "total points and points per €m; shrunk toward neutral for low minutes"
+                    "2025/26 position-relative UWCL fantasy prior using "
+                    "65% points/90 + 35% total points; shrunk toward neutral "
+                    "for low minutes. Price/value is deliberately excluded."
                 ),
                 "note": (
-                    "This is a preseason/historical prior, not a claim about 2026/27 recent form. "
-                    "It should transition toward current-season production after UEFA settles new-season totals."
-                ),
-            },
-            "involvement": {
-                "method": (
-                    "provisional position-relative UEFA scoring-action proxy from "
-                    "G+A/90, ball recoveries/90 and POTM/90"
-                ),
-                "note": (
-                    "This is not the Opta event-based WSL involvement model. "
-                    "It is a temporary UWCL proxy until richer event data is connected."
+                    "This is a historical European performance prior, not current form. "
+                    "A true Form signal will use recent domestic + UWCL matches."
                 ),
             },
             "decision": {
@@ -710,8 +936,9 @@ def transform() -> dict[str, Any]:
                 },
                 "availability_baseline": ROLE_CONFIDENCE_BASELINE,
                 "note": (
-                    "Decision uses the same WSL-style component architecture, but UWCL component "
-                    "inputs are competition-specific and currently provisional."
+                    "Preseason Decision uses Fixture + EURO PRIOR only. "
+                    "A true event-based Involvement signal is intentionally omitted until "
+                    "underlying chance-creation / near-return data are available."
                 ),
             },
         },
@@ -727,8 +954,18 @@ def main() -> int:
         encoding="utf-8",
     )
 
+    team_position_payload = build_team_position_fixture_ratings(
+        payload["players"],
+        payload["current_matchday"],
+    )
+    TEAM_POSITION_PATH.write_text(
+        json.dumps(team_position_payload, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
     active = [p for p in payload["players"] if p.get("Active")]
     print(f"UWCL transformed data written: {OUTPUT_PATH}")
+    print(f"Team-position fixture board written: {TEAM_POSITION_PATH}")
     print(f"Players: {len(payload['players'])}")
     print(f"Active players: {len(active)}")
     print(f"Current matchday: {payload['current_matchday']}")

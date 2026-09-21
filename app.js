@@ -1,5 +1,6 @@
 const DATA_PATH = "data/uwcl/transformed_data.json";
 const META_PATH = "data/uwcl/meta.json";
+const TEAM_POSITION_PATH = "data/uwcl/team_position_fixture_ratings.json";
 
 const STORAGE = {
   team: "uwcl-stats-my-team",
@@ -15,6 +16,7 @@ const state = {
   pageSize: 15,
   myTeam: new Set(),
   watch: new Set(),
+  teamPosition: null,
 };
 
 const $ = (s) => document.querySelector(s);
@@ -46,16 +48,23 @@ async function init() {
   loadSaved();
 
   try {
-    const [payload, meta] = await Promise.all([
+    const [payload, meta, teamPosition] = await Promise.all([
       fetch(DATA_PATH, { cache: "no-store" }).then(checkJson),
       fetch(META_PATH, { cache: "no-store" }).then(checkJson),
+      fetch(TEAM_POSITION_PATH, { cache: "no-store" }).then(checkJson),
     ]);
 
     state.all = Array.isArray(payload.players) ? payload.players : [];
+    state.teamPosition = teamPosition;
     populateFilters();
     bind();
+    bindTabs();
+    bindTeamPositionBoard();
+    bindGkPairings();
     renderHeader(meta);
     apply();
+    renderTeamPositionBoard();
+    renderGkPairings();
   } catch (err) {
     console.error(err);
     els.empty.hidden = false;
@@ -236,7 +245,7 @@ function compare(a, b) {
 }
 
 function defaultSortDir(key) {
-  return ["decision","fix","fix1","form","inv","value","selected","trend","points","p90","ga","br","cs","saves","potm"]
+  return ["decision","fix","fix1","form","value","selected","trend","points","p90","ga","br","cs","saves","potm"]
     .includes(key) ? "desc" : "asc";
 }
 
@@ -250,7 +259,6 @@ function sortValue(p, key) {
     fix: "Comparison Fixture Rating",
     fix1: "Comparison Following Fixture Rating",
     form: "Comparison Form Rating",
-    inv: "Comparison Involvement Rating",
     position: "Position",
     value: "Value",
     selected: "Selected Percentage",
@@ -309,8 +317,6 @@ function buildRow(p) {
   ratingCell(tr, p["Comparison Fixture Rating"], fixtureTitle(p));
   ratingCell(tr, p["Comparison Following Fixture Rating"], followingTitle(p));
   ratingCell(tr, p["Comparison Form Rating"], formTitle(p));
-  ratingCell(tr, p["Comparison Involvement Rating"], involvementTitle(p));
-
   htmlCell(tr, `<span class="pos-pill">${esc(p["Position"] || "—")}</span>`);
   cell(tr, format1(p["Value"]), "num");
   cell(tr, format1(p["Selected Percentage"]), "num");
@@ -452,9 +458,10 @@ function fixtureTitle(p) {
   return [
     `MD${d.matchday}: ${d.opponent_code || d.opponent} (${d.home_away})`,
     `${d.day_short || ""} ${d.date_iso || ""}`,
-    `Opponent ${d.opponent_pot || "pot unknown"}`,
+    `Opponent Opta: ${d.opponent_opta_rating ?? "—"}`,
+    `UEFA rank: ${d.opponent_uefa_rank ?? "—"} · coefficient: ${d.opponent_uefa_coefficient ?? "—"}`,
     `Raw provisional fixture rating: ${d.rating ?? "—"}`,
-    "Method: opponent draw pot + home/away adjustment",
+    "Method: opponent Opta strength z-score + home/away adjustment",
   ].join("\n");
 }
 
@@ -464,7 +471,8 @@ function followingTitle(p) {
   return [
     `MD${d.matchday}: ${d.opponent_code || d.opponent} (${d.home_away})`,
     `${d.day_short || ""} ${d.date_iso || ""}`,
-    `Opponent ${d.opponent_pot || "pot unknown"}`,
+    `Opponent Opta: ${d.opponent_opta_rating ?? "—"}`,
+    `UEFA rank: ${d.opponent_uefa_rank ?? "—"} · coefficient: ${d.opponent_uefa_coefficient ?? "—"}`,
     `Raw provisional fixture rating: ${d.rating ?? "—"}`,
   ].join("\n");
 }
@@ -478,17 +486,6 @@ function formTitle(p) {
   ].join("\n");
 }
 
-function involvementTitle(p) {
-  if (p["Comparison Involvement Rating"] == null) {
-    return p["Player Involvement Method"] || "No involvement rating.";
-  }
-  return [
-    `Raw involvement: ${format1(p["Player Involvement Rating"])}`,
-    `Comparison involvement: ${format1(p["Comparison Involvement Rating"])}`,
-    `Confidence: ${format1(Number(p["Player Involvement Confidence"] || 0) * 100)}%`,
-    p["Player Involvement Method"] || "",
-  ].join("\n");
-}
 
 function decisionTitle(p) {
   return [
@@ -559,4 +556,180 @@ function esc(v) {
   return String(v ?? "")
     .replaceAll("&","&amp;").replaceAll("<","&lt;")
     .replaceAll(">","&gt;").replaceAll('"',"&quot;");
+}
+
+
+function bindTabs() {
+  $$(".tab").forEach(button => {
+    button.addEventListener("click", () => {
+      const target = button.dataset.tab;
+      $$(".tab").forEach(b => b.classList.toggle("active", b === button));
+      $$(".tab-panel").forEach(panel => {
+        panel.classList.toggle("active", panel.id === `panel-${target}`);
+      });
+    });
+  });
+}
+
+function bindTeamPositionBoard() {
+  $("#tp-position")?.addEventListener("change", renderTeamPositionBoard);
+  $("#tp-sort")?.addEventListener("change", renderTeamPositionBoard);
+}
+
+function scoreClass(value) {
+  const n = Number(value);
+  if (n >= 80) return "tp-great";
+  if (n >= 65) return "tp-good";
+  if (n >= 50) return "tp-mid";
+  return "tp-bad";
+}
+
+function scoreHtml(value) {
+  if (value == null) return "—";
+  return `<span class="tp-score ${scoreClass(value)}">${Number(value).toFixed(1)}</span>`;
+}
+
+function renderTeamPositionBoard() {
+  const tbody = $("#team-position-tbody");
+  if (!tbody || !state.teamPosition) return;
+
+  const wantedPos = $("#tp-position")?.value || "";
+  const sortMode = $("#tp-sort")?.value || "best";
+
+  let teams = [...(state.teamPosition.teams || [])];
+
+  teams.sort((a,b) => {
+    if (sortMode === "club") {
+      return String(a.club_name || "").localeCompare(String(b.club_name || ""));
+    }
+
+    const valuesA = Object.entries(a.positions || {})
+      .filter(([pos]) => !wantedPos || pos === wantedPos)
+      .map(([,x]) => sortMode === "following" ? x.following : x.current)
+      .filter(v => v != null);
+
+    const valuesB = Object.entries(b.positions || {})
+      .filter(([pos]) => !wantedPos || pos === wantedPos)
+      .map(([,x]) => sortMode === "following" ? x.following : x.current)
+      .filter(v => v != null);
+
+    return (Math.max(...valuesB, -999) - Math.max(...valuesA, -999));
+  });
+
+  tbody.innerHTML = "";
+
+  for (const team of teams) {
+    const tr = document.createElement("tr");
+    const f = team.fixture || {};
+    const f2 = team.following_fixture || {};
+    const positions = team.positions || {};
+
+    const fixtureText = `${f.opponent_code || f.opponent || "—"} ${f.home_away ? `(${f.home_away})` : ""}`;
+    const followText = `${f2.opponent_code || f2.opponent || "—"} ${f2.home_away ? `(${f2.home_away})` : ""}`;
+
+    tr.innerHTML = `
+      <td><strong>${esc(team.club_name || team.club || "—")}</strong></td>
+      <td class="fixture-cell">${esc(fixtureText)}<small>${esc(f.day_short || "")} · Opp Opta ${f.opponent_opta_rating ?? "—"}</small></td>
+      <td>${wantedPos && wantedPos !== "GK" ? "—" : scoreHtml(positions.GK?.current)}</td>
+      <td>${wantedPos && wantedPos !== "DEF" ? "—" : scoreHtml(positions.DEF?.current)}</td>
+      <td>${wantedPos && wantedPos !== "MID" ? "—" : scoreHtml(positions.MID?.current)}</td>
+      <td>${wantedPos && wantedPos !== "FWD" ? "—" : scoreHtml(positions.FWD?.current)}</td>
+      <td class="fixture-cell">${esc(followText)}<small>Team base ${f2.rating ?? "—"}</small></td>
+    `;
+    tbody.append(tr);
+  }
+}
+
+function bindGkPairings() {
+  $("#gk-max-price")?.addEventListener("input", renderGkPairings);
+  $("#gk-different-current")?.addEventListener("change", renderGkPairings);
+  $("#gk-include-uncertain")?.addEventListener("change", renderGkPairings);
+}
+
+function fixtureDayMapForPlayer(player) {
+  const result = {};
+  const fixtures = player["Next Three Fixtures"] || [];
+  for (const f of fixtures) {
+    if (f?.matchday) result[f.matchday] = f.day_short || "";
+  }
+  const current = player["Next Fixture Details"];
+  if (current?.matchday) result[current.matchday] = current.day_short || "";
+  const following = player["Following Fixture Details"];
+  if (following?.matchday) result[following.matchday] = following.day_short || "";
+  return result;
+}
+
+function splitDaysCount(a, b) {
+  const am = fixtureDayMapForPlayer(a);
+  const bm = fixtureDayMapForPlayer(b);
+  let count = 0;
+  for (let md=1; md<=6; md++) {
+    if (am[md] && bm[md] && am[md] !== bm[md]) count++;
+  }
+  return count;
+}
+
+function renderGkPairings() {
+  const tbody = $("#gk-pairing-tbody");
+  if (!tbody) return;
+
+  const maxCombined = numOrNull($("#gk-max-price")?.value);
+  const requireDifferentCurrent = $("#gk-different-current")?.checked ?? true;
+  const includeUncertain = $("#gk-include-uncertain")?.checked ?? false;
+
+  const allowedRoles = includeUncertain
+    ? new Set(["Starter", "Likely starter", "Uncertain"])
+    : new Set(["Starter", "Likely starter"]);
+
+  const gks = state.all.filter(
+    p => p.Active && p.Position === "GK" && allowedRoles.has(p["GK Role"])
+  );
+  const pairs = [];
+
+  for (let i=0; i<gks.length; i++) {
+    for (let j=i+1; j<gks.length; j++) {
+      const a = gks[i], b = gks[j];
+      if (a["Team ID"] === b["Team ID"]) continue;
+
+      const combined = Number(a.Value || 0) + Number(b.Value || 0);
+      if (maxCombined !== null && combined > maxCombined) continue;
+
+      const dayA = a["Next Fixture Day"] || "";
+      const dayB = b["Next Fixture Day"] || "";
+      if (requireDifferentCurrent && dayA && dayB && dayA === dayB) continue;
+
+      const splits = splitDaysCount(a,b);
+      const fixAvg = (
+        Number(a["Comparison Fixture Rating"] || 0) +
+        Number(b["Comparison Fixture Rating"] || 0)
+      ) / 2;
+
+      pairs.push({a,b,combined,splits,fixAvg});
+    }
+  }
+
+  pairs.sort((x,y) =>
+    (y.splits - x.splits) ||
+    (y.fixAvg - x.fixAvg) ||
+    (x.combined - y.combined)
+  );
+
+  tbody.innerHTML = "";
+  for (const pair of pairs.slice(0,150)) {
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td><strong>${esc(pair.a.Name)}</strong><span class="gk-sub">${esc(pair.a.Club)} · ${esc(pair.a.Nationality || "")}</span></td>
+      <td title="${esc(pair.a["GK Role Source"] || "")}">${esc(pair.a["GK Role"] || "—")}</td>
+      <td>€${Number(pair.a.Value).toFixed(1)}</td>
+      <td>${esc(pair.a["Next Fixture Day"] || "—")}</td>
+      <td><strong>${esc(pair.b.Name)}</strong><span class="gk-sub">${esc(pair.b.Club)} · ${esc(pair.b.Nationality || "")}</span></td>
+      <td title="${esc(pair.b["GK Role Source"] || "")}">${esc(pair.b["GK Role"] || "—")}</td>
+      <td>€${Number(pair.b.Value).toFixed(1)}</td>
+      <td>${esc(pair.b["Next Fixture Day"] || "—")}</td>
+      <td>€${pair.combined.toFixed(1)}</td>
+      <td>${pair.splits}/6</td>
+      <td>${pair.fixAvg.toFixed(1)}</td>
+    `;
+    tbody.append(tr);
+  }
 }
