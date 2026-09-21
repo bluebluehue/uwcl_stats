@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UWCL Fantasy Player Explorer</title>
+  <meta
+    name="description"
+    content="Explore UEFA Women's Champions League Fantasy players, prices, ownership, fixtures, nationality and historical stats."
+  >
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <div>
+        <p class="eyebrow">2026/27 UWCL Fantasy</p>
+        <h1>Player Explorer</h1>
+        <p class="subtitle">
+          Search and filter the fantasy player pool by team, nationality, position,
+          availability, price and historical performance.
+        </p>
+      </div>
+
+      <div class="header-badge" aria-label="Unofficial fan project">
+        Unofficial data explorer
+      </div>
+    </div>
+  </header>
+
+  <main class="shell">
+    <section class="status-grid" aria-label="Data status">
+      <article class="status-card">
+        <span class="status-label">Matchday</span>
+        <strong id="status-matchday">—</strong>
+      </article>
+
+      <article class="status-card">
+        <span class="status-label">Players</span>
+        <strong id="status-players">—</strong>
+      </article>
+
+      <article class="status-card">
+        <span class="status-label">Nationality coverage</span>
+        <strong id="status-nationality">—</strong>
+      </article>
+
+      <article class="status-card status-card-wide">
+        <span class="status-label">Latest refresh</span>
+        <strong id="status-refresh">—</strong>
+        <span id="status-feeds" class="feed-status"></span>
+      </article>
+    </section>
+
+    <section class="panel rules-strip" aria-labelledby="rules-title">
+      <div>
+        <p class="eyebrow">League-phase squad rules</p>
+        <h2 id="rules-title">15 players · €100m · max 3 per club</h2>
+      </div>
+      <div class="rule-pills" aria-label="Squad composition">
+        <span>2 GK</span>
+        <span>5 DEF</span>
+        <span>5 MID</span>
+        <span>3 FWD</span>
+      </div>
+    </section>
+
+    <section class="panel filters-panel" aria-labelledby="filters-title">
+      <div class="panel-heading">
+        <div>
+          <p class="eyebrow">Explore</p>
+          <h2 id="filters-title">Find players</h2>
+        </div>
+
+        <button id="reset-filters" class="button button-secondary" type="button">
+          Reset filters
+        </button>
+      </div>
+
+      <div class="filters">
+        <label class="field field-search">
+          <span>Search</span>
+          <input
+            id="filter-search"
+            type="search"
+            placeholder="Player or team…"
+            autocomplete="off"
+          >
+        </label>
+
+        <label class="field">
+          <span>Team</span>
+          <select id="filter-team">
+            <option value="">All teams</option>
+          </select>
+        </label>
+
+        <label class="field">
+          <span>Nationality</span>
+          <select id="filter-nationality">
+            <option value="">All nationalities</option>
+          </select>
+        </label>
+
+        <label class="field">
+          <span>Position</span>
+          <select id="filter-position">
+            <option value="">All positions</option>
+            <option value="GK">Goalkeeper</option>
+            <option value="DEF">Defender</option>
+            <option value="MID">Midfielder</option>
+            <option value="FWD">Forward</option>
+          </select>
+        </label>
+
+        <label class="field">
+          <span>Availability</span>
+          <select id="filter-status">
+            <option value="">All statuses</option>
+            <option value="available">Available</option>
+            <option value="flagged">Flagged</option>
+          </select>
+        </label>
+
+        <label class="check-field">
+          <input id="filter-active" type="checkbox" checked>
+          <span>Active players only</span>
+        </label>
+      </div>
+
+      <div class="range-row">
+        <label class="field compact-field">
+          <span>Max price (€m)</span>
+          <input id="filter-max-price" type="number" min="0" max="20" step="0.5" placeholder="Any">
+        </label>
+
+        <label class="field compact-field">
+          <span>Min ownership (%)</span>
+          <input id="filter-min-owned" type="number" min="0" max="100" step="0.1" placeholder="Any">
+        </label>
+
+        <div class="result-count" aria-live="polite">
+          <strong id="result-count">—</strong>
+          <span>players shown</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel table-panel" aria-labelledby="table-title">
+      <div class="panel-heading table-heading">
+        <div>
+          <p class="eyebrow">Player pool</p>
+          <h2 id="table-title">2026/27 fantasy data + 2025/26 carried-forward stats</h2>
+        </div>
+        <p class="table-note">
+          Click any column heading to sort.
+        </p>
+      </div>
+
+      <div class="table-wrap">
+        <table id="player-table">
+          <thead>
+            <tr>
+              <th data-sort="name">Player</th>
+              <th data-sort="team">Team</th>
+              <th data-sort="nationality">Nat.</th>
+              <th data-sort="position">Pos.</th>
+              <th data-sort="price" class="num">Price</th>
+              <th data-sort="selected_pct" class="num">Selected</th>
+              <th data-sort="status">Status</th>
+              <th data-sort="fixture">Current / next fixture</th>
+              <th data-sort="minutes" class="num historic">Minutes</th>
+              <th data-sort="points" class="num historic">Pts</th>
+              <th data-sort="goals" class="num historic">G</th>
+              <th data-sort="assists" class="num historic">A</th>
+              <th data-sort="recoveries" class="num historic">BR</th>
+              <th data-sort="potm" class="num historic">POTM</th>
+            </tr>
+          </thead>
+          <tbody id="player-tbody"></tbody>
+        </table>
+      </div>
+
+      <div id="empty-state" class="empty-state" hidden>
+        No players match those filters.
+      </div>
+    </section>
+
+    <section class="panel legend-panel" aria-labelledby="legend-title">
+      <div>
+        <p class="eyebrow">Notes</p>
+        <h2 id="legend-title">How to read the table</h2>
+      </div>
+      <p>
+        Price, ownership, status and fixture information are 2026/27 fantasy fields.
+        Columns shaded under the historical grouping are carried-forward 2025/26 values
+        until the UEFA feed begins returning current-season totals.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell">
+      <p>
+        Unofficial UWCL fantasy data explorer. Data sourced from UEFA fantasy feeds and
+        UEFA squad-page nationality records.
+      </p>
+    </div>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
