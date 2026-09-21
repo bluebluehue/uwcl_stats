@@ -1,0 +1,1127 @@
+{
+  "competition": "UWCL",
+  "season": "2026/27",
+  "current_matchday": 1,
+  "model": {
+    "status": "provisional_preseason_v1",
+    "note": "Team-position fixture ratings use the Opta-driven team fixture score with modest position lenses. They are not xG/market-derived attack and clean-sheet probabilities yet."
+  },
+  "teams": [
+    {
+      "team_id": "81199",
+      "club": "ARS",
+      "club_name": "Arsenal",
+      "current_matchday": 1,
+      "fixture": {
+        "match_id": "2050548",
+        "matchday": 1,
+        "opponent_id": "2611087",
+        "opponent": "HB Køge",
+        "opponent_code": "HBK",
+        "home_away": "H",
+        "kickoff": "09/22/2026 21:00:00",
+        "day_number": 1,
+        "day_short": "TUE",
+        "date_iso": "2026-09-22",
+        "opponent_opta_rating": 76.6,
+        "opponent_uefa_rank": 29,
+        "opponent_uefa_coefficient": 13.5,
+        "rating": 66.8,
+        "method": "opponent Opta strength z-score + home/away adjustment"
+      },
+      "following_fixture": {
+        "match_id": "2050533",
+        "matchday": 2,
+        "opponent_id": "2609779",
+        "opponent": "Paris",
+        "opponent_code": "PAR",
+        "home_away": "A",
+        "kickoff": "09/30/2026 18:45:00",
+        "day_number": 1,
+        "day_short": "WED",
+        "date_iso": "2026-09-30",
+        "opponent_opta_rating": 81.6,
+        "opponent_uefa_rank": 13,
+        "opponent_uefa_coefficient": 33.75,
+        "rating": 51.8,
+        "method": "opponent Opta strength z-score + home/away adjustment"
+      },
+      "positions": {
+        "GK": {
+          "current": 88.8,
+          "following": 66.7,
+          "lens": "clean-sheet / defensive fixture lens"
+        },
+        "DEF": {
+          "current": 87.0,
+          "following": 66.0,
+          "lens": "clean-sheet / defensive fixture lens"
+        },
+        "MID": {
+          "current": 82.2,
+          "following": 62.9,
+          "lens": "attacking-return fixture lens"
+        },
+        "FWD": {
+          "current": 84.3,
+          "following": 63.7,
+          "lens": "attacking-return fixture lens"
+        }
+      }
+    },
+    {
+      "team_id": "2612002",
+      "club": "AUS",
+      "club_name": "Austria Wien",
+      "current_matchday": 1,
+      "fixture": {
+        "match_id": "2050553",
+        "matchday": 1,
+        "opponent_id": "2600827",
+        "opponent": "Chelsea",
+        "opponent_code": "CHE",
+        "home_away": "A",
+        "kickoff": "09/23/2026 21:00:00",
+        "day_number": 2,
+        "day_short": "WED",
+        "date_iso": "2026-09-23",
+        "opponent_opta_rating": 94.7,
+        "opponent_uefa_rank": 3,
+        "opponent_uefa_coefficient": 90.5,
+        "rating": 33.4,
+        "method": "opponent Opta strength z-score + home/away adjustment"
+      },
+      "following_fixture": {
+        "match_id": "2050534",
+        "matchday": 2,
+        "opponent_id": "2609776",
+        "opponent": "Inter",
+        "opponent_code": "INT",
+        "home_away": "H",
+        "kickoff": "10/01/2026 18:45:00",
+        "day_number": 2,
+        "day_short": "THU",
+        "date_iso": "2026-10-01",
+        "opponent_opta_rating": 82.2,
+        "opponent_uefa_rank": 52,
+        "opponent_uefa_coefficient": 8,
+        "rating": 58.9,
+        "method": "opponent Opta strength z-score + home/away adjustment"
+      },
+      "positions": {
+        "GK": {
+          "current": 15.3,
+          "following": 78.7,
+          "lens": "clean-sheet / defensive fixture lens"
+        },
+        "DEF": {
+          "current": 16.9,
+          "following": 77.4,
+          "lens": "clean-sheet / defensive fixture lens"
+        },
+        "MID": {
+          "current": 21.4,
+          "following": 73.4,
+          "lens": "attacking-return fixture lens"
+        },
+        "FWD": {
+          "current": 19.5,
+          "following": 74.9,
+          "lens": "attacking-return fixture lens"
+        }
+      }
+    },
+    {
+      "team_id": "2601945",
+      "club": "BAR",
+      "club_name": "Barcelona",
+      "current_matchday": 1,
+      "fixture": {
+        "match_id": "2050552",
+        "matchday": 1,
+        "opponent_id": "2609779",
+        "opponent": "Paris",
+        "opponent_code": "PAR",
+        "home_away": "H",
+        "kickoff": "09/23/2026 21:00:00",
+        "day_number": 2,
+        "day_short": "WED",
+        "date_iso": "2026-09-23",
+        "opponent_opta_rating": 81.6,
+        "opponent_uefa_rank": 13,
+        "opponent_uefa_coefficient": 33.75,
+        "rating": 59.8,
+        "method": "opponent Opta strength z-score + home/away adjustment"
+      },
+      "following_fixture": {
+        "match_id": "2050530",
+        "matchday": 2,
+        "opponent_id": "2610208",
+        "opponent": "Roma",
+        "opponent_code": "ROM",
+        "home_away": "A",
+        "kickoff": "09/30/2026 18:45:00",
+        "day_number": 1,
+        "day_short": "WED",
+        "date_iso": "2026-09-30",
+        "opponent_opta_rating": 84.6,
+        "opponent_uefa_rank": 8,
+        "opponent_uefa_coefficient": 50,
+        "rating": 47.6,
+        "method": "opponent Opta strength z-score + home/away adjustment"
+      },
+      "positions": {
+        "GK": {
+          "current": 78.6,
+          "following": 54.2,
+          "lens": "clean-sheet / defensive fixture lens"
+        },
+        "DEF": {
+          "current": 77.3,
+          "following": 54.1,
+          "lens": "clean-sheet / defensive fixture lens"
+        },
+        "MID": {
+          "current": 73.3,
+          "following": 51.9,
+          "lens": "attacking-return fixture lens"
+        },
+        "FWD": {
+          "current": 74.8,
+          "following": 52.1,
+          "lens": "attacking-return fixture lens"
+        }
+      }
+    },
+    {
+      "team_id": "2600661",
+      "club": "BAY",
+      "club_name": "Bayern",
+      "current_matchday": 1,
+      "fixture": {
+        "match_id": "2050547",
+        "matchday": 1,
+        "opponent_id": "2603520",
+        "opponent": "Man City",
+        "opponent_code": "MCI",
+        "home_away": "H",
+        "kickoff": "09/22/2026 18:45:00",
+        "day_number": 1,
+        "day_short": "TUE",
+        "date_iso": "2026-09-22",
+        "opponent_opta_rating": 93.6,
+        "opponent_uefa_rank": 15,
+        "opponent_uefa_coefficient": 31,
+        "rating": 42.9,
+        "method": "opponent Opta strength z-score + home/away adjustment"
+      },
+      "following_fixture": {
+        "match_id": "2050531",
+        "matchday": 2,
+        "opponent_id": "2610349",
+        "opponent": "Benfica",
+        "opponent_code": "BEN",
+        "home_away": "A",
+        "kickoff": "09/30/2026 21:00:00",
+        "day_number": 1,
+        "day_short": "WED",
+        "date_iso": "2026-09-30",
+        "opponent_opta_rating": 84.4,
+        "opponent_uefa_rank": 12,
+        "opponent_uefa_coefficient": 39,
+        "rating": 47.8,
+        "method": "opponent Opta strength z-score + home/away adjustment"
+      },
+      "positions": {
+        "GK": {
+          "current": 31.2,
+          "following": 58.5,
+          "lens": "clean-sheet / defensive fixture lens"
+        },
+        "DEF": {
+          "current": 32.0,
+          "following": 58.2,
+          "lens": "clean-sheet / defensive fixture lens"
+        },
+        "MID": {
+          "current": 35.3,
+          "following": 55.7,
+          "lens": "attacking-return fixture lens"
+        },
+        "FWD": {
+          "current": 34.3,
+          "following": 56.1,
+          "lens": "attacking-return fixture lens"
+        }
+      }
+    },
+    {
+      "team_id": "2610349",
+      "club": "BEN",
+      "club_name": "Benfica",
+      "current_matchday": 1,
+      "fixture": {
+        "match_id": "2050550",
+        "matchday": 1,
+        "opponent_id": "2609590",
+        "opponent": "Juventus",
+        "opponent_code": "JUV",
+        "home_away": "A",
+        "kickoff": "09/22/2026 21:00:00",
+        "day_number": 1,
+        "day_short": "TUE",
+        "date_iso": "2026-09-22",
+        "opponent_opta_rating": 83.2,
+        "opponent_uefa_rank": 11,
+        "opponent_uefa_coefficient": 43.25,
+        "rating": 49.5,
+        "method": "opponent Opta strength z-score + home/away adjustment"
+      },
+      "following_fixture": {
+        "match_id": "2050531",
+        "matchday": 2,
+        "opponent_id": "2600661",
+        "opponent": "Bayern",
+        "opponent_code": "BAY",
+        "home_away": "H",
+        "kickoff": "09/30/2026 21:00:00",
+        "day_number": 1,
+        "day_short": "WED",
+        "date_iso": "2026-09-30",
+        "opponent_opta_rating": 95.9,
+        "opponent_uefa_rank": 4,
+        "opponent_uefa_coefficient": 73.25,
+        "rating": 39.7,
+        "method": "opponent Opta strength z-score + home/away adjustment"
+      },
+      "positions": {
+        "GK": {
+          "current": 38.8,
+          "following": 22.2,
+          "lens": "clean-sheet / defensive fixture lens"
+        },
+        "DEF": {
+          "current": 39.2,
+          "following": 23.4,
+          "lens": "clean-sheet / defensive fixture lens"
+        },
+        "MID": {
+          "current": 41.9,
+          "following": 27.4,
+          "lens": "attacking-return fixture lens"
+        },
+        "FWD": {
+          "current": 41.4,
+          "following": 25.9,
+          "lens": "attacking-return fixture lens"
+        }
+      }
+    },
+    {
+      "team_id": "2600827",
+      "club": "CHE",
+      "club_name": "Chelsea",
+      "current_matchday": 1,
+      "fixture": {
+        "match_id": "2050553",
+        "matchday": 1,
+        "opponent_id": "2612002",
+        "opponent": "Austria Wien",
+        "opponent_code": "AUS",
+        "home_away": "H",
+        "kickoff": "09/23/2026 21:00:00",
+        "day_number": 2,
+        "day_short": "WED",
+        "date_iso": "2026-09-23",
+        "opponent_opta_rating": 65.7,
+        "opponent_uefa_rank": 26,
+        "opponent_uefa_coefficient": 17,
+        "rating": 82.1,
+        "method": "opponent Opta strength z-score + home/away adjustment"
+      },
+      "following_fixture": {
+        "match_id": "2050529",
+        "matchday": 2,
+        "opponent_id": "2600241",
+        "opponent": "OL Lyonnes",
+        "opponent_code": "LYO",
+        "home_away": "A",
+        "kickoff": "09/30/2026 21:00:00",
+        "day_number": 1,
+        "day_short": "WED",
+        "date_iso": "2026-09-30",
+        "opponent_opta_rating": 93.6,
+        "opponent_uefa_rank": 2,
+        "opponent_uefa_coefficient": 98.75,
+        "rating": 34.9,
+        "method": "opponent Opta strength z-score + home/away adjustment"
+      },
+      "positions": {
+        "GK": {
+          "current": 97.0,
+          "following": 14.4,
+          "lens": "clean-sheet / defensive fixture lens"
+        },
+        "DEF": {
+          "current": 94.9,
+          "following": 16.0,
+          "lens": "clean-sheet / defensive fixture lens"
+        },
+        "MID": {
+          "current": 89.5,
+          "following": 20.6,
+          "lens": "attacking-return fixture lens"
+        },
+        "FWD": {
+          "current": 92.0,
+          "following": 18.6,
+          "lens": "attacking-return fixture lens"
+        }
+      }
+    },
+    {
+      "team_id": "2611087",
+      "club": "HBK",
+      "club_name": "HB Køge",
+      "current_matchday": 1,
+      "fixture": {
+        "match_id": "2050548",
+        "matchday": 1,
+        "opponent_id": "81199",
+        "opponent": "Arsenal",
+        "opponent_code": "ARS",
+        "home_away": "A",
+        "kickoff": "09/22/2026 21:00:00",
+        "day_number": 1,
+        "day_short": "TUE",
+        "date_iso": "2026-09-22",
+        "opponent_opta_rating": 92.9,
+        "opponent_uefa_rank": 5,
+        "opponent_uefa_coefficient": 73,
+        "rating": 35.9,
+        "method": "opponent Opta strength z-score + home/away adjustment"
+      },
+      "following_fixture": {
+        "match_id": "2050536",
+        "matchday": 2,
+        "opponent_id": "2611086",
+        "opponent": "Servette",
+        "opponent_code": "SER",
+        "home_away": "H",
+        "kickoff": "10/01/2026 18:45:00",
+        "day_number": 2,
+        "day_short": "THU",
+        "date_iso": "2026-10-01",
+        "opponent_opta_rating": 78.9,
+        "opponent_uefa_rank": 38,
+        "opponent_uefa_coefficient": 11.5,
+        "rating": 63.6,
+        "method": "opponent Opta strength z-score + home/away adjustment"
+      },
+      "positions": {
+        "GK": {
+          "current": 19.3,
+          "following": 83.4,
+          "lens": "clean-sheet / defensive fixture lens"
+        },
+        "DEF": {
+          "current": 20.7,
+          "following": 81.9,
+          "lens": "clean-sheet / defensive fixture lens"
+        },
+        "MID": {
+          "current": 24.9,
+          "following": 77.5,
+          "lens": "attacking-return fixture lens"
+        },
+        "FWD": {
+          "current": 23.2,
+          "following": 79.3,
+          "lens": "attacking-return fixture lens"
+        }
+      }
+    },
+    {
+      "team_id": "2600867",
+      "club": "HAC",
+      "club_name": "Häcken",
+      "current_matchday": 1,
+      "fixture": {
+        "match_id": "2050551",
+        "matchday": 1,
+        "opponent_id": "2609776",
+        "opponent": "Inter",
+        "opponent_code": "INT",
+        "home_away": "A",
+        "kickoff": "09/22/2026 18:45:00",
+        "day_number": 1,
+        "day_short": "TUE",
+        "date_iso": "2026-09-22",
+        "opponent_opta_rating": 82.2,
+        "opponent_uefa_rank": 52,
+        "opponent_uefa_coefficient": 8,
+        "rating": 50.9,
+        "method": "opponent Opta strength z-score + home/away adjustment"
+      },
+      "following_fixture": {
+        "match_id": "2050532",
+        "matchday": 2,
+        "opponent_id": "2609590",
+        "opponent": "Juventus",
+        "opponent_code": "JUV",
+        "home_away": "H",
+        "kickoff": "09/30/2026 18:45:00",
+        "day_number": 1,
+        "day_short": "WED",
+        "date_iso": "2026-09-30",
+        "opponent_opta_rating": 83.2,
+        "opponent_uefa_rank": 11,
+        "opponent_uefa_coefficient": 43.25,
+        "rating": 57.5,
+        "method": "opponent Opta strength z-score + home/away adjustment"
+      },
+      "positions": {
+        "GK": {
+          "current": 46.2,
+          "following": 72.0,
+          "lens": "clean-sheet / defensive fixture lens"
+        },
+        "DEF": {
+          "current": 46.3,
+          "following": 71.0,
+          "lens": "clean-sheet / defensive fixture lens"
+        },
+        "MID": {
+          "current": 48.4,
+          "following": 67.5,
+          "lens": "attacking-return fixture lens"
+        },
+        "FWD": {
+          "current": 48.3,
+          "following": 68.6,
+          "lens": "attacking-return fixture lens"
+        }
+      }
+    },
+    {
+      "team_id": "2609776",
+      "club": "INT",
+      "club_name": "Inter",
+      "current_matchday": 1,
+      "fixture": {
+        "match_id": "2050551",
+        "matchday": 1,
+        "opponent_id": "2600867",
+        "opponent": "Häcken",
+        "opponent_code": "HAC",
+        "home_away": "H",
+        "kickoff": "09/22/2026 18:45:00",
+        "day_number": 1,
+        "day_short": "TUE",
+        "date_iso": "2026-09-22",
+        "opponent_opta_rating": 88.3,
+        "opponent_uefa_rank": 10,
+        "opponent_uefa_coefficient": 38,
+        "rating": 50.4,
+        "method": "opponent Opta strength z-score + home/away adjustment"
+      },
+      "following_fixture": {
+        "match_id": "2050534",
+        "matchday": 2,
+        "opponent_id": "2612002",
+        "opponent": "Austria Wien",
+        "opponent_code": "AUS",
+        "home_away": "A",
+        "kickoff": "10/01/2026 18:45:00",
+        "day_number": 2,
+        "day_short": "THU",
+        "date_iso": "2026-10-01",
+        "opponent_opta_rating": 65.7,
+        "opponent_uefa_rank": 26,
+        "opponent_uefa_coefficient": 17,
+        "rating": 74.1,
+        "method": "opponent Opta strength z-score + home/away adjustment"
+      },
+      "positions": {
+        "GK": {
+          "current": 42.8,
+          "following": 94.5,
+          "lens": "clean-sheet / defensive fixture lens"
+        },
+        "DEF": {
+          "current": 43.0,
+          "following": 92.5,
+          "lens": "clean-sheet / defensive fixture lens"
+        },
+        "MID": {
+          "current": 45.4,
+          "following": 87.3,
+          "lens": "attacking-return fixture lens"
+        },
+        "FWD": {
+          "current": 45.1,
+          "following": 89.7,
+          "lens": "attacking-return fixture lens"
+        }
+      }
+    },
+    {
+      "team_id": "2609590",
+      "club": "JUV",
+      "club_name": "Juventus",
+      "current_matchday": 1,
+      "fixture": {
+        "match_id": "2050550",
+        "matchday": 1,
+        "opponent_id": "2610349",
+        "opponent": "Benfica",
+        "opponent_code": "BEN",
+        "home_away": "H",
+        "kickoff": "09/22/2026 21:00:00",
+        "day_number": 1,
+        "day_short": "TUE",
+        "date_iso": "2026-09-22",
+        "opponent_opta_rating": 84.4,
+        "opponent_uefa_rank": 12,
+        "opponent_uefa_coefficient": 39,
+        "rating": 55.8,
+        "method": "opponent Opta strength z-score + home/away adjustment"
+      },
+      "following_fixture": {
+        "match_id": "2050532",
+        "matchday": 2,
+        "opponent_id": "2600867",
+        "opponent": "Häcken",
+        "opponent_code": "HAC",
+        "home_away": "A",
+        "kickoff": "09/30/2026 18:45:00",
+        "day_number": 1,
+        "day_short": "WED",
+        "date_iso": "2026-09-30",
+        "opponent_opta_rating": 88.3,
+        "opponent_uefa_rank": 10,
+        "opponent_uefa_coefficient": 38,
+        "rating": 42.4,
+        "method": "opponent Opta strength z-score + home/away adjustment"
+      },
+      "positions": {
+        "GK": {
+          "current": 72.8,
+          "following": 34.6,
+          "lens": "clean-sheet / defensive fixture lens"
+        },
+        "DEF": {
+          "current": 71.8,
+          "following": 35.2,
+          "lens": "clean-sheet / defensive fixture lens"
+        },
+        "MID": {
+          "current": 68.2,
+          "following": 38.2,
+          "lens": "attacking-return fixture lens"
+        },
+        "FWD": {
+          "current": 69.4,
+          "following": 37.5,
+          "lens": "attacking-return fixture lens"
+        }
+      }
+    },
+    {
+      "team_id": "2603520",
+      "club": "MCI",
+      "club_name": "Man City",
+      "current_matchday": 1,
+      "fixture": {
+        "match_id": "2050547",
+        "matchday": 1,
+        "opponent_id": "2600661",
+        "opponent": "Bayern",
+        "opponent_code": "BAY",
+        "home_away": "A",
+        "kickoff": "09/22/2026 18:45:00",
+        "day_number": 1,
+        "day_short": "TUE",
+        "date_iso": "2026-09-22",
+        "opponent_opta_rating": 95.9,
+        "opponent_uefa_rank": 4,
+        "opponent_uefa_coefficient": 73.25,
+        "rating": 31.7,
+        "method": "opponent Opta strength z-score + home/away adjustment"
+      },
+      "following_fixture": {
+        "match_id": "2050537",
+        "matchday": 2,
+        "opponent_id": "2611347",
+        "opponent": "Real Madrid",
+        "opponent_code": "RMA",
+        "home_away": "H",
+        "kickoff": "10/01/2026 21:00:00",
+        "day_number": 2,
+        "day_short": "THU",
+        "date_iso": "2026-10-01",
+        "opponent_opta_rating": 88.1,
+        "opponent_uefa_rank": 7,
+        "opponent_uefa_coefficient": 58.5,
+        "rating": 50.6,
+        "method": "opponent Opta strength z-score + home/away adjustment"
+      },
+      "positions": {
+        "GK": {
+          "current": 11.8,
+          "following": 62.8,
+          "lens": "clean-sheet / defensive fixture lens"
+        },
+        "DEF": {
+          "current": 13.5,
+          "following": 62.3,
+          "lens": "clean-sheet / defensive fixture lens"
+        },
+        "MID": {
+          "current": 18.3,
+          "following": 59.5,
+          "lens": "attacking-return fixture lens"
+        },
+        "FWD": {
+          "current": 16.2,
+          "following": 60.1,
+          "lens": "attacking-return fixture lens"
+        }
+      }
+    },
+    {
+      "team_id": "2601983",
+      "club": "OHL",
+      "club_name": "OH Leuven",
+      "current_matchday": 1,
+      "fixture": {
+        "match_id": "2050554",
+        "matchday": 1,
+        "opponent_id": "2610208",
+        "opponent": "Roma",
+        "opponent_code": "ROM",
+        "home_away": "H",
+        "kickoff": "09/23/2026 18:45:00",
+        "day_number": 2,
+        "day_short": "WED",
+        "date_iso": "2026-09-23",
+        "opponent_opta_rating": 84.6,
+        "opponent_uefa_rank": 8,
+        "opponent_uefa_coefficient": 50,
+        "rating": 55.6,
+        "method": "opponent Opta strength z-score + home/away adjustment"
+      },
+      "following_fixture": {
+        "match_id": "2050535",
+        "matchday": 2,
+        "opponent_id": "2600841",
+        "opponent": "Paris SG",
+        "opponent_code": "PSG",
+        "home_away": "A",
+        "kickoff": "10/01/2026 21:00:00",
+        "day_number": 2,
+        "day_short": "THU",
+        "date_iso": "2026-10-01",
+        "opponent_opta_rating": 85.7,
+        "opponent_uefa_rank": 9,
+        "opponent_uefa_coefficient": 55,
+        "rating": 46.0,
+        "method": "opponent Opta strength z-score + home/away adjustment"
+      },
+      "positions": {
+        "GK": {
+          "current": 64.5,
+          "following": 44.9,
+          "lens": "clean-sheet / defensive fixture lens"
+        },
+        "DEF": {
+          "current": 63.9,
+          "following": 45.0,
+          "lens": "clean-sheet / defensive fixture lens"
+        },
+        "MID": {
+          "current": 60.9,
+          "following": 47.2,
+          "lens": "attacking-return fixture lens"
+        },
+        "FWD": {
+          "current": 61.7,
+          "following": 47.1,
+          "lens": "attacking-return fixture lens"
+        }
+      }
+    },
+    {
+      "team_id": "2600241",
+      "club": "LYO",
+      "club_name": "OL Lyonnes",
+      "current_matchday": 1,
+      "fixture": {
+        "match_id": "2050555",
+        "matchday": 1,
+        "opponent_id": "2611086",
+        "opponent": "Servette",
+        "opponent_code": "SER",
+        "home_away": "A",
+        "kickoff": "09/23/2026 18:45:00",
+        "day_number": 2,
+        "day_short": "WED",
+        "date_iso": "2026-09-23",
+        "opponent_opta_rating": 78.9,
+        "opponent_uefa_rank": 38,
+        "opponent_uefa_coefficient": 11.5,
+        "rating": 55.6,
+        "method": "opponent Opta strength z-score + home/away adjustment"
+      },
+      "following_fixture": {
+        "match_id": "2050529",
+        "matchday": 2,
+        "opponent_id": "2600827",
+        "opponent": "Chelsea",
+        "opponent_code": "CHE",
+        "home_away": "H",
+        "kickoff": "09/30/2026 21:00:00",
+        "day_number": 1,
+        "day_short": "WED",
+        "date_iso": "2026-09-30",
+        "opponent_opta_rating": 94.7,
+        "opponent_uefa_rank": 3,
+        "opponent_uefa_coefficient": 90.5,
+        "rating": 41.4,
+        "method": "opponent Opta strength z-score + home/away adjustment"
+      },
+      "positions": {
+        "GK": {
+          "current": 64.5,
+          "following": 28.5,
+          "lens": "clean-sheet / defensive fixture lens"
+        },
+        "DEF": {
+          "current": 63.9,
+          "following": 29.4,
+          "lens": "clean-sheet / defensive fixture lens"
+        },
+        "MID": {
+          "current": 60.9,
+          "following": 32.9,
+          "lens": "attacking-return fixture lens"
+        },
+        "FWD": {
+          "current": 61.7,
+          "following": 31.8,
+          "lens": "attacking-return fixture lens"
+        }
+      }
+    },
+    {
+      "team_id": "2609779",
+      "club": "PAR",
+      "club_name": "Paris",
+      "current_matchday": 1,
+      "fixture": {
+        "match_id": "2050552",
+        "matchday": 1,
+        "opponent_id": "2601945",
+        "opponent": "Barcelona",
+        "opponent_code": "BAR",
+        "home_away": "A",
+        "kickoff": "09/23/2026 21:00:00",
+        "day_number": 2,
+        "day_short": "WED",
+        "date_iso": "2026-09-23",
+        "opponent_opta_rating": 100.0,
+        "opponent_uefa_rank": 1,
+        "opponent_uefa_coefficient": 117,
+        "rating": 25.9,
+        "method": "opponent Opta strength z-score + home/away adjustment"
+      },
+      "following_fixture": {
+        "match_id": "2050533",
+        "matchday": 2,
+        "opponent_id": "81199",
+        "opponent": "Arsenal",
+        "opponent_code": "ARS",
+        "home_away": "H",
+        "kickoff": "09/30/2026 18:45:00",
+        "day_number": 1,
+        "day_short": "WED",
+        "date_iso": "2026-09-30",
+        "opponent_opta_rating": 92.9,
+        "opponent_uefa_rank": 5,
+        "opponent_uefa_coefficient": 73,
+        "rating": 43.9,
+        "method": "opponent Opta strength z-score + home/away adjustment"
+      },
+      "positions": {
+        "GK": {
+          "current": 5.9,
+          "following": 39.5,
+          "lens": "clean-sheet / defensive fixture lens"
+        },
+        "DEF": {
+          "current": 7.9,
+          "following": 39.9,
+          "lens": "clean-sheet / defensive fixture lens"
+        },
+        "MID": {
+          "current": 13.1,
+          "following": 42.5,
+          "lens": "attacking-return fixture lens"
+        },
+        "FWD": {
+          "current": 10.7,
+          "following": 42.1,
+          "lens": "attacking-return fixture lens"
+        }
+      }
+    },
+    {
+      "team_id": "2600841",
+      "club": "PSG",
+      "club_name": "Paris SG",
+      "current_matchday": 1,
+      "fixture": {
+        "match_id": "2050549",
+        "matchday": 1,
+        "opponent_id": "2611347",
+        "opponent": "Real Madrid",
+        "opponent_code": "RMA",
+        "home_away": "A",
+        "kickoff": "09/22/2026 21:00:00",
+        "day_number": 1,
+        "day_short": "TUE",
+        "date_iso": "2026-09-22",
+        "opponent_opta_rating": 88.1,
+        "opponent_uefa_rank": 7,
+        "opponent_uefa_coefficient": 58.5,
+        "rating": 42.6,
+        "method": "opponent Opta strength z-score + home/away adjustment"
+      },
+      "following_fixture": {
+        "match_id": "2050535",
+        "matchday": 2,
+        "opponent_id": "2601983",
+        "opponent": "OH Leuven",
+        "opponent_code": "OHL",
+        "home_away": "H",
+        "kickoff": "10/01/2026 21:00:00",
+        "day_number": 2,
+        "day_short": "THU",
+        "date_iso": "2026-10-01",
+        "opponent_opta_rating": 72.8,
+        "opponent_uefa_rank": 24,
+        "opponent_uefa_coefficient": 19.5,
+        "rating": 72.1,
+        "method": "opponent Opta strength z-score + home/away adjustment"
+      },
+      "positions": {
+        "GK": {
+          "current": 25.4,
+          "following": 90.0,
+          "lens": "clean-sheet / defensive fixture lens"
+        },
+        "DEF": {
+          "current": 26.5,
+          "following": 88.2,
+          "lens": "clean-sheet / defensive fixture lens"
+        },
+        "MID": {
+          "current": 30.2,
+          "following": 83.3,
+          "lens": "attacking-return fixture lens"
+        },
+        "FWD": {
+          "current": 28.9,
+          "following": 85.5,
+          "lens": "attacking-return fixture lens"
+        }
+      }
+    },
+    {
+      "team_id": "2611347",
+      "club": "RMA",
+      "club_name": "Real Madrid",
+      "current_matchday": 1,
+      "fixture": {
+        "match_id": "2050549",
+        "matchday": 1,
+        "opponent_id": "2600841",
+        "opponent": "Paris SG",
+        "opponent_code": "PSG",
+        "home_away": "H",
+        "kickoff": "09/22/2026 21:00:00",
+        "day_number": 1,
+        "day_short": "TUE",
+        "date_iso": "2026-09-22",
+        "opponent_opta_rating": 85.7,
+        "opponent_uefa_rank": 9,
+        "opponent_uefa_coefficient": 55,
+        "rating": 54.0,
+        "method": "opponent Opta strength z-score + home/away adjustment"
+      },
+      "following_fixture": {
+        "match_id": "2050537",
+        "matchday": 2,
+        "opponent_id": "2603520",
+        "opponent": "Man City",
+        "opponent_code": "MCI",
+        "home_away": "A",
+        "kickoff": "10/01/2026 21:00:00",
+        "day_number": 2,
+        "day_short": "THU",
+        "date_iso": "2026-10-01",
+        "opponent_opta_rating": 93.6,
+        "opponent_uefa_rank": 15,
+        "opponent_uefa_coefficient": 31,
+        "rating": 34.9,
+        "method": "opponent Opta strength z-score + home/away adjustment"
+      },
+      "positions": {
+        "GK": {
+          "current": 55.4,
+          "following": 14.4,
+          "lens": "clean-sheet / defensive fixture lens"
+        },
+        "DEF": {
+          "current": 55.2,
+          "following": 16.0,
+          "lens": "clean-sheet / defensive fixture lens"
+        },
+        "MID": {
+          "current": 52.9,
+          "following": 20.6,
+          "lens": "attacking-return fixture lens"
+        },
+        "FWD": {
+          "current": 53.1,
+          "following": 18.6,
+          "lens": "attacking-return fixture lens"
+        }
+      }
+    },
+    {
+      "team_id": "2610208",
+      "club": "ROM",
+      "club_name": "Roma",
+      "current_matchday": 1,
+      "fixture": {
+        "match_id": "2050554",
+        "matchday": 1,
+        "opponent_id": "2601983",
+        "opponent": "OH Leuven",
+        "opponent_code": "OHL",
+        "home_away": "A",
+        "kickoff": "09/23/2026 18:45:00",
+        "day_number": 2,
+        "day_short": "WED",
+        "date_iso": "2026-09-23",
+        "opponent_opta_rating": 72.8,
+        "opponent_uefa_rank": 24,
+        "opponent_uefa_coefficient": 19.5,
+        "rating": 64.1,
+        "method": "opponent Opta strength z-score + home/away adjustment"
+      },
+      "following_fixture": {
+        "match_id": "2050530",
+        "matchday": 2,
+        "opponent_id": "2601945",
+        "opponent": "Barcelona",
+        "opponent_code": "BAR",
+        "home_away": "H",
+        "kickoff": "09/30/2026 18:45:00",
+        "day_number": 1,
+        "day_short": "WED",
+        "date_iso": "2026-09-30",
+        "opponent_opta_rating": 100.0,
+        "opponent_uefa_rank": 1,
+        "opponent_uefa_coefficient": 117,
+        "rating": 33.9,
+        "method": "opponent Opta strength z-score + home/away adjustment"
+      },
+      "positions": {
+        "GK": {
+          "current": 84.1,
+          "following": 8.0,
+          "lens": "clean-sheet / defensive fixture lens"
+        },
+        "DEF": {
+          "current": 82.6,
+          "following": 9.9,
+          "lens": "clean-sheet / defensive fixture lens"
+        },
+        "MID": {
+          "current": 78.2,
+          "following": 14.9,
+          "lens": "attacking-return fixture lens"
+        },
+        "FWD": {
+          "current": 80.0,
+          "following": 12.7,
+          "lens": "attacking-return fixture lens"
+        }
+      }
+    },
+    {
+      "team_id": "2611086",
+      "club": "SER",
+      "club_name": "Servette",
+      "current_matchday": 1,
+      "fixture": {
+        "match_id": "2050555",
+        "matchday": 1,
+        "opponent_id": "2600241",
+        "opponent": "OL Lyonnes",
+        "opponent_code": "LYO",
+        "home_away": "H",
+        "kickoff": "09/23/2026 18:45:00",
+        "day_number": 2,
+        "day_short": "WED",
+        "date_iso": "2026-09-23",
+        "opponent_opta_rating": 93.6,
+        "opponent_uefa_rank": 2,
+        "opponent_uefa_coefficient": 98.75,
+        "rating": 42.9,
+        "method": "opponent Opta strength z-score + home/away adjustment"
+      },
+      "following_fixture": {
+        "match_id": "2050536",
+        "matchday": 2,
+        "opponent_id": "2611087",
+        "opponent": "HB Køge",
+        "opponent_code": "HBK",
+        "home_away": "A",
+        "kickoff": "10/01/2026 18:45:00",
+        "day_number": 2,
+        "day_short": "THU",
+        "date_iso": "2026-10-01",
+        "opponent_opta_rating": 76.6,
+        "opponent_uefa_rank": 29,
+        "opponent_uefa_coefficient": 13.5,
+        "rating": 58.8,
+        "method": "opponent Opta strength z-score + home/away adjustment"
+      },
+      "positions": {
+        "GK": {
+          "current": 31.2,
+          "following": 75.5,
+          "lens": "clean-sheet / defensive fixture lens"
+        },
+        "DEF": {
+          "current": 32.0,
+          "following": 74.4,
+          "lens": "clean-sheet / defensive fixture lens"
+        },
+        "MID": {
+          "current": 35.3,
+          "following": 70.6,
+          "lens": "attacking-return fixture lens"
+        },
+        "FWD": {
+          "current": 34.3,
+          "following": 72.0,
+          "lens": "attacking-return fixture lens"
+        }
+      }
+    }
+  ]
+}
