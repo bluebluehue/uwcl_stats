@@ -1,0 +1,12 @@
+{
+  "competition": "UWCL",
+  "season": "2026/27",
+  "source_note": "Optional manual goalkeeper-role overrides. Player IDs added here override the conservative automatic hierarchy in build_uwcl_transformed.py.",
+  "valid_roles": [
+    "Starter",
+    "Likely starter",
+    "Uncertain",
+    "Backup"
+  ],
+  "players": {}
+}
