@@ -1,0 +1,4610 @@
+{
+  "competition": "UWCL",
+  "season": "2026/27",
+  "source": "UEFA squad pages manually captured 2026-09-21, plus five user-supplied active-player nationalities",
+  "join_key": "UEFA player ID",
+  "team_count": 18,
+  "player_count": 575,
+  "players": [
+    {
+      "player_id": "250079579",
+      "name": "Alessia Russo",
+      "nationality": "ENG",
+      "team": "Arsenal",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250194100",
+      "name": "Amy Liddiard",
+      "nationality": "ENG",
+      "team": "Arsenal",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250104400",
+      "name": "Anneke Borbe",
+      "nationality": "GER",
+      "team": "Arsenal",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250215190",
+      "name": "Bryony Brodie",
+      "nationality": "ENG",
+      "team": "Arsenal",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250031440",
+      "name": "Caitlin Foord",
+      "nationality": "AUS",
+      "team": "Arsenal",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250067552",
+      "name": "Chloe Kelly",
+      "nationality": "ENG",
+      "team": "Arsenal",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250081879",
+      "name": "Elisa De Almeida",
+      "nationality": "FRA",
+      "team": "Arsenal",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250181885",
+      "name": "Emily Fox",
+      "nationality": "USA",
+      "team": "Arsenal",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250078059",
+      "name": "Frida Maanum",
+      "nationality": "NOR",
+      "team": "Arsenal",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250079580",
+      "name": "Georgia Stanway",
+      "nationality": "ENG",
+      "team": "Arsenal",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250082066",
+      "name": "Géraldine Reuteler",
+      "nationality": "SUI",
+      "team": "Arsenal",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250194082",
+      "name": "Isabella Damm",
+      "nationality": "DEN",
+      "team": "Arsenal",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250178578",
+      "name": "Katie Reid",
+      "nationality": "ENG",
+      "team": "Arsenal",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "106101",
+      "name": "Kim Little",
+      "nationality": "SCO",
+      "team": "Arsenal",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250182607",
+      "name": "Kyra Cooney-Cross",
+      "nationality": "AUS",
+      "team": "Arsenal",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250215205",
+      "name": "Kyri Teer-Hutchins",
+      "nationality": "ENG",
+      "team": "Arsenal",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250047309",
+      "name": "Leah Williamson",
+      "nationality": "ENG",
+      "team": "Arsenal",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250180511",
+      "name": "Lisa Baum",
+      "nationality": "GER",
+      "team": "Arsenal",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250082270",
+      "name": "Lotte Wubben-Moy",
+      "nationality": "ENG",
+      "team": "Arsenal",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250054309",
+      "name": "Mariona Caldentey",
+      "nationality": "ESP",
+      "team": "Arsenal",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250215196",
+      "name": "Mia Dixon",
+      "nationality": "ENG",
+      "team": "Arsenal",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250103199",
+      "name": "Misa Rodríguez",
+      "nationality": "ESP",
+      "team": "Arsenal",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250188169",
+      "name": "Olivia Smith",
+      "nationality": "CAN",
+      "team": "Arsenal",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250081852",
+      "name": "Ona Batlle",
+      "nationality": "ESP",
+      "team": "Arsenal",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250169789",
+      "name": "Selina Cerci",
+      "nationality": "GER",
+      "team": "Arsenal",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250180003",
+      "name": "Smilla Holmberg",
+      "nationality": "SWE",
+      "team": "Arsenal",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250083076",
+      "name": "Steph Catley",
+      "nationality": "AUS",
+      "team": "Arsenal",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250056720",
+      "name": "Stina Blackstenius",
+      "nationality": "SWE",
+      "team": "Arsenal",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250082271",
+      "name": "Taylor Hinds",
+      "nationality": "ENG",
+      "team": "Arsenal",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250170833",
+      "name": "Almedina Sisic",
+      "nationality": "AUT",
+      "team": "Austria Wien",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250136701",
+      "name": "Andrea Glibo",
+      "nationality": "CRO",
+      "team": "Austria Wien",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250184245",
+      "name": "Anna Schorn",
+      "nationality": "AUT",
+      "team": "Austria Wien",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "107067",
+      "name": "Carina Wenninger",
+      "nationality": "AUT",
+      "team": "Austria Wien",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250116127",
+      "name": "Chiara Pucci",
+      "nationality": "ITA",
+      "team": "Austria Wien",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "1906781",
+      "name": "Dominika Škorvánková",
+      "nationality": "SVK",
+      "team": "Austria Wien",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250161088",
+      "name": "Elisa Pfattner",
+      "nationality": "ITA",
+      "team": "Austria Wien",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250198193",
+      "name": "Emily Schäfer",
+      "nationality": "AUT",
+      "team": "Austria Wien",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250166002",
+      "name": "Emma Goetz",
+      "nationality": "LUX",
+      "team": "Austria Wien",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250056795",
+      "name": "Jasmin Pal",
+      "nationality": "AUT",
+      "team": "Austria Wien",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250211607",
+      "name": "Katharina Gartner",
+      "nationality": "AUT",
+      "team": "Austria Wien",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250007477",
+      "name": "Katharina Schiechtl",
+      "nationality": "AUT",
+      "team": "Austria Wien",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250136921",
+      "name": "Lotta Cordes",
+      "nationality": "GER",
+      "team": "Austria Wien",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250211488",
+      "name": "Louise Schöffel",
+      "nationality": "AUT",
+      "team": "Austria Wien",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250194854",
+      "name": "Lucia Orkić",
+      "nationality": "CRO",
+      "team": "Austria Wien",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250104356",
+      "name": "Modesta Uka",
+      "nationality": "KOS",
+      "team": "Austria Wien",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250208419",
+      "name": "Nina-Katrin Pichler",
+      "nationality": "AUT",
+      "team": "Austria Wien",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250125468",
+      "name": "Patricia Pfanner",
+      "nationality": "AUT",
+      "team": "Austria Wien",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250212640",
+      "name": "Sandra Jakobsen",
+      "nationality": "DEN",
+      "team": "Austria Wien",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250130401",
+      "name": "Tatjana Weiss",
+      "nationality": "AUT",
+      "team": "Austria Wien",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250191978",
+      "name": "Valentina Pötzl",
+      "nationality": "AUT",
+      "team": "Austria Wien",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250013126",
+      "name": "Verena Hanshaw",
+      "nationality": "AUT",
+      "team": "Austria Wien",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250007473",
+      "name": "Virginia Kirchberger",
+      "nationality": "AUT",
+      "team": "Austria Wien",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250104293",
+      "name": "Yvonne Weilharter",
+      "nationality": "AUT",
+      "team": "Austria Wien",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250065581",
+      "name": "Aitana Bonmatí",
+      "nationality": "ESP",
+      "team": "Barcelona",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250185757",
+      "name": "Anna Quer",
+      "nationality": "ESP",
+      "team": "Barcelona",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250178960",
+      "name": "Aïcha Camara",
+      "nationality": "ESP",
+      "team": "Barcelona",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250214836",
+      "name": "Carla Juliá",
+      "nationality": "ESP",
+      "team": "Barcelona",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250216540",
+      "name": "Carolina Ferrera",
+      "nationality": "ESP",
+      "team": "Barcelona",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250017153",
+      "name": "Caroline Graham Hansen",
+      "nationality": "NOR",
+      "team": "Barcelona",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250097201",
+      "name": "Cata Coll",
+      "nationality": "ESP",
+      "team": "Barcelona",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250208614",
+      "name": "Charlotta Ohlander",
+      "nationality": "ESP",
+      "team": "Barcelona",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250192360",
+      "name": "Clara Serrajordi",
+      "nationality": "ESP",
+      "team": "Barcelona",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250101503",
+      "name": "Clàudia Pina",
+      "nationality": "ESP",
+      "team": "Barcelona",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250183099",
+      "name": "Daniela",
+      "nationality": "ESP",
+      "team": "Barcelona",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250208607",
+      "name": "Elena Vizuete",
+      "nationality": "ESP",
+      "team": "Barcelona",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250126826",
+      "name": "Esmee Brugts",
+      "nationality": "NED",
+      "team": "Barcelona",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250027429",
+      "name": "Ewa Pajor",
+      "nationality": "POL",
+      "team": "Barcelona",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250114726",
+      "name": "Gemma Font",
+      "nationality": "ESP",
+      "team": "Barcelona",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250182205",
+      "name": "Giulia Galli",
+      "nationality": "ITA",
+      "team": "Barcelona",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250007458",
+      "name": "Irene Paredes",
+      "nationality": "ESP",
+      "team": "Barcelona",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250195056",
+      "name": "Julia Torres",
+      "nationality": "ESP",
+      "team": "Barcelona",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250181814",
+      "name": "Kerolin",
+      "nationality": "BRA",
+      "team": "Barcelona",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250125142",
+      "name": "Kika Nazareth",
+      "nationality": "POR",
+      "team": "Barcelona",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250081851",
+      "name": "Laia Aleixandri",
+      "nationality": "ESP",
+      "team": "Barcelona",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250208623",
+      "name": "Laia Cabetas",
+      "nationality": "ESP",
+      "team": "Barcelona",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250208618",
+      "name": "Lidia Gibert",
+      "nationality": "ESP",
+      "team": "Barcelona",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250202965",
+      "name": "Liv Pennock",
+      "nationality": "NED",
+      "team": "Barcelona",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250185747",
+      "name": "Lúa Arufe",
+      "nationality": "ESP",
+      "team": "Barcelona",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "105680",
+      "name": "Marta Torrejón",
+      "nationality": "ESP",
+      "team": "Barcelona",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250166449",
+      "name": "Martina Fernández",
+      "nationality": "ESP",
+      "team": "Barcelona",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250183095",
+      "name": "Martina González",
+      "nationality": "ESP",
+      "team": "Barcelona",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250207210",
+      "name": "María Barrera",
+      "nationality": "ESP",
+      "team": "Barcelona",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250207704",
+      "name": "Nikoline Nielsen",
+      "nationality": "DEN",
+      "team": "Barcelona",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250185753",
+      "name": "Noa Jiménez",
+      "nationality": "ESP",
+      "team": "Barcelona",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250058203",
+      "name": "Patri Guijarro",
+      "nationality": "ESP",
+      "team": "Barcelona",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250180733",
+      "name": "Renee van Asten",
+      "nationality": "NED",
+      "team": "Barcelona",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250185749",
+      "name": "Rosalía Domínguez",
+      "nationality": "ESP",
+      "team": "Barcelona",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250179162",
+      "name": "Sydney Schertenleib",
+      "nationality": "NED",
+      "team": "Barcelona",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250223711",
+      "name": "Tyler McCamey",
+      "nationality": "USA",
+      "team": "Barcelona",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250165703",
+      "name": "Vicky López",
+      "nationality": "ESP",
+      "team": "Barcelona",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250169074",
+      "name": "Alara",
+      "nationality": "GER",
+      "team": "Bayern München",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250027606",
+      "name": "Anna Klink",
+      "nationality": "GER",
+      "team": "Bayern München",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250056786",
+      "name": "Barbara Dunst",
+      "nationality": "AUT",
+      "team": "Bayern München",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250216967",
+      "name": "Bernadette Kakounan",
+      "nationality": "CIV",
+      "team": "Bayern München",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250216715",
+      "name": "Edna Imade",
+      "nationality": "ESP",
+      "team": "Bayern München",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250192558",
+      "name": "Ena Mahmutovic",
+      "nationality": "GER",
+      "team": "Bayern München",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250170782",
+      "name": "Franziska Kett",
+      "nationality": "GER",
+      "team": "Bayern München",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250082216",
+      "name": "Giulia Gwinn",
+      "nationality": "GER",
+      "team": "Bayern München",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250022222",
+      "name": "Glódís Viggósdóttir",
+      "nationality": "ISL",
+      "team": "Bayern München",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250226252",
+      "name": "Hanna Wegscheider",
+      "nationality": "GER",
+      "team": "Bayern München",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250178478",
+      "name": "Jana Kappes",
+      "nationality": "GER",
+      "team": "Bayern München",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250014384",
+      "name": "Jovana Damnjanović",
+      "nationality": "SRB",
+      "team": "Bayern München",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250218418",
+      "name": "Julia Kreuzpaintner",
+      "nationality": "GER",
+      "team": "Bayern München",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250204607",
+      "name": "Kassandra Potsi",
+      "nationality": "GER",
+      "team": "Bayern München",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250056794",
+      "name": "Katharina Naschenweng",
+      "nationality": "AUT",
+      "team": "Bayern München",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250097632",
+      "name": "Klara Bühl",
+      "nationality": "GER",
+      "team": "Bayern München",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250183967",
+      "name": "Laila Portella",
+      "nationality": "GER",
+      "team": "Bayern München",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250209189",
+      "name": "Laura Dafinger",
+      "nationality": "GER",
+      "team": "Bayern München",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250027350",
+      "name": "Linda Dallmann",
+      "nationality": "GER",
+      "team": "Bayern München",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250182186",
+      "name": "Lisa Karl",
+      "nationality": "GER",
+      "team": "Bayern München",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250007424",
+      "name": "Magdalena Eriksson",
+      "nationality": "SWE",
+      "team": "Bayern München",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250206000",
+      "name": "Momoko Tanikawa",
+      "nationality": "JPN",
+      "team": "Bayern München",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "1907575",
+      "name": "Pernille Harder",
+      "nationality": "DEN",
+      "team": "Bayern München",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250121761",
+      "name": "Regina van Eijk",
+      "nationality": "NED",
+      "team": "Bayern München",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250135363",
+      "name": "Sarah Mattner",
+      "nationality": "GER",
+      "team": "Bayern München",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250007478",
+      "name": "Sarah Zadrazil",
+      "nationality": "AUT",
+      "team": "Bayern München",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250182282",
+      "name": "Sophie Proost",
+      "nationality": "NED",
+      "team": "Bayern München",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250007210",
+      "name": "Stine Ballisager",
+      "nationality": "DEN",
+      "team": "Bayern München",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250161081",
+      "name": "Vanessa Gilles",
+      "nationality": "CAN",
+      "team": "Bayern München",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "107218",
+      "name": "Ana Borges",
+      "nationality": "POR",
+      "team": "Benfica",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250051394",
+      "name": "Andreia Norton",
+      "nationality": "POR",
+      "team": "Benfica",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250078745",
+      "name": "Anna Csiki",
+      "nationality": "HUN",
+      "team": "Benfica",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250208545",
+      "name": "Ariana Schafer",
+      "nationality": "POR",
+      "team": "Benfica",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250187418",
+      "name": "Blessing Demehin",
+      "nationality": "NGA",
+      "team": "Benfica",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250182251",
+      "name": "Carolina Simões",
+      "nationality": "POR",
+      "team": "Benfica",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250195066",
+      "name": "Carolina Tristão",
+      "nationality": "POR",
+      "team": "Benfica",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250089094",
+      "name": "Caroline Møller",
+      "nationality": "DEN",
+      "team": "Benfica",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250078755",
+      "name": "Catarina Amado",
+      "nationality": "POR",
+      "team": "Benfica",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250193589",
+      "name": "Chandra Davidson",
+      "nationality": "CAN",
+      "team": "Benfica",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250199736",
+      "name": "Clara Oliveira",
+      "nationality": "BRA",
+      "team": "Benfica",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250204116",
+      "name": "Cristina Fernandes",
+      "nationality": "POR",
+      "team": "Benfica",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250205254",
+      "name": "Diana Costa",
+      "nationality": "POR",
+      "team": "Benfica",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250062848",
+      "name": "Diana Gomes",
+      "nationality": "POR",
+      "team": "Benfica",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250202593",
+      "name": "Flourish Sabastine",
+      "nationality": "NGA",
+      "team": "Benfica",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250180326",
+      "name": "Frøya Dorsin",
+      "nationality": "NOR",
+      "team": "Benfica",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250170726",
+      "name": "Inês Meninas",
+      "nationality": "POR",
+      "team": "Benfica",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250222755",
+      "name": "Janet Akekoromowei",
+      "nationality": "NGA",
+      "team": "Benfica",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250066395",
+      "name": "Lena Pauels",
+      "nationality": "GER",
+      "team": "Benfica",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250161597",
+      "name": "Lucia Alves",
+      "nationality": "POR",
+      "team": "Benfica",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250198481",
+      "name": "Madalena Loução",
+      "nationality": "POR",
+      "team": "Benfica",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250062412",
+      "name": "Marit Bratberg Lund",
+      "nationality": "NOR",
+      "team": "Benfica",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250198610",
+      "name": "Matilde Matos",
+      "nationality": "POR",
+      "team": "Benfica",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250223996",
+      "name": "Michaely Bihina",
+      "nationality": "CMR",
+      "team": "Benfica",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250180037",
+      "name": "Neide Guedes",
+      "nationality": "POR",
+      "team": "Benfica",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250149572",
+      "name": "Nycole Raysla",
+      "nationality": "BRA",
+      "team": "Benfica",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250149566",
+      "name": "Pauleta",
+      "nationality": "POR",
+      "team": "Benfica",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250208534",
+      "name": "Sara Macedo",
+      "nationality": "POR",
+      "team": "Benfica",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250223995",
+      "name": "Shao Ziqin",
+      "nationality": "CHN",
+      "team": "Benfica",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250183167",
+      "name": "Thaís Lima",
+      "nationality": "POR",
+      "team": "Benfica",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250166207",
+      "name": "Tinkara Testen",
+      "nationality": "SVN",
+      "team": "Benfica",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250040854",
+      "name": "Aivi Luik",
+      "nationality": "AUS",
+      "team": "BK Häcken",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250114700",
+      "name": "Alva Selerud",
+      "nationality": "SWE",
+      "team": "BK Häcken",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250062513",
+      "name": "Anna Anvegård",
+      "nationality": "SWE",
+      "team": "BK Häcken",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250216952",
+      "name": "Delaney Matriano",
+      "nationality": "USA",
+      "team": "BK Häcken",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250223999",
+      "name": "Ella McBride",
+      "nationality": "CAN",
+      "team": "BK Häcken",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250107426",
+      "name": "Emma Östlund",
+      "nationality": "SWE",
+      "team": "BK Häcken",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250217024",
+      "name": "Erza Qela",
+      "nationality": "KOS",
+      "team": "BK Häcken",
+      "uefa_squad_section": "",
+      "source": "User-supplied nationality, 2026-09-21"
+    },
+    {
+      "player_id": "250212136",
+      "name": "Faith Chinzimu",
+      "nationality": "MWI",
+      "team": "BK Häcken",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250083016",
+      "name": "Halimatu Ayinde",
+      "nationality": "NGA",
+      "team": "BK Häcken",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250203642",
+      "name": "Hanna Karlsson",
+      "nationality": "SWE",
+      "team": "BK Häcken",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250119382",
+      "name": "Jennifer Falk",
+      "nationality": "SWE",
+      "team": "BK Häcken",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250078612",
+      "name": "Josefine Rybrink",
+      "nationality": "SWE",
+      "team": "BK Häcken",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250175501",
+      "name": "Joy Ogochuckwu",
+      "nationality": "NGA",
+      "team": "BK Häcken",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250166887",
+      "name": "Jóhanna Fossdalsá",
+      "nationality": "DEN",
+      "team": "BK Häcken",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250171519",
+      "name": "Lisa Löwing",
+      "nationality": "SWE",
+      "team": "BK Häcken",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250136529",
+      "name": "Maja Bodin",
+      "nationality": "SWE",
+      "team": "BK Häcken",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250195114",
+      "name": "Nathalie Staaf",
+      "nationality": "SWE",
+      "team": "BK Häcken",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250165409",
+      "name": "Nesrin Akgün",
+      "nationality": "SWE",
+      "team": "BK Häcken",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250166886",
+      "name": "Pernille Sanvig",
+      "nationality": "DEN",
+      "team": "BK Häcken",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250212139",
+      "name": "Stella Söderbom",
+      "nationality": "SWE",
+      "team": "BK Häcken",
+      "uefa_squad_section": "",
+      "source": "User-supplied nationality, 2026-09-21"
+    },
+    {
+      "player_id": "250055453",
+      "name": "Stine Sandbech",
+      "nationality": "DEN",
+      "team": "BK Häcken",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250175308",
+      "name": "Tabitha Tindell",
+      "nationality": "USA",
+      "team": "BK Häcken",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250184619",
+      "name": "Thelma Pálmadóttir",
+      "nationality": "ISL",
+      "team": "BK Häcken",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250216579",
+      "name": "Tilde Karlsson",
+      "nationality": "SWE",
+      "team": "BK Häcken",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250194592",
+      "name": "Tuva Ölvestad",
+      "nationality": "SWE",
+      "team": "BK Häcken",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250138035",
+      "name": "Agnes Beever-Jones",
+      "nationality": "ENG",
+      "team": "Chelsea FC Women",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250171211",
+      "name": "Alexia Potter",
+      "nationality": "ENG",
+      "team": "Chelsea FC Women",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250181896",
+      "name": "Alyssa Thompson",
+      "nationality": "USA",
+      "team": "Chelsea FC Women",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250194105",
+      "name": "Chloe Sarwie",
+      "nationality": "ENG",
+      "team": "Chelsea FC Women",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250131077",
+      "name": "Ellie Carpenter",
+      "nationality": "AUS",
+      "team": "Chelsea FC Women",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250062504",
+      "name": "Erin Cuthbert",
+      "nationality": "SCO",
+      "team": "Chelsea FC Women",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250167446",
+      "name": "Giulia Dragoni",
+      "nationality": "ITA",
+      "team": "Chelsea FC Women",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250105409",
+      "name": "Hannah Hampton",
+      "nationality": "ENG",
+      "team": "Chelsea FC Women",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250082902",
+      "name": "Kadeisha Buchanan",
+      "nationality": "CAN",
+      "team": "Chelsea FC Women",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250018089",
+      "name": "Katie McCabe",
+      "nationality": "IRL",
+      "team": "Chelsea FC Women",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250067561",
+      "name": "Keira Walsh",
+      "nationality": "ENG",
+      "team": "Chelsea FC Women",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250115796",
+      "name": "Lauren James",
+      "nationality": "ENG",
+      "team": "Chelsea FC Women",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250112085",
+      "name": "Livia Peng",
+      "nationality": "SUI",
+      "team": "Chelsea FC Women",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250179755",
+      "name": "Lola Brown",
+      "nationality": "ENG",
+      "team": "Chelsea FC Women",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "1908144",
+      "name": "Lucy Bronze",
+      "nationality": "ENG",
+      "team": "Chelsea FC Women",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250188313",
+      "name": "Maika Hamano",
+      "nationality": "JPN",
+      "team": "Chelsea FC Women",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250224001",
+      "name": "Manaka Matsukubo",
+      "nationality": "JPN",
+      "team": "Chelsea FC Women",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250187609",
+      "name": "Mayra Ramírez",
+      "nationality": "COL",
+      "team": "Chelsea FC Women",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250104511",
+      "name": "Melvine Malard",
+      "nationality": "FRA",
+      "team": "Chelsea FC Women",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250181884",
+      "name": "Naomi Girma",
+      "nationality": "USA",
+      "team": "Chelsea FC Women",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250060394",
+      "name": "Nathalie Björn",
+      "nationality": "SWE",
+      "team": "Chelsea FC Women",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250182307",
+      "name": "Nelly Las",
+      "nationality": "ENG",
+      "team": "Chelsea FC Women",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "1902061",
+      "name": "Rebecca Spencer",
+      "nationality": "JAM",
+      "team": "Chelsea FC Women",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250104334",
+      "name": "Sandy Baltimore",
+      "nationality": "FRA",
+      "team": "Chelsea FC Women",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250104407",
+      "name": "Sjoeke Nüsken",
+      "nationality": "GER",
+      "team": "Chelsea FC Women",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250172204",
+      "name": "Veerle Buurman",
+      "nationality": "NED",
+      "team": "Chelsea FC Women",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250161069",
+      "name": "Wieke Kaptein",
+      "nationality": "NED",
+      "team": "Chelsea FC Women",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250211768",
+      "name": "Aemu Oyama",
+      "nationality": "JPN",
+      "team": "HB Køge",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250226217",
+      "name": "Aissatou Fall",
+      "nationality": "SEN",
+      "team": "HB Køge",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250162847",
+      "name": "Alberte Vingum",
+      "nationality": "DEN",
+      "team": "HB Køge",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250185525",
+      "name": "Andrea Termansen",
+      "nationality": "DEN",
+      "team": "HB Køge",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250178472",
+      "name": "Augusta Callesen",
+      "nationality": "DEN",
+      "team": "HB Køge",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250223061",
+      "name": "Catherine Paulson",
+      "nationality": "USA",
+      "team": "HB Køge",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250165722",
+      "name": "Emelía Óskarsdóttir",
+      "nationality": "ISL",
+      "team": "HB Køge",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250183153",
+      "name": "Emilie Møller",
+      "nationality": "DEN",
+      "team": "HB Køge",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250223057",
+      "name": "Emma Flick",
+      "nationality": "USA",
+      "team": "HB Køge",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250166867",
+      "name": "Ida Marie Jørgensen",
+      "nationality": "DEN",
+      "team": "HB Køge",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250139425",
+      "name": "Kyra Carusa",
+      "nationality": "IRL",
+      "team": "HB Køge",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250152157",
+      "name": "Laura Hermann",
+      "nationality": "DEN",
+      "team": "HB Køge",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250212579",
+      "name": "Lauren Kozal",
+      "nationality": "USA",
+      "team": "HB Køge",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250212600",
+      "name": "Macy Schultz",
+      "nationality": "USA",
+      "team": "HB Køge",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250207153",
+      "name": "Mai Wendicke",
+      "nationality": "DEN",
+      "team": "HB Køge",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250162830",
+      "name": "Maria Uhre",
+      "nationality": "DEN",
+      "team": "HB Køge",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250226216",
+      "name": "Mercy Chipasula",
+      "nationality": "ZAM",
+      "team": "HB Køge",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250078953",
+      "name": "Mille Gejl",
+      "nationality": "DEN",
+      "team": "HB Køge",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250212596",
+      "name": "Mwanalima Jereko",
+      "nationality": "KEN",
+      "team": "HB Køge",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250011226",
+      "name": "Nadia Nadim",
+      "nationality": "DEN",
+      "team": "HB Køge",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250062988",
+      "name": "Rikke Madsen",
+      "nationality": "DEN",
+      "team": "HB Køge",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250136232",
+      "name": "Sarah Thygesen",
+      "nationality": "DEN",
+      "team": "HB Køge",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "1907579",
+      "name": "Simone Boye Sørensen",
+      "nationality": "DEN",
+      "team": "HB Køge",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250223059",
+      "name": "Sydney Jones",
+      "nationality": "USA",
+      "team": "HB Køge",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250223062",
+      "name": "Yukina Sakabe",
+      "nationality": "JPN",
+      "team": "HB Køge",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250170907",
+      "name": "Zuzanna Witek",
+      "nationality": "POL",
+      "team": "HB Køge",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250082279",
+      "name": "Benedetta Glionna",
+      "nationality": "ITA",
+      "team": "Internazionale Milano",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250199289",
+      "name": "Brittany Raphino",
+      "nationality": "USA",
+      "team": "Internazionale Milano",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250101514",
+      "name": "Camilla Forcinella",
+      "nationality": "ITA",
+      "team": "Internazionale Milano",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250118004",
+      "name": "Cecilía Rúnarsdóttir",
+      "nationality": "ISL",
+      "team": "Internazionale Milano",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250171569",
+      "name": "Chiara Robustellini",
+      "nationality": "ITA",
+      "team": "Internazionale Milano",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250011845",
+      "name": "Clarisse Le Bihan",
+      "nationality": "FRA",
+      "team": "Internazionale Milano",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250179468",
+      "name": "Elena Belli",
+      "nationality": "ITA",
+      "team": "Internazionale Milano",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "1908405",
+      "name": "Elisa Bartoli",
+      "nationality": "ITA",
+      "team": "Internazionale Milano",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250198796",
+      "name": "Elisa Ciurleo",
+      "nationality": "ITA",
+      "team": "Internazionale Milano",
+      "uefa_squad_section": "",
+      "source": "User-supplied nationality, 2026-09-21"
+    },
+    {
+      "player_id": "250092475",
+      "name": "Elisa Polli",
+      "nationality": "ITA",
+      "team": "Internazionale Milano",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "1907375",
+      "name": "Emma Kullberg",
+      "nationality": "SWE",
+      "team": "Internazionale Milano",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250133729",
+      "name": "Haley Bugeja",
+      "nationality": "MLT",
+      "team": "Internazionale Milano",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250121068",
+      "name": "Irene Santi",
+      "nationality": "ITA",
+      "team": "Internazionale Milano",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250007387",
+      "name": "Ivana",
+      "nationality": "ESP",
+      "team": "Internazionale Milano",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250105561",
+      "name": "Karólína Vilhjálmsdóttir",
+      "nationality": "ISL",
+      "team": "Internazionale Milano",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250017370",
+      "name": "Lina Magull",
+      "nationality": "GER",
+      "team": "Internazionale Milano",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250137590",
+      "name": "Marie Detruyer",
+      "nationality": "BEL",
+      "team": "Internazionale Milano",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250138028",
+      "name": "Marija Milinković",
+      "nationality": "BIH",
+      "team": "Internazionale Milano",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250206318",
+      "name": "Martina Bressan",
+      "nationality": "ITA",
+      "team": "Internazionale Milano",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250204545",
+      "name": "Matilde Robbioni",
+      "nationality": "ITA",
+      "team": "Internazionale Milano",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250170767",
+      "name": "Maša Tomašević",
+      "nationality": "MNE",
+      "team": "Internazionale Milano",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250192592",
+      "name": "Michela Cambiaghi",
+      "nationality": "ITA",
+      "team": "Internazionale Milano",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "1907699",
+      "name": "Olivia Schough",
+      "nationality": "SWE",
+      "team": "Internazionale Milano",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250198800",
+      "name": "Rachele Giudici",
+      "nationality": "ITA",
+      "team": "Internazionale Milano",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250114835",
+      "name": "Samantha van Diemen",
+      "nationality": "NED",
+      "team": "Internazionale Milano",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250145734",
+      "name": "Sheila García",
+      "nationality": "ESP",
+      "team": "Internazionale Milano",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250198807",
+      "name": "Sofia Verrini",
+      "nationality": "ITA",
+      "team": "Internazionale Milano",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250111792",
+      "name": "Toni Payne",
+      "nationality": "NGA",
+      "team": "Internazionale Milano",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250054319",
+      "name": "Alba Redondo",
+      "nationality": "ESP",
+      "team": "Juventus",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250165536",
+      "name": "Amaiur Sarriegi",
+      "nationality": "ESP",
+      "team": "Juventus",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250191669",
+      "name": "Anna Copelli",
+      "nationality": "ITA",
+      "team": "Juventus",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250198802",
+      "name": "Anna Mallardi",
+      "nationality": "ITA",
+      "team": "Juventus",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250066473",
+      "name": "Annamaria Serturini",
+      "nationality": "ITA",
+      "team": "Juventus",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250013989",
+      "name": "Cecilia Salvai",
+      "nationality": "ITA",
+      "team": "Juventus",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250137331",
+      "name": "Chiara Beccari",
+      "nationality": "ITA",
+      "team": "Juventus",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250165704",
+      "name": "Cris Librán",
+      "nationality": "ESP",
+      "team": "Juventus",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250152359",
+      "name": "Danielle de Jong",
+      "nationality": "NED",
+      "team": "Juventus",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250137891",
+      "name": "Danique Noordman",
+      "nationality": "NED",
+      "team": "Juventus",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250217779",
+      "name": "Daria Rosso",
+      "nationality": "ITA",
+      "team": "Juventus",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250198795",
+      "name": "Elisa Bertero",
+      "nationality": "ITA",
+      "team": "Juventus",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250182578",
+      "name": "Emma Stølen Godø",
+      "nationality": "NOR",
+      "team": "Juventus",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250161567",
+      "name": "Estela Carbonell",
+      "nationality": "ESP",
+      "team": "Juventus",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250167452",
+      "name": "Eva Schatzer",
+      "nationality": "ITA",
+      "team": "Juventus",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250180792",
+      "name": "Federica D'Auria",
+      "nationality": "ITA",
+      "team": "Juventus",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250185629",
+      "name": "Giorgia Bianchi",
+      "nationality": "ITA",
+      "team": "Juventus",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250214921",
+      "name": "Giulia Martinazzi",
+      "nationality": "ITA",
+      "team": "Juventus",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250129478",
+      "name": "Júlia Bartel",
+      "nationality": "ESP",
+      "team": "Juventus",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250163142",
+      "name": "Kysha Sylla",
+      "nationality": "FRA",
+      "team": "Juventus",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250167044",
+      "name": "Larissa Rusek",
+      "nationality": "AUT",
+      "team": "Juventus",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250087188",
+      "name": "Lea Khelifi",
+      "nationality": "FRA",
+      "team": "Juventus",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250226239",
+      "name": "Manaka Hayashi",
+      "nationality": "JPN",
+      "team": "Juventus",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250077914",
+      "name": "Martina Lenzini",
+      "nationality": "ITA",
+      "team": "Juventus",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250000575",
+      "name": "Martina Rosucci",
+      "nationality": "ITA",
+      "team": "Juventus",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250224132",
+      "name": "Marzia Piermarini",
+      "nationality": "ITA",
+      "team": "Juventus",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250137341",
+      "name": "Matilde Pavan",
+      "nationality": "ITA",
+      "team": "Juventus",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250184805",
+      "name": "Ornella Graziani",
+      "nationality": "FRA",
+      "team": "Juventus",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250187549",
+      "name": "Remina Chiba",
+      "nationality": "JPN",
+      "team": "Juventus",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250022195",
+      "name": "Tatiana Pinto",
+      "nationality": "POR",
+      "team": "Juventus",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250202694",
+      "name": "Valentina Piccardi",
+      "nationality": "ITA",
+      "team": "Juventus",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250202699",
+      "name": "Viola Sossai",
+      "nationality": "ITA",
+      "team": "Juventus",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250214922",
+      "name": "Viola Volpini",
+      "nationality": "ITA",
+      "team": "Juventus",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250004089",
+      "name": "Alex Greenwood",
+      "nationality": "ENG",
+      "team": "Manchester City",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250161079",
+      "name": "Anna Moorhouse",
+      "nationality": "ENG",
+      "team": "Manchester City",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250181894",
+      "name": "Aoba Fujino",
+      "nationality": "JPN",
+      "team": "Manchester City",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250131168",
+      "name": "Ayaka Yamashita",
+      "nationality": "JPN",
+      "team": "Manchester City",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250023778",
+      "name": "Beth Mead",
+      "nationality": "ENG",
+      "team": "Manchester City",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250128796",
+      "name": "Carlotta Wamser",
+      "nationality": "GER",
+      "team": "Manchester City",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250078633",
+      "name": "Eartha Cumings",
+      "nationality": "SCO",
+      "team": "Manchester City",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250168202",
+      "name": "Grace Clinton",
+      "nationality": "ENG",
+      "team": "Manchester City",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250202632",
+      "name": "Gracie Prior",
+      "nationality": "ENG",
+      "team": "Manchester City",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250166080",
+      "name": "Iman Beney",
+      "nationality": "SUI",
+      "team": "Manchester City",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250222660",
+      "name": "Jade Rose",
+      "nationality": "CAN",
+      "team": "Manchester City",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250105305",
+      "name": "Kerstin Casparij",
+      "nationality": "NED",
+      "team": "Manchester City",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250131161",
+      "name": "Khadija Shaw",
+      "nationality": "JAM",
+      "team": "Manchester City",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250168159",
+      "name": "Laura Blindkilde Brown",
+      "nationality": "ENG",
+      "team": "Manchester City",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250105410",
+      "name": "Lauren Hemp",
+      "nationality": "ENG",
+      "team": "Manchester City",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250131079",
+      "name": "Mary Fowler",
+      "nationality": "AUS",
+      "team": "Manchester City",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250180983",
+      "name": "Mayzee Davies",
+      "nationality": "WAL",
+      "team": "Manchester City",
+      "uefa_squad_section": "",
+      "source": "User-supplied nationality, 2026-09-21"
+    },
+    {
+      "player_id": "250090357",
+      "name": "Niamh Charles",
+      "nationality": "ENG",
+      "team": "Manchester City",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250063524",
+      "name": "Rebecca Knaak",
+      "nationality": "GER",
+      "team": "Manchester City",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250131173",
+      "name": "Risa Shimizu",
+      "nationality": "JPN",
+      "team": "Manchester City",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250194099",
+      "name": "Sacha Lewis",
+      "nationality": "ENG",
+      "team": "Manchester City",
+      "uefa_squad_section": "",
+      "source": "User-supplied nationality, 2026-09-21"
+    },
+    {
+      "player_id": "250105000",
+      "name": "Samantha Coffey",
+      "nationality": "USA",
+      "team": "Manchester City",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250097126",
+      "name": "Sydney Lohmann",
+      "nationality": "GER",
+      "team": "Manchester City",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250049072",
+      "name": "Vivianne Miedema",
+      "nationality": "NED",
+      "team": "Manchester City",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250131178",
+      "name": "Yui Hasegawa",
+      "nationality": "JPN",
+      "team": "Manchester City",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250081888",
+      "name": "Agathe Ollivier",
+      "nationality": "FRA",
+      "team": "OH Leuven",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250211788",
+      "name": "Alicia Jossart",
+      "nationality": "BEL",
+      "team": "OH Leuven",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250165483",
+      "name": "Alixe Bosteels",
+      "nationality": "BEL",
+      "team": "OH Leuven",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250206299",
+      "name": "Amélie Van Holderbeke",
+      "nationality": "BEL",
+      "team": "OH Leuven",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250220735",
+      "name": "Anna Corneillie",
+      "nationality": "BEL",
+      "team": "OH Leuven",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250198774",
+      "name": "Anouk Van Praet",
+      "nationality": "BEL",
+      "team": "OH Leuven",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250178922",
+      "name": "Axelle Van Besauw",
+      "nationality": "BEL",
+      "team": "OH Leuven",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250200023",
+      "name": "Camille Lafaix",
+      "nationality": "FRA",
+      "team": "OH Leuven",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250223123",
+      "name": "Elise Leempoels",
+      "nationality": "BEL",
+      "team": "OH Leuven",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250208437",
+      "name": "Ella Loix",
+      "nationality": "BEL",
+      "team": "OH Leuven",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250220748",
+      "name": "Estelle Mathot",
+      "nationality": "BEL",
+      "team": "OH Leuven",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250211660",
+      "name": "Faye Lammertijn",
+      "nationality": "BEL",
+      "team": "OH Leuven",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250211789",
+      "name": "Fleur Nuyts",
+      "nationality": "BEL",
+      "team": "OH Leuven",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250192627",
+      "name": "Flo Hermans",
+      "nationality": "BEL",
+      "team": "OH Leuven",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250223124",
+      "name": "Flo'Ke Van Looveren",
+      "nationality": "BEL",
+      "team": "OH Leuven",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250126679",
+      "name": "Ioanna Papatheodorou",
+      "nationality": "GRE",
+      "team": "OH Leuven",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250137883",
+      "name": "Isabella Dekker",
+      "nationality": "NED",
+      "team": "OH Leuven",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250211658",
+      "name": "Jada Conijnenberg",
+      "nationality": "SUR",
+      "team": "OH Leuven",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250023755",
+      "name": "Jeslynn Kuijpers",
+      "nationality": "NED",
+      "team": "OH Leuven",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250007376",
+      "name": "Julie Biesmans",
+      "nationality": "BEL",
+      "team": "OH Leuven",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250185452",
+      "name": "Juliette Demol",
+      "nationality": "BEL",
+      "team": "OH Leuven",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250198760",
+      "name": "Kadhiya De Ceuster",
+      "nationality": "BEL",
+      "team": "OH Leuven",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250126829",
+      "name": "Kim Everaerts",
+      "nationality": "NED",
+      "team": "OH Leuven",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250211650",
+      "name": "Kimberley Smit",
+      "nationality": "NED",
+      "team": "OH Leuven",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250211659",
+      "name": "Lente Gerard",
+      "nationality": "BEL",
+      "team": "OH Leuven",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250222827",
+      "name": "Lieke Cremers",
+      "nationality": "NED",
+      "team": "OH Leuven",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250208430",
+      "name": "Lili Verstrepen",
+      "nationality": "BEL",
+      "team": "OH Leuven",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250208441",
+      "name": "Lily Hoekx",
+      "nationality": "BEL",
+      "team": "OH Leuven",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250226188",
+      "name": "Linnea Viola Strömberg",
+      "nationality": "SWE",
+      "team": "OH Leuven",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250220737",
+      "name": "Loren De Decker",
+      "nationality": "BEL",
+      "team": "OH Leuven",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250078348",
+      "name": "Lowiese Seynhaeve",
+      "nationality": "BEL",
+      "team": "OH Leuven",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250192626",
+      "name": "Manon Heremans",
+      "nationality": "BEL",
+      "team": "OH Leuven",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250211686",
+      "name": "Manon Van Raay",
+      "nationality": "NED",
+      "team": "OH Leuven",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250204585",
+      "name": "Nel Neyrinck",
+      "nationality": "BEL",
+      "team": "OH Leuven",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250208447",
+      "name": "Norah Buijsrogge",
+      "nationality": "BEL",
+      "team": "OH Leuven",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250166581",
+      "name": "Saar Janssen",
+      "nationality": "BEL",
+      "team": "OH Leuven",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250125270",
+      "name": "Sterre Gielen",
+      "nationality": "BEL",
+      "team": "OH Leuven",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250097133",
+      "name": "Virág Nagy",
+      "nationality": "HUN",
+      "team": "OH Leuven",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250203201",
+      "name": "Aalyah Samadi",
+      "nationality": "FRA",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250017155",
+      "name": "Ada Hegerberg",
+      "nationality": "NOR",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250220766",
+      "name": "Ainhoa Sagna",
+      "nationality": "FRA",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250198588",
+      "name": "Alexane Lambert",
+      "nationality": "FRA",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250226262",
+      "name": "Alicia Kijanka Larras",
+      "nationality": "FRA",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250185495",
+      "name": "Ambre Ouazar",
+      "nationality": "FRA",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250082907",
+      "name": "Ashley Lawrence",
+      "nationality": "CAN",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250226255",
+      "name": "Assia Briki",
+      "nationality": "FRA",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250198591",
+      "name": "Camille Marmillot",
+      "nationality": "FRA",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250024028",
+      "name": "Caroline Weir",
+      "nationality": "SCO",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250226258",
+      "name": "Celya Fuentes",
+      "nationality": "FRA",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250123344",
+      "name": "Christiane Endler",
+      "nationality": "CHI",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250097203",
+      "name": "Damaris Egurrola",
+      "nationality": "NED",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250134469",
+      "name": "Elma Junttila Nelhage",
+      "nationality": "SWE",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250208489",
+      "name": "Emma Motyka",
+      "nationality": "FRA",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250166378",
+      "name": "Féérine Belhadj",
+      "nationality": "FRA",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "50429796",
+      "name": "Giovanna Waksman",
+      "nationality": "BRA",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250226265",
+      "name": "Hyliana Serin",
+      "nationality": "FRA",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "150626720",
+      "name": "Ines Benyahia",
+      "nationality": "FRA",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250226261",
+      "name": "Ines Kenzari",
+      "nationality": "FRA",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250078060",
+      "name": "Ingrid Engen",
+      "nationality": "NOR",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250191429",
+      "name": "Inès Saadallah",
+      "nationality": "FRA",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250226257",
+      "name": "Isaline Di Rienzo",
+      "nationality": "FRA",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250226256",
+      "name": "Jade Derigent",
+      "nationality": "FRA",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250056734",
+      "name": "Johanna Rytting Kaneryd",
+      "nationality": "SWE",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250128784",
+      "name": "Jule Brand",
+      "nationality": "GER",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250226260",
+      "name": "Juliane Guillot",
+      "nationality": "FRA",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250167344",
+      "name": "Julie Swierot",
+      "nationality": "FRA",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250226253",
+      "name": "Kelya Babin",
+      "nationality": "FRA",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250182837",
+      "name": "Korbin Shrader",
+      "nationality": "USA",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250179183",
+      "name": "Liana Joseph",
+      "nationality": "FRA",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250188768",
+      "name": "Lily Yohannes",
+      "nationality": "USA",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250208490",
+      "name": "Léa Motyka",
+      "nationality": "FRA",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250208501",
+      "name": "Maelys Ane",
+      "nationality": "FRA",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250214852",
+      "name": "Maiwenn Olivier",
+      "nationality": "FRA",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250118040",
+      "name": "Maria-Luisa Grohs",
+      "nationality": "GER",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250078282",
+      "name": "Marie-Antoinette Katoto",
+      "nationality": "FRA",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250198580",
+      "name": "Maïssa Fathallah",
+      "nationality": "FRA",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250187558",
+      "name": "Melchie Dumornay",
+      "nationality": "HAI",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250226264",
+      "name": "Melyne Merah",
+      "nationality": "FRA",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250208484",
+      "name": "Méhisane Zidi",
+      "nationality": "FRA",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250204482",
+      "name": "Océane Moreau-Tranchant",
+      "nationality": "FRA",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250191430",
+      "name": "Romane Rafalski",
+      "nationality": "FRA",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250208487",
+      "name": "Rosie Olando",
+      "nationality": "FRA",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250226263",
+      "name": "Rym Maaili",
+      "nationality": "FRA",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250226254",
+      "name": "Salma Benouda",
+      "nationality": "FRA",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250117796",
+      "name": "Salma Paralluelo",
+      "nationality": "ESP",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250104503",
+      "name": "Selma Bacha",
+      "nationality": "FRA",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250203199",
+      "name": "Sofia Bekhaled",
+      "nationality": "FRA",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250191310",
+      "name": "Tabitha Chawinga",
+      "nationality": "MWI",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250184265",
+      "name": "Tarciane",
+      "nationality": "BRA",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250185504",
+      "name": "Valentine Sellenet",
+      "nationality": "FRA",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250128873",
+      "name": "Vicki Becho",
+      "nationality": "FRA",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250226259",
+      "name": "Victoria Goujet Abastado",
+      "nationality": "FRA",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250179737",
+      "name": "Wassa Sangaré",
+      "nationality": "FRA",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "1903503",
+      "name": "Wendie Renard",
+      "nationality": "FRA",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250220752",
+      "name": "Yasmine Benseba",
+      "nationality": "FRA",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250198577",
+      "name": "Zoé Dugast",
+      "nationality": "FRA",
+      "team": "OL Lyonnes",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250212474",
+      "name": "Anaele Le Moguedec",
+      "nationality": "FRA",
+      "team": "Paris FC",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250183148",
+      "name": "Aurélie Reynders",
+      "nationality": "BEL",
+      "team": "Paris FC",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250066266",
+      "name": "Clara Mateo",
+      "nationality": "FRA",
+      "team": "Paris FC",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250215375",
+      "name": "Clélia Ducreux",
+      "nationality": "FRA",
+      "team": "Paris FC",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250128878",
+      "name": "Célina Ould Hocine",
+      "nationality": "FRA",
+      "team": "Paris FC",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250104326",
+      "name": "Daphne Corboz",
+      "nationality": "FRA",
+      "team": "Paris FC",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250208491",
+      "name": "Dissya Minyemeck",
+      "nationality": "FRA",
+      "team": "Paris FC",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250175306",
+      "name": "Evelyne Viens",
+      "nationality": "CAN",
+      "team": "Paris FC",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250167339",
+      "name": "Fiona Liaigre",
+      "nationality": "FRA",
+      "team": "Paris FC",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250222632",
+      "name": "Hajar Saïd",
+      "nationality": "MAR",
+      "team": "Paris FC",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250128693",
+      "name": "Hawa Sangare",
+      "nationality": "FRA",
+      "team": "Paris FC",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250187047",
+      "name": "Hillary Diaz",
+      "nationality": "FRA",
+      "team": "Paris FC",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250183325",
+      "name": "Kadidia Traoré",
+      "nationality": "FRA",
+      "team": "Paris FC",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250105317",
+      "name": "Kaja Korošec",
+      "nationality": "SVN",
+      "team": "Paris FC",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250212475",
+      "name": "Karla Torres",
+      "nationality": "COL",
+      "team": "Paris FC",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250185498",
+      "name": "Kenza Dufour",
+      "nationality": "FRA",
+      "team": "Paris FC",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250166549",
+      "name": "Kinga Seweryn",
+      "nationality": "POL",
+      "team": "Paris FC",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250096938",
+      "name": "Klaudia Jedlińska",
+      "nationality": "POL",
+      "team": "Paris FC",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250179264",
+      "name": "Maeline Mendy",
+      "nationality": "FRA",
+      "team": "Paris FC",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250222633",
+      "name": "Manoly Baquerizo",
+      "nationality": "ECU",
+      "team": "Paris FC",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250078340",
+      "name": "Mariam Toloba",
+      "nationality": "BEL",
+      "team": "Paris FC",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250175562",
+      "name": "Melween N'Dongala",
+      "nationality": "FRA",
+      "team": "Paris FC",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250067578",
+      "name": "Mylène Chavas",
+      "nationality": "FRA",
+      "team": "Paris FC",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250226266",
+      "name": "Naissya Gane Bernardino",
+      "nationality": "FRA",
+      "team": "Paris FC",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250200290",
+      "name": "Nakhim Dosso",
+      "nationality": "FRA",
+      "team": "Paris FC",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250198578",
+      "name": "Nina Dumans",
+      "nationality": "FRA",
+      "team": "Paris FC",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250125095",
+      "name": "Océane Picard",
+      "nationality": "FRA",
+      "team": "Paris FC",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250198586",
+      "name": "Odélia Tae",
+      "nationality": "FRA",
+      "team": "Paris FC",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250204483",
+      "name": "Oumou Sidibé",
+      "nationality": "FRA",
+      "team": "Paris FC",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250191972",
+      "name": "Rafaela Mendonça",
+      "nationality": "POR",
+      "team": "Paris FC",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250222634",
+      "name": "Saki Ishizaka",
+      "nationality": "JPN",
+      "team": "Paris FC",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250208485",
+      "name": "Sharlie Yerro",
+      "nationality": "FRA",
+      "team": "Paris FC",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250187433",
+      "name": "Sheika Scott",
+      "nationality": "CRC",
+      "team": "Paris FC",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250082050",
+      "name": "Théa Greboval",
+      "nationality": "FRA",
+      "team": "Paris FC",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250213669",
+      "name": "Ysoé Mustiere",
+      "nationality": "FRA",
+      "team": "Paris FC",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250198485",
+      "name": "Íris Fernandes",
+      "nationality": "POR",
+      "team": "Paris FC",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250223939",
+      "name": "Alyssa Charlier",
+      "nationality": "FRA",
+      "team": "Paris Saint-Germain",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250179186",
+      "name": "Anaïs Ebayilin",
+      "nationality": "FRA",
+      "team": "Paris Saint-Germain",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250092217",
+      "name": "Andjela Krstić",
+      "nationality": "SRB",
+      "team": "Paris Saint-Germain",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250215376",
+      "name": "Anne-Esther Goprou",
+      "nationality": "FRA",
+      "team": "Paris Saint-Germain",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250214693",
+      "name": "Camille Masson",
+      "nationality": "FRA",
+      "team": "Paris Saint-Germain",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250219740",
+      "name": "Candice Thomas",
+      "nationality": "FRA",
+      "team": "Paris Saint-Germain",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250226267",
+      "name": "Clothilde Frerejean",
+      "nationality": "FRA",
+      "team": "Paris Saint-Germain",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250208488",
+      "name": "Diénébou Niakate",
+      "nationality": "FRA",
+      "team": "Paris Saint-Germain",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250126623",
+      "name": "Emilie Østerås",
+      "nationality": "NOR",
+      "team": "Paris Saint-Germain",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250213790",
+      "name": "Florianne Jourde",
+      "nationality": "CAN",
+      "team": "Paris Saint-Germain",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250198589",
+      "name": "Gabrielle Le Roux",
+      "nationality": "FRA",
+      "team": "Paris Saint-Germain",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250023998",
+      "name": "Griedge Mbock Bathy",
+      "nationality": "FRA",
+      "team": "Paris Saint-Germain",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250214691",
+      "name": "Isabela Chagas",
+      "nationality": "BRA",
+      "team": "Paris Saint-Germain",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250014118",
+      "name": "Jackie Groenen",
+      "nationality": "NED",
+      "team": "Paris Saint-Germain",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250128876",
+      "name": "Jade Le Guilly",
+      "nationality": "FRA",
+      "team": "Paris Saint-Germain",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250187422",
+      "name": "Jennifer Echegini",
+      "nationality": "NGA",
+      "team": "Paris Saint-Germain",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "1907330",
+      "name": "Katarzyna Kiedrzynek",
+      "nationality": "POL",
+      "team": "Paris Saint-Germain",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250198592",
+      "name": "Léa Morissaint",
+      "nationality": "FRA",
+      "team": "Paris Saint-Germain",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250206446",
+      "name": "Maren Groothoff",
+      "nationality": "NED",
+      "team": "Paris Saint-Germain",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250223941",
+      "name": "Marie Estella Lafontaine",
+      "nationality": "MAD",
+      "team": "Paris Saint-Germain",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250213791",
+      "name": "Merveille Kanjinga",
+      "nationality": "COD",
+      "team": "Paris Saint-Germain",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250208497",
+      "name": "Mélissa Esdras",
+      "nationality": "FRA",
+      "team": "Paris Saint-Germain",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250118026",
+      "name": "Naomie Feller",
+      "nationality": "FRA",
+      "team": "Paris Saint-Germain",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250204477",
+      "name": "Noémie Fatier",
+      "nationality": "FRA",
+      "team": "Paris Saint-Germain",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250166456",
+      "name": "Océane Toussaint",
+      "nationality": "FRA",
+      "team": "Paris Saint-Germain",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250116151",
+      "name": "Olga Carmona",
+      "nationality": "ESP",
+      "team": "Paris Saint-Germain",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250126055",
+      "name": "Oliwia Szperkowska",
+      "nationality": "POL",
+      "team": "Paris Saint-Germain",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250208498",
+      "name": "Paris-Emilie Daramola",
+      "nationality": "FRA",
+      "team": "Paris Saint-Germain",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250054323",
+      "name": "Paulina Dudek",
+      "nationality": "POL",
+      "team": "Paris Saint-Germain",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250131210",
+      "name": "Rasheedat Ajibade",
+      "nationality": "NGA",
+      "team": "Paris Saint-Germain",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250105307",
+      "name": "Romée Leuchter",
+      "nationality": "NED",
+      "team": "Paris Saint-Germain",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250055468",
+      "name": "Sakina Karchaoui",
+      "nationality": "FRA",
+      "team": "Paris Saint-Germain",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250170891",
+      "name": "Tara Elimbi Gilbert",
+      "nationality": "FRA",
+      "team": "Paris Saint-Germain",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250165425",
+      "name": "Thiniba Samoura",
+      "nationality": "FRA",
+      "team": "Paris Saint-Germain",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250214692",
+      "name": "Vitória Yaya",
+      "nationality": "BRA",
+      "team": "Paris Saint-Germain",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250208621",
+      "name": "Abril Díaz",
+      "nationality": "ESP",
+      "team": "Real Madrid",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250178969",
+      "name": "Adriana Folgado",
+      "nationality": "ESP",
+      "team": "Real Madrid",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250224134",
+      "name": "Adriana Valbuena",
+      "nationality": "ESP",
+      "team": "Real Madrid",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250224133",
+      "name": "Aitana Closa",
+      "nationality": "ESP",
+      "team": "Real Madrid",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250114557",
+      "name": "Andreia Jacinto",
+      "nationality": "POR",
+      "team": "Real Madrid",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250082278",
+      "name": "Arianna Caruso",
+      "nationality": "ITA",
+      "team": "Real Madrid",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250118555",
+      "name": "Athenea",
+      "nationality": "ESP",
+      "team": "Real Madrid",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250180011",
+      "name": "Bella Andersson",
+      "nationality": "SWE",
+      "team": "Real Madrid",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250202634",
+      "name": "Bibiana",
+      "nationality": "ESP",
+      "team": "Real Madrid",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250195059",
+      "name": "Candela Rodríguez",
+      "nationality": "ESP",
+      "team": "Real Madrid",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250178970",
+      "name": "Claudia De La Cuerda",
+      "nationality": "ESP",
+      "team": "Real Madrid",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250223588",
+      "name": "Cristina Águeda",
+      "nationality": "ESP",
+      "team": "Real Madrid",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250193366",
+      "name": "Elisa Senss",
+      "nationality": "GER",
+      "team": "Real Madrid",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250213974",
+      "name": "Erika del Pino",
+      "nationality": "ESP",
+      "team": "Real Madrid",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250161572",
+      "name": "Eva Navarro",
+      "nationality": "ESP",
+      "team": "Real Madrid",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250182827",
+      "name": "Felicia Schröder",
+      "nationality": "SWE",
+      "team": "Real Madrid",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250058348",
+      "name": "Filippa Angeldahl",
+      "nationality": "SWE",
+      "team": "Real Madrid",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250185750",
+      "name": "Irune Dorado",
+      "nationality": "ESP",
+      "team": "Real Madrid",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250092117",
+      "name": "Janou Levels",
+      "nationality": "NED",
+      "team": "Real Madrid",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250178957",
+      "name": "Laia López",
+      "nationality": "ESP",
+      "team": "Real Madrid",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250187610",
+      "name": "Linda Caicedo",
+      "nationality": "COL",
+      "team": "Real Madrid",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250054808",
+      "name": "Lineth Beerensteyn",
+      "nationality": "NED",
+      "team": "Real Madrid",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250166234",
+      "name": "Lotte Keukelaar",
+      "nationality": "NED",
+      "team": "Real Madrid",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250117795",
+      "name": "María Méndez",
+      "nationality": "ESP",
+      "team": "Real Madrid",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250104509",
+      "name": "Maëlle Lakrar",
+      "nationality": "FRA",
+      "team": "Real Madrid",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250047363",
+      "name": "Merle Frohms",
+      "nationality": "GER",
+      "team": "Real Madrid",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250223933",
+      "name": "Noelia Llamas",
+      "nationality": "ESP",
+      "team": "Real Madrid",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250178965",
+      "name": "Noemi",
+      "nationality": "ESP",
+      "team": "Real Madrid",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250194925",
+      "name": "Oihane San Martín",
+      "nationality": "ESP",
+      "team": "Real Madrid",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250178973",
+      "name": "Pau Comendador",
+      "nationality": "ESP",
+      "team": "Real Madrid",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250179992",
+      "name": "Pau Rubio",
+      "nationality": "ESP",
+      "team": "Real Madrid",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250213975",
+      "name": "Paula Rascón",
+      "nationality": "ESP",
+      "team": "Real Madrid",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250195054",
+      "name": "Raquel Zuazo",
+      "nationality": "ESP",
+      "team": "Real Madrid",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250027349",
+      "name": "Sara Däbritz",
+      "nationality": "GER",
+      "team": "Real Madrid",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250090634",
+      "name": "Sara Holmgaard",
+      "nationality": "DEN",
+      "team": "Real Madrid",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250062981",
+      "name": "Signe Bruun",
+      "nationality": "DEN",
+      "team": "Real Madrid",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250213973",
+      "name": "Silvia Blasco",
+      "nationality": "ESP",
+      "team": "Real Madrid",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250185748",
+      "name": "Silvia Cristóbal",
+      "nationality": "ESP",
+      "team": "Real Madrid",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250191200",
+      "name": "Téllez",
+      "nationality": "ESP",
+      "team": "Real Madrid",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250208548",
+      "name": "Agata Pinchi",
+      "nationality": "ITA",
+      "team": "Roma",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250135349",
+      "name": "Alayah Pilgrim",
+      "nationality": "SUI",
+      "team": "Roma",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250137334",
+      "name": "Alice Corelli",
+      "nationality": "ITA",
+      "team": "Roma",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250087171",
+      "name": "Annalena Rieke",
+      "nationality": "GER",
+      "team": "Roma",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250126733",
+      "name": "Bianca Vergani",
+      "nationality": "ITA",
+      "team": "Roma",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250097209",
+      "name": "Elisabetta Oliviero",
+      "nationality": "ITA",
+      "team": "Roma",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250222753",
+      "name": "Ella Ottey",
+      "nationality": "CAN",
+      "team": "Roma",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250208550",
+      "name": "Flavia Pezzi",
+      "nationality": "ITA",
+      "team": "Roma",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250024144",
+      "name": "Frederikke Thøgersen",
+      "nationality": "DEN",
+      "team": "Roma",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250082277",
+      "name": "Giada Greggi",
+      "nationality": "ITA",
+      "team": "Roma",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250179458",
+      "name": "Giada Pellegrino Cimò",
+      "nationality": "ITA",
+      "team": "Roma",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250092008",
+      "name": "Kayleigh Van Dooren",
+      "nationality": "NED",
+      "team": "Roma",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250182239",
+      "name": "Magda Piekarska",
+      "nationality": "POL",
+      "team": "Roma",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250054546",
+      "name": "Manuela Giugliano",
+      "nationality": "ITA",
+      "team": "Roma",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250169554",
+      "name": "Marta Pandini",
+      "nationality": "ITA",
+      "team": "Roma",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250054550",
+      "name": "Martina Piemonte",
+      "nationality": "ITA",
+      "team": "Roma",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250222754",
+      "name": "Maya Antoine",
+      "nationality": "CAN",
+      "team": "Roma",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250223746",
+      "name": "Maya Doms",
+      "nationality": "USA",
+      "team": "Roma",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250101525",
+      "name": "Olivie Lukášová",
+      "nationality": "CZE",
+      "team": "Roma",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250133816",
+      "name": "Rachele Baldi",
+      "nationality": "ITA",
+      "team": "Roma",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250226268",
+      "name": "Rebecca Roselli",
+      "nationality": "ITA",
+      "team": "Roma",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250097399",
+      "name": "Rinsola Babajide",
+      "nationality": "NGA",
+      "team": "Roma",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250198808",
+      "name": "Sara Terlizzi",
+      "nationality": "ITA",
+      "team": "Roma",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250211163",
+      "name": "Shukurat Oladipo",
+      "nationality": "NGA",
+      "team": "Roma",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250172196",
+      "name": "Sofia Jahnukainen",
+      "nationality": "FIN",
+      "team": "Roma",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250061276",
+      "name": "Valentina Bergamaschi",
+      "nationality": "ITA",
+      "team": "Roma",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250137343",
+      "name": "Valentina Soggiu",
+      "nationality": "ITA",
+      "team": "Roma",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250208562",
+      "name": "Viola Cacace",
+      "nationality": "ITA",
+      "team": "Roma",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250199459",
+      "name": "Winonah Heatley",
+      "nationality": "AUS",
+      "team": "Roma",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250208660",
+      "name": "Abby Blanco Acevedo",
+      "nationality": "SUI",
+      "team": "Servette",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250192548",
+      "name": "Amina Muratovic",
+      "nationality": "SUI",
+      "team": "Servette",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250129488",
+      "name": "Asun Martínez",
+      "nationality": "ESP",
+      "team": "Servette",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "150626738",
+      "name": "Benedicte Simon",
+      "nationality": "FRA",
+      "team": "Servette",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250216615",
+      "name": "Camila Mingard",
+      "nationality": "SUI",
+      "team": "Servette",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250179166",
+      "name": "Chiara Wallin",
+      "nationality": "SUI",
+      "team": "Servette",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250114770",
+      "name": "Daina Bourma",
+      "nationality": "FRA",
+      "team": "Servette",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250160015",
+      "name": "Elodie Nakkach",
+      "nationality": "FRA",
+      "team": "Servette",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250223106",
+      "name": "Emma Paola Petzoldt",
+      "nationality": "ITA",
+      "team": "Servette",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250208648",
+      "name": "Garance Nein",
+      "nationality": "SUI",
+      "team": "Servette",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250042058",
+      "name": "Ghoutia Karchouni",
+      "nationality": "FRA",
+      "team": "Servette",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250066475",
+      "name": "Gloria Marinelli",
+      "nationality": "ITA",
+      "team": "Servette",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250079337",
+      "name": "Jacintha Weimar",
+      "nationality": "NED",
+      "team": "Servette",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250047277",
+      "name": "Joana Marchão",
+      "nationality": "POR",
+      "team": "Servette",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250205773",
+      "name": "Laia Ballesté",
+      "nationality": "SUI",
+      "team": "Servette",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250049074",
+      "name": "Laura Strik",
+      "nationality": "NED",
+      "team": "Servette",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250223107",
+      "name": "Léa Magali Sergeant-Huet",
+      "nationality": "SUI",
+      "team": "Servette",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250136906",
+      "name": "Magdalena Sobal",
+      "nationality": "POL",
+      "team": "Servette",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250222876",
+      "name": "Manon Le Page",
+      "nationality": "FRA",
+      "team": "Servette",
+      "uefa_squad_section": "Goalkeepers",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250042120",
+      "name": "Meriame Terchoun",
+      "nationality": "SUI",
+      "team": "Servette",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250104504",
+      "name": "Mickaella Cardia",
+      "nationality": "FRA",
+      "team": "Servette",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "1907563",
+      "name": "Natasha Andonova",
+      "nationality": "MKD",
+      "team": "Servette",
+      "uefa_squad_section": "Forwards",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250042054",
+      "name": "Noémie Carage",
+      "nationality": "FRA",
+      "team": "Servette",
+      "uefa_squad_section": "Defenders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250117794",
+      "name": "Paola Hernández",
+      "nationality": "ESP",
+      "team": "Servette",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250007460",
+      "name": "Paula Serrano",
+      "nationality": "ESP",
+      "team": "Servette",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    },
+    {
+      "player_id": "250007433",
+      "name": "Stefanie De Alem",
+      "nationality": "SUI",
+      "team": "Servette",
+      "uefa_squad_section": "Midfielders",
+      "source": "UEFA squad page (manual capture)"
+    }
+  ]
+}
