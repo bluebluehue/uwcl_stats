@@ -1,0 +1,1808 @@
+{
+  "competition": "UWCL",
+  "season": "2026/27",
+  "matchdays": [
+    {
+      "matchday": 1,
+      "phase_id": 1,
+      "deadline": "9/22/26 6:45:00 PM",
+      "is_current": true,
+      "is_locked": false,
+      "fantasy_gameday_current": true,
+      "fantasy_gameday_locked": false,
+      "subs_allowed": 2,
+      "match_ids": [
+        "2050551",
+        "2050547",
+        "2050548",
+        "2050549",
+        "2050550",
+        "2050555",
+        "2050554",
+        "2050553",
+        "2050552"
+      ]
+    },
+    {
+      "matchday": 2,
+      "phase_id": 1,
+      "deadline": "9/30/26 6:45:00 PM",
+      "is_current": false,
+      "is_locked": false,
+      "fantasy_gameday_current": false,
+      "fantasy_gameday_locked": false,
+      "subs_allowed": 2,
+      "match_ids": [
+        "2050533",
+        "2050532",
+        "2050530",
+        "2050531",
+        "2050529",
+        "2050536",
+        "2050534",
+        "2050537",
+        "2050535"
+      ]
+    },
+    {
+      "matchday": 3,
+      "phase_id": 1,
+      "deadline": "10/28/26 6:45:00 PM",
+      "is_current": false,
+      "is_locked": false,
+      "fantasy_gameday_current": false,
+      "fantasy_gameday_locked": false,
+      "subs_allowed": 2,
+      "match_ids": [
+        "2050539",
+        "2050541",
+        "2050542",
+        "2050538",
+        "2050540",
+        "2050546",
+        "2050545",
+        "2050543",
+        "2050544"
+      ]
+    },
+    {
+      "matchday": 4,
+      "phase_id": 1,
+      "deadline": "11/10/26 6:45:00 PM",
+      "is_current": false,
+      "is_locked": false,
+      "fantasy_gameday_current": false,
+      "fantasy_gameday_locked": false,
+      "subs_allowed": 2,
+      "match_ids": [
+        "2050558",
+        "2050557",
+        "2050556",
+        "2050559",
+        "2050560",
+        "2050564",
+        "2050561",
+        "2050562",
+        "2050563"
+      ]
+    },
+    {
+      "matchday": 5,
+      "phase_id": 1,
+      "deadline": "11/18/26 6:45:00 PM",
+      "is_current": false,
+      "is_locked": false,
+      "fantasy_gameday_current": false,
+      "fantasy_gameday_locked": false,
+      "subs_allowed": 2,
+      "match_ids": [
+        "2050566",
+        "2050568",
+        "2050567",
+        "2050565",
+        "2050572",
+        "2050573",
+        "2050569",
+        "2050570",
+        "2050571"
+      ]
+    },
+    {
+      "matchday": 6,
+      "phase_id": 1,
+      "deadline": "12/16/26 9:00:00 PM",
+      "is_current": false,
+      "is_locked": false,
+      "fantasy_gameday_current": false,
+      "fantasy_gameday_locked": false,
+      "subs_allowed": 2,
+      "match_ids": [
+        "2050580",
+        "2050579",
+        "2050578",
+        "2050577",
+        "2050576",
+        "2050575",
+        "2050574",
+        "2050582",
+        "2050581"
+      ]
+    }
+  ],
+  "matches": [
+    {
+      "match_id": "2050547",
+      "matchday": 1,
+      "fantasy_gameday_id": "1",
+      "kickoff": "09/22/2026 18:45:00",
+      "lock_time": "09/22/2026 18:45:00",
+      "home": {
+        "id": "2600661",
+        "name": "Bayern",
+        "code": "BAY",
+        "score": ""
+      },
+      "away": {
+        "id": "2603520",
+        "name": "Man City",
+        "code": "MCI",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "77754",
+        "stadium": "Stadion Am Sportpark",
+        "city": "Unterhaching",
+        "country_code": "GER"
+      }
+    },
+    {
+      "match_id": "2050551",
+      "matchday": 1,
+      "fantasy_gameday_id": "1",
+      "kickoff": "09/22/2026 18:45:00",
+      "lock_time": "09/22/2026 18:45:00",
+      "home": {
+        "id": "2609776",
+        "name": "Inter",
+        "code": "INT",
+        "score": ""
+      },
+      "away": {
+        "id": "2600867",
+        "name": "Häcken",
+        "code": "HAC",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "67767",
+        "stadium": "Brianteo",
+        "city": "Monza",
+        "country_code": "ITA"
+      }
+    },
+    {
+      "match_id": "2050548",
+      "matchday": 1,
+      "fantasy_gameday_id": "1",
+      "kickoff": "09/22/2026 21:00:00",
+      "lock_time": "09/22/2026 21:00:00",
+      "home": {
+        "id": "81199",
+        "name": "Arsenal",
+        "code": "ARS",
+        "score": ""
+      },
+      "away": {
+        "id": "2611087",
+        "name": "HB Køge",
+        "code": "HBK",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "79574",
+        "stadium": "Meadow Park",
+        "city": "Borehamwood",
+        "country_code": "ENG"
+      }
+    },
+    {
+      "match_id": "2050549",
+      "matchday": 1,
+      "fantasy_gameday_id": "1",
+      "kickoff": "09/22/2026 21:00:00",
+      "lock_time": "09/22/2026 21:00:00",
+      "home": {
+        "id": "2611347",
+        "name": "Real Madrid",
+        "code": "RMA",
+        "score": ""
+      },
+      "away": {
+        "id": "2600841",
+        "name": "Paris SG",
+        "code": "PSG",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "250000969",
+        "stadium": "Estadio Alfredo Di Stéfano",
+        "city": "Madrid",
+        "country_code": "ESP"
+      }
+    },
+    {
+      "match_id": "2050550",
+      "matchday": 1,
+      "fantasy_gameday_id": "1",
+      "kickoff": "09/22/2026 21:00:00",
+      "lock_time": "09/22/2026 21:00:00",
+      "home": {
+        "id": "2609590",
+        "name": "Juventus",
+        "code": "JUV",
+        "score": ""
+      },
+      "away": {
+        "id": "2610349",
+        "name": "Benfica",
+        "code": "BEN",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "250001576",
+        "stadium": "Juventus Stadium",
+        "city": "Turin",
+        "country_code": "ITA"
+      }
+    },
+    {
+      "match_id": "2050554",
+      "matchday": 1,
+      "fantasy_gameday_id": "2",
+      "kickoff": "09/23/2026 18:45:00",
+      "lock_time": "09/23/2026 18:45:00",
+      "home": {
+        "id": "2601983",
+        "name": "OH Leuven",
+        "code": "OHL",
+        "score": ""
+      },
+      "away": {
+        "id": "2610208",
+        "name": "Roma",
+        "code": "ROM",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "70961",
+        "stadium": "Den Dreef",
+        "city": "Leuven",
+        "country_code": "BEL"
+      }
+    },
+    {
+      "match_id": "2050555",
+      "matchday": 1,
+      "fantasy_gameday_id": "2",
+      "kickoff": "09/23/2026 18:45:00",
+      "lock_time": "09/23/2026 18:45:00",
+      "home": {
+        "id": "2611086",
+        "name": "Servette",
+        "code": "SER",
+        "score": ""
+      },
+      "away": {
+        "id": "2600241",
+        "name": "OL Lyonnes",
+        "code": "LYO",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "83180",
+        "stadium": "Stade de Genève",
+        "city": "Geneva",
+        "country_code": "SUI"
+      }
+    },
+    {
+      "match_id": "2050552",
+      "matchday": 1,
+      "fantasy_gameday_id": "2",
+      "kickoff": "09/23/2026 21:00:00",
+      "lock_time": "09/23/2026 21:00:00",
+      "home": {
+        "id": "2601945",
+        "name": "Barcelona",
+        "code": "BAR",
+        "score": ""
+      },
+      "away": {
+        "id": "2609779",
+        "name": "Paris",
+        "code": "PAR",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "75214",
+        "stadium": "Estadi Johan Cruyff",
+        "city": "Sant Joan Despí",
+        "country_code": "ESP"
+      }
+    },
+    {
+      "match_id": "2050553",
+      "matchday": 1,
+      "fantasy_gameday_id": "2",
+      "kickoff": "09/23/2026 21:00:00",
+      "lock_time": "09/23/2026 21:00:00",
+      "home": {
+        "id": "2600827",
+        "name": "Chelsea",
+        "code": "CHE",
+        "score": ""
+      },
+      "away": {
+        "id": "2612002",
+        "name": "Austria Wien",
+        "code": "AUS",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "250005820",
+        "stadium": "AFC Wimbledon Stadium",
+        "city": "London",
+        "country_code": "ENG"
+      }
+    },
+    {
+      "match_id": "2050530",
+      "matchday": 2,
+      "fantasy_gameday_id": "3",
+      "kickoff": "09/30/2026 18:45:00",
+      "lock_time": "09/30/2026 18:45:00",
+      "home": {
+        "id": "2610208",
+        "name": "Roma",
+        "code": "ROM",
+        "score": ""
+      },
+      "away": {
+        "id": "2601945",
+        "name": "Barcelona",
+        "code": "BAR",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "82947",
+        "stadium": "Stadio Tre Fontane",
+        "city": "Rome",
+        "country_code": "ITA"
+      }
+    },
+    {
+      "match_id": "2050532",
+      "matchday": 2,
+      "fantasy_gameday_id": "3",
+      "kickoff": "09/30/2026 18:45:00",
+      "lock_time": "09/30/2026 18:45:00",
+      "home": {
+        "id": "2600867",
+        "name": "Häcken",
+        "code": "HAC",
+        "score": ""
+      },
+      "away": {
+        "id": "2609590",
+        "name": "Juventus",
+        "code": "JUV",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "250003132",
+        "stadium": "Hisingen Arena",
+        "city": "Gothenburg",
+        "country_code": "SWE"
+      }
+    },
+    {
+      "match_id": "2050533",
+      "matchday": 2,
+      "fantasy_gameday_id": "3",
+      "kickoff": "09/30/2026 18:45:00",
+      "lock_time": "09/30/2026 18:45:00",
+      "home": {
+        "id": "2609779",
+        "name": "Paris",
+        "code": "PAR",
+        "score": ""
+      },
+      "away": {
+        "id": "81199",
+        "name": "Arsenal",
+        "code": "ARS",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "250003112",
+        "stadium": "Stade Jean Bouin",
+        "city": "Paris",
+        "country_code": "FRA"
+      }
+    },
+    {
+      "match_id": "2050529",
+      "matchday": 2,
+      "fantasy_gameday_id": "3",
+      "kickoff": "09/30/2026 21:00:00",
+      "lock_time": "09/30/2026 21:00:00",
+      "home": {
+        "id": "2600241",
+        "name": "OL Lyonnes",
+        "code": "LYO",
+        "score": ""
+      },
+      "away": {
+        "id": "2600827",
+        "name": "Chelsea",
+        "code": "CHE",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "250002940",
+        "stadium": "OL Stadium",
+        "city": "Décines",
+        "country_code": "FRA"
+      }
+    },
+    {
+      "match_id": "2050531",
+      "matchday": 2,
+      "fantasy_gameday_id": "3",
+      "kickoff": "09/30/2026 21:00:00",
+      "lock_time": "09/30/2026 21:00:00",
+      "home": {
+        "id": "2610349",
+        "name": "Benfica",
+        "code": "BEN",
+        "score": ""
+      },
+      "away": {
+        "id": "2600661",
+        "name": "Bayern",
+        "code": "BAY",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "85265",
+        "stadium": "Estádio do SL Benfica",
+        "city": "Lisbon",
+        "country_code": "POR"
+      }
+    },
+    {
+      "match_id": "2050534",
+      "matchday": 2,
+      "fantasy_gameday_id": "4",
+      "kickoff": "10/01/2026 18:45:00",
+      "lock_time": "10/01/2026 18:45:00",
+      "home": {
+        "id": "2612002",
+        "name": "Austria Wien",
+        "code": "AUS",
+        "score": ""
+      },
+      "away": {
+        "id": "2609776",
+        "name": "Inter",
+        "code": "INT",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "62718",
+        "stadium": "Franz-Horr-Stadion",
+        "city": "Vienna",
+        "country_code": "AUT"
+      }
+    },
+    {
+      "match_id": "2050536",
+      "matchday": 2,
+      "fantasy_gameday_id": "4",
+      "kickoff": "10/01/2026 18:45:00",
+      "lock_time": "10/01/2026 18:45:00",
+      "home": {
+        "id": "2611087",
+        "name": "HB Køge",
+        "code": "HBK",
+        "score": ""
+      },
+      "away": {
+        "id": "2611086",
+        "name": "Servette",
+        "code": "SER",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "62257",
+        "stadium": "Køge Stadion",
+        "city": "Koge",
+        "country_code": "DEN"
+      }
+    },
+    {
+      "match_id": "2050535",
+      "matchday": 2,
+      "fantasy_gameday_id": "4",
+      "kickoff": "10/01/2026 21:00:00",
+      "lock_time": "10/01/2026 21:00:00",
+      "home": {
+        "id": "2600841",
+        "name": "Paris SG",
+        "code": "PSG",
+        "score": ""
+      },
+      "away": {
+        "id": "2601983",
+        "name": "OH Leuven",
+        "code": "OHL",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "250005399",
+        "stadium": "PSG Campus",
+        "city": "Poissy",
+        "country_code": "FRA"
+      }
+    },
+    {
+      "match_id": "2050537",
+      "matchday": 2,
+      "fantasy_gameday_id": "4",
+      "kickoff": "10/01/2026 21:00:00",
+      "lock_time": "10/01/2026 21:00:00",
+      "home": {
+        "id": "2603520",
+        "name": "Man City",
+        "code": "MCI",
+        "score": ""
+      },
+      "away": {
+        "id": "2611347",
+        "name": "Real Madrid",
+        "code": "RMA",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "250002587",
+        "stadium": "MCFC Academy Stadium",
+        "city": "Manchester",
+        "country_code": "ENG"
+      }
+    },
+    {
+      "match_id": "2050539",
+      "matchday": 3,
+      "fantasy_gameday_id": "5",
+      "kickoff": "10/28/2026 18:45:00",
+      "lock_time": "10/28/2026 18:45:00",
+      "home": {
+        "id": "2611086",
+        "name": "Servette",
+        "code": "SER",
+        "score": ""
+      },
+      "away": {
+        "id": "2601983",
+        "name": "OH Leuven",
+        "code": "OHL",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "83180",
+        "stadium": "Stade de Genève",
+        "city": "Geneva",
+        "country_code": "SUI"
+      }
+    },
+    {
+      "match_id": "2050541",
+      "matchday": 3,
+      "fantasy_gameday_id": "5",
+      "kickoff": "10/28/2026 18:45:00",
+      "lock_time": "10/28/2026 18:45:00",
+      "home": {
+        "id": "2600827",
+        "name": "Chelsea",
+        "code": "CHE",
+        "score": ""
+      },
+      "away": {
+        "id": "2610208",
+        "name": "Roma",
+        "code": "ROM",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "250005820",
+        "stadium": "AFC Wimbledon Stadium",
+        "city": "London",
+        "country_code": "ENG"
+      }
+    },
+    {
+      "match_id": "2050542",
+      "matchday": 3,
+      "fantasy_gameday_id": "5",
+      "kickoff": "10/28/2026 18:45:00",
+      "lock_time": "10/28/2026 18:45:00",
+      "home": {
+        "id": "2600661",
+        "name": "Bayern",
+        "code": "BAY",
+        "score": ""
+      },
+      "away": {
+        "id": "2611347",
+        "name": "Real Madrid",
+        "code": "RMA",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "77754",
+        "stadium": "Stadion Am Sportpark",
+        "city": "Unterhaching",
+        "country_code": "GER"
+      }
+    },
+    {
+      "match_id": "2050538",
+      "matchday": 3,
+      "fantasy_gameday_id": "5",
+      "kickoff": "10/28/2026 21:00:00",
+      "lock_time": "10/28/2026 21:00:00",
+      "home": {
+        "id": "81199",
+        "name": "Arsenal",
+        "code": "ARS",
+        "score": ""
+      },
+      "away": {
+        "id": "2610349",
+        "name": "Benfica",
+        "code": "BEN",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "79574",
+        "stadium": "Meadow Park",
+        "city": "Borehamwood",
+        "country_code": "ENG"
+      }
+    },
+    {
+      "match_id": "2050540",
+      "matchday": 3,
+      "fantasy_gameday_id": "5",
+      "kickoff": "10/28/2026 21:00:00",
+      "lock_time": "10/28/2026 21:00:00",
+      "home": {
+        "id": "2600241",
+        "name": "OL Lyonnes",
+        "code": "LYO",
+        "score": ""
+      },
+      "away": {
+        "id": "2609776",
+        "name": "Inter",
+        "code": "INT",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "250002940",
+        "stadium": "OL Stadium",
+        "city": "Décines",
+        "country_code": "FRA"
+      }
+    },
+    {
+      "match_id": "2050545",
+      "matchday": 3,
+      "fantasy_gameday_id": "6",
+      "kickoff": "10/29/2026 18:45:00",
+      "lock_time": "10/29/2026 18:45:00",
+      "home": {
+        "id": "2612002",
+        "name": "Austria Wien",
+        "code": "AUS",
+        "score": ""
+      },
+      "away": {
+        "id": "2609590",
+        "name": "Juventus",
+        "code": "JUV",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "62718",
+        "stadium": "Franz-Horr-Stadion",
+        "city": "Vienna",
+        "country_code": "AUT"
+      }
+    },
+    {
+      "match_id": "2050546",
+      "matchday": 3,
+      "fantasy_gameday_id": "6",
+      "kickoff": "10/29/2026 18:45:00",
+      "lock_time": "10/29/2026 18:45:00",
+      "home": {
+        "id": "2609779",
+        "name": "Paris",
+        "code": "PAR",
+        "score": ""
+      },
+      "away": {
+        "id": "2600867",
+        "name": "Häcken",
+        "code": "HAC",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "72072",
+        "stadium": "Stade Charléty",
+        "city": "Paris",
+        "country_code": "FRA"
+      }
+    },
+    {
+      "match_id": "2050543",
+      "matchday": 3,
+      "fantasy_gameday_id": "6",
+      "kickoff": "10/29/2026 21:00:00",
+      "lock_time": "10/29/2026 21:00:00",
+      "home": {
+        "id": "2603520",
+        "name": "Man City",
+        "code": "MCI",
+        "score": ""
+      },
+      "away": {
+        "id": "2600841",
+        "name": "Paris SG",
+        "code": "PSG",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "250002587",
+        "stadium": "MCFC Academy Stadium",
+        "city": "Manchester",
+        "country_code": "ENG"
+      }
+    },
+    {
+      "match_id": "2050544",
+      "matchday": 3,
+      "fantasy_gameday_id": "6",
+      "kickoff": "10/29/2026 21:00:00",
+      "lock_time": "10/29/2026 21:00:00",
+      "home": {
+        "id": "2611087",
+        "name": "HB Køge",
+        "code": "HBK",
+        "score": ""
+      },
+      "away": {
+        "id": "2601945",
+        "name": "Barcelona",
+        "code": "BAR",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "62257",
+        "stadium": "Køge Stadion",
+        "city": "Koge",
+        "country_code": "DEN"
+      }
+    },
+    {
+      "match_id": "2050557",
+      "matchday": 4,
+      "fantasy_gameday_id": "7",
+      "kickoff": "11/10/2026 18:45:00",
+      "lock_time": "11/10/2026 18:45:00",
+      "home": {
+        "id": "2611347",
+        "name": "Real Madrid",
+        "code": "RMA",
+        "score": ""
+      },
+      "away": {
+        "id": "2609779",
+        "name": "Paris",
+        "code": "PAR",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "250000969",
+        "stadium": "Estadio Alfredo Di Stéfano",
+        "city": "Madrid",
+        "country_code": "ESP"
+      }
+    },
+    {
+      "match_id": "2050558",
+      "matchday": 4,
+      "fantasy_gameday_id": "7",
+      "kickoff": "11/10/2026 18:45:00",
+      "lock_time": "11/10/2026 18:45:00",
+      "home": {
+        "id": "2600867",
+        "name": "Häcken",
+        "code": "HAC",
+        "score": ""
+      },
+      "away": {
+        "id": "2600827",
+        "name": "Chelsea",
+        "code": "CHE",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "250003132",
+        "stadium": "Hisingen Arena",
+        "city": "Gothenburg",
+        "country_code": "SWE"
+      }
+    },
+    {
+      "match_id": "2050556",
+      "matchday": 4,
+      "fantasy_gameday_id": "7",
+      "kickoff": "11/10/2026 21:00:00",
+      "lock_time": "11/10/2026 21:00:00",
+      "home": {
+        "id": "2600841",
+        "name": "Paris SG",
+        "code": "PSG",
+        "score": ""
+      },
+      "away": {
+        "id": "2600661",
+        "name": "Bayern",
+        "code": "BAY",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "57779",
+        "stadium": "Parc des Princes",
+        "city": "Paris",
+        "country_code": "FRA"
+      }
+    },
+    {
+      "match_id": "2050559",
+      "matchday": 4,
+      "fantasy_gameday_id": "7",
+      "kickoff": "11/10/2026 21:00:00",
+      "lock_time": "11/10/2026 21:00:00",
+      "home": {
+        "id": "2610208",
+        "name": "Roma",
+        "code": "ROM",
+        "score": ""
+      },
+      "away": {
+        "id": "2611086",
+        "name": "Servette",
+        "code": "SER",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "82947",
+        "stadium": "Stadio Tre Fontane",
+        "city": "Rome",
+        "country_code": "ITA"
+      }
+    },
+    {
+      "match_id": "2050560",
+      "matchday": 4,
+      "fantasy_gameday_id": "7",
+      "kickoff": "11/10/2026 21:00:00",
+      "lock_time": "11/10/2026 21:00:00",
+      "home": {
+        "id": "2609776",
+        "name": "Inter",
+        "code": "INT",
+        "score": ""
+      },
+      "away": {
+        "id": "2603520",
+        "name": "Man City",
+        "code": "MCI",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "67767",
+        "stadium": "Brianteo",
+        "city": "Monza",
+        "country_code": "ITA"
+      }
+    },
+    {
+      "match_id": "2050561",
+      "matchday": 4,
+      "fantasy_gameday_id": "8",
+      "kickoff": "11/11/2026 18:45:00",
+      "lock_time": "11/11/2026 18:45:00",
+      "home": {
+        "id": "2601945",
+        "name": "Barcelona",
+        "code": "BAR",
+        "score": ""
+      },
+      "away": {
+        "id": "81199",
+        "name": "Arsenal",
+        "code": "ARS",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "57776",
+        "stadium": "Camp Nou",
+        "city": "Barcelona",
+        "country_code": "ESP"
+      }
+    },
+    {
+      "match_id": "2050564",
+      "matchday": 4,
+      "fantasy_gameday_id": "8",
+      "kickoff": "11/11/2026 18:45:00",
+      "lock_time": "11/11/2026 18:45:00",
+      "home": {
+        "id": "2601983",
+        "name": "OH Leuven",
+        "code": "OHL",
+        "score": ""
+      },
+      "away": {
+        "id": "2611087",
+        "name": "HB Køge",
+        "code": "HBK",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "70961",
+        "stadium": "Den Dreef",
+        "city": "Leuven",
+        "country_code": "BEL"
+      }
+    },
+    {
+      "match_id": "2050562",
+      "matchday": 4,
+      "fantasy_gameday_id": "8",
+      "kickoff": "11/11/2026 21:00:00",
+      "lock_time": "11/11/2026 21:00:00",
+      "home": {
+        "id": "2609590",
+        "name": "Juventus",
+        "code": "JUV",
+        "score": ""
+      },
+      "away": {
+        "id": "2600241",
+        "name": "OL Lyonnes",
+        "code": "LYO",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "250005419",
+        "stadium": "Pozzo - Lamarmora",
+        "city": "Biella",
+        "country_code": "ITA"
+      }
+    },
+    {
+      "match_id": "2050563",
+      "matchday": 4,
+      "fantasy_gameday_id": "8",
+      "kickoff": "11/11/2026 21:00:00",
+      "lock_time": "11/11/2026 21:00:00",
+      "home": {
+        "id": "2610349",
+        "name": "Benfica",
+        "code": "BEN",
+        "score": ""
+      },
+      "away": {
+        "id": "2612002",
+        "name": "Austria Wien",
+        "code": "AUS",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "85265",
+        "stadium": "Estádio do SL Benfica",
+        "city": "Lisbon",
+        "country_code": "POR"
+      }
+    },
+    {
+      "match_id": "2050566",
+      "matchday": 5,
+      "fantasy_gameday_id": "9",
+      "kickoff": "11/18/2026 18:45:00",
+      "lock_time": "11/18/2026 18:45:00",
+      "home": {
+        "id": "2611347",
+        "name": "Real Madrid",
+        "code": "RMA",
+        "score": ""
+      },
+      "away": {
+        "id": "2609776",
+        "name": "Inter",
+        "code": "INT",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "250000969",
+        "stadium": "Estadio Alfredo Di Stéfano",
+        "city": "Madrid",
+        "country_code": "ESP"
+      }
+    },
+    {
+      "match_id": "2050568",
+      "matchday": 5,
+      "fantasy_gameday_id": "9",
+      "kickoff": "11/18/2026 18:45:00",
+      "lock_time": "11/18/2026 18:45:00",
+      "home": {
+        "id": "2600867",
+        "name": "Häcken",
+        "code": "HAC",
+        "score": ""
+      },
+      "away": {
+        "id": "2603520",
+        "name": "Man City",
+        "code": "MCI",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "250003132",
+        "stadium": "Hisingen Arena",
+        "city": "Gothenburg",
+        "country_code": "SWE"
+      }
+    },
+    {
+      "match_id": "2050565",
+      "matchday": 5,
+      "fantasy_gameday_id": "9",
+      "kickoff": "11/18/2026 21:00:00",
+      "lock_time": "11/18/2026 21:00:00",
+      "home": {
+        "id": "2600827",
+        "name": "Chelsea",
+        "code": "CHE",
+        "score": ""
+      },
+      "away": {
+        "id": "2600841",
+        "name": "Paris SG",
+        "code": "PSG",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "250005820",
+        "stadium": "AFC Wimbledon Stadium",
+        "city": "London",
+        "country_code": "ENG"
+      }
+    },
+    {
+      "match_id": "2050567",
+      "matchday": 5,
+      "fantasy_gameday_id": "9",
+      "kickoff": "11/18/2026 21:00:00",
+      "lock_time": "11/18/2026 21:00:00",
+      "home": {
+        "id": "2609590",
+        "name": "Juventus",
+        "code": "JUV",
+        "score": ""
+      },
+      "away": {
+        "id": "2601983",
+        "name": "OH Leuven",
+        "code": "OHL",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "250001576",
+        "stadium": "Juventus Stadium",
+        "city": "Turin",
+        "country_code": "ITA"
+      }
+    },
+    {
+      "match_id": "2050572",
+      "matchday": 5,
+      "fantasy_gameday_id": "10",
+      "kickoff": "11/19/2026 18:45:00",
+      "lock_time": "11/19/2026 18:45:00",
+      "home": {
+        "id": "2609779",
+        "name": "Paris",
+        "code": "PAR",
+        "score": ""
+      },
+      "away": {
+        "id": "2611087",
+        "name": "HB Køge",
+        "code": "HBK",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "72072",
+        "stadium": "Stade Charléty",
+        "city": "Paris",
+        "country_code": "FRA"
+      }
+    },
+    {
+      "match_id": "2050573",
+      "matchday": 5,
+      "fantasy_gameday_id": "10",
+      "kickoff": "11/19/2026 18:45:00",
+      "lock_time": "11/19/2026 18:45:00",
+      "home": {
+        "id": "2612002",
+        "name": "Austria Wien",
+        "code": "AUS",
+        "score": ""
+      },
+      "away": {
+        "id": "2600661",
+        "name": "Bayern",
+        "code": "BAY",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "0",
+        "stadium": "",
+        "city": "",
+        "country_code": ""
+      }
+    },
+    {
+      "match_id": "2050569",
+      "matchday": 5,
+      "fantasy_gameday_id": "10",
+      "kickoff": "11/19/2026 21:00:00",
+      "lock_time": "11/19/2026 21:00:00",
+      "home": {
+        "id": "2601945",
+        "name": "Barcelona",
+        "code": "BAR",
+        "score": ""
+      },
+      "away": {
+        "id": "2611086",
+        "name": "Servette",
+        "code": "SER",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "75214",
+        "stadium": "Estadi Johan Cruyff",
+        "city": "Sant Joan Despí",
+        "country_code": "ESP"
+      }
+    },
+    {
+      "match_id": "2050570",
+      "matchday": 5,
+      "fantasy_gameday_id": "10",
+      "kickoff": "11/19/2026 21:00:00",
+      "lock_time": "11/19/2026 21:00:00",
+      "home": {
+        "id": "81199",
+        "name": "Arsenal",
+        "code": "ARS",
+        "score": ""
+      },
+      "away": {
+        "id": "2600241",
+        "name": "OL Lyonnes",
+        "code": "LYO",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "79574",
+        "stadium": "Meadow Park",
+        "city": "Borehamwood",
+        "country_code": "ENG"
+      }
+    },
+    {
+      "match_id": "2050571",
+      "matchday": 5,
+      "fantasy_gameday_id": "10",
+      "kickoff": "11/19/2026 21:00:00",
+      "lock_time": "11/19/2026 21:00:00",
+      "home": {
+        "id": "2610349",
+        "name": "Benfica",
+        "code": "BEN",
+        "score": ""
+      },
+      "away": {
+        "id": "2610208",
+        "name": "Roma",
+        "code": "ROM",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "85265",
+        "stadium": "Estádio do SL Benfica",
+        "city": "Lisbon",
+        "country_code": "POR"
+      }
+    },
+    {
+      "match_id": "2050574",
+      "matchday": 6,
+      "fantasy_gameday_id": "11",
+      "kickoff": "12/16/2026 21:00:00",
+      "lock_time": "12/16/2026 21:00:00",
+      "home": {
+        "id": "2600241",
+        "name": "OL Lyonnes",
+        "code": "LYO",
+        "score": ""
+      },
+      "away": {
+        "id": "2600867",
+        "name": "Häcken",
+        "code": "HAC",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "250002940",
+        "stadium": "OL Stadium",
+        "city": "Décines",
+        "country_code": "FRA"
+      }
+    },
+    {
+      "match_id": "2050575",
+      "matchday": 6,
+      "fantasy_gameday_id": "11",
+      "kickoff": "12/16/2026 21:00:00",
+      "lock_time": "12/16/2026 21:00:00",
+      "home": {
+        "id": "2600661",
+        "name": "Bayern",
+        "code": "BAY",
+        "score": ""
+      },
+      "away": {
+        "id": "2601945",
+        "name": "Barcelona",
+        "code": "BAR",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "77754",
+        "stadium": "Stadion Am Sportpark",
+        "city": "Unterhaching",
+        "country_code": "GER"
+      }
+    },
+    {
+      "match_id": "2050576",
+      "matchday": 6,
+      "fantasy_gameday_id": "11",
+      "kickoff": "12/16/2026 21:00:00",
+      "lock_time": "12/16/2026 21:00:00",
+      "home": {
+        "id": "2600841",
+        "name": "Paris SG",
+        "code": "PSG",
+        "score": ""
+      },
+      "away": {
+        "id": "2609590",
+        "name": "Juventus",
+        "code": "JUV",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "57779",
+        "stadium": "Parc des Princes",
+        "city": "Paris",
+        "country_code": "FRA"
+      }
+    },
+    {
+      "match_id": "2050577",
+      "matchday": 6,
+      "fantasy_gameday_id": "11",
+      "kickoff": "12/16/2026 21:00:00",
+      "lock_time": "12/16/2026 21:00:00",
+      "home": {
+        "id": "2610208",
+        "name": "Roma",
+        "code": "ROM",
+        "score": ""
+      },
+      "away": {
+        "id": "2611347",
+        "name": "Real Madrid",
+        "code": "RMA",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "82947",
+        "stadium": "Stadio Tre Fontane",
+        "city": "Rome",
+        "country_code": "ITA"
+      }
+    },
+    {
+      "match_id": "2050578",
+      "matchday": 6,
+      "fantasy_gameday_id": "11",
+      "kickoff": "12/16/2026 21:00:00",
+      "lock_time": "12/16/2026 21:00:00",
+      "home": {
+        "id": "2603520",
+        "name": "Man City",
+        "code": "MCI",
+        "score": ""
+      },
+      "away": {
+        "id": "2612002",
+        "name": "Austria Wien",
+        "code": "AUS",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "0",
+        "stadium": "",
+        "city": "",
+        "country_code": ""
+      }
+    },
+    {
+      "match_id": "2050579",
+      "matchday": 6,
+      "fantasy_gameday_id": "11",
+      "kickoff": "12/16/2026 21:00:00",
+      "lock_time": "12/16/2026 21:00:00",
+      "home": {
+        "id": "2601983",
+        "name": "OH Leuven",
+        "code": "OHL",
+        "score": ""
+      },
+      "away": {
+        "id": "2600827",
+        "name": "Chelsea",
+        "code": "CHE",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "70961",
+        "stadium": "Den Dreef",
+        "city": "Leuven",
+        "country_code": "BEL"
+      }
+    },
+    {
+      "match_id": "2050580",
+      "matchday": 6,
+      "fantasy_gameday_id": "11",
+      "kickoff": "12/16/2026 21:00:00",
+      "lock_time": "12/16/2026 21:00:00",
+      "home": {
+        "id": "2611087",
+        "name": "HB Køge",
+        "code": "HBK",
+        "score": ""
+      },
+      "away": {
+        "id": "2610349",
+        "name": "Benfica",
+        "code": "BEN",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "62257",
+        "stadium": "Køge Stadion",
+        "city": "Koge",
+        "country_code": "DEN"
+      }
+    },
+    {
+      "match_id": "2050581",
+      "matchday": 6,
+      "fantasy_gameday_id": "11",
+      "kickoff": "12/16/2026 21:00:00",
+      "lock_time": "12/16/2026 21:00:00",
+      "home": {
+        "id": "2609776",
+        "name": "Inter",
+        "code": "INT",
+        "score": ""
+      },
+      "away": {
+        "id": "81199",
+        "name": "Arsenal",
+        "code": "ARS",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "67767",
+        "stadium": "Brianteo",
+        "city": "Monza",
+        "country_code": "ITA"
+      }
+    },
+    {
+      "match_id": "2050582",
+      "matchday": 6,
+      "fantasy_gameday_id": "11",
+      "kickoff": "12/16/2026 21:00:00",
+      "lock_time": "12/16/2026 21:00:00",
+      "home": {
+        "id": "2611086",
+        "name": "Servette",
+        "code": "SER",
+        "score": ""
+      },
+      "away": {
+        "id": "2609779",
+        "name": "Paris",
+        "code": "PAR",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "83180",
+        "stadium": "Stade de Genève",
+        "city": "Geneva",
+        "country_code": "SUI"
+      }
+    }
+  ]
+}

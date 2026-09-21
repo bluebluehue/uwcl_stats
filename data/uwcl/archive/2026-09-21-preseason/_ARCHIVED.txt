@@ -1,0 +1,4 @@
+Permanent preseason snapshot of UEFA UWCL Fantasy feeds.
+Captured before the first 2026/27 league-phase matches.
+Player statistical totals appear to contain carried-forward 2025/26 UWCL data.
+DO NOT OVERWRITE THESE FILES.
