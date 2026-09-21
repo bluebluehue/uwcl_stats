@@ -5,6 +5,7 @@ const TEAM_POSITION_PATH = "data/uwcl/team_position_fixture_ratings.json";
 const STORAGE = {
   team: "uwcl-stats-my-team",
   watch: "uwcl-stats-watchlist",
+  gkRotation: "uwcl-stats-gk-rotation-risk",
 };
 
 const state = {
@@ -17,6 +18,7 @@ const state = {
   myTeam: new Set(),
   watch: new Set(),
   teamPosition: null,
+  gkRotation: {},
 };
 
 const $ = (s) => document.querySelector(s);
@@ -80,6 +82,12 @@ function checkJson(response) {
 function loadSaved() {
   state.myTeam = new Set(readArray(STORAGE.team));
   state.watch = new Set(readArray(STORAGE.watch));
+  try {
+    const parsed = JSON.parse(localStorage.getItem(STORAGE.gkRotation) || "{}");
+    state.gkRotation = parsed && typeof parsed === "object" && !Array.isArray(parsed) ? parsed : {};
+  } catch {
+    state.gkRotation = {};
+  }
 }
 
 function readArray(key) {
@@ -100,6 +108,23 @@ function populateFilters() {
   addOptions(els.club, unique(state.all.map(p => p["Club"]).filter(Boolean)));
   addOptions(els.nat, unique(state.all.map(p => p["Nationality"]).filter(Boolean)));
   addOptions(els.day, unique(state.all.map(p => p["Next Fixture Day"]).filter(Boolean)));
+
+  const clubs = unique(state.all.map(p => p["Club"]).filter(Boolean));
+  if ($("#gk-include-club")) addOptions($("#gk-include-club"), clubs);
+  if ($("#gk-exclude-club")) addOptions($("#gk-exclude-club"), clubs);
+
+  const riskPlayer = $("#gk-risk-player");
+  if (riskPlayer) {
+    const keepers = state.all
+      .filter(p => p.Active && p.Position === "GK")
+      .sort((a,b) => String(a.Club).localeCompare(String(b.Club)) || String(a.Name).localeCompare(String(b.Name)));
+    for (const gk of keepers) {
+      const option = document.createElement("option");
+      option.value = String(gk["Player ID"]);
+      option.textContent = `${gk.Club} — ${gk.Name}`;
+      riskPlayer.append(option);
+    }
+  }
 }
 
 function unique(values) {
@@ -231,6 +256,14 @@ function apply() {
   state.filtered.sort(compare);
   state.page = Math.min(state.page, totalPages());
   render();
+  updateSortIndicators();
+}
+
+function updateSortIndicators() {
+  $$("th[data-sort]").forEach(th => {
+    if (th.dataset.sort === state.sortKey) th.dataset.sortDir = state.sortDir;
+    else delete th.dataset.sortDir;
+  });
 }
 
 function compare(a, b) {
@@ -305,10 +338,9 @@ function buildRow(p) {
   const tr = document.createElement("tr");
   const id = String(p["Player ID"]);
 
+  cell(tr, p["Name"] || "—", "player-name sticky-name", statusTitle(p));
   tr.append(saveCell(id, state.myTeam, "🔥", "team"));
   tr.append(saveCell(id, state.watch, "★", "watch"));
-
-  cell(tr, p["Name"] || "—", "player-name", statusTitle(p));
   htmlCell(tr, `<span class="club-pill">${esc(p["Club"] || "—")}</span>`);
   cell(tr, p["Nationality"] || "—");
   htmlCell(tr, `<span class="day-pill">${esc(p["Next Fixture Day"] || "—")}</span>`, "", fixtureTitle(p));
@@ -458,10 +490,12 @@ function fixtureTitle(p) {
   return [
     `MD${d.matchday}: ${d.opponent_code || d.opponent} (${d.home_away})`,
     `${d.day_short || ""} ${d.date_iso || ""}`,
-    `Opponent Opta: ${d.opponent_opta_rating ?? "—"}`,
+    `Team Opta: ${d.own_opta_rating ?? "—"} · Opponent Opta: ${d.opponent_opta_rating ?? "—"}`,
+    `Strength edge: ${d.opta_strength_edge != null && d.opta_strength_edge > 0 ? "+" : ""}${d.opta_strength_edge ?? "—"}`,
+    `Standardized matchup edge: ${d.matchup_standard_score ?? "—"}`,
     `UEFA rank: ${d.opponent_uefa_rank ?? "—"} · coefficient: ${d.opponent_uefa_coefficient ?? "—"}`,
     `Raw provisional fixture rating: ${d.rating ?? "—"}`,
-    "Method: opponent Opta strength z-score + home/away adjustment",
+    "Method: own Opta − opponent Opta, standardized across UWCL clubs, then home/away adjustment",
   ].join("\n");
 }
 
@@ -471,7 +505,9 @@ function followingTitle(p) {
   return [
     `MD${d.matchday}: ${d.opponent_code || d.opponent} (${d.home_away})`,
     `${d.day_short || ""} ${d.date_iso || ""}`,
-    `Opponent Opta: ${d.opponent_opta_rating ?? "—"}`,
+    `Team Opta: ${d.own_opta_rating ?? "—"} · Opponent Opta: ${d.opponent_opta_rating ?? "—"}`,
+    `Strength edge: ${d.opta_strength_edge != null && d.opta_strength_edge > 0 ? "+" : ""}${d.opta_strength_edge ?? "—"}`,
+    `Standardized matchup edge: ${d.matchup_standard_score ?? "—"}`,
     `UEFA rank: ${d.opponent_uefa_rank ?? "—"} · coefficient: ${d.opponent_uefa_coefficient ?? "—"}`,
     `Raw provisional fixture rating: ${d.rating ?? "—"}`,
   ].join("\n");
@@ -479,7 +515,7 @@ function followingTitle(p) {
 
 function formTitle(p) {
   return [
-    `Raw Form Rating: ${format1(p["Form Rating"])}`,
+    `Raw preseason Form Rating: ${format1(p["Form Rating"])}`,
     `Comparison Form Rating: ${format1(p["Comparison Form Rating"])}`,
     `Confidence: ${format1(Number(p["Form Confidence"] || 0) * 100)}%`,
     p["Form Rating Method"] || "",
@@ -644,6 +680,47 @@ function bindGkPairings() {
   $("#gk-max-price")?.addEventListener("input", renderGkPairings);
   $("#gk-different-current")?.addEventListener("change", renderGkPairings);
   $("#gk-include-uncertain")?.addEventListener("change", renderGkPairings);
+  $("#gk-hide-high-rotation")?.addEventListener("change", renderGkPairings);
+  $("#gk-include-club")?.addEventListener("change", renderGkPairings);
+  $("#gk-exclude-club")?.addEventListener("change", renderGkPairings);
+
+  $("#gk-min-splits")?.addEventListener("input", () => {
+    const value = Number($("#gk-min-splits").value || 0);
+    $("#gk-min-splits-value").textContent = `${value}/6`;
+    renderGkPairings();
+  });
+
+  $("#gk-risk-player")?.addEventListener("change", syncRotationEditor);
+  $("#gk-risk-level")?.addEventListener("change", saveRotationRisk);
+}
+
+function syncRotationEditor() {
+  const playerId = $("#gk-risk-player")?.value || "";
+  const level = playerId ? (state.gkRotation[playerId] || "none") : "none";
+  if ($("#gk-risk-level")) $("#gk-risk-level").value = level;
+}
+
+function saveRotationRisk() {
+  const playerId = $("#gk-risk-player")?.value || "";
+  if (!playerId) return;
+
+  const level = $("#gk-risk-level")?.value || "none";
+  if (level === "none") delete state.gkRotation[playerId];
+  else state.gkRotation[playerId] = level;
+
+  localStorage.setItem(STORAGE.gkRotation, JSON.stringify(state.gkRotation));
+  renderGkPairings();
+}
+
+function rotationRisk(player) {
+  return state.gkRotation[String(player["Player ID"])] || "none";
+}
+
+function rotationRiskLabel(player) {
+  const risk = rotationRisk(player);
+  if (risk === "high") return " · ⚠ high rotation";
+  if (risk === "possible") return " · ◇ possible rotation";
+  return "";
 }
 
 function fixtureDayMapForPlayer(player) {
@@ -674,8 +751,12 @@ function renderGkPairings() {
   if (!tbody) return;
 
   const maxCombined = numOrNull($("#gk-max-price")?.value);
+  const minSplits = Number($("#gk-min-splits")?.value || 0);
   const requireDifferentCurrent = $("#gk-different-current")?.checked ?? true;
   const includeUncertain = $("#gk-include-uncertain")?.checked ?? false;
+  const includeClub = $("#gk-include-club")?.value || "";
+  const excludeClub = $("#gk-exclude-club")?.value || "";
+  const hideHighRotation = $("#gk-hide-high-rotation")?.checked ?? false;
 
   const allowedRoles = includeUncertain
     ? new Set(["Starter", "Likely starter", "Uncertain"])
@@ -693,12 +774,17 @@ function renderGkPairings() {
 
       const combined = Number(a.Value || 0) + Number(b.Value || 0);
       if (maxCombined !== null && combined > maxCombined) continue;
+      if (includeClub && a.Club !== includeClub && b.Club !== includeClub) continue;
+      if (excludeClub && (a.Club === excludeClub || b.Club === excludeClub)) continue;
+      if (hideHighRotation && (rotationRisk(a) === "high" || rotationRisk(b) === "high")) continue;
 
       const dayA = a["Next Fixture Day"] || "";
       const dayB = b["Next Fixture Day"] || "";
       if (requireDifferentCurrent && dayA && dayB && dayA === dayB) continue;
 
       const splits = splitDaysCount(a,b);
+      if (splits < minSplits) continue;
+
       const fixAvg = (
         Number(a["Comparison Fixture Rating"] || 0) +
         Number(b["Comparison Fixture Rating"] || 0)
@@ -719,11 +805,11 @@ function renderGkPairings() {
     const tr = document.createElement("tr");
     tr.innerHTML = `
       <td><strong>${esc(pair.a.Name)}</strong><span class="gk-sub">${esc(pair.a.Club)} · ${esc(pair.a.Nationality || "")}</span></td>
-      <td title="${esc(pair.a["GK Role Source"] || "")}">${esc(pair.a["GK Role"] || "—")}</td>
+      <td title="${esc(pair.a["GK Role Source"] || "")}">${esc(pair.a["GK Role"] || "—")}${esc(rotationRiskLabel(pair.a))}</td>
       <td>€${Number(pair.a.Value).toFixed(1)}</td>
       <td>${esc(pair.a["Next Fixture Day"] || "—")}</td>
       <td><strong>${esc(pair.b.Name)}</strong><span class="gk-sub">${esc(pair.b.Club)} · ${esc(pair.b.Nationality || "")}</span></td>
-      <td title="${esc(pair.b["GK Role Source"] || "")}">${esc(pair.b["GK Role"] || "—")}</td>
+      <td title="${esc(pair.b["GK Role Source"] || "")}">${esc(pair.b["GK Role"] || "—")}${esc(rotationRiskLabel(pair.b))}</td>
       <td>€${Number(pair.b.Value).toFixed(1)}</td>
       <td>${esc(pair.b["Next Fixture Day"] || "—")}</td>
       <td>€${pair.combined.toFixed(1)}</td>

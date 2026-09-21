@@ -19,7 +19,7 @@ TEAM_POSITION_PATH = DATA_DIR / "team_position_fixture_ratings.json"
 TEAM_STRENGTHS_PATH = DATA_DIR / "team_strengths.json"
 GK_ROLES_PATH = DATA_DIR / "gk_roles.json"
 
-FIXTURE_STRENGTH_SCALE = 12.0
+FIXTURE_STRENGTH_SCALE = 8.0
 HOME_BONUS = 4.0
 AWAY_PENALTY = -4.0
 FIXTURE_MIN = 20.0
@@ -190,6 +190,7 @@ def day_info_for_matchday(
 
 def fixture_rating(
     fixture: dict[str, Any] | None,
+    own_team_id: str,
     strength_by_team_id: dict[str, dict[str, Any]],
     opta_mean: float,
     opta_sd: float,
@@ -198,20 +199,21 @@ def fixture_rating(
         return None
 
     opponent_id = str(fixture.get("opponent_id") or "")
-    strength = strength_by_team_id.get(opponent_id)
+    own_strength = strength_by_team_id.get(str(own_team_id) or "")
+    opponent_strength = strength_by_team_id.get(opponent_id)
 
-    if not strength:
+    if not own_strength or not opponent_strength:
         return 50.0
 
-    opta = safe_float(strength.get("opta_rating"), opta_mean)
+    own_opta = safe_float(own_strength.get("opta_rating"), opta_mean)
+    opponent_opta = safe_float(opponent_strength.get("opta_rating"), opta_mean)
+    strength_edge = own_opta - opponent_opta
 
-    if opta_sd <= 0:
-        z_score = 0.0
-    else:
-        z_score = (opta - opta_mean) / opta_sd
+    # Standardize the matchup edge using the spread of Opta ratings across
+    # the UWCL clubs. Positive = our team is stronger than the opponent.
+    matchup_z = 0.0 if opta_sd <= 0 else strength_edge / opta_sd
 
-    # Higher Opta rating = stronger opponent = harder fantasy fixture.
-    base = 50.0 - FIXTURE_STRENGTH_SCALE * z_score
+    base = 50.0 + FIXTURE_STRENGTH_SCALE * matchup_z
 
     location = str(fixture.get("home_away") or "").upper()
     if location == "H":
@@ -224,6 +226,7 @@ def fixture_rating(
 
 def fixture_detail(
     fixture: dict[str, Any] | None,
+    own_team_id: str,
     strength_by_team_id: dict[str, dict[str, Any]],
     opta_mean: float,
     opta_sd: float,
@@ -233,10 +236,24 @@ def fixture_detail(
         return None
 
     opponent_id = str(fixture.get("opponent_id") or "")
+    own_strength = strength_by_team_id.get(str(own_team_id) or "") or {}
     strength = strength_by_team_id.get(opponent_id) or {}
     day = day_by_match_id.get(str(fixture.get("match_id") or ""), {})
+    own_opta = safe_float(own_strength.get("opta_rating")) if own_strength else None
+    opponent_opta = safe_float(strength.get("opta_rating")) if strength else None
+    strength_edge = (
+        round(own_opta - opponent_opta, 1)
+        if own_opta is not None and opponent_opta is not None
+        else None
+    )
+    matchup_z = (
+        round(strength_edge / opta_sd, 3)
+        if strength_edge is not None and opta_sd > 0
+        else None
+    )
     rating = fixture_rating(
         fixture,
+        own_team_id,
         strength_by_team_id,
         opta_mean,
         opta_sd,
@@ -253,14 +270,14 @@ def fixture_detail(
         "day_number": day.get("day_number"),
         "day_short": day.get("day_short") or "",
         "date_iso": day.get("date_iso") or "",
-        "opponent_opta_rating": (
-            safe_float(strength.get("opta_rating"))
-            if strength else None
-        ),
+        "own_opta_rating": own_opta,
+        "opponent_opta_rating": opponent_opta,
+        "opta_strength_edge": strength_edge,
+        "matchup_standard_score": matchup_z,
         "opponent_uefa_rank": strength.get("uefa_rank"),
         "opponent_uefa_coefficient": strength.get("uefa_coefficient"),
         "rating": rating,
-        "method": "opponent Opta strength z-score + home/away adjustment",
+        "method": "own Opta minus opponent Opta, standardized across UWCL clubs, plus home/away adjustment",
     }
 
 
@@ -687,9 +704,9 @@ def build_team_position_fixture_ratings(
         "model": {
             "status": "provisional_preseason_v1",
             "note": (
-                "Team-position fixture ratings use the Opta-driven team fixture score "
-                "with modest position lenses. They are not xG/market-derived attack and "
-                "clean-sheet probabilities yet."
+                "Team-position fixture ratings use the Opta matchup edge (own team versus "
+                "opponent) with modest position lenses. They are not xG/market-derived attack "
+                "and clean-sheet probabilities yet."
             ),
         },
         "teams": sorted(
@@ -764,6 +781,7 @@ def transform() -> dict[str, Any]:
 
         current_detail = fixture_detail(
             current_fixture,
+            team_id,
             strength_by_team_id,
             opta_mean,
             opta_sd,
@@ -771,6 +789,7 @@ def transform() -> dict[str, Any]:
         )
         following_detail = fixture_detail(
             following_fixture,
+            team_id,
             strength_by_team_id,
             opta_mean,
             opta_sd,
@@ -786,6 +805,7 @@ def transform() -> dict[str, Any]:
             seen_mds.add(md)
             detail = fixture_detail(
                 fixture,
+                team_id,
                 strength_by_team_id,
                 opta_mean,
                 opta_sd,
@@ -837,7 +857,6 @@ def transform() -> dict[str, Any]:
             "Next Fixture Opponent": current_detail.get("opponent_code") if current_detail else "",
             "Next Fixture Opponent Name": current_detail.get("opponent") if current_detail else "",
             "Next Fixture H/A": current_detail.get("home_away") if current_detail else "",
-            "Next Fixture Opponent Pot": current_detail.get("opponent_pot") if current_detail else "",
             "Next Fixture Rating": current_detail.get("rating") if current_detail else None,
             "Next Fixture Details": current_detail,
 
@@ -901,7 +920,7 @@ def transform() -> dict[str, Any]:
         "model": {
             "status": "provisional_preseason_v1",
             "fixture": {
-                "method": "opponent Opta strength z-score + home/away adjustment",
+                "method": "own-team Opta minus opponent Opta, standardized by UWCL Opta spread, plus home/away adjustment",
                 "primary_strength_metric": "Opta rating",
                 "opta_mean": round(opta_mean, 4),
                 "opta_population_sd": round(opta_sd, 4),
@@ -910,21 +929,21 @@ def transform() -> dict[str, Any]:
                 "away_penalty": AWAY_PENALTY,
                 "raw_clamp": [FIXTURE_MIN, FIXTURE_MAX],
                 "note": (
-                    "Opta is primary because it better reflects current cross-league team strength. "
-                    "UEFA rank/coefficient are retained in team_strengths.json for context, but do not "
-                    "currently drive Fixture Rating."
+                    "Fixture measures the matchup, not just opponent difficulty: own Opta minus "
+                    "opponent Opta, standardized by the spread of ratings across the UWCL clubs, "
+                    "then adjusted for home/away. UEFA rank/coefficient are context only."
                 ),
             },
             "form": {
-                "label": "EURO PRIOR",
+                "label": "FORM",
                 "method": (
                     "2025/26 position-relative UWCL fantasy prior using "
                     "65% points/90 + 35% total points; shrunk toward neutral "
                     "for low minutes. Price/value is deliberately excluded."
                 ),
                 "note": (
-                    "This is a historical European performance prior, not current form. "
-                    "A true Form signal will use recent domestic + UWCL matches."
+                    "Before MD1 this is historical European form. As current domestic + UWCL "
+                    "match data are connected, this same FORM field will transition toward recent form."
                 ),
             },
             "decision": {
@@ -936,7 +955,7 @@ def transform() -> dict[str, Any]:
                 },
                 "availability_baseline": ROLE_CONFIDENCE_BASELINE,
                 "note": (
-                    "Preseason Decision uses Fixture + EURO PRIOR only. "
+                    "Preseason Decision uses Fixture + FORM only. "
                     "A true event-based Involvement signal is intentionally omitted until "
                     "underlying chance-creation / near-return data are available."
                 ),
