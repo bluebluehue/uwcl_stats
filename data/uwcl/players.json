@@ -8,6 +8,10 @@
       "name": "Elisa De Almeida",
       "display_name": "E. De Almeida",
       "latin_name": "Elisa De Almeida",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "81199",
         "name": "Arsenal",
@@ -111,6 +115,10 @@
       "name": "Emily Fox",
       "display_name": "E. Fox",
       "latin_name": "Emily Fox",
+      "nationality": {
+        "code": "USA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "81199",
         "name": "Arsenal",
@@ -214,6 +222,10 @@
       "name": "Katie Reid",
       "display_name": "K. Reid",
       "latin_name": "Katie Reid",
+      "nationality": {
+        "code": "ENG",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "81199",
         "name": "Arsenal",
@@ -317,6 +329,10 @@
       "name": "Leah Williamson",
       "display_name": "L. Williamson",
       "latin_name": "Leah Williamson",
+      "nationality": {
+        "code": "ENG",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "81199",
         "name": "Arsenal",
@@ -420,6 +436,10 @@
       "name": "Lotte Wubben-Moy",
       "display_name": "L. Wubben-Moy",
       "latin_name": "Lotte Wubben-Moy",
+      "nationality": {
+        "code": "ENG",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "81199",
         "name": "Arsenal",
@@ -523,6 +543,10 @@
       "name": "Ona Batlle",
       "display_name": "Ona Batlle",
       "latin_name": "Ona Batlle",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "81199",
         "name": "Arsenal",
@@ -626,6 +650,10 @@
       "name": "Smilla Holmberg",
       "display_name": "S. Holmberg",
       "latin_name": "Smilla Holmberg",
+      "nationality": {
+        "code": "SWE",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "81199",
         "name": "Arsenal",
@@ -729,6 +757,10 @@
       "name": "Steph Catley",
       "display_name": "S. Catley",
       "latin_name": "Steph Catley",
+      "nationality": {
+        "code": "AUS",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "81199",
         "name": "Arsenal",
@@ -832,6 +864,10 @@
       "name": "Alessia Russo",
       "display_name": "A. Russo",
       "latin_name": "Alessia Russo",
+      "nationality": {
+        "code": "ENG",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "81199",
         "name": "Arsenal",
@@ -935,6 +971,10 @@
       "name": "Géraldine Reuteler",
       "display_name": "G. Reuteler",
       "latin_name": "Geraldine Reuteler",
+      "nationality": {
+        "code": "SUI",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "81199",
         "name": "Arsenal",
@@ -1038,6 +1078,10 @@
       "name": "Madison Earl",
       "display_name": "M. Earl",
       "latin_name": "Madison Earl",
+      "nationality": {
+        "code": "",
+        "source": ""
+      },
       "team": {
         "id": "81199",
         "name": "Arsenal",
@@ -1141,6 +1185,10 @@
       "name": "Michelle Agyemang",
       "display_name": "M. Agyemang",
       "latin_name": "Michelle Agyemang",
+      "nationality": {
+        "code": "",
+        "source": ""
+      },
       "team": {
         "id": "81199",
         "name": "Arsenal",
@@ -1244,6 +1292,10 @@
       "name": "Selina Cerci",
       "display_name": "S. Cerci",
       "latin_name": "Selina Cerci",
+      "nationality": {
+        "code": "GER",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "81199",
         "name": "Arsenal",
@@ -1347,6 +1399,10 @@
       "name": "Stina Blackstenius",
       "display_name": "S. Blackstenius",
       "latin_name": "Stina Blackstenius",
+      "nationality": {
+        "code": "SWE",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "81199",
         "name": "Arsenal",
@@ -1450,6 +1506,10 @@
       "name": "Amy Liddiard",
       "display_name": "A. Liddiard",
       "latin_name": "Amy Liddiard",
+      "nationality": {
+        "code": "ENG",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "81199",
         "name": "Arsenal",
@@ -1553,6 +1613,10 @@
       "name": "Anneke Borbe",
       "display_name": "A. Borbe",
       "latin_name": "Anneke Borbe",
+      "nationality": {
+        "code": "GER",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "81199",
         "name": "Arsenal",
@@ -1656,6 +1720,10 @@
       "name": "Daphne van Domselaar",
       "display_name": "D. van Domselaar",
       "latin_name": "Daphne van Domselaar",
+      "nationality": {
+        "code": "",
+        "source": ""
+      },
       "team": {
         "id": "81199",
         "name": "Arsenal",
@@ -1759,6 +1827,10 @@
       "name": "Isabella Damm",
       "display_name": "I. Damm",
       "latin_name": "Isabella Damm",
+      "nationality": {
+        "code": "DEN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "81199",
         "name": "Arsenal",
@@ -1862,6 +1934,10 @@
       "name": "Misa Rodríguez",
       "display_name": "Misa Rodríguez",
       "latin_name": "Misa Rodriguez",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "81199",
         "name": "Arsenal",
@@ -1965,6 +2041,10 @@
       "name": "Bryony Brodie",
       "display_name": "B. Brodie",
       "latin_name": "Bryony Brodie",
+      "nationality": {
+        "code": "ENG",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "81199",
         "name": "Arsenal",
@@ -2068,6 +2148,10 @@
       "name": "Caitlin Foord",
       "display_name": "C. Foord",
       "latin_name": "Caitlin Foord",
+      "nationality": {
+        "code": "AUS",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "81199",
         "name": "Arsenal",
@@ -2171,6 +2255,10 @@
       "name": "Chloe Kelly",
       "display_name": "C. Kelly",
       "latin_name": "Chloe Kelly",
+      "nationality": {
+        "code": "ENG",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "81199",
         "name": "Arsenal",
@@ -2274,6 +2362,10 @@
       "name": "Frida Maanum",
       "display_name": "F. Maanum",
       "latin_name": "Frida Maanum",
+      "nationality": {
+        "code": "NOR",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "81199",
         "name": "Arsenal",
@@ -2377,6 +2469,10 @@
       "name": "Georgia Stanway",
       "display_name": "G. Stanway",
       "latin_name": "Georgia Stanway",
+      "nationality": {
+        "code": "ENG",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "81199",
         "name": "Arsenal",
@@ -2480,6 +2576,10 @@
       "name": "Kim Little",
       "display_name": "K. Little",
       "latin_name": "Kim Little",
+      "nationality": {
+        "code": "SCO",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "81199",
         "name": "Arsenal",
@@ -2583,6 +2683,10 @@
       "name": "Kyra Cooney-Cross",
       "display_name": "K. Cooney-Cross",
       "latin_name": "Kyra Cooney-Cross",
+      "nationality": {
+        "code": "AUS",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "81199",
         "name": "Arsenal",
@@ -2686,6 +2790,10 @@
       "name": "Kyri Teer-Hutchins",
       "display_name": "K. Teer-Hutchins",
       "latin_name": "Kyri Teer-Hutchins",
+      "nationality": {
+        "code": "ENG",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "81199",
         "name": "Arsenal",
@@ -2789,6 +2897,10 @@
       "name": "Lisa Baum",
       "display_name": "L. Baum",
       "latin_name": "Lisa Baum",
+      "nationality": {
+        "code": "GER",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "81199",
         "name": "Arsenal",
@@ -2892,6 +3004,10 @@
       "name": "Mariona Caldentey",
       "display_name": "M. Caldentey",
       "latin_name": "Mariona Caldentey",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "81199",
         "name": "Arsenal",
@@ -2995,6 +3111,10 @@
       "name": "Mia Dixon",
       "display_name": "M. Dixon",
       "latin_name": "Mia Dixon",
+      "nationality": {
+        "code": "ENG",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "81199",
         "name": "Arsenal",
@@ -3098,6 +3218,10 @@
       "name": "Olivia Smith",
       "display_name": "O. Smith",
       "latin_name": "Olivia Smith",
+      "nationality": {
+        "code": "CAN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "81199",
         "name": "Arsenal",
@@ -3201,6 +3325,10 @@
       "name": "Taylor Hinds",
       "display_name": "T. Hinds",
       "latin_name": "Taylor Hinds",
+      "nationality": {
+        "code": "ENG",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "81199",
         "name": "Arsenal",
@@ -3304,6 +3432,10 @@
       "name": "Anna Schorn",
       "display_name": "A. Schorn",
       "latin_name": "Anna Schorn",
+      "nationality": {
+        "code": "AUT",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2612002",
         "name": "Austria Wien",
@@ -3407,6 +3539,10 @@
       "name": "Carina Wenninger",
       "display_name": "C. Wenninger",
       "latin_name": "Carina Wenninger",
+      "nationality": {
+        "code": "AUT",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2612002",
         "name": "Austria Wien",
@@ -3510,6 +3646,10 @@
       "name": "Chiara Pucci",
       "display_name": "C. Pucci",
       "latin_name": "Chiara Pucci",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2612002",
         "name": "Austria Wien",
@@ -3613,6 +3753,10 @@
       "name": "Katharina Schiechtl",
       "display_name": "K. Schiechtl",
       "latin_name": "Katharina Schiechtl",
+      "nationality": {
+        "code": "AUT",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2612002",
         "name": "Austria Wien",
@@ -3716,6 +3860,10 @@
       "name": "Tatjana Weiss",
       "display_name": "T. Weiss",
       "latin_name": "Tatjana Weiss",
+      "nationality": {
+        "code": "AUT",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2612002",
         "name": "Austria Wien",
@@ -3819,6 +3967,10 @@
       "name": "Verena Hanshaw",
       "display_name": "V. Hanshaw",
       "latin_name": "Verena Hanshaw",
+      "nationality": {
+        "code": "AUT",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2612002",
         "name": "Austria Wien",
@@ -3922,6 +4074,10 @@
       "name": "Virginia Kirchberger",
       "display_name": "V. Kirchberger",
       "latin_name": "Virginia Kirchberger",
+      "nationality": {
+        "code": "AUT",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2612002",
         "name": "Austria Wien",
@@ -4025,6 +4181,10 @@
       "name": "Yvonne Weilharter",
       "display_name": "Y. Weilharter",
       "latin_name": "Yvonne Weilharter",
+      "nationality": {
+        "code": "AUT",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2612002",
         "name": "Austria Wien",
@@ -4128,6 +4288,10 @@
       "name": "Andrea Glibo",
       "display_name": "A. Glibo",
       "latin_name": "Andrea Glibo",
+      "nationality": {
+        "code": "CRO",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2612002",
         "name": "Austria Wien",
@@ -4231,6 +4395,10 @@
       "name": "Modesta Uka",
       "display_name": "M. Uka",
       "latin_name": "Modesta Uka",
+      "nationality": {
+        "code": "KOS",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2612002",
         "name": "Austria Wien",
@@ -4334,6 +4502,10 @@
       "name": "Sandra Jakobsen",
       "display_name": "S. Jakobsen",
       "latin_name": "Sandra Jakobsen",
+      "nationality": {
+        "code": "DEN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2612002",
         "name": "Austria Wien",
@@ -4437,6 +4609,10 @@
       "name": "Emma Goetz",
       "display_name": "E. Goetz",
       "latin_name": "Emma Goetz",
+      "nationality": {
+        "code": "LUX",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2612002",
         "name": "Austria Wien",
@@ -4540,6 +4716,10 @@
       "name": "Jasmin Pal",
       "display_name": "J. Pal",
       "latin_name": "Jasmin Pal",
+      "nationality": {
+        "code": "AUT",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2612002",
         "name": "Austria Wien",
@@ -4643,6 +4823,10 @@
       "name": "Katharina Gartner",
       "display_name": "K. Gartner",
       "latin_name": "Katharina Gartner",
+      "nationality": {
+        "code": "AUT",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2612002",
         "name": "Austria Wien",
@@ -4746,6 +4930,10 @@
       "name": "Almedina Sisic",
       "display_name": "A. Šišić",
       "latin_name": "Almedina Sisic",
+      "nationality": {
+        "code": "AUT",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2612002",
         "name": "Austria Wien",
@@ -4849,6 +5037,10 @@
       "name": "Dominika Škorvánková",
       "display_name": "D. Škorvánková",
       "latin_name": "Dominika Skorvankova",
+      "nationality": {
+        "code": "SVK",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2612002",
         "name": "Austria Wien",
@@ -4952,6 +5144,10 @@
       "name": "Elisa Pfattner",
       "display_name": "E. Pfattner",
       "latin_name": "Elisa Pfattner",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2612002",
         "name": "Austria Wien",
@@ -5055,6 +5251,10 @@
       "name": "Emily Schäfer",
       "display_name": "E. Schäfer",
       "latin_name": "Emily Schafer",
+      "nationality": {
+        "code": "AUT",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2612002",
         "name": "Austria Wien",
@@ -5158,6 +5358,10 @@
       "name": "Lotta Cordes",
       "display_name": "L. Cordes",
       "latin_name": "Lotta Cordes",
+      "nationality": {
+        "code": "GER",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2612002",
         "name": "Austria Wien",
@@ -5261,6 +5465,10 @@
       "name": "Louise Schöffel",
       "display_name": "L. Schöffel",
       "latin_name": "Louise Schoffel",
+      "nationality": {
+        "code": "AUT",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2612002",
         "name": "Austria Wien",
@@ -5364,6 +5572,10 @@
       "name": "Lucia Orkić",
       "display_name": "L. Orkić",
       "latin_name": "Lucia Orkic",
+      "nationality": {
+        "code": "CRO",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2612002",
         "name": "Austria Wien",
@@ -5467,6 +5679,10 @@
       "name": "Nina-Katrin Pichler",
       "display_name": "N. Pichler",
       "latin_name": "Nina-Katrin Pichler",
+      "nationality": {
+        "code": "AUT",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2612002",
         "name": "Austria Wien",
@@ -5570,6 +5786,10 @@
       "name": "Patricia Pfanner",
       "display_name": "P. Pfanner",
       "latin_name": "Patricia Pfanner",
+      "nationality": {
+        "code": "AUT",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2612002",
         "name": "Austria Wien",
@@ -5673,6 +5893,10 @@
       "name": "Valentina Pötzl",
       "display_name": "V. Pötzl",
       "latin_name": "Valentina Potzl",
+      "nationality": {
+        "code": "AUT",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2612002",
         "name": "Austria Wien",
@@ -5776,6 +6000,10 @@
       "name": "Aïcha Camara",
       "display_name": "A. Camara",
       "latin_name": "Aicha Camara",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601945",
         "name": "Barcelona",
@@ -5879,6 +6107,10 @@
       "name": "Carla Julià",
       "display_name": "Carla Julià",
       "latin_name": "Carla Julia",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601945",
         "name": "Barcelona",
@@ -5982,6 +6214,10 @@
       "name": "Charlotta Ohlander",
       "display_name": "C. Ohlander",
       "latin_name": "Charlotta Ohlander",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601945",
         "name": "Barcelona",
@@ -6085,6 +6321,10 @@
       "name": "Daniela",
       "display_name": "Daniela",
       "latin_name": "Daniela",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601945",
         "name": "Barcelona",
@@ -6188,6 +6428,10 @@
       "name": "Esmee Brugts",
       "display_name": "E. Brugts",
       "latin_name": "Esmee Brugts",
+      "nationality": {
+        "code": "NED",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601945",
         "name": "Barcelona",
@@ -6291,6 +6535,10 @@
       "name": "Irene Paredes",
       "display_name": "Irene Paredes",
       "latin_name": "Irene Paredes",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601945",
         "name": "Barcelona",
@@ -6394,6 +6642,10 @@
       "name": "Julia Torres",
       "display_name": "J. Torres",
       "latin_name": "Julia Torres",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601945",
         "name": "Barcelona",
@@ -6497,6 +6749,10 @@
       "name": "Laia Aleixandri",
       "display_name": "Laia Aleixandri",
       "latin_name": "Laia Aleixandri",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601945",
         "name": "Barcelona",
@@ -6600,6 +6856,10 @@
       "name": "Lúa Arufe",
       "display_name": "L. Arufe",
       "latin_name": "Lua Arufe",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601945",
         "name": "Barcelona",
@@ -6703,6 +6963,10 @@
       "name": "Marta Torrejón",
       "display_name": "Marta Torrejón",
       "latin_name": "Marta Torrejon",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601945",
         "name": "Barcelona",
@@ -6806,6 +7070,10 @@
       "name": "Martina Fernández",
       "display_name": "M. Fernández",
       "latin_name": "Martina Fernandez",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601945",
         "name": "Barcelona",
@@ -6909,6 +7177,10 @@
       "name": "Martina González",
       "display_name": "M. González",
       "latin_name": "Martina Gonzalez",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601945",
         "name": "Barcelona",
@@ -7012,6 +7284,10 @@
       "name": "María Barrera",
       "display_name": "M. Barrera",
       "latin_name": "Maria Barrera",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601945",
         "name": "Barcelona",
@@ -7115,6 +7391,10 @@
       "name": "Noa Jiménez",
       "display_name": "Noa Jiménez",
       "latin_name": "Noa Jimenez",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601945",
         "name": "Barcelona",
@@ -7218,6 +7498,10 @@
       "name": "Renee van Asten",
       "display_name": "R. van Asten",
       "latin_name": "Renee van Asten",
+      "nationality": {
+        "code": "NED",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601945",
         "name": "Barcelona",
@@ -7321,6 +7605,10 @@
       "name": "Anna Quer",
       "display_name": "Anna Quer",
       "latin_name": "Anna Quer",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601945",
         "name": "Barcelona",
@@ -7424,6 +7712,10 @@
       "name": "Ewa Pajor",
       "display_name": "E. Pajor",
       "latin_name": "Ewa Pajor",
+      "nationality": {
+        "code": "POL",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601945",
         "name": "Barcelona",
@@ -7527,6 +7819,10 @@
       "name": "Giulia Galli",
       "display_name": "G. Galli",
       "latin_name": "Giulia Galli",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601945",
         "name": "Barcelona",
@@ -7630,6 +7926,10 @@
       "name": "Lidia Gibert",
       "display_name": "Lidia Gibert",
       "latin_name": "Lidia Gibert",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601945",
         "name": "Barcelona",
@@ -7733,6 +8033,10 @@
       "name": "Nikoline Nielsen",
       "display_name": "N. Nielsen",
       "latin_name": "Nikoline Nielsen",
+      "nationality": {
+        "code": "DEN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601945",
         "name": "Barcelona",
@@ -7836,6 +8140,10 @@
       "name": "Cata Coll",
       "display_name": "Cata Coll",
       "latin_name": "Cata Coll",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601945",
         "name": "Barcelona",
@@ -7939,6 +8247,10 @@
       "name": "Gemma Font",
       "display_name": "Gemma Font",
       "latin_name": "Gemma Font",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601945",
         "name": "Barcelona",
@@ -8042,6 +8354,10 @@
       "name": "Tyler McCamey",
       "display_name": "T. McCamey",
       "latin_name": "Tyler McCamey",
+      "nationality": {
+        "code": "USA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601945",
         "name": "Barcelona",
@@ -8145,6 +8461,10 @@
       "name": "Aitana Bonmatí",
       "display_name": "Aitana Bonmatí",
       "latin_name": "Aitana Bonmati",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601945",
         "name": "Barcelona",
@@ -8248,6 +8568,10 @@
       "name": "Carolina Ferrera",
       "display_name": "Carolina Ferrera",
       "latin_name": "Carolina Ferrera",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601945",
         "name": "Barcelona",
@@ -8351,6 +8675,10 @@
       "name": "Caroline Graham Hansen",
       "display_name": "C. Graham Hansen",
       "latin_name": "Caroline Graham Hansen",
+      "nationality": {
+        "code": "NOR",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601945",
         "name": "Barcelona",
@@ -8454,6 +8782,10 @@
       "name": "Clara Serrajordi",
       "display_name": "C. Serrajordi",
       "latin_name": "Clara Serrajordi",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601945",
         "name": "Barcelona",
@@ -8557,6 +8889,10 @@
       "name": "Clàudia Pina",
       "display_name": "Clàudia Pina",
       "latin_name": "Claudia Pina",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601945",
         "name": "Barcelona",
@@ -8660,6 +8996,10 @@
       "name": "Elena Vizuete",
       "display_name": "Elena Vizuete",
       "latin_name": "Elena Vizuete",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601945",
         "name": "Barcelona",
@@ -8763,6 +9103,10 @@
       "name": "Kerolin",
       "display_name": "Kerolin",
       "latin_name": "Kerolin",
+      "nationality": {
+        "code": "BRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601945",
         "name": "Barcelona",
@@ -8866,6 +9210,10 @@
       "name": "Kika Nazareth",
       "display_name": "Kika Nazareth",
       "latin_name": "Kika Nazareth",
+      "nationality": {
+        "code": "POR",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601945",
         "name": "Barcelona",
@@ -8969,6 +9317,10 @@
       "name": "Laia Cabetas",
       "display_name": "Laia Cabetas",
       "latin_name": "Laia Cabetas",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601945",
         "name": "Barcelona",
@@ -9072,6 +9424,10 @@
       "name": "Liv Pennock",
       "display_name": "L. Pennock",
       "latin_name": "Liv Pennock",
+      "nationality": {
+        "code": "NED",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601945",
         "name": "Barcelona",
@@ -9175,6 +9531,10 @@
       "name": "Patri Guijarro",
       "display_name": "Patri Guijarro",
       "latin_name": "Patri Guijarro",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601945",
         "name": "Barcelona",
@@ -9278,6 +9638,10 @@
       "name": "Rosalía Domínguez",
       "display_name": "R. Domínguez",
       "latin_name": "Rosalia Dominguez",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601945",
         "name": "Barcelona",
@@ -9381,6 +9745,10 @@
       "name": "Sydney Schertenleib",
       "display_name": "S. Schertenleib",
       "latin_name": "Sydney Schertenleib",
+      "nationality": {
+        "code": "NED",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601945",
         "name": "Barcelona",
@@ -9484,6 +9852,10 @@
       "name": "Vicky López",
       "display_name": "Vicky López",
       "latin_name": "Vicky Lopez",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601945",
         "name": "Barcelona",
@@ -9587,6 +9959,10 @@
       "name": "Giulia Gwinn",
       "display_name": "G. Gwinn",
       "latin_name": "Giulia Gwinn",
+      "nationality": {
+        "code": "GER",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600661",
         "name": "Bayern",
@@ -9690,6 +10066,10 @@
       "name": "Glódís Viggósdóttir",
       "display_name": "G. Viggósdóttir",
       "latin_name": "Glodis Viggosdottir",
+      "nationality": {
+        "code": "ISL",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600661",
         "name": "Bayern",
@@ -9793,6 +10173,10 @@
       "name": "Hanna Wegscheider",
       "display_name": "H. Wegscheider",
       "latin_name": "Hanna Wegscheider",
+      "nationality": {
+        "code": "GER",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600661",
         "name": "Bayern",
@@ -9896,6 +10280,10 @@
       "name": "Jana Kappes",
       "display_name": "J. Kappes",
       "latin_name": "Jana Kappes",
+      "nationality": {
+        "code": "GER",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600661",
         "name": "Bayern",
@@ -9999,6 +10387,10 @@
       "name": "Katharina Naschenweng",
       "display_name": "K. Naschenweng",
       "latin_name": "Katharina Naschenweng",
+      "nationality": {
+        "code": "AUT",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600661",
         "name": "Bayern",
@@ -10102,6 +10494,10 @@
       "name": "Laura Dafinger",
       "display_name": "L. Dafinger",
       "latin_name": "Laura Dafinger",
+      "nationality": {
+        "code": "GER",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600661",
         "name": "Bayern",
@@ -10205,6 +10601,10 @@
       "name": "Magdalena Eriksson",
       "display_name": "M. Eriksson",
       "latin_name": "Magdalena Eriksson",
+      "nationality": {
+        "code": "SWE",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600661",
         "name": "Bayern",
@@ -10308,6 +10708,10 @@
       "name": "Stine Ballisager",
       "display_name": "S. Ballisager",
       "latin_name": "Stine Ballisager",
+      "nationality": {
+        "code": "DEN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600661",
         "name": "Bayern",
@@ -10411,6 +10815,10 @@
       "name": "Vanessa Gilles",
       "display_name": "V. Gilles",
       "latin_name": "Vanessa Gilles",
+      "nationality": {
+        "code": "CAN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600661",
         "name": "Bayern",
@@ -10514,6 +10922,10 @@
       "name": "Edna Imade",
       "display_name": "E. Imade",
       "latin_name": "Edna Imade",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600661",
         "name": "Bayern",
@@ -10617,6 +11029,10 @@
       "name": "Jovana Damnjanović",
       "display_name": "J. Damnjanović",
       "latin_name": "Jovana Damnjanovic",
+      "nationality": {
+        "code": "SRB",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600661",
         "name": "Bayern",
@@ -10720,6 +11136,10 @@
       "name": "Momoko Tanikawa",
       "display_name": "M. Tanikawa",
       "latin_name": "Momoko Tanikawa",
+      "nationality": {
+        "code": "JPN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600661",
         "name": "Bayern",
@@ -10823,6 +11243,10 @@
       "name": "Pernille Harder",
       "display_name": "P. Harder",
       "latin_name": "Pernille Harder",
+      "nationality": {
+        "code": "DEN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600661",
         "name": "Bayern",
@@ -10926,6 +11350,10 @@
       "name": "Anna Klink",
       "display_name": "A. Klink",
       "latin_name": "Anna Klink",
+      "nationality": {
+        "code": "GER",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600661",
         "name": "Bayern",
@@ -11029,6 +11457,10 @@
       "name": "Ena Mahmutovic",
       "display_name": "E. Mahmutovic",
       "latin_name": "Ena Mahmutovic",
+      "nationality": {
+        "code": "GER",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600661",
         "name": "Bayern",
@@ -11132,6 +11564,10 @@
       "name": "Julia Kreuzpaintner",
       "display_name": "J. Kreuzpaintner",
       "latin_name": "Julia Kreuzpaintner",
+      "nationality": {
+        "code": "GER",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600661",
         "name": "Bayern",
@@ -11235,6 +11671,10 @@
       "name": "Regina van Eijk",
       "display_name": "R. van Eijk",
       "latin_name": "Regina van Eijk",
+      "nationality": {
+        "code": "NED",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600661",
         "name": "Bayern",
@@ -11338,6 +11778,10 @@
       "name": "Alara",
       "display_name": "Alara",
       "latin_name": "Alara",
+      "nationality": {
+        "code": "GER",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600661",
         "name": "Bayern",
@@ -11441,6 +11885,10 @@
       "name": "Barbara Dunst",
       "display_name": "B. Dunst",
       "latin_name": "Barbara Dunst",
+      "nationality": {
+        "code": "AUT",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600661",
         "name": "Bayern",
@@ -11544,6 +11992,10 @@
       "name": "Bernadette Kakounan",
       "display_name": "B. Kakounan",
       "latin_name": "Bernadette Kakounan",
+      "nationality": {
+        "code": "CIV",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600661",
         "name": "Bayern",
@@ -11647,6 +12099,10 @@
       "name": "Franziska Kett",
       "display_name": "F. Kett",
       "latin_name": "Franziska Kett",
+      "nationality": {
+        "code": "GER",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600661",
         "name": "Bayern",
@@ -11750,6 +12206,10 @@
       "name": "Kassandra Potsi",
       "display_name": "K. Potsi",
       "latin_name": "Kassandra Potsi",
+      "nationality": {
+        "code": "GER",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600661",
         "name": "Bayern",
@@ -11853,6 +12313,10 @@
       "name": "Klara Bühl",
       "display_name": "K. Bühl",
       "latin_name": "Klara Buhl",
+      "nationality": {
+        "code": "GER",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600661",
         "name": "Bayern",
@@ -11956,6 +12420,10 @@
       "name": "Laila Portella",
       "display_name": "L. Portella",
       "latin_name": "Laila Portella",
+      "nationality": {
+        "code": "GER",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600661",
         "name": "Bayern",
@@ -12059,6 +12527,10 @@
       "name": "Lena Oberdorf",
       "display_name": "L. Oberdorf",
       "latin_name": "Lena Oberdorf",
+      "nationality": {
+        "code": "",
+        "source": ""
+      },
       "team": {
         "id": "2600661",
         "name": "Bayern",
@@ -12162,6 +12634,10 @@
       "name": "Linda Dallmann",
       "display_name": "L. Dallmann",
       "latin_name": "Linda Dallmann",
+      "nationality": {
+        "code": "GER",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600661",
         "name": "Bayern",
@@ -12265,6 +12741,10 @@
       "name": "Lisa Karl",
       "display_name": "L. Karl",
       "latin_name": "Lisa Karl",
+      "nationality": {
+        "code": "GER",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600661",
         "name": "Bayern",
@@ -12368,6 +12848,10 @@
       "name": "Sarah Mattner",
       "display_name": "S. Mattner",
       "latin_name": "Sarah Mattner",
+      "nationality": {
+        "code": "GER",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600661",
         "name": "Bayern",
@@ -12471,6 +12955,10 @@
       "name": "Sarah Zadrazil",
       "display_name": "S. Zadrazil",
       "latin_name": "Sarah Zadrazil",
+      "nationality": {
+        "code": "AUT",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600661",
         "name": "Bayern",
@@ -12574,6 +13062,10 @@
       "name": "Sophie Proost",
       "display_name": "S. Proost",
       "latin_name": "Sophie Proost",
+      "nationality": {
+        "code": "NED",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600661",
         "name": "Bayern",
@@ -12677,6 +13169,10 @@
       "name": "Ana Borges",
       "display_name": "Ana Borges",
       "latin_name": "Ana Borges",
+      "nationality": {
+        "code": "POR",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610349",
         "name": "Benfica",
@@ -12780,6 +13276,10 @@
       "name": "Blessing Demehin",
       "display_name": "O. Demehin",
       "latin_name": "Blessing Demehin",
+      "nationality": {
+        "code": "NGA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610349",
         "name": "Benfica",
@@ -12883,6 +13383,10 @@
       "name": "Carolina Simões",
       "display_name": "Carolina Simões",
       "latin_name": "Carolina Simoes",
+      "nationality": {
+        "code": "POR",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610349",
         "name": "Benfica",
@@ -12986,6 +13490,10 @@
       "name": "Catarina Amado",
       "display_name": "Catarina Amado",
       "latin_name": "Catarina Amado",
+      "nationality": {
+        "code": "POR",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610349",
         "name": "Benfica",
@@ -13089,6 +13597,10 @@
       "name": "Cristina Fernandes",
       "display_name": "Cristina Fernandes",
       "latin_name": "Cristina Fernandes",
+      "nationality": {
+        "code": "POR",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610349",
         "name": "Benfica",
@@ -13192,6 +13704,10 @@
       "name": "Diana Gomes",
       "display_name": "Diana Gomes",
       "latin_name": "Diana Gomes",
+      "nationality": {
+        "code": "POR",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610349",
         "name": "Benfica",
@@ -13295,6 +13811,10 @@
       "name": "Inês Meninas",
       "display_name": "Inês Meninas",
       "latin_name": "Ines Meninas",
+      "nationality": {
+        "code": "POR",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610349",
         "name": "Benfica",
@@ -13398,6 +13918,10 @@
       "name": "Marit Bratberg Lund",
       "display_name": "M. Bratberg Lund",
       "latin_name": "Marit Bratberg Lund",
+      "nationality": {
+        "code": "NOR",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610349",
         "name": "Benfica",
@@ -13501,6 +14025,10 @@
       "name": "Tinkara Testen",
       "display_name": "T. Testen",
       "latin_name": "Tinkara Testen",
+      "nationality": {
+        "code": "SVN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610349",
         "name": "Benfica",
@@ -13604,6 +14132,10 @@
       "name": "Caroline Møller",
       "display_name": "C. Møller",
       "latin_name": "Caroline Møller",
+      "nationality": {
+        "code": "DEN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610349",
         "name": "Benfica",
@@ -13707,6 +14239,10 @@
       "name": "Chandra Davidson",
       "display_name": "C. Davidson",
       "latin_name": "Chandra Davidson",
+      "nationality": {
+        "code": "CAN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610349",
         "name": "Benfica",
@@ -13810,6 +14346,10 @@
       "name": "Diana Costa",
       "display_name": "Diana Costa",
       "latin_name": "Diana Costa",
+      "nationality": {
+        "code": "POR",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610349",
         "name": "Benfica",
@@ -13913,6 +14453,10 @@
       "name": "Diana Silva",
       "display_name": "Diana Silva",
       "latin_name": "Diana Silva",
+      "nationality": {
+        "code": "",
+        "source": ""
+      },
       "team": {
         "id": "2610349",
         "name": "Benfica",
@@ -14016,6 +14560,10 @@
       "name": "Flourish Sabastine",
       "display_name": "F. Sabastine",
       "latin_name": "Flourish Sabastine",
+      "nationality": {
+        "code": "NGA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610349",
         "name": "Benfica",
@@ -14119,6 +14667,10 @@
       "name": "Frøya Dorsin",
       "display_name": "F. Dorsin",
       "latin_name": "Frøya Dorsin",
+      "nationality": {
+        "code": "NOR",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610349",
         "name": "Benfica",
@@ -14222,6 +14774,10 @@
       "name": "Janet Akekoromowei",
       "display_name": "J. Akekoromowei",
       "latin_name": "Janet Akekoromowei",
+      "nationality": {
+        "code": "NGA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610349",
         "name": "Benfica",
@@ -14325,6 +14881,10 @@
       "name": "Lara Martins",
       "display_name": "Lara Martins",
       "latin_name": "Lara Martins",
+      "nationality": {
+        "code": "",
+        "source": ""
+      },
       "team": {
         "id": "2610349",
         "name": "Benfica",
@@ -14428,6 +14988,10 @@
       "name": "Lucia Alves",
       "display_name": "Lucia Alves",
       "latin_name": "Lucia Alves",
+      "nationality": {
+        "code": "POR",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610349",
         "name": "Benfica",
@@ -14531,6 +15095,10 @@
       "name": "Neide Guedes",
       "display_name": "Neide Guedes",
       "latin_name": "Neide Guedes",
+      "nationality": {
+        "code": "POR",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610349",
         "name": "Benfica",
@@ -14634,6 +15202,10 @@
       "name": "Nycole Raysla",
       "display_name": "Nycole Raysla",
       "latin_name": "Nycole Raysla",
+      "nationality": {
+        "code": "BRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610349",
         "name": "Benfica",
@@ -14737,6 +15309,10 @@
       "name": "Shao Ziqin",
       "display_name": "Shao Ziqin",
       "latin_name": "Shao Ziqin",
+      "nationality": {
+        "code": "CHN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610349",
         "name": "Benfica",
@@ -14840,6 +15416,10 @@
       "name": "Lena Pauels",
       "display_name": "L. Pauels",
       "latin_name": "Lena Pauels",
+      "nationality": {
+        "code": "GER",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610349",
         "name": "Benfica",
@@ -14943,6 +15523,10 @@
       "name": "Michaely Bihina",
       "display_name": "M. Bihina",
       "latin_name": "Michaely Bihina",
+      "nationality": {
+        "code": "CMR",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610349",
         "name": "Benfica",
@@ -15046,6 +15630,10 @@
       "name": "Sara Macedo",
       "display_name": "Sara Macedo",
       "latin_name": "Sara Macedo",
+      "nationality": {
+        "code": "POR",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610349",
         "name": "Benfica",
@@ -15149,6 +15737,10 @@
       "name": "Thaís Lima",
       "display_name": "Thaís Lima",
       "latin_name": "Thais Lima",
+      "nationality": {
+        "code": "POR",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610349",
         "name": "Benfica",
@@ -15252,6 +15844,10 @@
       "name": "Andreia Norton",
       "display_name": "Andreia Norton",
       "latin_name": "Andreia Norton",
+      "nationality": {
+        "code": "POR",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610349",
         "name": "Benfica",
@@ -15355,6 +15951,10 @@
       "name": "Anna Csiki",
       "display_name": "A. Csiki",
       "latin_name": "Anna Csiki",
+      "nationality": {
+        "code": "HUN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610349",
         "name": "Benfica",
@@ -15458,6 +16058,10 @@
       "name": "Ariana Schafer",
       "display_name": "A. Schafer",
       "latin_name": "Ariana Schafer",
+      "nationality": {
+        "code": "POR",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610349",
         "name": "Benfica",
@@ -15561,6 +16165,10 @@
       "name": "Carolina Tristão",
       "display_name": "Carolina Tristão",
       "latin_name": "Carolina Tristao",
+      "nationality": {
+        "code": "POR",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610349",
         "name": "Benfica",
@@ -15664,6 +16272,10 @@
       "name": "Clara Oliveira",
       "display_name": "C. Oliveira",
       "latin_name": "Clara Oliveira",
+      "nationality": {
+        "code": "BRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610349",
         "name": "Benfica",
@@ -15767,6 +16379,10 @@
       "name": "Joana Valente",
       "display_name": "Joana Valente",
       "latin_name": "Joana Valente",
+      "nationality": {
+        "code": "",
+        "source": ""
+      },
       "team": {
         "id": "2610349",
         "name": "Benfica",
@@ -15870,6 +16486,10 @@
       "name": "Madalena Loução",
       "display_name": "Madalena Loução",
       "latin_name": "Madalena Loucao",
+      "nationality": {
+        "code": "POR",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610349",
         "name": "Benfica",
@@ -15973,6 +16593,10 @@
       "name": "Matilde Matos",
       "display_name": "Matilde Matos",
       "latin_name": "Matilde Matos",
+      "nationality": {
+        "code": "POR",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610349",
         "name": "Benfica",
@@ -16076,6 +16700,10 @@
       "name": "Pauleta",
       "display_name": "Pauleta",
       "latin_name": "Pauleta",
+      "nationality": {
+        "code": "POR",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610349",
         "name": "Benfica",
@@ -16179,6 +16807,10 @@
       "name": "Chloe Sarwie",
       "display_name": "C. Sarwie",
       "latin_name": "Chloe Sarwie",
+      "nationality": {
+        "code": "ENG",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600827",
         "name": "Chelsea",
@@ -16282,6 +16914,10 @@
       "name": "Ellie Carpenter",
       "display_name": "E. Carpenter",
       "latin_name": "Ellie Carpenter",
+      "nationality": {
+        "code": "AUS",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600827",
         "name": "Chelsea",
@@ -16385,6 +17021,10 @@
       "name": "Kadeisha Buchanan",
       "display_name": "K. Buchanan",
       "latin_name": "Kadeisha Buchanan",
+      "nationality": {
+        "code": "CAN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600827",
         "name": "Chelsea",
@@ -16488,6 +17128,10 @@
       "name": "Katie McCabe",
       "display_name": "K. McCabe",
       "latin_name": "Katie McCabe",
+      "nationality": {
+        "code": "IRL",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600827",
         "name": "Chelsea",
@@ -16591,6 +17235,10 @@
       "name": "Lucy Bronze",
       "display_name": "L. Bronze",
       "latin_name": "Lucy Bronze",
+      "nationality": {
+        "code": "ENG",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600827",
         "name": "Chelsea",
@@ -16694,6 +17342,10 @@
       "name": "Naomi Girma",
       "display_name": "N. Girma",
       "latin_name": "Naomi Girma",
+      "nationality": {
+        "code": "USA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600827",
         "name": "Chelsea",
@@ -16797,6 +17449,10 @@
       "name": "Nathalie Björn",
       "display_name": "N. Björn",
       "latin_name": "Nathalie Bjorn",
+      "nationality": {
+        "code": "SWE",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600827",
         "name": "Chelsea",
@@ -16900,6 +17556,10 @@
       "name": "Nelly Las",
       "display_name": "N. Las",
       "latin_name": "Nelly Las",
+      "nationality": {
+        "code": "ENG",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600827",
         "name": "Chelsea",
@@ -17003,6 +17663,10 @@
       "name": "Veerle Buurman",
       "display_name": "V. Buurman",
       "latin_name": "Veerle Buurman",
+      "nationality": {
+        "code": "NED",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600827",
         "name": "Chelsea",
@@ -17106,6 +17770,10 @@
       "name": "Aggie Beever-Jones",
       "display_name": "A. Beever-Jones",
       "latin_name": "Aggie Beever-Jones",
+      "nationality": {
+        "code": "ENG",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600827",
         "name": "Chelsea",
@@ -17209,6 +17877,10 @@
       "name": "Mayra Ramírez",
       "display_name": "M. Ramírez",
       "latin_name": "Mayra Ramirez",
+      "nationality": {
+        "code": "COL",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600827",
         "name": "Chelsea",
@@ -17312,6 +17984,10 @@
       "name": "Melvine Malard",
       "display_name": "M. Malard",
       "latin_name": "Melvine Malard",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600827",
         "name": "Chelsea",
@@ -17415,6 +18091,10 @@
       "name": "Hannah Hampton",
       "display_name": "H. Hampton",
       "latin_name": "Hannah Hampton",
+      "nationality": {
+        "code": "ENG",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600827",
         "name": "Chelsea",
@@ -17518,6 +18198,10 @@
       "name": "Livia Peng",
       "display_name": "L. Peng",
       "latin_name": "Livia Peng",
+      "nationality": {
+        "code": "SUI",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600827",
         "name": "Chelsea",
@@ -17621,6 +18305,10 @@
       "name": "Rebecca Spencer",
       "display_name": "R. Spencer",
       "latin_name": "Rebecca Spencer",
+      "nationality": {
+        "code": "JAM",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600827",
         "name": "Chelsea",
@@ -17724,6 +18412,10 @@
       "name": "Alexia Potter",
       "display_name": "A. Potter",
       "latin_name": "Alexia Potter",
+      "nationality": {
+        "code": "ENG",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600827",
         "name": "Chelsea",
@@ -17827,6 +18519,10 @@
       "name": "Alyssa Thompson",
       "display_name": "A. Thompson",
       "latin_name": "Alyssa Thompson",
+      "nationality": {
+        "code": "USA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600827",
         "name": "Chelsea",
@@ -17930,6 +18626,10 @@
       "name": "Erin Cuthbert",
       "display_name": "E. Cuthbert",
       "latin_name": "Erin Cuthbert",
+      "nationality": {
+        "code": "SCO",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600827",
         "name": "Chelsea",
@@ -18033,6 +18733,10 @@
       "name": "Giulia Dragoni",
       "display_name": "G. Dragoni",
       "latin_name": "Giulia Dragoni",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600827",
         "name": "Chelsea",
@@ -18136,6 +18840,10 @@
       "name": "Keira Walsh",
       "display_name": "K. Walsh",
       "latin_name": "Keira Walsh",
+      "nationality": {
+        "code": "ENG",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600827",
         "name": "Chelsea",
@@ -18239,6 +18947,10 @@
       "name": "Lauren James",
       "display_name": "L. James",
       "latin_name": "Lauren James",
+      "nationality": {
+        "code": "ENG",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600827",
         "name": "Chelsea",
@@ -18342,6 +19054,10 @@
       "name": "Lola Brown",
       "display_name": "L. Brown",
       "latin_name": "Lola Brown",
+      "nationality": {
+        "code": "ENG",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600827",
         "name": "Chelsea",
@@ -18445,6 +19161,10 @@
       "name": "Maika Hamano",
       "display_name": "M. Hamano",
       "latin_name": "Maika Hamano",
+      "nationality": {
+        "code": "JPN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600827",
         "name": "Chelsea",
@@ -18548,6 +19268,10 @@
       "name": "Manaka Matsukubo",
       "display_name": "M. Matsukubo",
       "latin_name": "Manaka Matsukubo",
+      "nationality": {
+        "code": "JPN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600827",
         "name": "Chelsea",
@@ -18651,6 +19375,10 @@
       "name": "Sandy Baltimore",
       "display_name": "S. Baltimore",
       "latin_name": "Sandy Baltimore",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600827",
         "name": "Chelsea",
@@ -18754,6 +19482,10 @@
       "name": "Sjoeke Nüsken",
       "display_name": "S. Nüsken",
       "latin_name": "Sjoeke Nusken",
+      "nationality": {
+        "code": "GER",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600827",
         "name": "Chelsea",
@@ -18857,6 +19589,10 @@
       "name": "Wieke Kaptein",
       "display_name": "W. Kaptein",
       "latin_name": "Wieke Kaptein",
+      "nationality": {
+        "code": "NED",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600827",
         "name": "Chelsea",
@@ -18960,6 +19696,10 @@
       "name": "Aissatou Fall",
       "display_name": "A. Fall",
       "latin_name": "Aissatou Fall",
+      "nationality": {
+        "code": "SEN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611087",
         "name": "HB Køge",
@@ -19063,6 +19803,10 @@
       "name": "Andrea Termansen",
       "display_name": "A. Termansen",
       "latin_name": "Andrea Termansen",
+      "nationality": {
+        "code": "DEN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611087",
         "name": "HB Køge",
@@ -19166,6 +19910,10 @@
       "name": "Augusta Callesen",
       "display_name": "A. Callesen",
       "latin_name": "Augusta Callesen",
+      "nationality": {
+        "code": "DEN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611087",
         "name": "HB Køge",
@@ -19269,6 +20017,10 @@
       "name": "Emma Flick",
       "display_name": "E. Flick",
       "latin_name": "Emma Flick",
+      "nationality": {
+        "code": "USA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611087",
         "name": "HB Køge",
@@ -19372,6 +20124,10 @@
       "name": "Ida Marie Jørgensen",
       "display_name": "I. Jørgensen",
       "latin_name": "Ida Marie Jørgensen",
+      "nationality": {
+        "code": "DEN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611087",
         "name": "HB Køge",
@@ -19475,6 +20231,10 @@
       "name": "Macy Schultz",
       "display_name": "M. Schultz",
       "latin_name": "Macy Schultz",
+      "nationality": {
+        "code": "USA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611087",
         "name": "HB Køge",
@@ -19578,6 +20338,10 @@
       "name": "Maria Uhre",
       "display_name": "M. Uhre",
       "latin_name": "Maria Uhre",
+      "nationality": {
+        "code": "DEN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611087",
         "name": "HB Køge",
@@ -19681,6 +20445,10 @@
       "name": "Signe Markvardsen",
       "display_name": "S. Markvardsen",
       "latin_name": "Signe Markvardsen",
+      "nationality": {
+        "code": "",
+        "source": ""
+      },
       "team": {
         "id": "2611087",
         "name": "HB Køge",
@@ -19784,6 +20552,10 @@
       "name": "Simone Boye Sørensen",
       "display_name": "S. Boye Sørensen",
       "latin_name": "Simone Boye Sørensen",
+      "nationality": {
+        "code": "DEN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611087",
         "name": "HB Køge",
@@ -19887,6 +20659,10 @@
       "name": "Sydney Jones",
       "display_name": "S. Jones",
       "latin_name": "Sydney Jones",
+      "nationality": {
+        "code": "USA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611087",
         "name": "HB Køge",
@@ -19990,6 +20766,10 @@
       "name": "Yukina Sakabe",
       "display_name": "Y. Sakabe",
       "latin_name": "Yukina Sakabe",
+      "nationality": {
+        "code": "JPN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611087",
         "name": "HB Køge",
@@ -20093,6 +20873,10 @@
       "name": "Emelía Óskarsdóttir",
       "display_name": "E. Óskarsdóttir",
       "latin_name": "Emelia Oskarsdottir",
+      "nationality": {
+        "code": "ISL",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611087",
         "name": "HB Køge",
@@ -20196,6 +20980,10 @@
       "name": "Julia Gutowska",
       "display_name": "J. Gutowska",
       "latin_name": "Julia Gutowska",
+      "nationality": {
+        "code": "",
+        "source": ""
+      },
       "team": {
         "id": "2611087",
         "name": "HB Køge",
@@ -20299,6 +21087,10 @@
       "name": "Kyra Carusa",
       "display_name": "K. Carusa",
       "latin_name": "Kyra Carusa",
+      "nationality": {
+        "code": "IRL",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611087",
         "name": "HB Køge",
@@ -20402,6 +21194,10 @@
       "name": "Mai Wendicke",
       "display_name": "M. Wendicke",
       "latin_name": "Mai Wendicke",
+      "nationality": {
+        "code": "DEN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611087",
         "name": "HB Køge",
@@ -20505,6 +21301,10 @@
       "name": "Mercy Chipasula",
       "display_name": "M. Chipasula",
       "latin_name": "Mercy Chipasula",
+      "nationality": {
+        "code": "ZAM",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611087",
         "name": "HB Køge",
@@ -20608,6 +21408,10 @@
       "name": "Nadia Nadim",
       "display_name": "N. Nadim",
       "latin_name": "Nadia Nadim",
+      "nationality": {
+        "code": "DEN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611087",
         "name": "HB Køge",
@@ -20711,6 +21515,10 @@
       "name": "Rikke Madsen",
       "display_name": "R. Madsen",
       "latin_name": "Rikke Madsen",
+      "nationality": {
+        "code": "DEN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611087",
         "name": "HB Køge",
@@ -20814,6 +21622,10 @@
       "name": "Alberte Vingum",
       "display_name": "A. Vingum",
       "latin_name": "Alberte Vingum",
+      "nationality": {
+        "code": "DEN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611087",
         "name": "HB Køge",
@@ -20917,6 +21729,10 @@
       "name": "Emilie Møller",
       "display_name": "E. Møller",
       "latin_name": "Emilie Møller",
+      "nationality": {
+        "code": "DEN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611087",
         "name": "HB Køge",
@@ -21020,6 +21836,10 @@
       "name": "Lauren Kozal",
       "display_name": "L. Kozal",
       "latin_name": "Lauren Kozal",
+      "nationality": {
+        "code": "USA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611087",
         "name": "HB Køge",
@@ -21123,6 +21943,10 @@
       "name": "Aemu Oyama",
       "display_name": "A. Oyama",
       "latin_name": "Aemu Oyama",
+      "nationality": {
+        "code": "JPN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611087",
         "name": "HB Køge",
@@ -21226,6 +22050,10 @@
       "name": "Cassandra Korhonen",
       "display_name": "C. Korhonen",
       "latin_name": "Cassandra Korhonen",
+      "nationality": {
+        "code": "",
+        "source": ""
+      },
       "team": {
         "id": "2611087",
         "name": "HB Køge",
@@ -21329,6 +22157,10 @@
       "name": "Catherine Paulson",
       "display_name": "C. Paulson",
       "latin_name": "Catherine Paulson",
+      "nationality": {
+        "code": "USA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611087",
         "name": "HB Køge",
@@ -21432,6 +22264,10 @@
       "name": "Laura Hermann",
       "display_name": "L. Hermann",
       "latin_name": "Laura Hermann",
+      "nationality": {
+        "code": "DEN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611087",
         "name": "HB Køge",
@@ -21535,6 +22371,10 @@
       "name": "Mille Gejl",
       "display_name": "M. Gejl",
       "latin_name": "Mille Gejl",
+      "nationality": {
+        "code": "DEN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611087",
         "name": "HB Køge",
@@ -21638,6 +22478,10 @@
       "name": "Mwanalima Jereko",
       "display_name": "M. Jereko",
       "latin_name": "Mwanalima Jereko",
+      "nationality": {
+        "code": "KEN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611087",
         "name": "HB Køge",
@@ -21741,6 +22585,10 @@
       "name": "Samantha Williams",
       "display_name": "S. Williams",
       "latin_name": "Samantha Williams",
+      "nationality": {
+        "code": "",
+        "source": ""
+      },
       "team": {
         "id": "2611087",
         "name": "HB Køge",
@@ -21844,6 +22692,10 @@
       "name": "Sarah Thygesen",
       "display_name": "S. Thygesen",
       "latin_name": "Sarah Thygesen",
+      "nationality": {
+        "code": "DEN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611087",
         "name": "HB Køge",
@@ -21947,6 +22799,10 @@
       "name": "Zuzanna Witek",
       "display_name": "Z. Witek",
       "latin_name": "Zuzanna Witek",
+      "nationality": {
+        "code": "POL",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611087",
         "name": "HB Køge",
@@ -22050,6 +22906,10 @@
       "name": "Aivi Luik",
       "display_name": "A. Luik",
       "latin_name": "Aivi Luik",
+      "nationality": {
+        "code": "AUS",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600867",
         "name": "Häcken",
@@ -22153,6 +23013,10 @@
       "name": "Alva Selerud",
       "display_name": "A. Selerud",
       "latin_name": "Alva Selerud",
+      "nationality": {
+        "code": "SWE",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600867",
         "name": "Häcken",
@@ -22256,6 +23120,10 @@
       "name": "Emma Östlund",
       "display_name": "E. Östlund",
       "latin_name": "Emma Ostlund",
+      "nationality": {
+        "code": "SWE",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600867",
         "name": "Häcken",
@@ -22359,6 +23227,10 @@
       "name": "Josefin Baudou",
       "display_name": "J. Baudou",
       "latin_name": "Josefin Baudou",
+      "nationality": {
+        "code": "",
+        "source": ""
+      },
       "team": {
         "id": "2600867",
         "name": "Häcken",
@@ -22462,6 +23334,10 @@
       "name": "Josefine Rybrink",
       "display_name": "J. Rybrink",
       "latin_name": "Josefine Rybrink",
+      "nationality": {
+        "code": "SWE",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600867",
         "name": "Häcken",
@@ -22565,6 +23441,10 @@
       "name": "Lisa Löwing",
       "display_name": "L. Löwing",
       "latin_name": "Lisa Lowing",
+      "nationality": {
+        "code": "SWE",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600867",
         "name": "Häcken",
@@ -22668,6 +23548,10 @@
       "name": "Nesrin Akgün",
       "display_name": "N. Akgün",
       "latin_name": "Nesrin Akgun",
+      "nationality": {
+        "code": "SWE",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600867",
         "name": "Häcken",
@@ -22771,6 +23655,10 @@
       "name": "Stine Sandbech",
       "display_name": "S. Sandbech",
       "latin_name": "Stine Sandbech",
+      "nationality": {
+        "code": "DEN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600867",
         "name": "Häcken",
@@ -22874,6 +23762,10 @@
       "name": "Tilde Karlsson",
       "display_name": "T. Karlsson",
       "latin_name": "Tilde Karlsson",
+      "nationality": {
+        "code": "SWE",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600867",
         "name": "Häcken",
@@ -22977,6 +23869,10 @@
       "name": "Anna Anvegård",
       "display_name": "A. Anvegård",
       "latin_name": "Anna Anvegard",
+      "nationality": {
+        "code": "SWE",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600867",
         "name": "Häcken",
@@ -23080,6 +23976,10 @@
       "name": "Erza Qela",
       "display_name": "E. Qela",
       "latin_name": "Erza Qela",
+      "nationality": {
+        "code": "KOS",
+        "source": "User-supplied nationality, 2026-09-21"
+      },
       "team": {
         "id": "2600867",
         "name": "Häcken",
@@ -23183,6 +24083,10 @@
       "name": "Faith Chinzimu",
       "display_name": "F. Chinzimu",
       "latin_name": "Faith Chinzimu",
+      "nationality": {
+        "code": "MWI",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600867",
         "name": "Häcken",
@@ -23286,6 +24190,10 @@
       "name": "Joy Ogochuckwu",
       "display_name": "J. Ogochuckwu",
       "latin_name": "Joy Ogochuckwu",
+      "nationality": {
+        "code": "NGA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600867",
         "name": "Häcken",
@@ -23389,6 +24297,10 @@
       "name": "Maja Bodin",
       "display_name": "M. Bodin",
       "latin_name": "Maja Bodin",
+      "nationality": {
+        "code": "SWE",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600867",
         "name": "Häcken",
@@ -23492,6 +24404,10 @@
       "name": "Tabitha Tindell",
       "display_name": "T. Tindell",
       "latin_name": "Tabitha Tindell",
+      "nationality": {
+        "code": "USA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600867",
         "name": "Häcken",
@@ -23595,6 +24511,10 @@
       "name": "Thelma Pálmadóttir",
       "display_name": "T. Pálmadóttir",
       "latin_name": "Thelma Palmadottir",
+      "nationality": {
+        "code": "ISL",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600867",
         "name": "Häcken",
@@ -23698,6 +24618,10 @@
       "name": "Tuva Ölvestad",
       "display_name": "T. Ölvestad",
       "latin_name": "Tuva Olvestad",
+      "nationality": {
+        "code": "SWE",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600867",
         "name": "Häcken",
@@ -23801,6 +24725,10 @@
       "name": "Disa Hellwig",
       "display_name": "D. Hellwig",
       "latin_name": "Disa Hellwig",
+      "nationality": {
+        "code": "",
+        "source": ""
+      },
       "team": {
         "id": "2600867",
         "name": "Häcken",
@@ -23904,6 +24832,10 @@
       "name": "Hanna Karlsson",
       "display_name": "H. Karlsson",
       "latin_name": "Hanna Karlsson",
+      "nationality": {
+        "code": "SWE",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600867",
         "name": "Häcken",
@@ -24007,6 +24939,10 @@
       "name": "Jennifer Falk",
       "display_name": "J. Falk",
       "latin_name": "Jennifer Falk",
+      "nationality": {
+        "code": "SWE",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600867",
         "name": "Häcken",
@@ -24110,6 +25046,10 @@
       "name": "Stella Söderbom",
       "display_name": "S. Söderbom",
       "latin_name": "Stella Soderbom",
+      "nationality": {
+        "code": "SWE",
+        "source": "User-supplied nationality, 2026-09-21"
+      },
       "team": {
         "id": "2600867",
         "name": "Häcken",
@@ -24213,6 +25153,10 @@
       "name": "Delaney Matriano",
       "display_name": "D. Matriano",
       "latin_name": "Delaney Matriano",
+      "nationality": {
+        "code": "USA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600867",
         "name": "Häcken",
@@ -24316,6 +25260,10 @@
       "name": "Elin Rubensson",
       "display_name": "E. Rubensson",
       "latin_name": "Elin Rubensson",
+      "nationality": {
+        "code": "",
+        "source": ""
+      },
       "team": {
         "id": "2600867",
         "name": "Häcken",
@@ -24419,6 +25367,10 @@
       "name": "Ella McBride",
       "display_name": "E. McBride",
       "latin_name": "Ella McBride",
+      "nationality": {
+        "code": "CAN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600867",
         "name": "Häcken",
@@ -24522,6 +25474,10 @@
       "name": "Halimatu Ayinde",
       "display_name": "H. Ayinde",
       "latin_name": "Halimatu Ayinde",
+      "nationality": {
+        "code": "NGA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600867",
         "name": "Häcken",
@@ -24625,6 +25581,10 @@
       "name": "Helena Sampaio",
       "display_name": "H. Sampaio",
       "latin_name": "Helena Sampaio",
+      "nationality": {
+        "code": "",
+        "source": ""
+      },
       "team": {
         "id": "2600867",
         "name": "Häcken",
@@ -24728,6 +25688,10 @@
       "name": "Julie Steen",
       "display_name": "J. Steen",
       "latin_name": "Julie Steen",
+      "nationality": {
+        "code": "",
+        "source": ""
+      },
       "team": {
         "id": "2600867",
         "name": "Häcken",
@@ -24831,6 +25795,10 @@
       "name": "Jóhanna Fossdalsá",
       "display_name": "J. Fossdalsá",
       "latin_name": "Johanna Fossdalsa",
+      "nationality": {
+        "code": "DEN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600867",
         "name": "Häcken",
@@ -24934,6 +25902,10 @@
       "name": "Nathalie Staaf",
       "display_name": "N. Staaf",
       "latin_name": "Nathalie Staaf",
+      "nationality": {
+        "code": "SWE",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600867",
         "name": "Häcken",
@@ -25037,6 +26009,10 @@
       "name": "Pernille Sanvig",
       "display_name": "P. Sanvig",
       "latin_name": "Pernille Sanvig",
+      "nationality": {
+        "code": "DEN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600867",
         "name": "Häcken",
@@ -25140,6 +26116,10 @@
       "name": "Chiara Robustellini",
       "display_name": "C. Robustellini",
       "latin_name": "Chiara Robustellini",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609776",
         "name": "Inter",
@@ -25243,6 +26223,10 @@
       "name": "Elisa Bartoli",
       "display_name": "E. Bartoli",
       "latin_name": "Elisa Bartoli",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609776",
         "name": "Inter",
@@ -25346,6 +26330,10 @@
       "name": "Emma Kullberg",
       "display_name": "E. Kullberg",
       "latin_name": "Emma Kullberg",
+      "nationality": {
+        "code": "SWE",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609776",
         "name": "Inter",
@@ -25449,6 +26437,10 @@
       "name": "Ivana",
       "display_name": "Ivana",
       "latin_name": "Ivana",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609776",
         "name": "Inter",
@@ -25552,6 +26544,10 @@
       "name": "Lidia Consolini",
       "display_name": "L. Consolini",
       "latin_name": "Lidia Consolini",
+      "nationality": {
+        "code": "",
+        "source": ""
+      },
       "team": {
         "id": "2609776",
         "name": "Inter",
@@ -25655,6 +26651,10 @@
       "name": "Marija Milinković",
       "display_name": "M. Milinković",
       "latin_name": "Marija Milinkovic",
+      "nationality": {
+        "code": "BIH",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609776",
         "name": "Inter",
@@ -25758,6 +26758,10 @@
       "name": "Martina Bressan",
       "display_name": "M. Bressan",
       "latin_name": "Martina Bressan",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609776",
         "name": "Inter",
@@ -25861,6 +26865,10 @@
       "name": "Samantha van Diemen",
       "display_name": "S. Van Diemen",
       "latin_name": "Samantha van Diemen",
+      "nationality": {
+        "code": "NED",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609776",
         "name": "Inter",
@@ -25964,6 +26972,10 @@
       "name": "Sheila García",
       "display_name": "Sheila García",
       "latin_name": "Sheila Garcia",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609776",
         "name": "Inter",
@@ -26067,6 +27079,10 @@
       "name": "Sofia Verrini",
       "display_name": "S. Verrini",
       "latin_name": "Sofia Verrini",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609776",
         "name": "Inter",
@@ -26170,6 +27186,10 @@
       "name": "Annika Paz",
       "display_name": "A. Paz",
       "latin_name": "Annika Paz",
+      "nationality": {
+        "code": "",
+        "source": ""
+      },
       "team": {
         "id": "2609776",
         "name": "Inter",
@@ -26273,6 +27293,10 @@
       "name": "Benedetta Glionna",
       "display_name": "B. Glionna",
       "latin_name": "Benedetta Glionna",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609776",
         "name": "Inter",
@@ -26376,6 +27400,10 @@
       "name": "Brittany Raphino",
       "display_name": "B. Raphino",
       "latin_name": "Brittany Raphino",
+      "nationality": {
+        "code": "USA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609776",
         "name": "Inter",
@@ -26479,6 +27507,10 @@
       "name": "Elisa Ciurleo",
       "display_name": "E. Ciurleo",
       "latin_name": "Elisa Ciurleo",
+      "nationality": {
+        "code": "ITA",
+        "source": "User-supplied nationality, 2026-09-21"
+      },
       "team": {
         "id": "2609776",
         "name": "Inter",
@@ -26582,6 +27614,10 @@
       "name": "Elisa Polli",
       "display_name": "E. Polli",
       "latin_name": "Elisa Polli",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609776",
         "name": "Inter",
@@ -26685,6 +27721,10 @@
       "name": "Haley Bugeja",
       "display_name": "H. Bugeja",
       "latin_name": "Haley Bugeja",
+      "nationality": {
+        "code": "MLT",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609776",
         "name": "Inter",
@@ -26788,6 +27828,10 @@
       "name": "Michela Cambiaghi",
       "display_name": "M. Cambiaghi",
       "latin_name": "Michela Cambiaghi",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609776",
         "name": "Inter",
@@ -26891,6 +27935,10 @@
       "name": "Toni Payne",
       "display_name": "T. Payne",
       "latin_name": "Toni Payne",
+      "nationality": {
+        "code": "NGA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609776",
         "name": "Inter",
@@ -26994,6 +28042,10 @@
       "name": "Camilla Forcinella",
       "display_name": "C. Forcinella",
       "latin_name": "Camilla Forcinella",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609776",
         "name": "Inter",
@@ -27097,6 +28149,10 @@
       "name": "Cecilía Rúnarsdóttir",
       "display_name": "C. Rúnarsdóttir",
       "latin_name": "Cecilia Runarsdottir",
+      "nationality": {
+        "code": "ISL",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609776",
         "name": "Inter",
@@ -27200,6 +28256,10 @@
       "name": "Elena Belli",
       "display_name": "E. Belli",
       "latin_name": "Elena Belli",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609776",
         "name": "Inter",
@@ -27303,6 +28363,10 @@
       "name": "Matilde Robbioni",
       "display_name": "M. Robbioni",
       "latin_name": "Matilde Robbioni",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609776",
         "name": "Inter",
@@ -27406,6 +28470,10 @@
       "name": "Clarisse Le Bihan",
       "display_name": "C. Le Bihan",
       "latin_name": "Clarisse Le Bihan",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609776",
         "name": "Inter",
@@ -27509,6 +28577,10 @@
       "name": "Irene Santi",
       "display_name": "I. Santi",
       "latin_name": "Irene Santi",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609776",
         "name": "Inter",
@@ -27612,6 +28684,10 @@
       "name": "Karólína Vilhjálmsdóttir",
       "display_name": "K. Vilhjálmsdóttir",
       "latin_name": "Karolina Vilhjalmsdottir",
+      "nationality": {
+        "code": "ISL",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609776",
         "name": "Inter",
@@ -27715,6 +28791,10 @@
       "name": "Lina Magull",
       "display_name": "L. Magull",
       "latin_name": "Lina Magull",
+      "nationality": {
+        "code": "GER",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609776",
         "name": "Inter",
@@ -27818,6 +28898,10 @@
       "name": "Marie Detruyer",
       "display_name": "M. Detruyer",
       "latin_name": "Marie Detruyer",
+      "nationality": {
+        "code": "BEL",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609776",
         "name": "Inter",
@@ -27921,6 +29005,10 @@
       "name": "Martina Tomaselli",
       "display_name": "M. Tomaselli",
       "latin_name": "Martina Tomaselli",
+      "nationality": {
+        "code": "",
+        "source": ""
+      },
       "team": {
         "id": "2609776",
         "name": "Inter",
@@ -28024,6 +29112,10 @@
       "name": "Maša Tomašević",
       "display_name": "M. Tomašević",
       "latin_name": "Masa Tomasevic",
+      "nationality": {
+        "code": "MNE",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609776",
         "name": "Inter",
@@ -28127,6 +29219,10 @@
       "name": "Olivia Schough",
       "display_name": "O. Schough",
       "latin_name": "Olivia Schough",
+      "nationality": {
+        "code": "SWE",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609776",
         "name": "Inter",
@@ -28230,6 +29326,10 @@
       "name": "Rachele Giudici",
       "display_name": "R. Giudici",
       "latin_name": "Rachele Giudici",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609776",
         "name": "Inter",
@@ -28333,6 +29433,10 @@
       "name": "Cecilia Salvai",
       "display_name": "C. Salvai",
       "latin_name": "Cecilia Salvai",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609590",
         "name": "Juventus",
@@ -28436,6 +29540,10 @@
       "name": "Daria Rosso",
       "display_name": "D. Rosso",
       "latin_name": "Daria Rosso",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609590",
         "name": "Juventus",
@@ -28539,6 +29647,10 @@
       "name": "Elisa Bertero",
       "display_name": "E. Bertero",
       "latin_name": "Elisa Bertero",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609590",
         "name": "Juventus",
@@ -28642,6 +29754,10 @@
       "name": "Estela Carbonell",
       "display_name": "E. Carbonell",
       "latin_name": "Estela Carbonell",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609590",
         "name": "Juventus",
@@ -28745,6 +29861,10 @@
       "name": "Federica D'Auria",
       "display_name": "F. D'Auria",
       "latin_name": "Federica D'Auria",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609590",
         "name": "Juventus",
@@ -28848,6 +29968,10 @@
       "name": "Kysha Sylla",
       "display_name": "K. Sylla",
       "latin_name": "Kysha Sylla",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609590",
         "name": "Juventus",
@@ -28951,6 +30075,10 @@
       "name": "Martina Lenzini",
       "display_name": "M. Lenzini",
       "latin_name": "Martina Lenzini",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609590",
         "name": "Juventus",
@@ -29054,6 +30182,10 @@
       "name": "Martina Rosucci",
       "display_name": "M. Rosucci",
       "latin_name": "Martina Rosucci",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609590",
         "name": "Juventus",
@@ -29157,6 +30289,10 @@
       "name": "Marzia Piermarini",
       "display_name": "M. Piermarini",
       "latin_name": "Marzia Piermarini",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609590",
         "name": "Juventus",
@@ -29260,6 +30396,10 @@
       "name": "Alba Redondo",
       "display_name": "Alba Redondo",
       "latin_name": "Alba Redondo",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609590",
         "name": "Juventus",
@@ -29363,6 +30503,10 @@
       "name": "Amaiur Sarriegi",
       "display_name": "Amaiur Sarriegi",
       "latin_name": "Amaiur Sarriegi",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609590",
         "name": "Juventus",
@@ -29466,6 +30610,10 @@
       "name": "Chiara Beccari",
       "display_name": "C. Beccari",
       "latin_name": "Chiara Beccari",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609590",
         "name": "Juventus",
@@ -29569,6 +30717,10 @@
       "name": "Giorgia Bianchi",
       "display_name": "G. Bianchi",
       "latin_name": "Giorgia Bianchi",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609590",
         "name": "Juventus",
@@ -29672,6 +30824,10 @@
       "name": "Remina Chiba",
       "display_name": "R. Chiba",
       "latin_name": "Remina Chiba",
+      "nationality": {
+        "code": "JPN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609590",
         "name": "Juventus",
@@ -29775,6 +30931,10 @@
       "name": "Viola Volpini",
       "display_name": "V. Volpini",
       "latin_name": "Viola Volpini",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609590",
         "name": "Juventus",
@@ -29878,6 +31038,10 @@
       "name": "Anna Mallardi",
       "display_name": "A. Mallardi",
       "latin_name": "Anna Mallardi",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609590",
         "name": "Juventus",
@@ -29981,6 +31145,10 @@
       "name": "Danielle de Jong",
       "display_name": "D. De Jong",
       "latin_name": "Danielle de Jong",
+      "nationality": {
+        "code": "NED",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609590",
         "name": "Juventus",
@@ -30084,6 +31252,10 @@
       "name": "Giulia Martinazzi",
       "display_name": "G. Martinazzi",
       "latin_name": "Giulia Martinazzi",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609590",
         "name": "Juventus",
@@ -30187,6 +31359,10 @@
       "name": "Larissa Rusek",
       "display_name": "L. Rusek",
       "latin_name": "Larissa Rusek",
+      "nationality": {
+        "code": "AUT",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609590",
         "name": "Juventus",
@@ -30290,6 +31466,10 @@
       "name": "Viola Sossai",
       "display_name": "V. Sossai",
       "latin_name": "Viola Sossai",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609590",
         "name": "Juventus",
@@ -30393,6 +31573,10 @@
       "name": "Abi Brighton",
       "display_name": "A. Brighton",
       "latin_name": "Abi Brighton",
+      "nationality": {
+        "code": "",
+        "source": ""
+      },
       "team": {
         "id": "2609590",
         "name": "Juventus",
@@ -30496,6 +31680,10 @@
       "name": "Anna Copelli",
       "display_name": "A. Copelli",
       "latin_name": "Anna Copelli",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609590",
         "name": "Juventus",
@@ -30599,6 +31787,10 @@
       "name": "Annamaria Serturini",
       "display_name": "A. Serturini",
       "latin_name": "Annamaria Serturini",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609590",
         "name": "Juventus",
@@ -30702,6 +31894,10 @@
       "name": "Barbara Bonansea",
       "display_name": "B. Bonansea",
       "latin_name": "Barbara Bonansea",
+      "nationality": {
+        "code": "",
+        "source": ""
+      },
       "team": {
         "id": "2609590",
         "name": "Juventus",
@@ -30805,6 +32001,10 @@
       "name": "Cris Librán",
       "display_name": "C. Librán",
       "latin_name": "Cris Libran",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609590",
         "name": "Juventus",
@@ -30908,6 +32108,10 @@
       "name": "Danique Noordman",
       "display_name": "D. Noordman",
       "latin_name": "Danique Noordman",
+      "nationality": {
+        "code": "NED",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609590",
         "name": "Juventus",
@@ -31011,6 +32215,10 @@
       "name": "Emilie Mece",
       "display_name": "E. Mece",
       "latin_name": "Emilie Mece",
+      "nationality": {
+        "code": "",
+        "source": ""
+      },
       "team": {
         "id": "2609590",
         "name": "Juventus",
@@ -31114,6 +32322,10 @@
       "name": "Emma Stølen Godø",
       "display_name": "E. Stølen Godø",
       "latin_name": "Emma Stølen Godø",
+      "nationality": {
+        "code": "NOR",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609590",
         "name": "Juventus",
@@ -31217,6 +32429,10 @@
       "name": "Eva Schatzer",
       "display_name": "E. Schatzer",
       "latin_name": "Eva Schatzer",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609590",
         "name": "Juventus",
@@ -31320,6 +32536,10 @@
       "name": "Júlia Bartel",
       "display_name": "J. Bartel",
       "latin_name": "Julia Bartel",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609590",
         "name": "Juventus",
@@ -31423,6 +32643,10 @@
       "name": "Lea Khelifi",
       "display_name": "L. Khelifi",
       "latin_name": "Lea Khelifi",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609590",
         "name": "Juventus",
@@ -31526,6 +32750,10 @@
       "name": "Manaka Hayashi",
       "display_name": "M. Hayashi",
       "latin_name": "Manaka Hayashi",
+      "nationality": {
+        "code": "JPN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609590",
         "name": "Juventus",
@@ -31629,6 +32857,10 @@
       "name": "Matilde Pavan",
       "display_name": "M. Pavan",
       "latin_name": "Matilde Pavan",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609590",
         "name": "Juventus",
@@ -31732,6 +32964,10 @@
       "name": "Ornella Graziani",
       "display_name": "O. Graziani",
       "latin_name": "Ornella Graziani",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609590",
         "name": "Juventus",
@@ -31835,6 +33071,10 @@
       "name": "Tatiana Pinto",
       "display_name": "Tatiana Pinto",
       "latin_name": "Tatiana Pinto",
+      "nationality": {
+        "code": "POR",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609590",
         "name": "Juventus",
@@ -31938,6 +33178,10 @@
       "name": "Valentina Piccardi",
       "display_name": "V. Piccardi",
       "latin_name": "Valentina Piccardi",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609590",
         "name": "Juventus",
@@ -32041,6 +33285,10 @@
       "name": "Alex Greenwood",
       "display_name": "A. Greenwood",
       "latin_name": "Alex Greenwood",
+      "nationality": {
+        "code": "ENG",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2603520",
         "name": "Man City",
@@ -32144,6 +33392,10 @@
       "name": "Carlotta Wamser",
       "display_name": "C. Wamser",
       "latin_name": "Carlotta Wamser",
+      "nationality": {
+        "code": "GER",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2603520",
         "name": "Man City",
@@ -32247,6 +33499,10 @@
       "name": "Gracie Prior",
       "display_name": "G. Prior",
       "latin_name": "Gracie Prior",
+      "nationality": {
+        "code": "ENG",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2603520",
         "name": "Man City",
@@ -32350,6 +33606,10 @@
       "name": "Jade Rose",
       "display_name": "J. Rose",
       "latin_name": "Jade Rose",
+      "nationality": {
+        "code": "CAN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2603520",
         "name": "Man City",
@@ -32453,6 +33713,10 @@
       "name": "Kerstin Casparij",
       "display_name": "K. Casparij",
       "latin_name": "Kerstin Casparij",
+      "nationality": {
+        "code": "NED",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2603520",
         "name": "Man City",
@@ -32556,6 +33820,10 @@
       "name": "Laura Wienroither",
       "display_name": "L. Wienroither",
       "latin_name": "Laura Wienroither",
+      "nationality": {
+        "code": "",
+        "source": ""
+      },
       "team": {
         "id": "2603520",
         "name": "Man City",
@@ -32659,6 +33927,10 @@
       "name": "Mayzee Davies",
       "display_name": "M. Davies",
       "latin_name": "Mayzee Davies",
+      "nationality": {
+        "code": "WAL",
+        "source": "User-supplied nationality, 2026-09-21"
+      },
       "team": {
         "id": "2603520",
         "name": "Man City",
@@ -32762,6 +34034,10 @@
       "name": "Niamh Charles",
       "display_name": "N. Charles",
       "latin_name": "Niamh Charles",
+      "nationality": {
+        "code": "ENG",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2603520",
         "name": "Man City",
@@ -32865,6 +34141,10 @@
       "name": "Rebecca Knaak",
       "display_name": "R. Knaak",
       "latin_name": "Rebecca Knaak",
+      "nationality": {
+        "code": "GER",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2603520",
         "name": "Man City",
@@ -32968,6 +34248,10 @@
       "name": "Risa Shimizu",
       "display_name": "R. Shimizu",
       "latin_name": "Risa Shimizu",
+      "nationality": {
+        "code": "JPN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2603520",
         "name": "Man City",
@@ -33071,6 +34355,10 @@
       "name": "Sacha Lewis",
       "display_name": "S. Lewis",
       "latin_name": "Sacha Lewis",
+      "nationality": {
+        "code": "ENG",
+        "source": "User-supplied nationality, 2026-09-21"
+      },
       "team": {
         "id": "2603520",
         "name": "Man City",
@@ -33174,6 +34462,10 @@
       "name": "Samira Shikhshabekova",
       "display_name": "S. Shikhshabekova",
       "latin_name": "Samira Shikhshabekova",
+      "nationality": {
+        "code": "",
+        "source": ""
+      },
       "team": {
         "id": "2603520",
         "name": "Man City",
@@ -33277,6 +34569,10 @@
       "name": "Beth Mead",
       "display_name": "B. Mead",
       "latin_name": "Beth Mead",
+      "nationality": {
+        "code": "ENG",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2603520",
         "name": "Man City",
@@ -33380,6 +34676,10 @@
       "name": "Freya Hirons",
       "display_name": "F. Hirons",
       "latin_name": "Freya Hirons",
+      "nationality": {
+        "code": "",
+        "source": ""
+      },
       "team": {
         "id": "2603520",
         "name": "Man City",
@@ -33483,6 +34783,10 @@
       "name": "Khadija Shaw",
       "display_name": "K. Shaw",
       "latin_name": "Khadija Shaw",
+      "nationality": {
+        "code": "JAM",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2603520",
         "name": "Man City",
@@ -33586,6 +34890,10 @@
       "name": "Lauren Hemp",
       "display_name": "L. Hemp",
       "latin_name": "Lauren Hemp",
+      "nationality": {
+        "code": "ENG",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2603520",
         "name": "Man City",
@@ -33689,6 +34997,10 @@
       "name": "Rachael Adedini",
       "display_name": "R. Adedini",
       "latin_name": "Rachael Adedini",
+      "nationality": {
+        "code": "",
+        "source": ""
+      },
       "team": {
         "id": "2603520",
         "name": "Man City",
@@ -33792,6 +35104,10 @@
       "name": "Anna Moorhouse",
       "display_name": "A. Moorhouse",
       "latin_name": "Anna Moorhouse",
+      "nationality": {
+        "code": "ENG",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2603520",
         "name": "Man City",
@@ -33895,6 +35211,10 @@
       "name": "Ayaka Yamashita",
       "display_name": "A. Yamashita",
       "latin_name": "Ayaka Yamashita",
+      "nationality": {
+        "code": "JPN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2603520",
         "name": "Man City",
@@ -33998,6 +35318,10 @@
       "name": "Eartha Cumings",
       "display_name": "E. Cumings",
       "latin_name": "Eartha Cumings",
+      "nationality": {
+        "code": "SCO",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2603520",
         "name": "Man City",
@@ -34101,6 +35425,10 @@
       "name": "Amelia Oldroyd",
       "display_name": "A. Oldroyd",
       "latin_name": "Amelia Oldroyd",
+      "nationality": {
+        "code": "",
+        "source": ""
+      },
       "team": {
         "id": "2603520",
         "name": "Man City",
@@ -34204,6 +35532,10 @@
       "name": "Aoba Fujino",
       "display_name": "A. Fujino",
       "latin_name": "Aoba Fujino",
+      "nationality": {
+        "code": "JPN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2603520",
         "name": "Man City",
@@ -34307,6 +35639,10 @@
       "name": "Grace Clinton",
       "display_name": "G. Clinton",
       "latin_name": "Grace Clinton",
+      "nationality": {
+        "code": "ENG",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2603520",
         "name": "Man City",
@@ -34410,6 +35746,10 @@
       "name": "Iman Beney",
       "display_name": "I. Beney",
       "latin_name": "Iman Beney",
+      "nationality": {
+        "code": "SUI",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2603520",
         "name": "Man City",
@@ -34513,6 +35853,10 @@
       "name": "Laura Blindkilde Brown",
       "display_name": "L. Blindkilde Brown",
       "latin_name": "Laura Blindkilde Brown",
+      "nationality": {
+        "code": "ENG",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2603520",
         "name": "Man City",
@@ -34616,6 +35960,10 @@
       "name": "Mary Fowler",
       "display_name": "M. Fowler",
       "latin_name": "Mary Fowler",
+      "nationality": {
+        "code": "AUS",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2603520",
         "name": "Man City",
@@ -34719,6 +36067,10 @@
       "name": "Samantha Coffey",
       "display_name": "S. Coffey",
       "latin_name": "Samantha Coffey",
+      "nationality": {
+        "code": "USA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2603520",
         "name": "Man City",
@@ -34822,6 +36174,10 @@
       "name": "Sydney Lohmann",
       "display_name": "S. Lohmann",
       "latin_name": "Sydney Lohmann",
+      "nationality": {
+        "code": "GER",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2603520",
         "name": "Man City",
@@ -34925,6 +36281,10 @@
       "name": "Vivianne Miedema",
       "display_name": "V. Miedema",
       "latin_name": "Vivianne Miedema",
+      "nationality": {
+        "code": "NED",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2603520",
         "name": "Man City",
@@ -35028,6 +36388,10 @@
       "name": "Yui Hasegawa",
       "display_name": "Y. Hasegawa",
       "latin_name": "Yui Hasegawa",
+      "nationality": {
+        "code": "JPN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2603520",
         "name": "Man City",
@@ -35131,6 +36495,10 @@
       "name": "Agathe Ollivier",
       "display_name": "A. Ollivier",
       "latin_name": "Agathe Ollivier",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601983",
         "name": "OH Leuven",
@@ -35234,6 +36602,10 @@
       "name": "Alicia Jossart",
       "display_name": "A. Jossart",
       "latin_name": "Alicia Jossart",
+      "nationality": {
+        "code": "BEL",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601983",
         "name": "OH Leuven",
@@ -35337,6 +36709,10 @@
       "name": "Amélie Van Holderbeke",
       "display_name": "A. Van Holderbeke",
       "latin_name": "Amelie Van Holderbeke",
+      "nationality": {
+        "code": "BEL",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601983",
         "name": "OH Leuven",
@@ -35440,6 +36816,10 @@
       "name": "Axelle Van Besauw",
       "display_name": "A. Van Besauw",
       "latin_name": "Axelle Van Besauw",
+      "nationality": {
+        "code": "BEL",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601983",
         "name": "OH Leuven",
@@ -35543,6 +36923,10 @@
       "name": "Elise Leempoels",
       "display_name": "E. Leempoels",
       "latin_name": "Elise Leempoels",
+      "nationality": {
+        "code": "BEL",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601983",
         "name": "OH Leuven",
@@ -35646,6 +37030,10 @@
       "name": "Emma Vercauteren",
       "display_name": "E. Vercauteren",
       "latin_name": "Emma Vercauteren",
+      "nationality": {
+        "code": "",
+        "source": ""
+      },
       "team": {
         "id": "2601983",
         "name": "OH Leuven",
@@ -35749,6 +37137,10 @@
       "name": "Flo Hermans",
       "display_name": "F. Hermans",
       "latin_name": "Flo Hermans",
+      "nationality": {
+        "code": "BEL",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601983",
         "name": "OH Leuven",
@@ -35852,6 +37244,10 @@
       "name": "Kim Everaerts",
       "display_name": "K. Everaerts",
       "latin_name": "Kim Everaerts",
+      "nationality": {
+        "code": "NED",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601983",
         "name": "OH Leuven",
@@ -35955,6 +37351,10 @@
       "name": "Kimberley Smit",
       "display_name": "K. Smit",
       "latin_name": "Kimberley Smit",
+      "nationality": {
+        "code": "NED",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601983",
         "name": "OH Leuven",
@@ -36058,6 +37458,10 @@
       "name": "Norah Buijsrogge",
       "display_name": "N. Buijsrogge",
       "latin_name": "Norah Buijsrogge",
+      "nationality": {
+        "code": "BEL",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601983",
         "name": "OH Leuven",
@@ -36161,6 +37565,10 @@
       "name": "Saar Janssen",
       "display_name": "S. Janssen",
       "latin_name": "Saar Janssen",
+      "nationality": {
+        "code": "BEL",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601983",
         "name": "OH Leuven",
@@ -36264,6 +37672,10 @@
       "name": "Sterre Gielen",
       "display_name": "S. Gielen",
       "latin_name": "Sterre Gielen",
+      "nationality": {
+        "code": "BEL",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601983",
         "name": "OH Leuven",
@@ -36367,6 +37779,10 @@
       "name": "Virág Nagy",
       "display_name": "V. Nagy",
       "latin_name": "Virag Nagy",
+      "nationality": {
+        "code": "HUN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601983",
         "name": "OH Leuven",
@@ -36470,6 +37886,10 @@
       "name": "Anna Corneillie",
       "display_name": "A. Corneillie",
       "latin_name": "Anna Corneillie",
+      "nationality": {
+        "code": "BEL",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601983",
         "name": "OH Leuven",
@@ -36573,6 +37993,10 @@
       "name": "Anouk Van Praet",
       "display_name": "A. Van Praet",
       "latin_name": "Anouk Van Praet",
+      "nationality": {
+        "code": "BEL",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601983",
         "name": "OH Leuven",
@@ -36676,6 +38100,10 @@
       "name": "Ioanna Papatheodorou",
       "display_name": "I. Papatheodorou",
       "latin_name": "Ioanna Papatheodorou",
+      "nationality": {
+        "code": "GRE",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601983",
         "name": "OH Leuven",
@@ -36779,6 +38207,10 @@
       "name": "Isabella Dekker",
       "display_name": "I. Dekker",
       "latin_name": "Isabella Dekker",
+      "nationality": {
+        "code": "NED",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601983",
         "name": "OH Leuven",
@@ -36882,6 +38314,10 @@
       "name": "Jada Conijnenberg",
       "display_name": "J. Conijnenberg",
       "latin_name": "Jada Conijnenberg",
+      "nationality": {
+        "code": "SUR",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601983",
         "name": "OH Leuven",
@@ -36985,6 +38421,10 @@
       "name": "Kadhiya De Ceuster",
       "display_name": "K. De Ceuster",
       "latin_name": "Kadhiya De Ceuster",
+      "nationality": {
+        "code": "BEL",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601983",
         "name": "OH Leuven",
@@ -37088,6 +38528,10 @@
       "name": "Lente Gerard",
       "display_name": "L. Gerard",
       "latin_name": "Lente Gerard",
+      "nationality": {
+        "code": "BEL",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601983",
         "name": "OH Leuven",
@@ -37191,6 +38635,10 @@
       "name": "Linnea Viola Strömberg",
       "display_name": "L. Strömberg",
       "latin_name": "Linnea Viola Stromberg",
+      "nationality": {
+        "code": "SWE",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601983",
         "name": "OH Leuven",
@@ -37294,6 +38742,10 @@
       "name": "Manon Heremans",
       "display_name": "M. Heremans",
       "latin_name": "Manon Heremans",
+      "nationality": {
+        "code": "BEL",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601983",
         "name": "OH Leuven",
@@ -37397,6 +38849,10 @@
       "name": "Faye Lammertijn",
       "display_name": "F. Lammertijn",
       "latin_name": "Faye Lammertijn",
+      "nationality": {
+        "code": "BEL",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601983",
         "name": "OH Leuven",
@@ -37500,6 +38956,10 @@
       "name": "Juliette Demol",
       "display_name": "J. Demol",
       "latin_name": "Juliette Demol",
+      "nationality": {
+        "code": "BEL",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601983",
         "name": "OH Leuven",
@@ -37603,6 +39063,10 @@
       "name": "Lieke Cremers",
       "display_name": "L. Cremers",
       "latin_name": "Lieke Cremers",
+      "nationality": {
+        "code": "NED",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601983",
         "name": "OH Leuven",
@@ -37706,6 +39170,10 @@
       "name": "Lowiese Seynhaeve",
       "display_name": "L. Seynhaeve",
       "latin_name": "Lowiese Seynhaeve",
+      "nationality": {
+        "code": "BEL",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601983",
         "name": "OH Leuven",
@@ -37809,6 +39277,10 @@
       "name": "Alixe Bosteels",
       "display_name": "A. Bosteels",
       "latin_name": "Alixe Bosteels",
+      "nationality": {
+        "code": "BEL",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601983",
         "name": "OH Leuven",
@@ -37912,6 +39384,10 @@
       "name": "Camille Lafaix",
       "display_name": "C. Lafaix",
       "latin_name": "Camille Lafaix",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601983",
         "name": "OH Leuven",
@@ -38015,6 +39491,10 @@
       "name": "Ella Loix",
       "display_name": "E. Loix",
       "latin_name": "Ella Loix",
+      "nationality": {
+        "code": "BEL",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601983",
         "name": "OH Leuven",
@@ -38118,6 +39598,10 @@
       "name": "Estelle Mathot",
       "display_name": "E. Mathot",
       "latin_name": "Estelle Mathot",
+      "nationality": {
+        "code": "BEL",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601983",
         "name": "OH Leuven",
@@ -38221,6 +39705,10 @@
       "name": "Fleur Nuyts",
       "display_name": "F. Nuyts",
       "latin_name": "Fleur Nuyts",
+      "nationality": {
+        "code": "BEL",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601983",
         "name": "OH Leuven",
@@ -38324,6 +39812,10 @@
       "name": "Flo'Ke Van Looveren",
       "display_name": "F. Van Looveren",
       "latin_name": "Flo'Ke Van Looveren",
+      "nationality": {
+        "code": "BEL",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601983",
         "name": "OH Leuven",
@@ -38427,6 +39919,10 @@
       "name": "Jeslynn Kuijpers",
       "display_name": "J. Kuijpers",
       "latin_name": "Jeslynn Kuijpers",
+      "nationality": {
+        "code": "NED",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601983",
         "name": "OH Leuven",
@@ -38530,6 +40026,10 @@
       "name": "Julie Biesmans",
       "display_name": "J. Biesmans",
       "latin_name": "Julie Biesmans",
+      "nationality": {
+        "code": "BEL",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601983",
         "name": "OH Leuven",
@@ -38633,6 +40133,10 @@
       "name": "Lili Verstrepen",
       "display_name": "L. Verstrepen",
       "latin_name": "Lili Verstrepen",
+      "nationality": {
+        "code": "BEL",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601983",
         "name": "OH Leuven",
@@ -38736,6 +40240,10 @@
       "name": "Lily Hoekx",
       "display_name": "L. Hoekx",
       "latin_name": "Lily Hoekx",
+      "nationality": {
+        "code": "BEL",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601983",
         "name": "OH Leuven",
@@ -38839,6 +40347,10 @@
       "name": "Loren De Decker",
       "display_name": "L. De Decker",
       "latin_name": "Loren De Decker",
+      "nationality": {
+        "code": "BEL",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601983",
         "name": "OH Leuven",
@@ -38942,6 +40454,10 @@
       "name": "Manon Van Raay",
       "display_name": "M. Van Raay",
       "latin_name": "Manon Van Raay",
+      "nationality": {
+        "code": "NED",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601983",
         "name": "OH Leuven",
@@ -39045,6 +40561,10 @@
       "name": "Nel Neyrinck",
       "display_name": "N. Neyrinck",
       "latin_name": "Nel Neyrinck",
+      "nationality": {
+        "code": "BEL",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2601983",
         "name": "OH Leuven",
@@ -39148,6 +40668,10 @@
       "name": "Aalyah Samadi",
       "display_name": "A. Samadi",
       "latin_name": "Aalyah Samadi",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -39251,6 +40775,10 @@
       "name": "Alicia Kijanka Larras",
       "display_name": "A. Kijanka Larras",
       "latin_name": "Alicia Kijanka Larras",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -39354,6 +40882,10 @@
       "name": "Ashley Lawrence",
       "display_name": "A. Lawrence",
       "latin_name": "Ashley Lawrence",
+      "nationality": {
+        "code": "CAN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -39457,6 +40989,10 @@
       "name": "Elma Junttila Nelhage",
       "display_name": "E. Junttila Nelhage",
       "latin_name": "Elma Junttila Nelhage",
+      "nationality": {
+        "code": "SWE",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -39560,6 +41096,10 @@
       "name": "Emma Motyka",
       "display_name": "E. Motyka",
       "latin_name": "Emma Motyka",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -39663,6 +41203,10 @@
       "name": "Hyliana Serin",
       "display_name": "H. Serin",
       "latin_name": "Hyliana Serin",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -39766,6 +41310,10 @@
       "name": "Inès Saadallah",
       "display_name": "I. Saadallah",
       "latin_name": "Ines Saadallah",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -39869,6 +41417,10 @@
       "name": "Isaline Di Rienzo",
       "display_name": "I. Di Rienzo",
       "latin_name": "Isaline Di Rienzo",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -39972,6 +41524,10 @@
       "name": "Jade Derigent",
       "display_name": "J. Derigent",
       "latin_name": "Jade Derigent",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -40075,6 +41631,10 @@
       "name": "Maiwenn Olivier",
       "display_name": "M. Olivier",
       "latin_name": "Maiwenn Olivier",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -40178,6 +41738,10 @@
       "name": "Océane Moreau-Tranchant",
       "display_name": "O. Moreau-Tranchant",
       "latin_name": "Oceane Moreau-Tranchant",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -40281,6 +41845,10 @@
       "name": "Romane Rafalski",
       "display_name": "R. Rafalski",
       "latin_name": "Romane Rafalski",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -40384,6 +41952,10 @@
       "name": "Rosie Olando",
       "display_name": "R. Olando",
       "latin_name": "Rosie Olando",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -40487,6 +42059,10 @@
       "name": "Salma Benouda",
       "display_name": "S. Benouda",
       "latin_name": "Salma Benouda",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -40590,6 +42166,10 @@
       "name": "Selma Bacha",
       "display_name": "S. Bacha",
       "latin_name": "Selma Bacha",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -40693,6 +42273,10 @@
       "name": "Tarciane",
       "display_name": "Tarciane",
       "latin_name": "Tarciane",
+      "nationality": {
+        "code": "BRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -40796,6 +42380,10 @@
       "name": "Valentine Sellenet",
       "display_name": "V. Sellenet",
       "latin_name": "Valentine Sellenet",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -40899,6 +42487,10 @@
       "name": "Victoria Goujet Abastado",
       "display_name": "V. Goujet Abastado",
       "latin_name": "Victoria Goujet Abastado",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -41002,6 +42594,10 @@
       "name": "Wassa Sangaré",
       "display_name": "W. Sangaré",
       "latin_name": "Wassa Sangare",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -41105,6 +42701,10 @@
       "name": "Wendie Renard",
       "display_name": "W. Renard",
       "latin_name": "Wendie Renard",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -41208,6 +42808,10 @@
       "name": "Zoé Dugast",
       "display_name": "Z. Dugast",
       "latin_name": "Zoe Dugast",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -41311,6 +42915,10 @@
       "name": "Ada Hegerberg",
       "display_name": "A. Hegerberg",
       "latin_name": "Ada Hegerberg",
+      "nationality": {
+        "code": "NOR",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -41414,6 +43022,10 @@
       "name": "Camille Marmillot",
       "display_name": "C. Marmillot",
       "latin_name": "Camille Marmillot",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -41517,6 +43129,10 @@
       "name": "Johanna Rytting Kaneryd",
       "display_name": "J. Rytting Kaneryd",
       "latin_name": "Johanna Rytting Kaneryd",
+      "nationality": {
+        "code": "SWE",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -41620,6 +43236,10 @@
       "name": "Liana Joseph",
       "display_name": "L. Joseph",
       "latin_name": "Liana Joseph",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -41723,6 +43343,10 @@
       "name": "Léa Motyka",
       "display_name": "L. Motyka",
       "latin_name": "Lea Motyka",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -41826,6 +43450,10 @@
       "name": "Maelys Ane",
       "display_name": "M. Ane",
       "latin_name": "Maelys Ane",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -41929,6 +43557,10 @@
       "name": "Marie-Antoinette Katoto",
       "display_name": "M. Katoto",
       "latin_name": "Marie-Antoinette Katoto",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -42032,6 +43664,10 @@
       "name": "Melchie Dumornay",
       "display_name": "M. Dumornay",
       "latin_name": "Melchie Dumornay",
+      "nationality": {
+        "code": "HAI",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -42135,6 +43771,10 @@
       "name": "Rym Maaili",
       "display_name": "R. Maaili",
       "latin_name": "Rym Maaili",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -42238,6 +43878,10 @@
       "name": "Salma Paralluelo",
       "display_name": "Salma Paralluelo",
       "latin_name": "Salma Paralluelo",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -42341,6 +43985,10 @@
       "name": "Sofia Bekhaled",
       "display_name": "S. Bekhaled",
       "latin_name": "Sofia Bekhaled",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -42444,6 +44092,10 @@
       "name": "Tabitha Chawinga",
       "display_name": "T. Chawinga",
       "latin_name": "Tabitha Chawinga",
+      "nationality": {
+        "code": "MWI",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -42547,6 +44199,10 @@
       "name": "Vicki Becho",
       "display_name": "V. Becho",
       "latin_name": "Vicki Becho",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -42650,6 +44306,10 @@
       "name": "Yasmine Benseba",
       "display_name": "Y. Benseba",
       "latin_name": "Yasmine Benseba",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -42753,6 +44413,10 @@
       "name": "Alexane Lambert",
       "display_name": "A. Lambert",
       "latin_name": "Alexane Lambert",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -42856,6 +44520,10 @@
       "name": "Christiane Endler",
       "display_name": "C. Endler",
       "latin_name": "Christiane Endler",
+      "nationality": {
+        "code": "CHI",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -42959,6 +44627,10 @@
       "name": "Féérine Belhadj",
       "display_name": "F. Belhadj",
       "latin_name": "Feerine Belhadj",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -43062,6 +44734,10 @@
       "name": "Kelya Babin",
       "display_name": "K. Babin",
       "latin_name": "Kelya Babin",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -43165,6 +44841,10 @@
       "name": "Maria-Luisa Grohs",
       "display_name": "M. Grohs",
       "latin_name": "Maria-Luisa Grohs",
+      "nationality": {
+        "code": "GER",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -43268,6 +44948,10 @@
       "name": "Teagan Micah",
       "display_name": "T. Micah",
       "latin_name": "Teagan Micah",
+      "nationality": {
+        "code": "",
+        "source": ""
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -43371,6 +45055,10 @@
       "name": "Ainhoa Sagna",
       "display_name": "A. Sagna",
       "latin_name": "Ainhoa Sagna",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -43474,6 +45162,10 @@
       "name": "Ambre Ouazar",
       "display_name": "A. Ouazar",
       "latin_name": "Ambre Ouazar",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -43577,6 +45269,10 @@
       "name": "Assia Briki",
       "display_name": "A. Briki",
       "latin_name": "Assia Briki",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -43680,6 +45376,10 @@
       "name": "Caroline Weir",
       "display_name": "C. Weir",
       "latin_name": "Caroline Weir",
+      "nationality": {
+        "code": "SCO",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -43783,6 +45483,10 @@
       "name": "Celya Fuentes",
       "display_name": "C. Fuentes",
       "latin_name": "Celya Fuentes",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -43886,6 +45590,10 @@
       "name": "Damaris Egurrola",
       "display_name": "D. Egurrola",
       "latin_name": "Damaris Egurrola",
+      "nationality": {
+        "code": "NED",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -43989,6 +45697,10 @@
       "name": "Elida Kolbjørnsen",
       "display_name": "E. Kolbjørnsen",
       "latin_name": "Elida Kolbjørnsen",
+      "nationality": {
+        "code": "",
+        "source": ""
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -44092,6 +45804,10 @@
       "name": "Giovanna Waksman",
       "display_name": "G. Waksman",
       "latin_name": "Giovanna Waksman",
+      "nationality": {
+        "code": "BRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -44195,6 +45911,10 @@
       "name": "Ines Benyahia",
       "display_name": "I. Benyahia",
       "latin_name": "Ines Benyahia",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -44298,6 +46018,10 @@
       "name": "Ines Kenzari",
       "display_name": "I. Kenzari",
       "latin_name": "Ines Kenzari",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -44401,6 +46125,10 @@
       "name": "Ingrid Engen",
       "display_name": "I. Engen",
       "latin_name": "Ingrid Engen",
+      "nationality": {
+        "code": "NOR",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -44504,6 +46232,10 @@
       "name": "Jule Brand",
       "display_name": "J. Brand",
       "latin_name": "Jule Brand",
+      "nationality": {
+        "code": "GER",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -44607,6 +46339,10 @@
       "name": "Juliane Guillot",
       "display_name": "J. Guillot",
       "latin_name": "Juliane Guillot",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -44710,6 +46446,10 @@
       "name": "Julie Swierot",
       "display_name": "J. Swierot",
       "latin_name": "Julie Swierot",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -44813,6 +46553,10 @@
       "name": "Korbin Shrader",
       "display_name": "K. Shrader",
       "latin_name": "Korbin Shrader",
+      "nationality": {
+        "code": "USA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -44916,6 +46660,10 @@
       "name": "Lily Yohannes",
       "display_name": "L. Yohannes",
       "latin_name": "Lily Yohannes",
+      "nationality": {
+        "code": "USA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -45019,6 +46767,10 @@
       "name": "Maïssa Fathallah",
       "display_name": "M. Fathallah",
       "latin_name": "Maissa Fathallah",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -45122,6 +46874,10 @@
       "name": "Melyne Merah",
       "display_name": "M. Merah",
       "latin_name": "Melyne Merah",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -45225,6 +46981,10 @@
       "name": "Méhisane Zidi",
       "display_name": "M. Zidi",
       "latin_name": "Mehisane Zidi",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600241",
         "name": "OL Lyonnes",
@@ -45328,6 +47088,10 @@
       "name": "Célina Ould Hocine",
       "display_name": "C. Ould Hocine",
       "latin_name": "Celina Ould Hocine",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609779",
         "name": "Paris",
@@ -45431,6 +47195,10 @@
       "name": "Fiona Liaigre",
       "display_name": "F. Liaigre",
       "latin_name": "Fiona Liaigre",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609779",
         "name": "Paris",
@@ -45534,6 +47302,10 @@
       "name": "Hajar Saïd",
       "display_name": "H. Saïd",
       "latin_name": "Hajar Said",
+      "nationality": {
+        "code": "MAR",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609779",
         "name": "Paris",
@@ -45637,6 +47409,10 @@
       "name": "Hillary Diaz",
       "display_name": "H. Diaz",
       "latin_name": "Hillary Diaz",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609779",
         "name": "Paris",
@@ -45740,6 +47516,10 @@
       "name": "Manoly Baquerizo",
       "display_name": "M. Baquerizo Córdova",
       "latin_name": "Manoly Baquerizo",
+      "nationality": {
+        "code": "ECU",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609779",
         "name": "Paris",
@@ -45843,6 +47623,10 @@
       "name": "Melween N'Dongala",
       "display_name": "M. N'Dongala",
       "latin_name": "Melween N'Dongala",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609779",
         "name": "Paris",
@@ -45946,6 +47730,10 @@
       "name": "Oumou Sidibé",
       "display_name": "O. Sidibé",
       "latin_name": "Oumou Sidibe",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609779",
         "name": "Paris",
@@ -46049,6 +47837,10 @@
       "name": "Théa Greboval",
       "display_name": "T. Greboval",
       "latin_name": "Thea Greboval",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609779",
         "name": "Paris",
@@ -46152,6 +47944,10 @@
       "name": "Íris Fernandes",
       "display_name": "Íris Fernandes",
       "latin_name": "Iris Fernandes",
+      "nationality": {
+        "code": "POR",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609779",
         "name": "Paris",
@@ -46255,6 +48051,10 @@
       "name": "Evelyne Viens",
       "display_name": "E. Viens",
       "latin_name": "Evelyne Viens",
+      "nationality": {
+        "code": "CAN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609779",
         "name": "Paris",
@@ -46358,6 +48158,10 @@
       "name": "Hawa Sangare",
       "display_name": "H. Sangare",
       "latin_name": "Hawa Sangare",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609779",
         "name": "Paris",
@@ -46461,6 +48265,10 @@
       "name": "Karla Torres",
       "display_name": "Karla Torres",
       "latin_name": "Karla Torres",
+      "nationality": {
+        "code": "COL",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609779",
         "name": "Paris",
@@ -46564,6 +48372,10 @@
       "name": "Klaudia Jedlińska",
       "display_name": "K. Jedlińska",
       "latin_name": "Klaudia Jedlinska",
+      "nationality": {
+        "code": "POL",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609779",
         "name": "Paris",
@@ -46667,6 +48479,10 @@
       "name": "Sheika Scott",
       "display_name": "S. Scott",
       "latin_name": "Sheika Scott",
+      "nationality": {
+        "code": "CRC",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609779",
         "name": "Paris",
@@ -46770,6 +48586,10 @@
       "name": "Ysoé Mustiere",
       "display_name": "Y. Mustiere",
       "latin_name": "Ysoe Mustiere",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609779",
         "name": "Paris",
@@ -46873,6 +48693,10 @@
       "name": "Clélia Ducreux",
       "display_name": "C. Ducreux",
       "latin_name": "Clelia Ducreux",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609779",
         "name": "Paris",
@@ -46976,6 +48800,10 @@
       "name": "Kinga Seweryn",
       "display_name": "K. Seweryn",
       "latin_name": "Kinga Seweryn",
+      "nationality": {
+        "code": "POL",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609779",
         "name": "Paris",
@@ -47079,6 +48907,10 @@
       "name": "Mylène Chavas",
       "display_name": "M. Chavas",
       "latin_name": "Mylene Chavas",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609779",
         "name": "Paris",
@@ -47182,6 +49014,10 @@
       "name": "Rafaela Mendonça",
       "display_name": "Rafaela Mendonça",
       "latin_name": "Rafaela Mendonca",
+      "nationality": {
+        "code": "POR",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609779",
         "name": "Paris",
@@ -47285,6 +49121,10 @@
       "name": "Anaele Le Moguedec",
       "display_name": "A. Le Moguedec",
       "latin_name": "Anaele Le Moguedec",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609779",
         "name": "Paris",
@@ -47388,6 +49228,10 @@
       "name": "Aurélie Reynders",
       "display_name": "A. Reynders",
       "latin_name": "Aurelie Reynders",
+      "nationality": {
+        "code": "BEL",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609779",
         "name": "Paris",
@@ -47491,6 +49335,10 @@
       "name": "Clara Mateo",
       "display_name": "C. Mateo",
       "latin_name": "Clara Mateo",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609779",
         "name": "Paris",
@@ -47594,6 +49442,10 @@
       "name": "Daphne Corboz",
       "display_name": "D. Corboz",
       "latin_name": "Daphne Corboz",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609779",
         "name": "Paris",
@@ -47697,6 +49549,10 @@
       "name": "Dissya Minyemeck",
       "display_name": "D. Minyemeck",
       "latin_name": "Dissya Minyemeck",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609779",
         "name": "Paris",
@@ -47800,6 +49656,10 @@
       "name": "Kadidia Traoré",
       "display_name": "K. Traoré",
       "latin_name": "Kadidia Traore",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609779",
         "name": "Paris",
@@ -47903,6 +49763,10 @@
       "name": "Kaja Korošec",
       "display_name": "K. Korošec",
       "latin_name": "Kaja Korosec",
+      "nationality": {
+        "code": "SVN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609779",
         "name": "Paris",
@@ -48006,6 +49870,10 @@
       "name": "Kenza Dufour",
       "display_name": "K. Dufour",
       "latin_name": "Kenza Dufour",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609779",
         "name": "Paris",
@@ -48109,6 +49977,10 @@
       "name": "Maeline Mendy",
       "display_name": "M. Mendy",
       "latin_name": "Maeline Mendy",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609779",
         "name": "Paris",
@@ -48212,6 +50084,10 @@
       "name": "Mariam Toloba",
       "display_name": "M. Toloba",
       "latin_name": "Mariam Toloba",
+      "nationality": {
+        "code": "BEL",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609779",
         "name": "Paris",
@@ -48315,6 +50191,10 @@
       "name": "Naissya Gane Bernardino",
       "display_name": "N. Gane Bernardino",
       "latin_name": "Naissya Gane Bernardino",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609779",
         "name": "Paris",
@@ -48418,6 +50298,10 @@
       "name": "Nakhim Dosso",
       "display_name": "N. Dosso",
       "latin_name": "Nakhim Dosso",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609779",
         "name": "Paris",
@@ -48521,6 +50405,10 @@
       "name": "Nina Dumans",
       "display_name": "N. Dumans",
       "latin_name": "Nina Dumans",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609779",
         "name": "Paris",
@@ -48624,6 +50512,10 @@
       "name": "Océane Picard",
       "display_name": "O. Picard",
       "latin_name": "Oceane Picard",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609779",
         "name": "Paris",
@@ -48727,6 +50619,10 @@
       "name": "Odélia Tae",
       "display_name": "O. Tae",
       "latin_name": "Odelia Tae",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609779",
         "name": "Paris",
@@ -48830,6 +50726,10 @@
       "name": "Saki Ishizaka",
       "display_name": "S. Ishizaka",
       "latin_name": "Saki Ishizaka",
+      "nationality": {
+        "code": "JPN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609779",
         "name": "Paris",
@@ -48933,6 +50833,10 @@
       "name": "Sharlie Yerro",
       "display_name": "S. Yerro",
       "latin_name": "Sharlie Yerro",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2609779",
         "name": "Paris",
@@ -49036,6 +50940,10 @@
       "name": "Andjela Krstić",
       "display_name": "A. Krstić",
       "latin_name": "Andjela Krstic",
+      "nationality": {
+        "code": "SRB",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600841",
         "name": "Paris SG",
@@ -49139,6 +51047,10 @@
       "name": "Griedge Mbock Bathy",
       "display_name": "G. Mbock Bathy",
       "latin_name": "Griedge Mbock Bathy",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600841",
         "name": "Paris SG",
@@ -49242,6 +51154,10 @@
       "name": "Isabela Chagas",
       "display_name": "Isabela Chagas",
       "latin_name": "Isabela Chagas",
+      "nationality": {
+        "code": "BRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600841",
         "name": "Paris SG",
@@ -49345,6 +51261,10 @@
       "name": "Jade Le Guilly",
       "display_name": "J. Le Guilly",
       "latin_name": "Jade Le Guilly",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600841",
         "name": "Paris SG",
@@ -49448,6 +51368,10 @@
       "name": "Mélissa Esdras",
       "display_name": "M. Esdras",
       "latin_name": "Melissa Esdras",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600841",
         "name": "Paris SG",
@@ -49551,6 +51475,10 @@
       "name": "Noémie Fatier",
       "display_name": "N. Fatier",
       "latin_name": "Noemie Fatier",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600841",
         "name": "Paris SG",
@@ -49654,6 +51582,10 @@
       "name": "Olga Carmona",
       "display_name": "Olga Carmona",
       "latin_name": "Olga Carmona",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600841",
         "name": "Paris SG",
@@ -49757,6 +51689,10 @@
       "name": "Paris-Emilie Daramola",
       "display_name": "P. Daramola",
       "latin_name": "Paris-Emilie Daramola",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600841",
         "name": "Paris SG",
@@ -49860,6 +51796,10 @@
       "name": "Paulina Dudek",
       "display_name": "P. Dudek",
       "latin_name": "Paulina Dudek",
+      "nationality": {
+        "code": "POL",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600841",
         "name": "Paris SG",
@@ -49963,6 +51903,10 @@
       "name": "Tara Elimbi Gilbert",
       "display_name": "T. Elimbi Gilbert",
       "latin_name": "Tara Elimbi Gilbert",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600841",
         "name": "Paris SG",
@@ -50066,6 +52010,10 @@
       "name": "Thiniba Samoura",
       "display_name": "T. Samoura",
       "latin_name": "Thiniba Samoura",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600841",
         "name": "Paris SG",
@@ -50169,6 +52117,10 @@
       "name": "Anne-Esther Goprou",
       "display_name": "A. Goprou",
       "latin_name": "Anne-Esther Goprou",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600841",
         "name": "Paris SG",
@@ -50272,6 +52224,10 @@
       "name": "Lina Mokhtar Jamai",
       "display_name": "L. Mokhtar Jamai",
       "latin_name": "Lina Mokhtar Jamai",
+      "nationality": {
+        "code": "",
+        "source": ""
+      },
       "team": {
         "id": "2600841",
         "name": "Paris SG",
@@ -50375,6 +52331,10 @@
       "name": "Léa Morissaint",
       "display_name": "L. Morissaint",
       "latin_name": "Lea Morissaint",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600841",
         "name": "Paris SG",
@@ -50478,6 +52438,10 @@
       "name": "Marie Estella Lafontaine",
       "display_name": "M. Lafontaine",
       "latin_name": "Marie Estella Lafontaine",
+      "nationality": {
+        "code": "MAD",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600841",
         "name": "Paris SG",
@@ -50581,6 +52545,10 @@
       "name": "Merveille Kanjinga",
       "display_name": "M. Kanjinga",
       "latin_name": "Merveille Kanjinga",
+      "nationality": {
+        "code": "COD",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600841",
         "name": "Paris SG",
@@ -50684,6 +52652,10 @@
       "name": "Naomie Feller",
       "display_name": "N. Feller",
       "latin_name": "Naomie Feller",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600841",
         "name": "Paris SG",
@@ -50787,6 +52759,10 @@
       "name": "Romée Leuchter",
       "display_name": "R. Leuchter",
       "latin_name": "Romee Leuchter",
+      "nationality": {
+        "code": "NED",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600841",
         "name": "Paris SG",
@@ -50890,6 +52866,10 @@
       "name": "Camille Masson",
       "display_name": "C. Masson",
       "latin_name": "Camille Masson",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600841",
         "name": "Paris SG",
@@ -50993,6 +52973,10 @@
       "name": "Katarzyna Kiedrzynek",
       "display_name": "K. Kiedrzynek",
       "latin_name": "Katarzyna Kiedrzynek",
+      "nationality": {
+        "code": "POL",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600841",
         "name": "Paris SG",
@@ -51096,6 +53080,10 @@
       "name": "Maren Groothoff",
       "display_name": "M. Groothoff",
       "latin_name": "Maren Groothoff",
+      "nationality": {
+        "code": "NED",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600841",
         "name": "Paris SG",
@@ -51199,6 +53187,10 @@
       "name": "Océane Toussaint",
       "display_name": "O. Toussaint",
       "latin_name": "Oceane Toussaint",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600841",
         "name": "Paris SG",
@@ -51302,6 +53294,10 @@
       "name": "Oliwia Szperkowska",
       "display_name": "O. Szperkowska",
       "latin_name": "Oliwia Szperkowska",
+      "nationality": {
+        "code": "POL",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600841",
         "name": "Paris SG",
@@ -51405,6 +53401,10 @@
       "name": "Alyssa Charlier",
       "display_name": "A. Charlier",
       "latin_name": "Alyssa Charlier",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600841",
         "name": "Paris SG",
@@ -51508,6 +53508,10 @@
       "name": "Anaïs Ebayilin",
       "display_name": "A. Ebayilin",
       "latin_name": "Anais Ebayilin",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600841",
         "name": "Paris SG",
@@ -51611,6 +53615,10 @@
       "name": "Candice Thomas",
       "display_name": "C. Thomas",
       "latin_name": "Candice Thomas",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600841",
         "name": "Paris SG",
@@ -51714,6 +53722,10 @@
       "name": "Clothilde Frerejean",
       "display_name": "C. Frerejean",
       "latin_name": "Clothilde Frerejean",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600841",
         "name": "Paris SG",
@@ -51817,6 +53829,10 @@
       "name": "Diénébou Niakate",
       "display_name": "D. Niakate",
       "latin_name": "Dienebou Niakate",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600841",
         "name": "Paris SG",
@@ -51920,6 +53936,10 @@
       "name": "Emilie Libakken Østerås",
       "display_name": "E. Østerås",
       "latin_name": "Emilie Libakken Østeras",
+      "nationality": {
+        "code": "NOR",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600841",
         "name": "Paris SG",
@@ -52023,6 +54043,10 @@
       "name": "Florianne Jourde",
       "display_name": "F. Jourde",
       "latin_name": "Florianne Jourde",
+      "nationality": {
+        "code": "CAN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600841",
         "name": "Paris SG",
@@ -52126,6 +54150,10 @@
       "name": "Gabrielle Le Roux",
       "display_name": "G. Le Roux",
       "latin_name": "Gabrielle Le Roux",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600841",
         "name": "Paris SG",
@@ -52229,6 +54257,10 @@
       "name": "Jackie Groenen",
       "display_name": "J. Groenen",
       "latin_name": "Jackie Groenen",
+      "nationality": {
+        "code": "NED",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600841",
         "name": "Paris SG",
@@ -52332,6 +54364,10 @@
       "name": "Jennifer Echegini",
       "display_name": "J. Echegini",
       "latin_name": "Jennifer Echegini",
+      "nationality": {
+        "code": "NGA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600841",
         "name": "Paris SG",
@@ -52435,6 +54471,10 @@
       "name": "Rasheedat Ajibade",
       "display_name": "R. Ajibade",
       "latin_name": "Rasheedat Ajibade",
+      "nationality": {
+        "code": "NGA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600841",
         "name": "Paris SG",
@@ -52538,6 +54578,10 @@
       "name": "Sakina Karchaoui",
       "display_name": "S. Karchaoui",
       "latin_name": "Sakina Karchaoui",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600841",
         "name": "Paris SG",
@@ -52641,6 +54685,10 @@
       "name": "Tanté Diakité",
       "display_name": "T. Diakité",
       "latin_name": "Tante Diakite",
+      "nationality": {
+        "code": "",
+        "source": ""
+      },
       "team": {
         "id": "2600841",
         "name": "Paris SG",
@@ -52744,6 +54792,10 @@
       "name": "Vitória Yaya",
       "display_name": "Vitória Yaya",
       "latin_name": "Vitoria Yaya",
+      "nationality": {
+        "code": "BRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2600841",
         "name": "Paris SG",
@@ -52847,6 +54899,10 @@
       "name": "Abril Díaz",
       "display_name": "Abril Díaz",
       "latin_name": "Abril Diaz",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611347",
         "name": "Real Madrid",
@@ -52950,6 +55006,10 @@
       "name": "Aitana Closa",
       "display_name": "Aitana Closa",
       "latin_name": "Aitana Closa",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611347",
         "name": "Real Madrid",
@@ -53053,6 +55113,10 @@
       "name": "Bella Andersson",
       "display_name": "B. Andersson",
       "latin_name": "Bella Andersson",
+      "nationality": {
+        "code": "SWE",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611347",
         "name": "Real Madrid",
@@ -53156,6 +55220,10 @@
       "name": "Claudia De La Cuerda",
       "display_name": "Claudia De La Cuerda",
       "latin_name": "Claudia De La Cuerda",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611347",
         "name": "Real Madrid",
@@ -53259,6 +55327,10 @@
       "name": "Eva Navarro",
       "display_name": "Eva Navarro",
       "latin_name": "Eva Navarro",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611347",
         "name": "Real Madrid",
@@ -53362,6 +55434,10 @@
       "name": "Janou Levels",
       "display_name": "J. Levels",
       "latin_name": "Janou Levels",
+      "nationality": {
+        "code": "NED",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611347",
         "name": "Real Madrid",
@@ -53465,6 +55541,10 @@
       "name": "María Méndez",
       "display_name": "María Méndez",
       "latin_name": "Maria Mendez",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611347",
         "name": "Real Madrid",
@@ -53568,6 +55648,10 @@
       "name": "Maëlle Lakrar",
       "display_name": "M. Lakrar",
       "latin_name": "Maelle Lakrar",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611347",
         "name": "Real Madrid",
@@ -53671,6 +55755,10 @@
       "name": "Noe Bejarano",
       "display_name": "Noe Bejarano",
       "latin_name": "Noe Bejarano",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611347",
         "name": "Real Madrid",
@@ -53774,6 +55862,10 @@
       "name": "Noelia Llamas",
       "display_name": "Noelia Llamas",
       "latin_name": "Noelia Llamas",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611347",
         "name": "Real Madrid",
@@ -53877,6 +55969,10 @@
       "name": "Paula Rascón",
       "display_name": "Paula Rascón",
       "latin_name": "Paula Rascon",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611347",
         "name": "Real Madrid",
@@ -53980,6 +56076,10 @@
       "name": "Raquel Zuazo",
       "display_name": "Raquel Zuazo",
       "latin_name": "Raquel Zuazo",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611347",
         "name": "Real Madrid",
@@ -54083,6 +56183,10 @@
       "name": "Sara Holmgaard",
       "display_name": "S. Holmgaard",
       "latin_name": "Sara Holmgaard",
+      "nationality": {
+        "code": "DEN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611347",
         "name": "Real Madrid",
@@ -54186,6 +56290,10 @@
       "name": "Silvia Blasco",
       "display_name": "Silvia Blasco",
       "latin_name": "Silvia Blasco",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611347",
         "name": "Real Madrid",
@@ -54289,6 +56397,10 @@
       "name": "Silvia Cristóbal",
       "display_name": "Silvia Cristóbal",
       "latin_name": "Silvia Cristobal",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611347",
         "name": "Real Madrid",
@@ -54392,6 +56504,10 @@
       "name": "Bibiana Casquero",
       "display_name": "Bibiana Casquero",
       "latin_name": "Bibiana Casquero",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611347",
         "name": "Real Madrid",
@@ -54495,6 +56611,10 @@
       "name": "Candela Rodríguez",
       "display_name": "Candela Rodríguez",
       "latin_name": "Candela Rodriguez",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611347",
         "name": "Real Madrid",
@@ -54598,6 +56718,10 @@
       "name": "Erika del Pino",
       "display_name": "Erika del Pino",
       "latin_name": "Erika del Pino",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611347",
         "name": "Real Madrid",
@@ -54701,6 +56825,10 @@
       "name": "Felicia Schröder",
       "display_name": "F. Schröder",
       "latin_name": "Felicia Schroder",
+      "nationality": {
+        "code": "SWE",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611347",
         "name": "Real Madrid",
@@ -54804,6 +56932,10 @@
       "name": "Lineth Beerensteyn",
       "display_name": "L. Beerensteyn",
       "latin_name": "Lineth Beerensteyn",
+      "nationality": {
+        "code": "NED",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611347",
         "name": "Real Madrid",
@@ -54907,6 +57039,10 @@
       "name": "Signe Bruun",
       "display_name": "S. Bruun",
       "latin_name": "Signe Bruun",
+      "nationality": {
+        "code": "DEN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611347",
         "name": "Real Madrid",
@@ -55010,6 +57146,10 @@
       "name": "Yasmine Zouhir",
       "display_name": "Y. Zouhir",
       "latin_name": "Yasmine Zouhir",
+      "nationality": {
+        "code": "",
+        "source": ""
+      },
       "team": {
         "id": "2611347",
         "name": "Real Madrid",
@@ -55113,6 +57253,10 @@
       "name": "Andrea Téllez",
       "display_name": "Andrea Téllez",
       "latin_name": "Andrea Tellez",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611347",
         "name": "Real Madrid",
@@ -55216,6 +57360,10 @@
       "name": "Cristina Águeda",
       "display_name": "Cristina Águeda",
       "latin_name": "Cristina Agueda",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611347",
         "name": "Real Madrid",
@@ -55319,6 +57467,10 @@
       "name": "Laia López",
       "display_name": "Laia López",
       "latin_name": "Laia Lopez",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611347",
         "name": "Real Madrid",
@@ -55422,6 +57574,10 @@
       "name": "Merle Frohms",
       "display_name": "M. Frohms",
       "latin_name": "Merle Frohms",
+      "nationality": {
+        "code": "GER",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611347",
         "name": "Real Madrid",
@@ -55525,6 +57681,10 @@
       "name": "Adriana Folgado",
       "display_name": "Adriana Folgado",
       "latin_name": "Adriana Folgado",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611347",
         "name": "Real Madrid",
@@ -55628,6 +57788,10 @@
       "name": "Adriana Valbuena",
       "display_name": "Adriana Valbuena",
       "latin_name": "Adriana Valbuena",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611347",
         "name": "Real Madrid",
@@ -55731,6 +57895,10 @@
       "name": "Andreia Jacinto",
       "display_name": "Andreia Jacinto",
       "latin_name": "Andreia Jacinto",
+      "nationality": {
+        "code": "POR",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611347",
         "name": "Real Madrid",
@@ -55834,6 +58002,10 @@
       "name": "Arianna Caruso",
       "display_name": "A. Caruso",
       "latin_name": "Arianna Caruso",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611347",
         "name": "Real Madrid",
@@ -55937,6 +58109,10 @@
       "name": "Athenea",
       "display_name": "Athenea",
       "latin_name": "Athenea",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611347",
         "name": "Real Madrid",
@@ -56040,6 +58216,10 @@
       "name": "Elisa Senss",
       "display_name": "E. Senss",
       "latin_name": "Elisa Senss",
+      "nationality": {
+        "code": "GER",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611347",
         "name": "Real Madrid",
@@ -56143,6 +58323,10 @@
       "name": "Filippa Angeldahl",
       "display_name": "F. Angeldahl",
       "latin_name": "Filippa Angeldahl",
+      "nationality": {
+        "code": "SWE",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611347",
         "name": "Real Madrid",
@@ -56246,6 +58430,10 @@
       "name": "Irune Dorado",
       "display_name": "Irune Dorado",
       "latin_name": "Irune Dorado",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611347",
         "name": "Real Madrid",
@@ -56349,6 +58537,10 @@
       "name": "Linda Caicedo",
       "display_name": "Linda Caicedo",
       "latin_name": "Linda Caicedo",
+      "nationality": {
+        "code": "COL",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611347",
         "name": "Real Madrid",
@@ -56452,6 +58644,10 @@
       "name": "Lotte Keukelaar",
       "display_name": "L. Keukelaar",
       "latin_name": "Lotte Keukelaar",
+      "nationality": {
+        "code": "NED",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611347",
         "name": "Real Madrid",
@@ -56555,6 +58751,10 @@
       "name": "Oihane San Martín",
       "display_name": "O. San Martín",
       "latin_name": "Oihane San Martin",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611347",
         "name": "Real Madrid",
@@ -56658,6 +58858,10 @@
       "name": "Pau Comendador",
       "display_name": "Pau Comendador",
       "latin_name": "Pau Comendador",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611347",
         "name": "Real Madrid",
@@ -56761,6 +58965,10 @@
       "name": "Pau Rubio",
       "display_name": "Pau Rubio",
       "latin_name": "Pau Rubio",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611347",
         "name": "Real Madrid",
@@ -56864,6 +59072,10 @@
       "name": "Sandie Toletti",
       "display_name": "S. Toletti",
       "latin_name": "Sandie Toletti",
+      "nationality": {
+        "code": "",
+        "source": ""
+      },
       "team": {
         "id": "2611347",
         "name": "Real Madrid",
@@ -56967,6 +59179,10 @@
       "name": "Sara Däbritz",
       "display_name": "S. Däbritz",
       "latin_name": "Sara Dabritz",
+      "nationality": {
+        "code": "GER",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611347",
         "name": "Real Madrid",
@@ -57070,6 +59286,10 @@
       "name": "Bianca Vergani",
       "display_name": "B. Vergani",
       "latin_name": "Bianca Vergani",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610208",
         "name": "Roma",
@@ -57173,6 +59393,10 @@
       "name": "Elisabetta Oliviero",
       "display_name": "E. Oliviero",
       "latin_name": "Elisabetta Oliviero",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610208",
         "name": "Roma",
@@ -57276,6 +59500,10 @@
       "name": "Magda Piekarska",
       "display_name": "M. Piekarska",
       "latin_name": "Magda Piekarska",
+      "nationality": {
+        "code": "POL",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610208",
         "name": "Roma",
@@ -57379,6 +59607,10 @@
       "name": "Maya Antoine",
       "display_name": "M. Antoine",
       "latin_name": "Maya Antoine",
+      "nationality": {
+        "code": "CAN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610208",
         "name": "Roma",
@@ -57482,6 +59714,10 @@
       "name": "Sara Terlizzi",
       "display_name": "S. Terlizzi",
       "latin_name": "Sara Terlizzi",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610208",
         "name": "Roma",
@@ -57585,6 +59821,10 @@
       "name": "Shukurat Oladipo",
       "display_name": "S. Oladipo",
       "latin_name": "Shukurat Oladipo",
+      "nationality": {
+        "code": "NGA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610208",
         "name": "Roma",
@@ -57688,6 +59928,10 @@
       "name": "Valentina Bergamaschi",
       "display_name": "V. Bergamaschi",
       "latin_name": "Valentina Bergamaschi",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610208",
         "name": "Roma",
@@ -57791,6 +60035,10 @@
       "name": "Viola Cacace",
       "display_name": "V. Cacace",
       "latin_name": "Viola Cacace",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610208",
         "name": "Roma",
@@ -57894,6 +60142,10 @@
       "name": "Winonah Heatley",
       "display_name": "W. Heatley",
       "latin_name": "Winonah Heatley",
+      "nationality": {
+        "code": "AUS",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610208",
         "name": "Roma",
@@ -57997,6 +60249,10 @@
       "name": "Agata Pinchi",
       "display_name": "A. Pinchi",
       "latin_name": "Agata Pinchi",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610208",
         "name": "Roma",
@@ -58100,6 +60356,10 @@
       "name": "Alayah Pilgrim",
       "display_name": "A. Pilgrim",
       "latin_name": "Alayah Pilgrim",
+      "nationality": {
+        "code": "SUI",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610208",
         "name": "Roma",
@@ -58203,6 +60463,10 @@
       "name": "Alice Corelli",
       "display_name": "A. Corelli",
       "latin_name": "Alice Corelli",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610208",
         "name": "Roma",
@@ -58306,6 +60570,10 @@
       "name": "Martina Piemonte",
       "display_name": "M. Piemonte",
       "latin_name": "Martina Piemonte",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610208",
         "name": "Roma",
@@ -58409,6 +60677,10 @@
       "name": "Rebecca Roselli",
       "display_name": "R. Roselli",
       "latin_name": "Rebecca Roselli",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610208",
         "name": "Roma",
@@ -58512,6 +60784,10 @@
       "name": "Rinsola Babajide",
       "display_name": "R. Babajide",
       "latin_name": "Rinsola Babajide",
+      "nationality": {
+        "code": "NGA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610208",
         "name": "Roma",
@@ -58615,6 +60891,10 @@
       "name": "Sofia Jahnukainen",
       "display_name": "S. Jahnukainen",
       "latin_name": "Sofia Jahnukainen",
+      "nationality": {
+        "code": "FIN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610208",
         "name": "Roma",
@@ -58718,6 +60998,10 @@
       "name": "Flavia Pezzi",
       "display_name": "F. Pezzi",
       "latin_name": "Flavia Pezzi",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610208",
         "name": "Roma",
@@ -58821,6 +61105,10 @@
       "name": "Lana Klobučarević",
       "display_name": "L. Klobučarević",
       "latin_name": "Lana Klobucarevic",
+      "nationality": {
+        "code": "",
+        "source": ""
+      },
       "team": {
         "id": "2610208",
         "name": "Roma",
@@ -58924,6 +61212,10 @@
       "name": "Olivie Lukášová",
       "display_name": "O. Lukášová",
       "latin_name": "Olivie Lukasova",
+      "nationality": {
+        "code": "CZE",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610208",
         "name": "Roma",
@@ -59027,6 +61319,10 @@
       "name": "Rachele Baldi",
       "display_name": "R. Baldi",
       "latin_name": "Rachele Baldi",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610208",
         "name": "Roma",
@@ -59130,6 +61426,10 @@
       "name": "Valentina Soggiu",
       "display_name": "V. Soggiu",
       "latin_name": "Valentina Soggiu",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610208",
         "name": "Roma",
@@ -59233,6 +61533,10 @@
       "name": "Annalena Rieke",
       "display_name": "A. Rieke",
       "latin_name": "Annalena Rieke",
+      "nationality": {
+        "code": "GER",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610208",
         "name": "Roma",
@@ -59336,6 +61640,10 @@
       "name": "Ella Ottey",
       "display_name": "E. Ottey",
       "latin_name": "Ella Ottey",
+      "nationality": {
+        "code": "CAN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610208",
         "name": "Roma",
@@ -59439,6 +61747,10 @@
       "name": "Frederikke Thøgersen",
       "display_name": "F. Thøgersen",
       "latin_name": "Frederikke Thøgersen",
+      "nationality": {
+        "code": "DEN",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610208",
         "name": "Roma",
@@ -59542,6 +61854,10 @@
       "name": "Giada Greggi",
       "display_name": "G. Greggi",
       "latin_name": "Giada Greggi",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610208",
         "name": "Roma",
@@ -59645,6 +61961,10 @@
       "name": "Giada Pellegrino Cimò",
       "display_name": "G. Pellegrino Cimò",
       "latin_name": "Giada Pellegrino Cimo",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610208",
         "name": "Roma",
@@ -59748,6 +62068,10 @@
       "name": "Kayleigh van Dooren",
       "display_name": "K. Dooren",
       "latin_name": "Kayleigh van Dooren",
+      "nationality": {
+        "code": "NED",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610208",
         "name": "Roma",
@@ -59851,6 +62175,10 @@
       "name": "Maja Madon",
       "display_name": "M. Madon",
       "latin_name": "Maja Madon",
+      "nationality": {
+        "code": "",
+        "source": ""
+      },
       "team": {
         "id": "2610208",
         "name": "Roma",
@@ -59954,6 +62282,10 @@
       "name": "Manuela Giugliano",
       "display_name": "M. Giugliano",
       "latin_name": "Manuela Giugliano",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610208",
         "name": "Roma",
@@ -60057,6 +62389,10 @@
       "name": "Marta Pandini",
       "display_name": "M. Pandini",
       "latin_name": "Marta Pandini",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610208",
         "name": "Roma",
@@ -60160,6 +62496,10 @@
       "name": "Martina Cherubini",
       "display_name": "M. Cherubini",
       "latin_name": "Martina Cherubini",
+      "nationality": {
+        "code": "",
+        "source": ""
+      },
       "team": {
         "id": "2610208",
         "name": "Roma",
@@ -60263,6 +62603,10 @@
       "name": "Maya Doms",
       "display_name": "M. Doms",
       "latin_name": "Maya Doms",
+      "nationality": {
+        "code": "USA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2610208",
         "name": "Roma",
@@ -60366,6 +62710,10 @@
       "name": "Amanda Chaney",
       "display_name": "A. Chaney",
       "latin_name": "Amanda Chaney",
+      "nationality": {
+        "code": "",
+        "source": ""
+      },
       "team": {
         "id": "2611086",
         "name": "Servette",
@@ -60469,6 +62817,10 @@
       "name": "Amina Muratovic",
       "display_name": "A. Muratovic",
       "latin_name": "Amina Muratovic",
+      "nationality": {
+        "code": "SUI",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611086",
         "name": "Servette",
@@ -60572,6 +62924,10 @@
       "name": "Benedicte Simon",
       "display_name": "B. Simon",
       "latin_name": "Benedicte Simon",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611086",
         "name": "Servette",
@@ -60675,6 +63031,10 @@
       "name": "Chiara Wallin",
       "display_name": "C. Wallin",
       "latin_name": "Chiara Wallin",
+      "nationality": {
+        "code": "SUI",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611086",
         "name": "Servette",
@@ -60778,6 +63138,10 @@
       "name": "Daina Bourma",
       "display_name": "D. Bourma",
       "latin_name": "Daina Bourma",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611086",
         "name": "Servette",
@@ -60881,6 +63245,10 @@
       "name": "Emma Petzoldt",
       "display_name": "E. Petzoldt",
       "latin_name": "Emma Petzoldt",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611086",
         "name": "Servette",
@@ -60984,6 +63352,10 @@
       "name": "Joana Marchão",
       "display_name": "Joana Marchão",
       "latin_name": "Joana Marchao",
+      "nationality": {
+        "code": "POR",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611086",
         "name": "Servette",
@@ -61087,6 +63459,10 @@
       "name": "Laia Ballesté",
       "display_name": "L. Ballesté",
       "latin_name": "Laia Balleste",
+      "nationality": {
+        "code": "SUI",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611086",
         "name": "Servette",
@@ -61190,6 +63566,10 @@
       "name": "Léa Magali Sergeant-Huet",
       "display_name": "L. Sergeant-Huet",
       "latin_name": "Lea Magali Sergeant-Huet",
+      "nationality": {
+        "code": "SUI",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611086",
         "name": "Servette",
@@ -61293,6 +63673,10 @@
       "name": "Noémie Carage",
       "display_name": "N. Carage",
       "latin_name": "Noemie Carage",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611086",
         "name": "Servette",
@@ -61396,6 +63780,10 @@
       "name": "Asun Martínez",
       "display_name": "Asun Martínez",
       "latin_name": "Asun Martinez",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611086",
         "name": "Servette",
@@ -61499,6 +63887,10 @@
       "name": "Garance Nein",
       "display_name": "G. Nein",
       "latin_name": "Garance Nein",
+      "nationality": {
+        "code": "SUI",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611086",
         "name": "Servette",
@@ -61602,6 +63994,10 @@
       "name": "Gloria Marinelli",
       "display_name": "G. Marinelli",
       "latin_name": "Gloria Marinelli",
+      "nationality": {
+        "code": "ITA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611086",
         "name": "Servette",
@@ -61705,6 +64101,10 @@
       "name": "Magdalena Sobal",
       "display_name": "M. Sobal",
       "latin_name": "Magdalena Sobal",
+      "nationality": {
+        "code": "POL",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611086",
         "name": "Servette",
@@ -61808,6 +64208,10 @@
       "name": "Meriame Terchoun",
       "display_name": "M. Terchoun",
       "latin_name": "Meriame Terchoun",
+      "nationality": {
+        "code": "SUI",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611086",
         "name": "Servette",
@@ -61911,6 +64315,10 @@
       "name": "Mickaella Cardia",
       "display_name": "M. Cardia",
       "latin_name": "Mickaella Cardia",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611086",
         "name": "Servette",
@@ -62014,6 +64422,10 @@
       "name": "Abby Blanco Acevedo",
       "display_name": "A. Blanco Acevedo",
       "latin_name": "Abby Blanco Acevedo",
+      "nationality": {
+        "code": "SUI",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611086",
         "name": "Servette",
@@ -62117,6 +64529,10 @@
       "name": "Jacintha Weimar",
       "display_name": "J. Weimar",
       "latin_name": "Jacintha Weimar",
+      "nationality": {
+        "code": "NED",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611086",
         "name": "Servette",
@@ -62220,6 +64636,10 @@
       "name": "Manon Le Page",
       "display_name": "M. Le Page",
       "latin_name": "Manon Le Page",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611086",
         "name": "Servette",
@@ -62323,6 +64743,10 @@
       "name": "Camila Mingard",
       "display_name": "C. Mingard",
       "latin_name": "Camila Mingard",
+      "nationality": {
+        "code": "SUI",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611086",
         "name": "Servette",
@@ -62426,6 +64850,10 @@
       "name": "Elodie Nakkach",
       "display_name": "E. Nakkach",
       "latin_name": "Elodie Nakkach",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611086",
         "name": "Servette",
@@ -62529,6 +64957,10 @@
       "name": "Ghoutia Karchouni",
       "display_name": "G. Karchouni",
       "latin_name": "Ghoutia Karchouni",
+      "nationality": {
+        "code": "FRA",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611086",
         "name": "Servette",
@@ -62632,6 +65064,10 @@
       "name": "Laura Strik",
       "display_name": "L. Strik",
       "latin_name": "Laura Strik",
+      "nationality": {
+        "code": "NED",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611086",
         "name": "Servette",
@@ -62735,6 +65171,10 @@
       "name": "Natasha Andonova",
       "display_name": "N. Andonova",
       "latin_name": "Natasha Andonova",
+      "nationality": {
+        "code": "MKD",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611086",
         "name": "Servette",
@@ -62838,6 +65278,10 @@
       "name": "Paola Hernández",
       "display_name": "P. Hernández",
       "latin_name": "Paola Hernandez",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611086",
         "name": "Servette",
@@ -62941,6 +65385,10 @@
       "name": "Paula Serrano",
       "display_name": "P. Serrano",
       "latin_name": "Paula Serrano",
+      "nationality": {
+        "code": "ESP",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611086",
         "name": "Servette",
@@ -63044,6 +65492,10 @@
       "name": "Stefanie De Alem",
       "display_name": "S. De Além",
       "latin_name": "Stefanie De Alem",
+      "nationality": {
+        "code": "SUI",
+        "source": "UEFA squad page (manual capture)"
+      },
       "team": {
         "id": "2611086",
         "name": "Servette",
