@@ -3,7 +3,6 @@
 from __future__ import annotations
 
 import json
-import re
 import sys
 import time
 from copy import deepcopy
@@ -12,7 +11,6 @@ from pathlib import Path
 from typing import Any
 
 import requests
-from bs4 import BeautifulSoup
 
 
 # ============================================================
@@ -27,16 +25,15 @@ URLS = {
     "fixtures": f"{BASE_URL}/fixtures/fixtures_40_en.json",
 }
 
-UEFA_SQUAD_BASE = (
-    "https://www.uefa.com/womenschampionsleague/clubs"
-)
-
 DATA_DIR = Path("data/uwcl")
 RAW_DIR = DATA_DIR / "raw"
-SQUAD_RAW_DIR = RAW_DIR / "squads"
 
 PRESEASON_ARCHIVE_DIR = (
     DATA_DIR / "archive" / "2026-09-21-preseason"
+)
+
+NATIONALITY_MASTER_PATH = (
+    DATA_DIR / "nationalities_master.json"
 )
 
 CURRENT_SEASON = "2026/27"
@@ -55,138 +52,20 @@ REQUEST_HEADERS = {
         "AppleWebKit/537.36 (KHTML, like Gecko) "
         "Chrome/153.0.0.0 Safari/537.36"
     ),
-    "Accept": (
-        "text/html,application/xhtml+xml,application/json,"
-        "text/plain,*/*"
-    ),
+    "Accept": "application/json,text/plain,*/*",
     "Accept-Language": "en-US,en;q=0.9",
 }
 
-# Connection timeout, read timeout.
-REQUEST_TIMEOUT = (15, 120)
-
-# Each request gets several chances before failing.
-MAX_ATTEMPTS = 5
-
-
-# ============================================================
-# HTTP SESSION / RETRIES
-# ============================================================
+CONNECT_TIMEOUT = 15
+READ_TIMEOUT = 45
+MAX_ATTEMPTS = 3
 
 SESSION = requests.Session()
 SESSION.headers.update(REQUEST_HEADERS)
 
 
-def request_with_retries(
-    url: str,
-    *,
-    required: bool = True,
-) -> requests.Response | None:
-    """
-    Fetch a URL with explicit retries.
-
-    Core fantasy feeds are required.
-    Squad pages are optional enrichment and may fail without
-    killing the entire fantasy-data update.
-    """
-
-    last_error: Exception | None = None
-
-    for attempt in range(1, MAX_ATTEMPTS + 1):
-        try:
-            print(
-                f"Fetching {url} "
-                f"(attempt {attempt}/{MAX_ATTEMPTS})"
-            )
-
-            response = SESSION.get(
-                url,
-                timeout=REQUEST_TIMEOUT,
-            )
-
-            response.raise_for_status()
-
-            return response
-
-        except (
-            requests.exceptions.Timeout,
-            requests.exceptions.ConnectionError,
-            requests.exceptions.HTTPError,
-        ) as exc:
-            last_error = exc
-
-            print(
-                f"WARNING: request failed on attempt "
-                f"{attempt}: {exc}"
-            )
-
-            if attempt < MAX_ATTEMPTS:
-                wait_seconds = 2 ** (attempt - 1)
-
-                print(
-                    f"Retrying in {wait_seconds}s..."
-                )
-
-                time.sleep(wait_seconds)
-
-    if required:
-        raise RuntimeError(
-            f"Failed to fetch required URL after "
-            f"{MAX_ATTEMPTS} attempts: {url}"
-        ) from last_error
-
-    print(
-        f"WARNING: optional URL failed after "
-        f"{MAX_ATTEMPTS} attempts; continuing: {url}"
-    )
-
-    return None
-
-
-def fetch_json(url: str) -> dict[str, Any]:
-    response = request_with_retries(
-        url,
-        required=True,
-    )
-
-    assert response is not None
-
-    payload = response.json()
-
-    if not isinstance(payload, dict):
-        raise ValueError(
-            f"Expected top-level object from {url}, "
-            f"got {type(payload).__name__}"
-        )
-
-    meta = payload.get("meta")
-
-    if isinstance(meta, dict):
-        if meta.get("success") is False:
-            raise RuntimeError(
-                f"UEFA feed reported failure for "
-                f"{url}: {meta}"
-            )
-
-    return payload
-
-
-def fetch_optional_text(
-    url: str,
-) -> str | None:
-    response = request_with_retries(
-        url,
-        required=False,
-    )
-
-    if response is None:
-        return None
-
-    return response.text
-
-
 # ============================================================
-# GENERIC HELPERS
+# HELPERS
 # ============================================================
 
 def utc_now_iso() -> str:
@@ -194,21 +73,8 @@ def utc_now_iso() -> str:
 
 
 def ensure_dirs() -> None:
-    DATA_DIR.mkdir(
-        parents=True,
-        exist_ok=True,
-    )
-
-    RAW_DIR.mkdir(
-        parents=True,
-        exist_ok=True,
-    )
-
-    SQUAD_RAW_DIR.mkdir(
-        parents=True,
-        exist_ok=True,
-    )
-
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    RAW_DIR.mkdir(parents=True, exist_ok=True)
     PRESEASON_ARCHIVE_DIR.mkdir(
         parents=True,
         exist_ok=True,
@@ -234,25 +100,8 @@ def write_json(
             handle,
             ensure_ascii=False,
             indent=2,
-            sort_keys=False,
         )
-
         handle.write("\n")
-
-
-def write_text(
-    path: Path,
-    value: str,
-) -> None:
-    path.parent.mkdir(
-        parents=True,
-        exist_ok=True,
-    )
-
-    path.write_text(
-        value,
-        encoding="utf-8",
-    )
 
 
 def clean_string(value: Any) -> str:
@@ -266,30 +115,13 @@ def unwrap_number(
     value: Any,
     default: float | int | None = 0,
 ) -> Any:
-    """
-    UEFA sometimes gives us:
-
-        9.5
-
-    and sometimes:
-
-        {
-          "source": "9.5",
-          "parsedValue": 9.5
-        }
-
-    Normalize both.
-    """
-
     if isinstance(value, dict):
         if "parsedValue" in value:
             return value["parsedValue"]
 
         if "source" in value:
-            raw = value["source"]
-
             try:
-                return float(raw)
+                return float(value["source"])
             except (TypeError, ValueError):
                 return default
 
@@ -299,35 +131,161 @@ def unwrap_number(
     return value
 
 
-def normalize_status(
-    player: dict[str, Any],
+# ============================================================
+# HTTP
+# ============================================================
+
+def fetch_json(
+    url: str,
 ) -> dict[str, Any]:
-    code = clean_string(
-        player.get("pStatus")
+    last_error: Exception | None = None
+
+    for attempt in range(
+        1,
+        MAX_ATTEMPTS + 1,
+    ):
+        try:
+            print(
+                f"Fetching {url} "
+                f"(attempt {attempt}/{MAX_ATTEMPTS})",
+                flush=True,
+            )
+
+            response = SESSION.get(
+                url,
+                timeout=(
+                    CONNECT_TIMEOUT,
+                    READ_TIMEOUT,
+                ),
+            )
+
+            response.raise_for_status()
+
+            payload = response.json()
+
+            if not isinstance(
+                payload,
+                dict,
+            ):
+                raise ValueError(
+                    "UEFA response was not "
+                    "a JSON object"
+                )
+
+            meta = payload.get("meta")
+
+            if (
+                isinstance(meta, dict)
+                and meta.get("success")
+                is False
+            ):
+                raise RuntimeError(
+                    f"UEFA feed reported failure: "
+                    f"{meta}"
+                )
+
+            return payload
+
+        except (
+            requests.exceptions.RequestException,
+            ValueError,
+        ) as exc:
+            last_error = exc
+
+            print(
+                f"WARNING: attempt {attempt} failed: "
+                f"{exc}",
+                flush=True,
+            )
+
+            if attempt < MAX_ATTEMPTS:
+                wait_seconds = attempt * 2
+
+                print(
+                    f"Retrying in "
+                    f"{wait_seconds}s...",
+                    flush=True,
+                )
+
+                time.sleep(wait_seconds)
+
+    raise RuntimeError(
+        f"Failed to fetch required URL after "
+        f"{MAX_ATTEMPTS} attempts: {url}"
+    ) from last_error
+
+
+# ============================================================
+# NATIONALITY MASTER
+# ============================================================
+
+def load_nationality_lookup(
+) -> dict[str, str]:
+    if not NATIONALITY_MASTER_PATH.exists():
+        print(
+            "No nationality master file yet; "
+            "continuing without nationality data.",
+            flush=True,
+        )
+        return {}
+
+    try:
+        payload = json.loads(
+            NATIONALITY_MASTER_PATH.read_text(
+                encoding="utf-8"
+            )
+        )
+    except Exception as exc:
+        print(
+            "WARNING: could not read nationality "
+            f"master file: {exc}",
+            flush=True,
+        )
+        return {}
+
+    lookup: dict[str, str] = {}
+
+    for record in payload.get(
+        "players",
+        [],
+    ):
+        if not isinstance(
+            record,
+            dict,
+        ):
+            continue
+
+        player_id = clean_string(
+            record.get("player_id")
+        )
+
+        nationality = clean_string(
+            record.get("nationality")
+        ).upper()
+
+        if player_id and nationality:
+            lookup[player_id] = nationality
+
+    print(
+        f"Loaded {len(lookup)} nationality "
+        "records.",
+        flush=True,
     )
 
-    status_labels = {
-        "I": "Injured",
-        "D": "Doubtful",
-        "S": "Suspended",
-    }
+    return lookup
 
-    return {
-        "code": code,
-        "label": status_labels.get(
-            code,
-            "",
-        ),
-        "availability_text": clean_string(
-            player.get("trained")
-        ),
-    }
 
+# ============================================================
+# MATCH REFERENCE
+# ============================================================
 
 def normalize_match_reference(
     match: dict[str, Any] | None,
 ) -> dict[str, Any] | None:
-    if not isinstance(match, dict):
+    if not isinstance(
+        match,
+        dict,
+    ):
         return None
 
     return {
@@ -365,444 +323,39 @@ def normalize_match_reference(
 
 
 # ============================================================
-# TEAM NORMALIZATION
-# ============================================================
-
-def normalize_team(
-    team: dict[str, Any],
-) -> dict[str, Any]:
-    upcoming = (
-        team.get("upcomingMatchesList")
-        or []
-    )
-
-    return {
-        "id": clean_string(
-            team.get("id")
-        ),
-        "name": clean_string(
-            team.get("webName")
-            or team.get("offName")
-        ),
-        "official_name": clean_string(
-            team.get("offName")
-        ),
-        "code": clean_string(
-            team.get("shortName")
-        ),
-        "eliminated": team.get(
-            "isEliminated"
-        ),
-        "pot": {
-            "id": clean_string(
-                team.get("htPtId")
-            ),
-            "name": clean_string(
-                team.get("htPtName")
-            ),
-        },
-        "next_match": (
-            normalize_match_reference(
-                upcoming[0]
-            )
-            if upcoming
-            else None
-        ),
-    }
-
-
-def normalize_teams(
-    payload: dict[str, Any],
-) -> list[dict[str, Any]]:
-    teams = (
-        payload
-        .get("data", {})
-        .get("value", [])
-    )
-
-    if not isinstance(teams, list):
-        raise ValueError(
-            "Could not locate data.value "
-            "in UEFA teams feed"
-        )
-
-    normalized = [
-        normalize_team(team)
-        for team in teams
-        if isinstance(team, dict)
-    ]
-
-    normalized.sort(
-        key=lambda team: team["name"]
-    )
-
-    return normalized
-
-
-# ============================================================
-# NATIONALITY SCRAPING
-# ============================================================
-
-PLAYER_ID_RE = re.compile(
-    r"/clubs/players/(\d+)"
-    r"(?:--[^/?#]+)?/?"
-)
-
-
-def parse_squad_nationalities(
-    html: str,
-    team_id: str,
-    team_name: str,
-    team_code: str,
-) -> list[dict[str, Any]]:
-    soup = BeautifulSoup(
-        html,
-        "html.parser",
-    )
-
-    results: list[dict[str, Any]] = []
-    seen_ids: set[str] = set()
-
-    rows = soup.select(
-        "pk-table-row.row--squadlist"
-    )
-
-    for row in rows:
-        link = row.find(
-            "a",
-            href=PLAYER_ID_RE,
-        )
-
-        if not link:
-            continue
-
-        href = clean_string(
-            link.get("href")
-        )
-
-        match = PLAYER_ID_RE.search(href)
-
-        if not match:
-            continue
-
-        player_id = match.group(1)
-
-        if player_id in seen_ids:
-            continue
-
-        name_node = link.find(
-            attrs={"itemprop": "name"}
-        )
-
-        if name_node:
-            player_name = clean_string(
-                name_node.get_text(
-                    " ",
-                    strip=True,
-                )
-            )
-        else:
-            player_name = clean_string(
-                link.get("title")
-            )
-
-        nationality_node = row.find(
-            attrs={
-                "column-key": "nationality"
-            }
-        )
-
-        if nationality_node:
-            nationality = clean_string(
-                nationality_node.get_text(
-                    " ",
-                    strip=True,
-                )
-            )
-        else:
-            country_node = link.find(
-                attrs={
-                    "itemprop": "country"
-                }
-            )
-
-            nationality = clean_string(
-                country_node.get_text(
-                    " ",
-                    strip=True,
-                )
-                if country_node
-                else ""
-            )
-
-        nationality = nationality.upper()
-
-        if not nationality:
-            continue
-
-        seen_ids.add(player_id)
-
-        results.append(
-            {
-                "player_id": player_id,
-                "name": player_name,
-                "nationality": nationality,
-                "team_id": team_id,
-                "team": team_name,
-                "team_code": team_code,
-            }
-        )
-
-    return results
-
-
-def load_existing_nationality_lookup(
-) -> dict[str, dict[str, Any]]:
-    """
-    Preserve previously discovered nationality data if a
-    future UEFA squad-page request temporarily fails.
-    """
-
-    path = DATA_DIR / "nationalities.json"
-
-    if not path.exists():
-        return {}
-
-    try:
-        payload = json.loads(
-            path.read_text(
-                encoding="utf-8"
-            )
-        )
-    except Exception as exc:
-        print(
-            "WARNING: could not read existing "
-            f"nationalities.json: {exc}"
-        )
-        return {}
-
-    lookup: dict[
-        str,
-        dict[str, Any],
-    ] = {}
-
-    for record in payload.get(
-        "players",
-        [],
-    ):
-        if not isinstance(record, dict):
-            continue
-
-        player_id = clean_string(
-            record.get("player_id")
-        )
-
-        nationality = clean_string(
-            record.get("nationality")
-        ).upper()
-
-        if not player_id or not nationality:
-            continue
-
-        lookup[player_id] = {
-            "code": nationality,
-            "source": "UEFA squad page",
-            "source_team_id": clean_string(
-                record.get("team_id")
-            ),
-            "source_team_code": clean_string(
-                record.get("team_code")
-            ),
-        }
-
-    if lookup:
-        print(
-            "Loaded "
-            f"{len(lookup)} existing nationality "
-            "records as fallback."
-        )
-
-    return lookup
-
-
-def fetch_nationality_data(
-    teams: list[dict[str, Any]],
-) -> tuple[
-    dict[str, dict[str, Any]],
-    list[dict[str, Any]],
-]:
-    """
-    Nationality is enrichment, not a dependency.
-
-    If one UEFA squad page times out, the core fantasy
-    update still completes.
-    """
-
-    lookup = (
-        load_existing_nationality_lookup()
-    )
-
-    fresh_records: list[
-        dict[str, Any]
-    ] = []
-
-    failed_teams: list[str] = []
-
-    for team in teams:
-        team_id = clean_string(
-            team.get("id")
-        )
-
-        team_name = clean_string(
-            team.get("name")
-        )
-
-        team_code = clean_string(
-            team.get("code")
-        )
-
-        if not team_id:
-            continue
-
-        url = (
-            f"{UEFA_SQUAD_BASE}/"
-            f"{team_id}/squad/"
-        )
-
-        html = fetch_optional_text(url)
-
-        if html is None:
-            failed_teams.append(
-                team_code or team_name
-            )
-            continue
-
-        write_text(
-            SQUAD_RAW_DIR
-            / f"{team_code or team_id}.html",
-            html,
-        )
-
-        records = (
-            parse_squad_nationalities(
-                html=html,
-                team_id=team_id,
-                team_name=team_name,
-                team_code=team_code,
-            )
-        )
-
-        print(
-            f"  {team_code}: "
-            f"{len(records)} "
-            "nationality records"
-        )
-
-        fresh_records.extend(records)
-
-        for record in records:
-            player_id = (
-                record["player_id"]
-            )
-
-            new_code = (
-                record["nationality"]
-            )
-
-            existing = lookup.get(
-                player_id
-            )
-
-            if (
-                existing
-                and existing["code"]
-                != new_code
-            ):
-                print(
-                    "WARNING: nationality changed "
-                    f"for {player_id}: "
-                    f"{existing['code']} -> "
-                    f"{new_code}"
-                )
-
-            lookup[player_id] = {
-                "code": new_code,
-                "source": "UEFA squad page",
-                "source_team_id":
-                    record["team_id"],
-                "source_team_code":
-                    record["team_code"],
-            }
-
-    if failed_teams:
-        print()
-        print(
-            "WARNING: squad pages failed for: "
-            + ", ".join(failed_teams)
-        )
-        print(
-            "Existing nationality data was "
-            "retained where available."
-        )
-
-    # Build an output record from the merged lookup so a
-    # temporary page failure never deletes known nationality.
-    merged_records: list[
-        dict[str, Any]
-    ] = []
-
-    fresh_by_id = {
-        r["player_id"]: r
-        for r in fresh_records
-    }
-
-    for player_id, info in lookup.items():
-        if player_id in fresh_by_id:
-            merged_records.append(
-                fresh_by_id[player_id]
-            )
-            continue
-
-        merged_records.append(
-            {
-                "player_id": player_id,
-                "name": "",
-                "nationality":
-                    info["code"],
-                "team_id":
-                    info.get(
-                        "source_team_id",
-                        "",
-                    ),
-                "team": "",
-                "team_code":
-                    info.get(
-                        "source_team_code",
-                        "",
-                    ),
-            }
-        )
-
-    merged_records.sort(
-        key=lambda record: (
-            record["nationality"],
-            record["name"],
-            record["player_id"],
-        )
-    )
-
-    return lookup, merged_records
-
-
-# ============================================================
 # PLAYER NORMALIZATION
 # ============================================================
+
+def normalize_status(
+    player: dict[str, Any],
+) -> dict[str, Any]:
+    code = clean_string(
+        player.get("pStatus")
+    )
+
+    labels = {
+        "I": "Injured",
+        "D": "Doubtful",
+        "S": "Suspended",
+    }
+
+    return {
+        "code": code,
+        "label": labels.get(
+            code,
+            "",
+        ),
+        "availability_text": clean_string(
+            player.get("trained")
+        ),
+    }
+
 
 def normalize_player(
     player: dict[str, Any],
     nationality_lookup: dict[
         str,
-        dict[str, Any],
+        str,
     ],
 ) -> dict[str, Any]:
     player_id = clean_string(
@@ -815,22 +368,9 @@ def normalize_player(
     )
 
     try:
-        skill_int = int(skill)
+        position_id = int(skill)
     except (TypeError, ValueError):
-        skill_int = None
-
-    nationality = (
-        nationality_lookup.get(
-            player_id
-        )
-    )
-
-    upcoming = (
-        player.get(
-            "upcomingMatchesList"
-        )
-        or []
-    )
+        position_id = None
 
     current_matches = (
         player.get(
@@ -839,20 +379,18 @@ def normalize_player(
         or []
     )
 
-    next_match = (
-        normalize_match_reference(
-            upcoming[0]
+    upcoming_matches = (
+        player.get(
+            "upcomingMatchesList"
         )
-        if upcoming
-        else None
+        or []
     )
 
-    current_match = (
-        normalize_match_reference(
-            current_matches[0]
+    nationality = (
+        nationality_lookup.get(
+            player_id,
+            "",
         )
-        if current_matches
-        else None
     )
 
     return {
@@ -873,13 +411,9 @@ def normalize_player(
         ),
 
         "nationality": {
-            "code": (
-                nationality["code"]
-                if nationality
-                else ""
-            ),
+            "code": nationality,
             "source": (
-                nationality["source"]
+                "UEFA squad page"
                 if nationality
                 else ""
             ),
@@ -898,15 +432,15 @@ def normalize_player(
         },
 
         "position": POSITION_MAP.get(
-            skill_int,
+            position_id,
             (
-                f"UNKNOWN_{skill_int}"
-                if skill_int is not None
+                f"UNKNOWN_{position_id}"
+                if position_id is not None
                 else "UNKNOWN"
             ),
         ),
 
-        "position_id": skill_int,
+        "position_id": position_id,
 
         "price": unwrap_number(
             player.get("value"),
@@ -926,6 +460,7 @@ def normalize_player(
                     ),
                     0,
                 ),
+
             "transfers_out":
                 unwrap_number(
                     player.get(
@@ -933,6 +468,7 @@ def normalize_player(
                     ),
                     0,
                 ),
+
             "selected_in_pct":
                 unwrap_number(
                     player.get(
@@ -940,6 +476,7 @@ def normalize_player(
                     ),
                     0,
                 ),
+
             "selected_out_pct":
                 unwrap_number(
                     player.get(
@@ -965,17 +502,13 @@ def normalize_player(
 
             "minutes":
                 unwrap_number(
-                    player.get(
-                        "minsPlyd"
-                    ),
+                    player.get("minsPlyd"),
                     0,
                 ),
 
             "fantasy_points":
                 unwrap_number(
-                    player.get(
-                        "totPts"
-                    ),
+                    player.get("totPts"),
                     0,
                 ),
 
@@ -987,9 +520,7 @@ def normalize_player(
 
             "assists":
                 unwrap_number(
-                    player.get(
-                        "assist"
-                    ),
+                    player.get("assist"),
                     0,
                 ),
 
@@ -1073,9 +604,7 @@ def normalize_player(
 
             "player_of_match_points":
                 unwrap_number(
-                    player.get(
-                        "mOMPts"
-                    ),
+                    player.get("mOMPts"),
                     0,
                 ),
         },
@@ -1105,10 +634,18 @@ def normalize_player(
                 ),
 
             "current_match":
-                current_match,
+                normalize_match_reference(
+                    current_matches[0]
+                    if current_matches
+                    else None
+                ),
 
             "next_match":
-                next_match,
+                normalize_match_reference(
+                    upcoming_matches[0]
+                    if upcoming_matches
+                    else None
+                ),
         },
 
         "uefa_categories": {
@@ -1119,15 +656,16 @@ def normalize_player(
                     ),
                     0,
                 )
-            for i in range(1, 16)
+            for i in range(
+                1,
+                16,
+            )
         },
 
         "uefa_extra": {
             "rating":
                 unwrap_number(
-                    player.get(
-                        "rating"
-                    ),
+                    player.get("rating"),
                     0,
                 ),
 
@@ -1180,7 +718,7 @@ def normalize_players(
     payload: dict[str, Any],
     nationality_lookup: dict[
         str,
-        dict[str, Any],
+        str,
     ],
 ) -> list[dict[str, Any]]:
     player_list = (
@@ -1196,20 +734,22 @@ def normalize_players(
     ):
         raise ValueError(
             "Could not locate "
-            "data.value.playerList "
-            "in UEFA players feed"
+            "data.value.playerList"
         )
 
-    normalized = [
+    players = [
         normalize_player(
             player,
             nationality_lookup,
         )
         for player in player_list
-        if isinstance(player, dict)
+        if isinstance(
+            player,
+            dict,
+        )
     ]
 
-    normalized.sort(
+    players.sort(
         key=lambda p: (
             p["team"]["name"],
             p["position"],
@@ -1217,7 +757,88 @@ def normalize_players(
         )
     )
 
-    return normalized
+    return players
+
+
+# ============================================================
+# TEAM NORMALIZATION
+# ============================================================
+
+def normalize_team(
+    team: dict[str, Any],
+) -> dict[str, Any]:
+    upcoming = (
+        team.get(
+            "upcomingMatchesList"
+        )
+        or []
+    )
+
+    return {
+        "id": clean_string(
+            team.get("id")
+        ),
+
+        "name": clean_string(
+            team.get("webName")
+            or team.get("offName")
+        ),
+
+        "official_name": clean_string(
+            team.get("offName")
+        ),
+
+        "code": clean_string(
+            team.get("shortName")
+        ),
+
+        "eliminated":
+            team.get(
+                "isEliminated"
+            ),
+
+        "pot": {
+            "id": clean_string(
+                team.get("htPtId")
+            ),
+            "name": clean_string(
+                team.get("htPtName")
+            ),
+        },
+
+        "next_match":
+            normalize_match_reference(
+                upcoming[0]
+                if upcoming
+                else None
+            ),
+    }
+
+
+def normalize_teams(
+    payload: dict[str, Any],
+) -> list[dict[str, Any]]:
+    raw_teams = (
+        payload
+        .get("data", {})
+        .get("value", [])
+    )
+
+    teams = [
+        normalize_team(team)
+        for team in raw_teams
+        if isinstance(
+            team,
+            dict,
+        )
+    ]
+
+    teams.sort(
+        key=lambda team:
+            team["name"]
+    )
+
+    return teams
 
 
 # ============================================================
@@ -1244,85 +865,61 @@ def normalize_fixture_match(
 
         "kickoff":
             clean_string(
-                match.get(
-                    "dateTime"
-                )
+                match.get("dateTime")
             ),
 
         "lock_time":
             clean_string(
-                match.get(
-                    "dateTimeLock"
-                )
+                match.get("dateTimeLock")
             ),
 
         "home": {
             "id":
                 clean_string(
-                    match.get(
-                        "htId"
-                    )
+                    match.get("htId")
                 ),
             "name":
                 clean_string(
-                    match.get(
-                        "htName"
-                    )
+                    match.get("htName")
                 ),
             "code":
                 clean_string(
-                    match.get(
-                        "htCCode"
-                    )
+                    match.get("htCCode")
                 ),
             "score":
                 clean_string(
-                    match.get(
-                        "htScore"
-                    )
+                    match.get("htScore")
                 ),
         },
 
         "away": {
             "id":
                 clean_string(
-                    match.get(
-                        "atId"
-                    )
+                    match.get("atId")
                 ),
             "name":
                 clean_string(
-                    match.get(
-                        "atName"
-                    )
+                    match.get("atName")
                 ),
             "code":
                 clean_string(
-                    match.get(
-                        "atCCode"
-                    )
+                    match.get("atCCode")
                 ),
             "score":
                 clean_string(
-                    match.get(
-                        "atScore"
-                    )
+                    match.get("atScore")
                 ),
         },
 
         "status":
             clean_string(
-                match.get(
-                    "matchStatus"
-                )
+                match.get("matchStatus")
             ),
 
         "is_live":
             bool(
                 unwrap_number(
-                    match.get(
-                        "isLive"
-                    ),
+                    match.get("isLive"),
                     0,
                 )
             ),
@@ -1403,35 +1000,27 @@ def normalize_fixtures(
     list[dict[str, Any]],
     list[dict[str, Any]],
 ]:
-    matchdays = (
+    raw_matchdays = (
         payload
         .get("data", {})
         .get("value", [])
     )
 
-    if not isinstance(
-        matchdays,
-        list,
-    ):
-        raise ValueError(
-            "Could not locate "
-            "data.value in UEFA "
-            "fixtures feed"
-        )
+    matchdays = []
+    matches = []
 
-    normalized_matchdays = []
-    normalized_matches = []
-
-    for matchday in matchdays:
+    for matchday in raw_matchdays:
         if not isinstance(
             matchday,
             dict,
         ):
             continue
 
-        md_id = matchday.get("mdId")
+        md_id = matchday.get(
+            "mdId"
+        )
 
-        md_record = {
+        md = {
             "matchday":
                 md_id,
 
@@ -1498,30 +1087,22 @@ def normalize_fixtures(
             "match_ids": [],
         }
 
-        matches = (
+        for raw_match in (
             matchday.get("match")
             or []
-        )
-
-        for match in matches:
-            if not isinstance(
-                match,
-                dict,
-            ):
-                continue
-
+        ):
             normalized = (
                 normalize_fixture_match(
                     md_id,
-                    match,
+                    raw_match,
                 )
             )
 
-            normalized_matches.append(
+            matches.append(
                 normalized
             )
 
-            md_record[
+            md[
                 "match_ids"
             ].append(
                 normalized[
@@ -1529,31 +1110,26 @@ def normalize_fixtures(
                 ]
             )
 
-        normalized_matchdays.append(
-            md_record
-        )
+        matchdays.append(md)
 
-    normalized_matches.sort(
-        key=lambda match: (
-            match["matchday"],
-            match["kickoff"],
-            match["match_id"],
-        )
-    )
-
-    normalized_matchdays.sort(
+    matchdays.sort(
         key=lambda md:
             md["matchday"]
     )
 
-    return (
-        normalized_matchdays,
-        normalized_matches,
+    matches.sort(
+        key=lambda m: (
+            m["matchday"],
+            m["kickoff"],
+            m["match_id"],
+        )
     )
+
+    return matchdays, matches
 
 
 # ============================================================
-# ARCHIVE
+# PRESEASON ARCHIVE
 # ============================================================
 
 def save_preseason_snapshot(
@@ -1570,15 +1146,10 @@ def save_preseason_snapshot(
     if marker.exists():
         print(
             "Preseason archive already exists; "
-            "leaving it untouched."
+            "leaving it untouched.",
+            flush=True,
         )
-
         return False
-
-    print(
-        "Creating permanent 2026-09-21 "
-        "preseason archive..."
-    )
 
     for name, payload in (
         raw_payloads.items()
@@ -1591,66 +1162,13 @@ def save_preseason_snapshot(
 
     marker.write_text(
         (
-            "Permanent preseason snapshot "
-            "of UEFA UWCL Fantasy feeds.\n"
-            "Captured before the first "
-            "2026/27 league-phase matches.\n"
-            "Player statistical totals "
-            "appear to contain "
-            "carried-forward 2025/26 "
-            "UWCL data.\n"
+            "Permanent preseason snapshot of UEFA UWCL "
+            "Fantasy feeds.\n"
+            "Captured before the first 2026/27 "
+            "league-phase matches.\n"
             "DO NOT OVERWRITE THESE FILES.\n"
         ),
         encoding="utf-8",
-    )
-
-    return True
-
-
-def save_preseason_nationalities(
-    squad_records: list[
-        dict[str, Any]
-    ],
-) -> bool:
-    path = (
-        PRESEASON_ARCHIVE_DIR
-        / "nationalities.json"
-    )
-
-    if path.exists():
-        print(
-            "Preseason nationality snapshot "
-            "already exists; leaving untouched."
-        )
-
-        return False
-
-    write_json(
-        path,
-        {
-            "competition":
-                "UWCL",
-
-            "season":
-                CURRENT_SEASON,
-
-            "source":
-                "UEFA squad pages",
-
-            "captured_at_utc":
-                utc_now_iso(),
-
-            "count":
-                len(squad_records),
-
-            "players":
-                squad_records,
-        },
-    )
-
-    print(
-        "Saved permanent preseason "
-        "nationality snapshot."
     )
 
     return True
@@ -1665,22 +1183,17 @@ def main() -> int:
 
     fetched_at = utc_now_iso()
 
-    raw_payloads: dict[
-        str,
-        dict[str, Any],
-    ] = {}
+    raw_payloads = {}
 
-    # Core fantasy feeds are required.
-    # Each now gets up to five attempts and a 120s read timeout.
     for name, url in URLS.items():
-        raw_payloads[name] = (
-            fetch_json(url)
-        )
+        payload = fetch_json(url)
+
+        raw_payloads[name] = payload
 
         write_json(
             RAW_DIR
             / f"{name}_raw.json",
-            raw_payloads[name],
+            payload,
         )
 
     archived_now = (
@@ -1689,26 +1202,17 @@ def main() -> int:
         )
     )
 
-    teams = normalize_teams(
-        raw_payloads["teams"]
-    )
-
-    # Squad pages are optional enrichment.
-    nationality_lookup, squad_records = (
-        fetch_nationality_data(
-            teams
-        )
-    )
-
-    nationality_archive_created = (
-        save_preseason_nationalities(
-            squad_records
-        )
+    nationality_lookup = (
+        load_nationality_lookup()
     )
 
     players = normalize_players(
         raw_payloads["players"],
         nationality_lookup,
+    )
+
+    teams = normalize_teams(
+        raw_payloads["teams"]
     )
 
     matchdays, matches = (
@@ -1726,143 +1230,46 @@ def main() -> int:
         None,
     )
 
-    matched_nationalities = sum(
+    nationality_matches = sum(
         1
         for player in players
-        if player["nationality"]["code"]
-    )
-
-    unmatched_players = [
-        {
-            "id":
-                player["id"],
-
-            "name":
-                player["name"],
-
-            "team":
-                player["team"]["name"],
-
-            "team_code":
-                player["team"]["code"],
-
-            "position":
-                player["position"],
-        }
-        for player in players
-        if not player[
+        if player[
             "nationality"
         ]["code"]
-    ]
-
-    nationality_codes = sorted(
-        {
-            player[
-                "nationality"
-            ]["code"]
-            for player in players
-            if player[
-                "nationality"
-            ]["code"]
-        }
     )
 
     write_json(
         DATA_DIR / "players.json",
         {
-            "competition":
-                "UWCL",
-
-            "season":
-                CURRENT_SEASON,
-
-            "count":
-                len(players),
-
-            "players":
-                players,
+            "competition": "UWCL",
+            "season": CURRENT_SEASON,
+            "count": len(players),
+            "players": players,
         },
     )
 
     write_json(
         DATA_DIR / "teams.json",
         {
-            "competition":
-                "UWCL",
-
-            "season":
-                CURRENT_SEASON,
-
-            "count":
-                len(teams),
-
-            "teams":
-                teams,
+            "competition": "UWCL",
+            "season": CURRENT_SEASON,
+            "count": len(teams),
+            "teams": teams,
         },
     )
 
     write_json(
         DATA_DIR / "fixtures.json",
         {
-            "competition":
-                "UWCL",
-
-            "season":
-                CURRENT_SEASON,
-
-            "matchdays":
-                matchdays,
-
-            "matches":
-                matches,
+            "competition": "UWCL",
+            "season": CURRENT_SEASON,
+            "matchdays": matchdays,
+            "matches": matches,
         },
     )
 
-    write_json(
-        DATA_DIR / "nationalities.json",
-        {
-            "competition":
-                "UWCL",
-
-            "season":
-                CURRENT_SEASON,
-
-            "source":
-                "UEFA squad pages",
-
-            "fetched_at_utc":
-                fetched_at,
-
-            "matched_players":
-                matched_nationalities,
-
-            "fantasy_players":
-                len(players),
-
-            "unmatched_players":
-                len(
-                    unmatched_players
-                ),
-
-            "nationality_count":
-                len(
-                    nationality_codes
-                ),
-
-            "nationalities":
-                nationality_codes,
-
-            "players":
-                squad_records,
-
-            "unmatched_fantasy_players":
-                unmatched_players,
-        },
-    )
-
-    metadata = {
-        "competition":
-            "UWCL",
+    meta = {
+        "competition": "UWCL",
 
         "season":
             CURRENT_SEASON,
@@ -1879,52 +1286,28 @@ def main() -> int:
                     "preseason_carried_"
                     "forward_unverified"
                 ),
-
-            "note":
-                (
-                    "Before the first "
-                    "2026/27 matches, "
-                    "UEFA's player feed "
-                    "contains non-zero "
-                    "totals that appear "
-                    "to be carried "
-                    "forward from "
-                    "2025/26. The "
-                    "permanent preseason "
-                    "raw snapshot is "
-                    "retained for "
-                    "comparison after "
-                    "UEFA updates the "
-                    "feed."
-                ),
         },
 
         "nationality_data": {
             "source":
                 (
-                    "UEFA Women's "
-                    "Champions League "
-                    "squad pages"
+                    "UEFA squad-page "
+                    "reference file"
                 ),
 
-            "join_key":
-                "UEFA player ID",
+            "master_file":
+                str(
+                    NATIONALITY_MASTER_PATH
+                ),
 
             "matched_players":
-                matched_nationalities,
+                nationality_matches,
 
             "unmatched_players":
-                len(
-                    unmatched_players
+                (
+                    len(players)
+                    - nationality_matches
                 ),
-
-            "nationality_count":
-                len(
-                    nationality_codes
-                ),
-
-            "preseason_archive_created":
-                nationality_archive_created,
         },
 
         "counts": {
@@ -1941,15 +1324,8 @@ def main() -> int:
                 len(matchdays),
         },
 
-        "sources": {
-            **deepcopy(URLS),
-
-            "squads":
-                (
-                    f"{UEFA_SQUAD_BASE}"
-                    "/{team_id}/squad/"
-                ),
-        },
+        "sources":
+            deepcopy(URLS),
 
         "fetched_at_utc":
             fetched_at,
@@ -1967,80 +1343,50 @@ def main() -> int:
 
     write_json(
         DATA_DIR / "meta.json",
-        metadata,
+        meta,
     )
 
     print()
-    print("UWCL fetch complete.")
     print(
-        f"Players: {len(players)}"
+        "UWCL fetch complete.",
+        flush=True,
     )
     print(
-        f"Teams: {len(teams)}"
+        f"Players: {len(players)}",
+        flush=True,
     )
     print(
-        f"Matches: {len(matches)}"
+        f"Teams: {len(teams)}",
+        flush=True,
     )
     print(
-        f"Matchdays: {len(matchdays)}"
+        f"Matches: {len(matches)}",
+        flush=True,
     )
     print(
-        "Current matchday: "
-        f"{current_matchday}"
+        f"Matchdays: {len(matchdays)}",
+        flush=True,
     )
     print(
-        "Nationality matches: "
-        f"{matched_nationalities}"
-        f"/{len(players)}"
+        f"Nationality matches: "
+        f"{nationality_matches}/"
+        f"{len(players)}",
+        flush=True,
     )
-    print(
-        "Nationality codes: "
-        f"{len(nationality_codes)}"
-    )
-    print(
-        "Unmatched players: "
-        f"{len(unmatched_players)}"
-    )
-    print(
-        f"Fetched at: {fetched_at}"
-    )
-
-    if unmatched_players:
-        print()
-        print(
-            "First players without "
-            "nationality:"
-        )
-
-        for player in (
-            unmatched_players[:30]
-        ):
-            print(
-                "  "
-                f"{player['team_code']} | "
-                f"{player['name']} | "
-                f"{player['id']}"
-            )
-
-        if len(
-            unmatched_players
-        ) > 30:
-            print(
-                "  ... plus "
-                f"{len(unmatched_players) - 30} "
-                "more"
-            )
 
     return 0
 
 
 if __name__ == "__main__":
     try:
-        raise SystemExit(main())
+        raise SystemExit(
+            main()
+        )
 
     except Exception as exc:
         print(
             f"ERROR: {exc}",
             file=sys.stderr,
+            flush=True,
         )
         raise
