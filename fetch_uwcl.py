@@ -54,11 +54,15 @@ REQUEST_HEADERS = {
     ),
     "Accept": "application/json,text/plain,*/*",
     "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate",
+    "Referer": "https://gaming.uefa.com/en/uwclfantasy/create-team",
 }
 
-CONNECT_TIMEOUT = 15
-READ_TIMEOUT = 45
-MAX_ATTEMPTS = 3
+# Keep failed GitHub-runner requests short. If UEFA is temporarily unreachable,
+# the script falls back to the last committed raw feed instead of hanging/failing.
+CONNECT_TIMEOUT = 8
+READ_TIMEOUT = 15
+MAX_ATTEMPTS = 2
 
 SESSION = requests.Session()
 SESSION.headers.update(REQUEST_HEADERS)
@@ -135,18 +139,98 @@ def unwrap_number(
 # HTTP
 # ============================================================
 
+def validate_feed_payload(
+    name: str,
+    payload: dict[str, Any],
+) -> None:
+    if not isinstance(payload, dict):
+        raise ValueError(
+            f"{name} feed was not a JSON object"
+        )
+
+    meta = payload.get("meta")
+    if (
+        isinstance(meta, dict)
+        and meta.get("success") is False
+    ):
+        raise RuntimeError(
+            f"{name} feed reported failure: {meta}"
+        )
+
+    data = payload.get("data")
+    if not isinstance(data, dict):
+        raise ValueError(
+            f"{name} feed is missing data object"
+        )
+
+    value = data.get("value")
+
+    if name == "players":
+        player_list = (
+            value.get("playerList", [])
+            if isinstance(value, dict)
+            else []
+        )
+        if not isinstance(player_list, list) or len(player_list) < 500:
+            raise ValueError(
+                f"players feed failed sanity check "
+                f"({len(player_list) if isinstance(player_list, list) else 0} players)"
+            )
+
+    elif name == "teams":
+        if not isinstance(value, list) or len(value) < 18:
+            raise ValueError(
+                f"teams feed failed sanity check "
+                f"({len(value) if isinstance(value, list) else 0} teams)"
+            )
+
+    elif name == "fixtures":
+        if not isinstance(value, list) or len(value) < 6:
+            raise ValueError(
+                f"fixtures feed failed sanity check "
+                f"({len(value) if isinstance(value, list) else 0} matchdays)"
+            )
+
+
+def load_cached_feed(
+    name: str,
+) -> dict[str, Any] | None:
+    path = RAW_DIR / f"{name}_raw.json"
+
+    if not path.exists():
+        return None
+
+    try:
+        payload = json.loads(
+            path.read_text(encoding="utf-8")
+        )
+        validate_feed_payload(name, payload)
+        return payload
+    except Exception as exc:
+        print(
+            f"WARNING: cached {name} feed is unusable: {exc}",
+            flush=True,
+        )
+        return None
+
+
 def fetch_json(
+    name: str,
     url: str,
-) -> dict[str, Any]:
+) -> tuple[dict[str, Any], bool]:
+    """
+    Return (payload, fetched_live).
+
+    We try UEFA briefly. If GitHub's runner cannot read the endpoint,
+    we use the last committed raw feed so the scheduled workflow does
+    not spend many minutes timing out or destroy last-known-good data.
+    """
     last_error: Exception | None = None
 
-    for attempt in range(
-        1,
-        MAX_ATTEMPTS + 1,
-    ):
+    for attempt in range(1, MAX_ATTEMPTS + 1):
         try:
             print(
-                f"Fetching {url} "
+                f"Fetching {name}: {url} "
                 f"(attempt {attempt}/{MAX_ATTEMPTS})",
                 flush=True,
             )
@@ -158,60 +242,43 @@ def fetch_json(
                     READ_TIMEOUT,
                 ),
             )
-
             response.raise_for_status()
 
             payload = response.json()
+            validate_feed_payload(name, payload)
 
-            if not isinstance(
-                payload,
-                dict,
-            ):
-                raise ValueError(
-                    "UEFA response was not "
-                    "a JSON object"
-                )
-
-            meta = payload.get("meta")
-
-            if (
-                isinstance(meta, dict)
-                and meta.get("success")
-                is False
-            ):
-                raise RuntimeError(
-                    f"UEFA feed reported failure: "
-                    f"{meta}"
-                )
-
-            return payload
+            print(
+                f"Live {name} feed received successfully.",
+                flush=True,
+            )
+            return payload, True
 
         except (
             requests.exceptions.RequestException,
             ValueError,
+            RuntimeError,
         ) as exc:
             last_error = exc
-
             print(
-                f"WARNING: attempt {attempt} failed: "
-                f"{exc}",
+                f"WARNING: live {name} attempt {attempt} failed: {exc}",
                 flush=True,
             )
 
             if attempt < MAX_ATTEMPTS:
-                wait_seconds = attempt * 2
+                time.sleep(2)
 
-                print(
-                    f"Retrying in "
-                    f"{wait_seconds}s...",
-                    flush=True,
-                )
+    cached = load_cached_feed(name)
 
-                time.sleep(wait_seconds)
+    if cached is not None:
+        print(
+            f"WARNING: using last-known-good cached {name} feed "
+            f"from {RAW_DIR / f'{name}_raw.json'}.",
+            flush=True,
+        )
+        return cached, False
 
     raise RuntimeError(
-        f"Failed to fetch required URL after "
-        f"{MAX_ATTEMPTS} attempts: {url}"
+        f"Could not fetch {name} live and no usable cached feed exists: {url}"
     ) from last_error
 
 
@@ -220,7 +287,7 @@ def fetch_json(
 # ============================================================
 
 def load_nationality_lookup(
-) -> dict[str, str]:
+) -> dict[str, dict[str, str]]:
     if not NATIONALITY_MASTER_PATH.exists():
         print(
             "No nationality master file yet; "
@@ -243,32 +310,34 @@ def load_nationality_lookup(
         )
         return {}
 
-    lookup: dict[str, str] = {}
+    lookup: dict[str, dict[str, str]] = {}
 
-    for record in payload.get(
-        "players",
-        [],
-    ):
-        if not isinstance(
-            record,
-            dict,
-        ):
+    for record in payload.get("players", []):
+        if not isinstance(record, dict):
             continue
 
         player_id = clean_string(
             record.get("player_id")
         )
-
         nationality = clean_string(
             record.get("nationality")
         ).upper()
+        source = clean_string(
+            record.get("source")
+        )
 
         if player_id and nationality:
-            lookup[player_id] = nationality
+            lookup[player_id] = {
+                "code": nationality,
+                "source": (
+                    source
+                    or "UEFA squad page"
+                ),
+            }
 
     print(
-        f"Loaded {len(lookup)} nationality "
-        "records.",
+        f"Loaded {len(lookup)} nationality records "
+        "from the local master file.",
         flush=True,
     )
 
@@ -355,7 +424,7 @@ def normalize_player(
     player: dict[str, Any],
     nationality_lookup: dict[
         str,
-        str,
+        dict[str, str],
     ],
 ) -> dict[str, Any]:
     player_id = clean_string(
@@ -386,11 +455,18 @@ def normalize_player(
         or []
     )
 
-    nationality = (
+    nationality_record = (
         nationality_lookup.get(
             player_id,
-            "",
+            {},
         )
+    )
+
+    nationality = clean_string(
+        nationality_record.get("code")
+    )
+    nationality_source = clean_string(
+        nationality_record.get("source")
     )
 
     return {
@@ -413,7 +489,7 @@ def normalize_player(
         "nationality": {
             "code": nationality,
             "source": (
-                "UEFA squad page"
+                nationality_source
                 if nationality
                 else ""
             ),
@@ -718,7 +794,7 @@ def normalize_players(
     payload: dict[str, Any],
     nationality_lookup: dict[
         str,
-        str,
+        dict[str, str],
     ],
 ) -> list[dict[str, Any]]:
     player_list = (
@@ -1184,17 +1260,29 @@ def main() -> int:
     fetched_at = utc_now_iso()
 
     raw_payloads = {}
+    feed_status = {}
 
     for name, url in URLS.items():
-        payload = fetch_json(url)
+        payload, fetched_live = fetch_json(
+            name,
+            url,
+        )
 
         raw_payloads[name] = payload
-
-        write_json(
-            RAW_DIR
-            / f"{name}_raw.json",
-            payload,
+        feed_status[name] = (
+            "live"
+            if fetched_live
+            else "cached_last_known_good"
         )
+
+        # Never overwrite the committed last-known-good raw file
+        # with fallback data. Only save a genuinely live response.
+        if fetched_live:
+            write_json(
+                RAW_DIR
+                / f"{name}_raw.json",
+                payload,
+            )
 
     archived_now = (
         save_preseason_snapshot(
@@ -1233,6 +1321,20 @@ def main() -> int:
     nationality_matches = sum(
         1
         for player in players
+        if player[
+            "nationality"
+        ]["code"]
+    )
+
+    active_players = [
+        player
+        for player in players
+        if player["active"]
+    ]
+
+    active_nationality_matches = sum(
+        1
+        for player in active_players
         if player[
             "nationality"
         ]["code"]
@@ -1308,7 +1410,22 @@ def main() -> int:
                     len(players)
                     - nationality_matches
                 ),
+
+            "active_players":
+                len(active_players),
+
+            "active_matched_players":
+                active_nationality_matches,
+
+            "active_unmatched_players":
+                (
+                    len(active_players)
+                    - active_nationality_matches
+                ),
         },
+
+        "feed_status":
+            deepcopy(feed_status),
 
         "counts": {
             "players":
@@ -1371,6 +1488,21 @@ def main() -> int:
         f"Nationality matches: "
         f"{nationality_matches}/"
         f"{len(players)}",
+        flush=True,
+    )
+    print(
+        f"Active-player nationality matches: "
+        f"{active_nationality_matches}/"
+        f"{len(active_players)}",
+        flush=True,
+    )
+    print(
+        "Feed status: "
+        + ", ".join(
+            f"{name}={status}"
+            for name, status
+            in feed_status.items()
+        ),
         flush=True,
     )
 
