@@ -1,0 +1,98 @@
+{
+  "competition": "UEFA Women's Champions League Fantasy Football",
+  "season": "2026/27",
+  "canonical_source": "Official UEFA rules supplied by user",
+  "matchdays_total": 13,
+  "league_phase_matchdays": 6,
+  "squad": {
+    "size": 15,
+    "positions": {
+      "GK": 2,
+      "DEF": 5,
+      "MID": 5,
+      "FWD": 3
+    }
+  },
+  "budget_millions": {
+    "league_phase": 100,
+    "knockout_phase_playoffs_onward": 105
+  },
+  "max_players_per_club": {
+    "league_phase": 3,
+    "knockout_phase_playoffs": 4,
+    "quarter_finals": 5,
+    "semi_finals": 6,
+    "final": 8
+  },
+  "starting_xi": {
+    "size": 11,
+    "required": {
+      "GK": 1,
+      "DEF_min": 3,
+      "MID_min": 2,
+      "FWD_min": 1
+    }
+  },
+  "captain": {
+    "points_multiplier": 2,
+    "can_switch_mid_matchday_to_unplayed_player": true
+  },
+  "manual_substitutions": {
+    "max_players_per_mid_matchday_window": 4,
+    "cannot_sub_off_red_carded_player": true
+  },
+  "transfers": {
+    "extra_transfer_cost_points": 4,
+    "league_phase_free_transfers_per_matchday": 2,
+    "league_phase_carry_forward_max": 1,
+    "unlimited_windows": [
+      "before league phase",
+      "before knockout phase play-offs",
+      "before quarter-finals"
+    ]
+  },
+  "chips": {
+    "wildcard": 1,
+    "limitless": 1,
+    "unavailable_matchdays": [
+      1,
+      7,
+      9
+    ]
+  },
+  "scoring": {
+    "all_players": {
+      "appearance": 1,
+      "60_minutes": 1,
+      "goal_outside_box": 1,
+      "assist": 3,
+      "every_3_balls_recovered": 1,
+      "player_of_match": 3,
+      "winning_penalty": 2,
+      "conceding_penalty": -1,
+      "missing_penalty": -2,
+      "yellow_card": -1,
+      "red_card": -3,
+      "own_goal": -2
+    },
+    "GK": {
+      "goal": 6,
+      "penalty_saved": 5,
+      "clean_sheet": 4,
+      "every_3_saves": 1,
+      "every_2_goals_conceded": -1
+    },
+    "DEF": {
+      "goal": 6,
+      "clean_sheet": 4,
+      "every_2_goals_conceded": -1
+    },
+    "MID": {
+      "goal": 5,
+      "clean_sheet": 1
+    },
+    "FWD": {
+      "goal": 4
+    }
+  }
+}
