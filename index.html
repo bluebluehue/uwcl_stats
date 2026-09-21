@@ -3,231 +3,165 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>UWCL Fantasy Player Explorer</title>
-  <meta
-    name="description"
-    content="Explore UEFA Women's Champions League Fantasy players, prices, ownership, fixtures, nationality and historical stats."
-  >
+  <title>UWCL Fantasy Player Statistics</title>
+  <meta name="description" content="UWCL fantasy player statistics, decision ratings, fixtures, form and filters.">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="site-header">
-    <div class="shell header-inner">
+    <div class="shell header-row">
       <div>
-        <p class="eyebrow">2026/27 UWCL Fantasy</p>
-        <h1>Player Explorer</h1>
+        <div class="kicker">2026/27 UWCL Fantasy</div>
+        <h1>UWCL Fantasy Player Statistics</h1>
       </div>
-      <p class="header-note">
-        Search, filter, shortlist and export the full fantasy player pool.
-      </p>
+      <div class="header-status">
+        <span>MD <strong id="status-matchday">—</strong></span>
+        <span><strong id="status-players">—</strong> players</span>
+        <span id="status-refresh">—</span>
+        <span id="status-feeds"></span>
+      </div>
     </div>
   </header>
 
   <main class="shell">
-    <section class="compact-status" aria-label="Data status">
-      <div>
-        <span>MD</span>
-        <strong id="status-matchday">—</strong>
-      </div>
-      <div>
-        <span>Players</span>
-        <strong id="status-players">—</strong>
-      </div>
-      <div>
-        <span>Nationality</span>
-        <strong id="status-nationality">—</strong>
-      </div>
-      <div class="refresh-status">
-        <span>Refresh</span>
-        <strong id="status-refresh">—</strong>
-        <span id="status-feeds" class="feed-status"></span>
-      </div>
-      <div class="rules-inline">
-        <span>League phase</span>
-        <strong>15 players · €100m · max 3/club</strong>
-        <small>2 GK · 5 DEF · 5 MID · 3 FWD</small>
-      </div>
-    </section>
-
-    <section class="panel filters-panel" aria-labelledby="filters-title">
-      <div class="panel-heading">
-        <div>
-          <p class="eyebrow">Explore</p>
-          <h2 id="filters-title">Find players</h2>
+    <section class="controls-card">
+      <div class="control-top">
+        <div class="left-actions">
+          <button id="toggle-key" class="button button-primary" type="button">? Key</button>
+          <button id="export-view" class="button" type="button">Export Current</button>
+          <button id="export-all" class="button" type="button">Export All</button>
         </div>
 
-        <div class="panel-actions">
-          <button id="export-all" class="button button-secondary" type="button">
-            Export all CSV
-          </button>
-          <button id="export-view" class="button button-secondary" type="button">
-            Export current view
-          </button>
-          <button id="reset-filters" class="button button-secondary" type="button">
-            Reset
-          </button>
-        </div>
-      </div>
-
-      <div class="filters">
-        <label class="field field-search">
-          <span>Search</span>
-          <input
-            id="filter-search"
-            type="search"
-            placeholder="Player or team…"
-            autocomplete="off"
-          >
-        </label>
-
-        <label class="field">
-          <span>Team</span>
-          <select id="filter-team">
-            <option value="">All teams</option>
-          </select>
-        </label>
-
-        <label class="field">
-          <span>Nationality</span>
-          <select id="filter-nationality">
-            <option value="">All nationalities</option>
-          </select>
-        </label>
-
-        <label class="field">
-          <span>Position</span>
-          <select id="filter-position">
-            <option value="">All positions</option>
-            <option value="GK">Goalkeeper</option>
-            <option value="DEF">Defender</option>
-            <option value="MID">Midfielder</option>
-            <option value="FWD">Forward</option>
-          </select>
-        </label>
-
-        <label class="field">
-          <span>Availability</span>
-          <select id="filter-status">
-            <option value="">All statuses</option>
-            <option value="available">Available</option>
-            <option value="flagged">Flagged</option>
-          </select>
-        </label>
-
-        <label class="field">
-          <span>Saved</span>
-          <select id="filter-saved">
-            <option value="">All players</option>
-            <option value="team">On my team</option>
-            <option value="watchlist">Watchlist</option>
-            <option value="either">Team or watchlist</option>
-          </select>
-        </label>
-      </div>
-
-      <div class="filter-footer">
-        <label class="check-field">
-          <input id="filter-active" type="checkbox" checked>
-          <span>Active only</span>
-        </label>
-
-        <label class="field compact-field">
-          <span>Max price (€m)</span>
-          <input id="filter-max-price" type="number" min="0" max="20" step="0.5" placeholder="Any">
-        </label>
-
-        <label class="field compact-field">
-          <span>Min ownership (%)</span>
-          <input id="filter-min-owned" type="number" min="0" max="100" step="0.1" placeholder="Any">
-        </label>
-
-        <div class="result-count" aria-live="polite">
-          <strong id="result-count">—</strong>
-          <span>matching</span>
-        </div>
-      </div>
-    </section>
-
-    <section class="panel table-panel" aria-labelledby="table-title">
-      <div class="table-toolbar">
-        <div>
-          <p class="eyebrow">Player pool</p>
-          <h2 id="table-title">Fantasy data + 2025/26 carried-forward stats</h2>
-        </div>
-
-        <div class="pager pager-top">
-          <label class="page-size">
-            <span>Rows</span>
-            <select id="page-size">
-              <option value="25">25</option>
-              <option value="50" selected>50</option>
-              <option value="100">100</option>
+        <div class="filter-row main-filters">
+          <label>
+            <span>Club</span>
+            <select id="filter-club"><option value="">All</option></select>
+          </label>
+          <label>
+            <span>Nat</span>
+            <select id="filter-nationality"><option value="">All</option></select>
+          </label>
+          <label>
+            <span>Pos</span>
+            <select id="filter-position">
+              <option value="">All</option>
+              <option value="GK">GK</option>
+              <option value="DEF">DEF</option>
+              <option value="MID">MID</option>
+              <option value="FWD">FWD</option>
             </select>
           </label>
-          <button class="page-button" data-page-action="prev" type="button">Previous</button>
-          <span id="page-info">Page 1 of 1</span>
-          <button class="page-button" data-page-action="next" type="button">Next</button>
+          <label>
+            <span>Day</span>
+            <select id="filter-day"><option value="">All</option></select>
+          </label>
+          <label>
+            <span>Saved</span>
+            <select id="filter-saved">
+              <option value="">All</option>
+              <option value="team">My Team</option>
+              <option value="watchlist">Watchlist</option>
+              <option value="either">Team or Watchlist</option>
+            </select>
+          </label>
         </div>
+      </div>
+
+      <div class="control-bottom">
+        <div class="numeric-filters">
+          <label><span>Max Value</span><input id="filter-max-value" type="number" step="0.5" placeholder="e.g. 7.5"></label>
+          <label><span>Min Decision</span><input id="filter-min-decision" type="number" step="0.1" placeholder="e.g. 80"></label>
+          <label><span>Min Fix</span><input id="filter-min-fix" type="number" step="0.1" placeholder="e.g. 75"></label>
+          <label><span>Min Form</span><input id="filter-min-form" type="number" step="0.1" placeholder="e.g. 80"></label>
+        </div>
+
+        <div class="check-filters">
+          <label><input id="filter-active" type="checkbox" checked> Active only</label>
+          <label><input id="filter-flagged" type="checkbox"> Flagged only</label>
+          <button id="reset-filters" class="link-button" type="button">Reset</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="key-panel" class="key-panel" hidden>
+      <div class="key-grid">
+        <div><strong>Decision</strong><span>Overall WSL-style comparison score. Outfield: 35% Fix, 35% Form, 30% Inv. GK: 85% Fix, 15% Form. Availability can pull the score toward a 35 baseline.</span></div>
+        <div><strong>Fix</strong><span>Provisional fixture opportunity from opponent UEFA draw pot plus home/away adjustment, normalized against the active player pool.</span></div>
+        <div><strong>Fix+1</strong><span>Same fixture model for the following matchday.</span></div>
+        <div><strong>Form</strong><span>Preseason 2025/26 fantasy prior using points/90, total points and value, position-relative and confidence-shrunk for low minutes.</span></div>
+        <div><strong>Inv</strong><span>Temporary UWCL involvement proxy using position-relative G+A/90, ball recoveries/90 and POTM/90. This is not yet the WSL Opta event model.</span></div>
+        <div><strong>Day</strong><span>Day of the current matchday fixture. Useful because UEFA allows subs/captain switches between matchday days.</span></div>
+      </div>
+    </section>
+
+    <section class="table-card">
+      <div class="table-toolbar">
+        <div class="entries-control">
+          <select id="page-size">
+            <option value="15" selected>15</option>
+            <option value="25">25</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+          </select>
+          <span>entries per page</span>
+        </div>
+
+        <label class="search-box">
+          <span>Search:</span>
+          <input id="filter-search" type="search">
+        </label>
       </div>
 
       <div class="table-wrap">
         <table id="player-table">
           <thead>
             <tr>
-              <th class="save-col">Team</th>
-              <th class="save-col">Watch</th>
-              <th data-sort="name">Player</th>
-              <th data-sort="team">Club</th>
-              <th data-sort="nationality">Nat.</th>
-              <th data-sort="position">Pos.</th>
-              <th data-sort="price" class="num">Price</th>
-              <th data-sort="selected_pct" class="num">Selected</th>
-              <th data-sort="status">Status</th>
-              <th data-sort="fixture">Current / next fixture</th>
-              <th data-sort="minutes" class="num historic">Minutes</th>
-              <th data-sort="points" class="num historic">Pts</th>
-              <th data-sort="goals" class="num historic">G</th>
-              <th data-sort="assists" class="num historic">A</th>
-              <th data-sort="recoveries" class="num historic">BR</th>
-              <th data-sort="potm" class="num historic">POTM</th>
+              <th class="save-head" title="Mark player as on your team">MY</th>
+              <th class="save-head" title="Add player to your watchlist">★</th>
+              <th data-sort="name">NAME</th>
+              <th data-sort="club">CLUB</th>
+              <th data-sort="nationality">NAT</th>
+              <th data-sort="day">DAY</th>
+              <th data-sort="decision" title="Overall Decision Rating">DECISION</th>
+              <th data-sort="fix" title="Current fixture comparison rating">FIX</th>
+              <th data-sort="fix1" title="Following fixture comparison rating">FIX+1</th>
+              <th data-sort="form" title="Comparison Form Rating">FORM</th>
+              <th data-sort="inv" title="Comparison Involvement Rating">INV</th>
+              <th data-sort="position">POS</th>
+              <th data-sort="value" class="num">VAL</th>
+              <th data-sort="selected" class="num">S%</th>
+              <th data-sort="trend" class="num">Δ%</th>
+              <th data-sort="points" class="num" title="2025/26 fantasy points">PTS</th>
+              <th data-sort="p90" class="num" title="2025/26 fantasy points per 90">P/90</th>
+              <th data-sort="ga" class="num">G+A</th>
+              <th data-sort="br" class="num">BR</th>
+              <th data-sort="cs" class="num">CS</th>
+              <th data-sort="saves" class="num">SV</th>
+              <th data-sort="potm" class="num">POTM</th>
             </tr>
           </thead>
           <tbody id="player-tbody"></tbody>
         </table>
       </div>
 
-      <div id="empty-state" class="empty-state" hidden>
-        No players match those filters.
-      </div>
+      <div id="empty-state" class="empty-state" hidden>No players match the current filters.</div>
 
       <div class="table-footer">
-        <div class="list-summary">
-          <span id="team-count">0</span> on team ·
-          <span id="watch-count">0</span> watchlisted
-        </div>
-
-        <div class="pager">
-          <button class="page-button" data-page-action="prev" type="button">Previous</button>
-          <span id="page-info-bottom">Page 1 of 1</span>
-          <button class="page-button" data-page-action="next" type="button">Next</button>
+        <div id="showing-text">Showing 0 to 0 of 0 entries</div>
+        <div class="pagination">
+          <button data-page="first" type="button">«</button>
+          <button data-page="prev" type="button">‹</button>
+          <div id="page-numbers" class="page-numbers"></div>
+          <button data-page="next" type="button">›</button>
+          <button data-page="last" type="button">»</button>
         </div>
       </div>
     </section>
 
-    <section class="notes">
-      <strong>Notes:</strong>
-      price, ownership, status and fixture fields are 2026/27 fantasy data.
-      Historical columns are carried-forward 2025/26 values until UEFA begins
-      returning current-season totals. “In contention to start next game” is
-      treated as available, not flagged.
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="shell">
-      Unofficial UWCL fantasy data explorer.
+    <div class="model-note">
+      <strong>Model status:</strong> provisional preseason v1. Fixture/Form/Involvement components are deliberately transparent placeholders until richer UWCL market, current-season and event data are connected.
     </div>
-  </footer>
+  </main>
 
   <script src="app.js" defer></script>
 </body>
