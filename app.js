@@ -1,6 +1,7 @@
 const DATA_PATH = "data/uwcl/transformed_data.json";
 const META_PATH = "data/uwcl/meta.json";
 const TEAM_POSITION_PATH = "data/uwcl/team_position_fixture_ratings.json";
+const FIXTURES_PATH = "data/uwcl/fixtures.json";
 
 const STORAGE = {
   team: "uwcl-stats-my-team",
@@ -19,6 +20,7 @@ const state = {
   myTeam: new Set(),
   watch: new Set(),
   teamPosition: null,
+  fixtures: null,
   gkRotation: {},
   activeTab: "players",
   tpSortKey: "def_fix",
@@ -54,14 +56,16 @@ async function init() {
   loadSaved();
 
   try {
-    const [payload, meta, teamPosition] = await Promise.all([
+    const [payload, meta, teamPosition, fixtures] = await Promise.all([
       fetch(DATA_PATH, { cache: "no-store" }).then(checkJson),
       fetch(META_PATH, { cache: "no-store" }).then(checkJson),
       fetch(TEAM_POSITION_PATH, { cache: "no-store" }).then(checkJson),
+      fetch(FIXTURES_PATH, { cache: "no-store" }).then(checkJson),
     ]);
 
     state.all = Array.isArray(payload.players) ? payload.players : [];
     state.teamPosition = teamPosition;
+    state.fixtures = fixtures;
     populateFilters();
     bind();
     bindTabs();
@@ -800,32 +804,82 @@ function rotationRiskLabel(player) {
   return "";
 }
 
+function shortWeekdayFromKickoff(kickoff) {
+  if (!kickoff) return "";
+  const d = new Date(kickoff);
+  if (Number.isNaN(d.getTime())) return "";
+  return d.toLocaleDateString("en-US", {
+    weekday: "short",
+    timeZone: "Europe/London",
+  }).toUpperCase();
+}
+
 function clubScheduleMap() {
   const byClub = new Map();
 
-  // Any active player can represent a club's schedule; fixture dates are club-level.
+  // Seed the clubs from player data so naming stays consistent with the rest of the site.
   for (const player of state.all) {
     if (!player.Active || !player.Club || byClub.has(player.Club)) continue;
-
-    const md = {};
-    for (const fixture of (player["League Phase Fixtures"] || [])) {
-      const matchday = Number(fixture?.matchday || 0);
-      if (matchday >= 1 && matchday <= 6) {
-        md[matchday] = fixture.day_short || "";
-      }
-    }
-
     byClub.set(player.Club, {
       club: player.Club,
       clubName: player["Club Name"] || player.Club,
-      days: md,
+      teamId: String(player["Team ID"] || ""),
+      days: {},
       currentFix: Number(player["Comparison Fixture Rating"] || 0),
     });
   }
 
+  // Primary source for GK split-day coverage: the normalized six-matchday
+  // fixtures file itself. This avoids depending on a derived player field.
+  const matches = Array.isArray(state.fixtures?.matches) ? state.fixtures.matches : [];
+
+  for (const match of matches) {
+    const md = Number(match?.matchday || 0);
+    if (md < 1 || md > 6) continue;
+
+    const day = shortWeekdayFromKickoff(match?.kickoff);
+    if (!day) continue;
+
+    const homeCode = String(match?.home?.code || "");
+    const awayCode = String(match?.away?.code || "");
+    const homeId = String(match?.home?.id || "");
+    const awayId = String(match?.away?.id || "");
+
+    for (const entry of byClub.values()) {
+      if (
+        (homeCode && entry.club === homeCode) ||
+        (homeId && entry.teamId === homeId)
+      ) {
+        entry.days[md] = day;
+      }
+
+      if (
+        (awayCode && entry.club === awayCode) ||
+        (awayId && entry.teamId === awayId)
+      ) {
+        entry.days[md] = day;
+      }
+    }
+  }
+
+  // Backward-compatible fallback for any club whose fixture feed did not map.
+  // Older transformed_data versions may or may not contain this field.
+  for (const player of state.all) {
+    if (!player.Active || !player.Club) continue;
+    const entry = byClub.get(player.Club);
+    if (!entry) continue;
+
+    const fixtures = player["League Phase Fixtures"] || [];
+    for (const fixture of fixtures) {
+      const md = Number(fixture?.matchday || 0);
+      if (md >= 1 && md <= 6 && !entry.days[md]) {
+        entry.days[md] = fixture.day_short || "";
+      }
+    }
+  }
+
   return byClub;
 }
-
 function keepersByClub() {
   const map = new Map();
 
