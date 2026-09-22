@@ -825,6 +825,7 @@ function clubScheduleMap() {
       clubName: player["Club Name"] || player.Club,
       teamId: String(player["Team ID"] || ""),
       days: {},
+      fixtureRatings: {},
       currentFix: Number(player["Comparison Fixture Rating"] || 0),
     });
   }
@@ -872,8 +873,14 @@ function clubScheduleMap() {
     const fixtures = player["League Phase Fixtures"] || [];
     for (const fixture of fixtures) {
       const md = Number(fixture?.matchday || 0);
-      if (md >= 1 && md <= 6 && !entry.days[md]) {
+      if (md < 1 || md > 6) continue;
+
+      if (!entry.days[md]) {
         entry.days[md] = fixture.day_short || "";
+      }
+
+      if (fixture?.rating != null && entry.fixtureRatings[md] == null) {
+        entry.fixtureRatings[md] = Number(fixture.rating);
       }
     }
   }
@@ -922,6 +929,31 @@ function splitCoverage(daysA, daysB) {
   }
 
   return {split, details};
+}
+
+function pairFixtureMetric(a, b) {
+  const weeklyBest = [];
+
+  for (let md=1; md<=6; md++) {
+    const ar = Number(a?.fixtureRatings?.[md]);
+    const br = Number(b?.fixtureRatings?.[md]);
+    const validA = Number.isFinite(ar);
+    const validB = Number.isFinite(br);
+
+    if (validA && validB) weeklyBest.push(Math.max(ar, br));
+    else if (validA) weeklyBest.push(ar);
+    else if (validB) weeklyBest.push(br);
+  }
+
+  if (!weeklyBest.length) {
+    return {average: null, floor: null, weeklyBest: []};
+  }
+
+  return {
+    average: weeklyBest.reduce((sum, x) => sum + x, 0) / weeklyBest.length,
+    floor: Math.min(...weeklyBest),
+    weeklyBest,
+  };
 }
 
 function dayChip(detail) {
@@ -987,11 +1019,14 @@ function renderGkPairings() {
         (gkB && rotationRisk(gkB) === "high")
       )) continue;
 
+      const sixMdFix = pairFixtureMetric(a, b);
+
       pairs.push({
         clubA, clubB, a, b,
         gkA, gkB, combined,
         split: coverage.split,
         details: coverage.details,
+        sixMdFix,
         currentFix: (Number(a.currentFix || 0) + Number(b.currentFix || 0)) / 2,
       });
     }
@@ -999,15 +1034,16 @@ function renderGkPairings() {
 
   pairs.sort((x,y) =>
     (y.split - x.split) ||
-    (y.currentFix - x.currentFix) ||
+    ((y.sixMdFix.average ?? -999) - (x.sixMdFix.average ?? -999)) ||
     ((x.combined ?? 999) - (y.combined ?? 999)) ||
+    (y.currentFix - x.currentFix) ||
     `${x.clubA}-${x.clubB}`.localeCompare(`${y.clubA}-${y.clubB}`)
   );
 
   const summary = $("#gk-summary");
   if (summary) {
     const anchorText = includeClub ? ` containing ${includeClub}` : "";
-    summary.innerHTML = `<strong>${pairs.length}</strong> club pair${pairs.length === 1 ? "" : "s"}${esc(anchorText)} meet the current filters. Ranked first by split-day coverage across MD1–6.`;
+    summary.innerHTML = `<strong>${pairs.length}</strong> club pair${pairs.length === 1 ? "" : "s"}${esc(anchorText)} meet the current filters. Ranked by split-day coverage, then 6-MD best-fixture average.`;
   }
 
   tbody.innerHTML = "";
@@ -1027,6 +1063,11 @@ function renderGkPairings() {
         <div class="coverage-bar"><span style="width:${coveragePct}%"></span></div>
       </td>
 
+      <td title="Average of the stronger GK fixture available in each matchday. Floor = weakest of those six best-available fixtures.">
+        <strong>${pair.sixMdFix.average == null ? "—" : pair.sixMdFix.average.toFixed(1)}</strong>
+        <span class="gk-secondary">floor ${pair.sixMdFix.floor == null ? "—" : pair.sixMdFix.floor.toFixed(1)}</span>
+      </td>
+
       ${pair.details.map(dayChip).map(x => `<td>${x}</td>`).join("")}
 
       <td class="keeper-pair-cell">
@@ -1043,7 +1084,7 @@ function renderGkPairings() {
 
   if (!pairs.length) {
     const tr = document.createElement("tr");
-    tr.innerHTML = `<td colspan="11" class="empty-state">No club pairs match these filters.</td>`;
+    tr.innerHTML = `<td colspan="12" class="empty-state">No club pairs match these filters.</td>`;
     tbody.append(tr);
   }
 }
