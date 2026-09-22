@@ -764,6 +764,7 @@ function bindGkPairings() {
   $("#gk-hide-high-rotation")?.addEventListener("change", renderGkPairings);
   $("#gk-include-club")?.addEventListener("change", renderGkPairings);
   $("#gk-exclude-club")?.addEventListener("change", renderGkPairings);
+  $("#gk-sort")?.addEventListener("change", renderGkPairings);
 
   $("#gk-min-splits")?.addEventListener("input", () => {
     const value = Number($("#gk-min-splits").value || 0);
@@ -931,6 +932,29 @@ function splitCoverage(daysA, daysB) {
   return {split, details};
 }
 
+function normalizeFixtureRating(value) {
+  const n = Number(value);
+  if (!Number.isFinite(n)) return null;
+  // Current raw fixture model is intentionally bounded to 20–85.
+  return Math.max(0, Math.min(100, ((n - 20) / 65) * 100));
+}
+
+function pairScoreFromMetrics(sixMdFix, splitCount) {
+  if (!sixMdFix || sixMdFix.average == null || sixMdFix.floor == null) return null;
+
+  const avgNorm = normalizeFixtureRating(sixMdFix.average);
+  const floorNorm = normalizeFixtureRating(sixMdFix.floor);
+  const splitNorm = Math.max(0, Math.min(100, (Number(splitCount || 0) / 6) * 100));
+
+  if (avgNorm == null || floorNorm == null) return null;
+
+  return (
+    0.60 * avgNorm +
+    0.20 * floorNorm +
+    0.20 * splitNorm
+  );
+}
+
 function pairFixtureMetric(a, b) {
   const weeklyBest = [];
 
@@ -956,13 +980,43 @@ function pairFixtureMetric(a, b) {
   };
 }
 
-function dayChip(detail) {
-  const a = detail.a || "—";
-  const b = detail.b || "—";
-  const cls = detail.split ? "day-pair split" : "day-pair same";
-  const symbol = detail.split ? "✓" : "×";
-  return `<span class="${cls}" title="${detail.split ? "Different days" : "Same day"}">${esc(a)}/${esc(b)} <b>${symbol}</b></span>`;
+function dayChip(detail, pair) {
+  const aDay = detail.a || "—";
+  const bDay = detail.b || "—";
+
+  const aFix = Number(pair?.a?.fixtureRatings?.[detail.md]);
+  const bFix = Number(pair?.b?.fixtureRatings?.[detail.md]);
+
+  const validA = Number.isFinite(aFix);
+  const validB = Number.isFinite(bFix);
+
+  let better = "";
+  if (validA && validB) {
+    if (aFix > bFix) better = "a";
+    else if (bFix > aFix) better = "b";
+  } else if (validA) {
+    better = "a";
+  } else if (validB) {
+    better = "b";
+  }
+
+  const line = (club, score, which) => {
+    const cls = better === which ? "md-option best" : "md-option";
+    return `<div class="${cls}"><span>${esc(club)}</span><strong>${Number.isFinite(score) ? score.toFixed(1) : "—"}</strong></div>`;
+  };
+
+  const splitCls = detail.split ? "md-schedule split" : "md-schedule same";
+  const splitSymbol = detail.split ? "✓" : "×";
+
+  return `
+    <div class="md-cell">
+      ${line(pair.clubA, aFix, "a")}
+      ${line(pair.clubB, bFix, "b")}
+      <div class="${splitCls}">${esc(aDay)} / ${esc(bDay)} ${splitSymbol}</div>
+    </div>
+  `;
 }
+
 
 function keeperDetail(player) {
   if (!player) return `<span class="gk-secondary">Starter unclear</span>`;
@@ -991,6 +1045,7 @@ function renderGkPairings() {
   const excludeClub = $("#gk-exclude-club")?.value || "";
   const maxCombined = numOrNull($("#gk-max-price")?.value);
   const hideHighRotation = $("#gk-hide-high-rotation")?.checked ?? false;
+  const sortMode = $("#gk-sort")?.value || "pair_score";
 
   const clubMap = clubScheduleMap();
   const keeperMap = keepersByClub();
@@ -1020,6 +1075,7 @@ function renderGkPairings() {
       )) continue;
 
       const sixMdFix = pairFixtureMetric(a, b);
+      const pairScore = pairScoreFromMetrics(sixMdFix, coverage.split);
 
       pairs.push({
         clubA, clubB, a, b,
@@ -1027,23 +1083,66 @@ function renderGkPairings() {
         split: coverage.split,
         details: coverage.details,
         sixMdFix,
+        pairScore,
         currentFix: (Number(a.currentFix || 0) + Number(b.currentFix || 0)) / 2,
       });
     }
   }
 
-  pairs.sort((x,y) =>
-    (y.split - x.split) ||
-    ((y.sixMdFix.average ?? -999) - (x.sixMdFix.average ?? -999)) ||
-    ((x.combined ?? 999) - (y.combined ?? 999)) ||
-    (y.currentFix - x.currentFix) ||
-    `${x.clubA}-${x.clubB}`.localeCompare(`${y.clubA}-${y.clubB}`)
-  );
+  pairs.sort((x,y) => {
+    const nameCmp = `${x.clubA}-${x.clubB}`.localeCompare(`${y.clubA}-${y.clubB}`);
+
+    if (sortMode === "best_fix") {
+      return ((y.sixMdFix.average ?? -999) - (x.sixMdFix.average ?? -999))
+        || ((y.sixMdFix.floor ?? -999) - (x.sixMdFix.floor ?? -999))
+        || (y.split - x.split)
+        || nameCmp;
+    }
+
+    if (sortMode === "floor") {
+      return ((y.sixMdFix.floor ?? -999) - (x.sixMdFix.floor ?? -999))
+        || ((y.sixMdFix.average ?? -999) - (x.sixMdFix.average ?? -999))
+        || (y.split - x.split)
+        || nameCmp;
+    }
+
+    if (sortMode === "split") {
+      return (y.split - x.split)
+        || ((y.sixMdFix.average ?? -999) - (x.sixMdFix.average ?? -999))
+        || nameCmp;
+    }
+
+    if (sortMode === "current_fix") {
+      return (y.currentFix - x.currentFix)
+        || ((y.pairScore ?? -999) - (x.pairScore ?? -999))
+        || nameCmp;
+    }
+
+    if (sortMode === "price") {
+      return ((x.combined ?? 999) - (y.combined ?? 999))
+        || ((y.pairScore ?? -999) - (x.pairScore ?? -999))
+        || nameCmp;
+    }
+
+    // Default: Pair Score
+    return ((y.pairScore ?? -999) - (x.pairScore ?? -999))
+      || ((y.sixMdFix.average ?? -999) - (x.sixMdFix.average ?? -999))
+      || (y.split - x.split)
+      || nameCmp;
+  });
 
   const summary = $("#gk-summary");
   if (summary) {
     const anchorText = includeClub ? ` containing ${includeClub}` : "";
-    summary.innerHTML = `<strong>${pairs.length}</strong> club pair${pairs.length === 1 ? "" : "s"}${esc(anchorText)} meet the current filters. Ranked by split-day coverage, then 6-MD best-fixture average.`;
+    const sortLabels = {
+      pair_score: "Pair Score",
+      best_fix: "6-MD Best Fix",
+      floor: "Fixture Floor",
+      split: "Split Coverage",
+      current_fix: "Current FIX",
+      price: "Lowest Price",
+    };
+    summary.innerHTML = `<strong>${pairs.length}</strong> club pair${pairs.length === 1 ? "" : "s"}${esc(anchorText)} meet the current filters. Sorted by ${esc(sortLabels[sortMode] || "Pair Score")}.`;
   }
 
   tbody.innerHTML = "";
@@ -1058,6 +1157,10 @@ function renderGkPairings() {
         <span class="gk-secondary">${esc(pair.a.clubName)} / ${esc(pair.b.clubName)}</span>
       </td>
 
+      <td class="pair-score-cell" title="60% six-matchday best-fixture quality · 20% fixture floor · 20% split-day coverage">
+        <strong>${pair.pairScore == null ? "—" : pair.pairScore.toFixed(1)}</strong>
+      </td>
+
       <td class="coverage-col">
         <div class="coverage-score">${pair.split}/6</div>
         <div class="coverage-bar"><span style="width:${coveragePct}%"></span></div>
@@ -1068,7 +1171,7 @@ function renderGkPairings() {
         <span class="gk-secondary">floor ${pair.sixMdFix.floor == null ? "—" : pair.sixMdFix.floor.toFixed(1)}</span>
       </td>
 
-      ${pair.details.map(dayChip).map(x => `<td>${x}</td>`).join("")}
+      ${pair.details.map(detail => `<td>${dayChip(detail, pair)}</td>`).join("")}
 
       <td class="keeper-pair-cell">
         <div>${keeperDetail(pair.gkA)}</div>
@@ -1084,7 +1187,7 @@ function renderGkPairings() {
 
   if (!pairs.length) {
     const tr = document.createElement("tr");
-    tr.innerHTML = `<td colspan="12" class="empty-state">No club pairs match these filters.</td>`;
+    tr.innerHTML = `<td colspan="13" class="empty-state">No club pairs match these filters.</td>`;
     tbody.append(tr);
   }
 }

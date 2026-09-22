@@ -160,8 +160,7 @@
             <h2>Goalkeeper Club Pairings</h2>
           </div>
           <div class="tool-note">
-            Club scheduling comes first. Rows rank club pairs by split-day coverage across MD1–6,
-            then by the average strength of the better GK fixture available each matchday.
+            Rows combine schedule flexibility with fixture quality. Pair Score weights six-matchday best-fixture quality most heavily, while still rewarding a strong floor and different-day coverage.
           </div>
         </div>
 
@@ -183,6 +182,17 @@
             <input id="gk-max-price" type="number" step="0.5" placeholder="Any">
           </label>
 
+          <label>Sort by
+            <select id="gk-sort">
+              <option value="pair_score">Pair Score</option>
+              <option value="best_fix">6-MD Best Fix</option>
+              <option value="floor">Fixture Floor</option>
+              <option value="split">Split Coverage</option>
+              <option value="current_fix">Current FIX</option>
+              <option value="price">Lowest Price</option>
+            </select>
+          </label>
+
           <label><input id="gk-hide-high-rotation" type="checkbox"> Hide high rotation risk</label>
         </div>
 
@@ -195,6 +205,7 @@
             <thead>
               <tr>
                 <th>CLUB PAIR</th>
+                <th title="Combined pairing score: 60% six-matchday best-fixture quality, 20% fixture floor, 20% split-day coverage.">PAIR SCORE</th>
                 <th class="coverage-col">SPLIT COVERAGE</th>
                 <th title="Average of the better of the two clubs' GK fixture ratings in each of MD1–6. The small 'floor' number is the weakest of those six best-available fixtures.">6-MD BEST FIX</th>
                 <th>MD1</th>
