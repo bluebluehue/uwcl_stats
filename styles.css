@@ -842,3 +842,132 @@ tbody tr:hover td { background: #eef5ff; }
 .md-schedule.same {
   color: #8a93a3;
 }
+
+
+/* v5.0 selectable GK planning horizon */
+.matchday-selector{display:flex;align-items:center;flex-wrap:wrap;gap:6px;padding-right:8px}.matchday-selector .control-label{font-weight:700;color:var(--text);margin-right:2px}.matchday-selector label{display:inline-flex;align-items:center;gap:3px;padding:3px 6px;border:1px solid var(--line);border-radius:6px;background:#fff;cursor:pointer}.matchday-selector label:has(input:checked){border-color:var(--purple);background:#f2edff;color:#4d2db7}.mini-button{height:28px;padding:3px 8px;border:1px solid var(--line);border-radius:6px;background:#fff;color:var(--text);cursor:pointer;font-size:10px}.md-cell.unselected-md{opacity:.28}.md-cell.selected-md{opacity:1}
+
+
+/* v5.1 Schedule Advantage tab */
+.schedule-legend {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 7px;
+  padding: 9px 14px;
+  border-bottom: 1px solid var(--line);
+  background: #fafbfc;
+}
+
+.schedule-legend-note {
+  margin-left: 4px;
+  color: var(--muted);
+  font-size: 10px;
+}
+
+.schedule-summary {
+  padding: 8px 14px;
+  border-bottom: 1px solid var(--line);
+  color: #4c596d;
+  font-size: 11px;
+}
+
+.schedule-board {
+  min-width: 1120px;
+}
+
+.schedule-board th {
+  font-weight: 800;
+  text-align: center;
+}
+
+.schedule-board td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.schedule-board .schedule-sticky-club {
+  position: sticky;
+  left: 0;
+  z-index: 3;
+  min-width: 145px;
+  text-align: left;
+  background: #fff;
+  box-shadow: 2px 0 0 #edf0f4;
+}
+
+.schedule-board th.schedule-sticky-club {
+  z-index: 5;
+  background: #eef1f5;
+}
+
+.schedule-board tbody tr:nth-child(even) .schedule-sticky-club {
+  background: #fafbfc;
+}
+
+.schedule-board .schedule-sticky-club strong,
+.schedule-board .schedule-sticky-club small {
+  display: block;
+}
+
+.schedule-board .schedule-sticky-club small {
+  margin-top: 2px;
+  color: var(--muted);
+  font-size: 9px;
+}
+
+.schedule-cell {
+  min-width: 92px;
+}
+
+.schedule-cell small {
+  display: block;
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 9px;
+}
+
+.schedule-chip {
+  display: inline-block;
+  min-width: 72px;
+  padding: 4px 6px;
+  border-radius: 7px;
+  font-size: 9px;
+  font-weight: 800;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.schedule-chip.both {
+  background: #ccefd9;
+  color: #145c36;
+}
+
+.schedule-chip.day1 {
+  background: #e5f1ff;
+  color: #255a8b;
+}
+
+.schedule-chip.early {
+  background: #fff0bf;
+  color: #775b00;
+}
+
+.schedule-chip.neutral {
+  background: #f1f2f5;
+  color: #6c7482;
+}
+
+.schedule-count {
+  font-weight: 700;
+  color: #4b5565;
+}
+
+.schedule-count-strong {
+  font-weight: 800;
+  color: #145c36;
+}
+
+.schedule-empty {
+  color: #a1a8b3;
+}

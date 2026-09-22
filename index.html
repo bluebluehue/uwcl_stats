@@ -18,6 +18,7 @@
         <button class="tab active" data-tab="players" type="button">Player Table</button>
         <button class="tab" data-tab="team-position" type="button">Team + Position</button>
         <button class="tab" data-tab="gk-pairings" type="button">GK Club Pairings</button>
+        <button class="tab" data-tab="schedule" type="button">Schedule Advantage</button>
       </nav>
       <div class="header-status">
         <span>MD <strong id="status-matchday">—</strong></span>
@@ -160,14 +161,25 @@
             <h2>Goalkeeper Club Pairings</h2>
           </div>
           <div class="tool-note">
-            Rows combine schedule flexibility with fixture quality. Pair Score weights six-matchday best-fixture quality most heavily, while still rewarding a strong floor and different-day coverage.
+            Choose exactly which matchdays you want to plan for. Pair Score, split coverage, best-fixture average and floor all recalculate using only those selected matchdays.
           </div>
         </div>
 
         <div class="position-board-controls gk-controls club-pairing-controls">
+          <div class="matchday-selector" aria-label="Matchdays to evaluate">
+            <span class="control-label">Evaluate matchdays</span>
+            <label><input class="gk-md-toggle" type="checkbox" value="1" checked> MD1</label>
+            <label><input class="gk-md-toggle" type="checkbox" value="2" checked> MD2</label>
+            <label><input class="gk-md-toggle" type="checkbox" value="3" checked> MD3</label>
+            <label><input class="gk-md-toggle" type="checkbox" value="4"> MD4</label>
+            <label><input class="gk-md-toggle" type="checkbox" value="5"> MD5</label>
+            <label><input class="gk-md-toggle" type="checkbox" value="6"> MD6</label>
+            <button id="gk-md-all" class="mini-button" type="button">All 6</button>
+          </div>
+
           <label class="range-control">Min split matchdays
-            <input id="gk-min-splits" type="range" min="0" max="6" step="1" value="4">
-            <strong id="gk-min-splits-value">4/6</strong>
+            <input id="gk-min-splits" type="range" min="0" max="3" step="1" value="2">
+            <strong id="gk-min-splits-value">2/3</strong>
           </label>
 
           <label>Must include club
@@ -205,9 +217,9 @@
             <thead>
               <tr>
                 <th>CLUB PAIR</th>
-                <th title="Combined pairing score: 60% six-matchday best-fixture quality, 20% fixture floor, 20% split-day coverage.">PAIR SCORE</th>
+                <th title="Combined pairing score across the selected matchdays: 60% best-fixture quality, 20% fixture floor, 20% split-day coverage.">PAIR SCORE</th>
                 <th class="coverage-col">SPLIT COVERAGE</th>
-                <th title="Average of the better of the two clubs' GK fixture ratings in each of MD1–6. The small 'floor' number is the weakest of those six best-available fixtures.">6-MD BEST FIX</th>
+                <th id="gk-best-fix-header" title="Average of the better of the two clubs&#39; GK fixture ratings across the selected matchdays. The small floor number is the weakest of those best-available fixtures.">BEST FIX</th>
                 <th>MD1</th>
                 <th>MD2</th>
                 <th>MD3</th>
@@ -232,6 +244,52 @@
             <option value="high">High rotation risk</option>
           </select>
           <span>Saved only in your browser. This affects the secondary GK detail, not the club scheduling score.</span>
+        </div>
+      </section>
+    </section>
+
+    <section id="panel-schedule" class="tab-panel">
+      <section class="tool-card">
+        <div class="tool-heading">
+          <div>
+            <div class="kicker">League-phase planning</div>
+            <h2>Schedule Advantage</h2>
+          </div>
+          <div class="tool-note">
+            Day 1 teams give you an extra substitution/captain decision point. Early-kickoff teams have the added advantage of confirmed lineups before the first kickoff.
+          </div>
+        </div>
+
+        <div class="schedule-legend">
+          <span class="schedule-chip both">D1 · EARLY</span>
+          <span class="schedule-chip day1">D1 · LATE</span>
+          <span class="schedule-chip early">D2 · EARLY</span>
+          <span class="schedule-chip neutral">D2 · LATE</span>
+          <span class="schedule-legend-note">Early = 12:45 PM ET · Late = 3:00 PM ET</span>
+        </div>
+
+        <div class="schedule-summary" id="schedule-summary">
+          Each cell shows day order, kickoff slot and opponent. Summary columns count advantages across MD1–6.
+        </div>
+
+        <div class="position-board-wrap">
+          <table class="position-board schedule-board">
+            <thead>
+              <tr>
+                <th class="schedule-sticky-club">CLUB</th>
+                <th>MD1</th>
+                <th>MD2</th>
+                <th>MD3</th>
+                <th>MD4</th>
+                <th>MD5</th>
+                <th>MD6</th>
+                <th title="Number of league-phase matchdays played on Day 1">D1 COUNT</th>
+                <th title="Number of league-phase matchdays in the earlier kickoff slot">EARLY COUNT</th>
+                <th title="Number of matchdays that are both Day 1 and the earlier kickoff">D1 + EARLY</th>
+              </tr>
+            </thead>
+            <tbody id="schedule-tbody"></tbody>
+          </table>
         </div>
       </section>
     </section>

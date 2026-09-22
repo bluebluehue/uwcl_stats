@@ -75,6 +75,7 @@ async function init() {
     apply();
     renderTeamPositionBoard();
     renderGkPairings();
+    renderScheduleAdvantage();
   } catch (err) {
     console.error(err);
     els.empty.hidden = false;
@@ -98,7 +99,7 @@ function loadSaved() {
   }
 
   const savedTab = localStorage.getItem(STORAGE.activeTab);
-  if (["players","team-position","gk-pairings"].includes(savedTab)) {
+  if (["players","team-position","gk-pairings","schedule"].includes(savedTab)) {
     state.activeTab = savedTab;
   }
 }
@@ -609,7 +610,7 @@ function esc(v) {
 
 
 function activateTab(target, persist = true) {
-  if (!["players","team-position","gk-pairings"].includes(target)) target = "players";
+  if (!["players","team-position","gk-pairings","schedule"].includes(target)) target = "players";
 
   state.activeTab = target;
   $$(".tab").forEach(button => {
@@ -766,6 +767,20 @@ function bindGkPairings() {
   $("#gk-exclude-club")?.addEventListener("change", renderGkPairings);
   $("#gk-sort")?.addEventListener("change", renderGkPairings);
 
+  $$(".gk-md-toggle").forEach(cb => {
+    cb.addEventListener("change", () => {
+      ensureAtLeastOneSelectedMatchday(cb);
+      syncMatchdayRange();
+      renderGkPairings();
+    });
+  });
+
+  $("#gk-md-all")?.addEventListener("click", () => {
+    $$(".gk-md-toggle").forEach(cb => { cb.checked = true; });
+    syncMatchdayRange();
+    renderGkPairings();
+  });
+
   $("#gk-min-splits")?.addEventListener("input", () => {
     const value = Number($("#gk-min-splits").value || 0);
     $("#gk-min-splits-value").textContent = `${value}/6`;
@@ -774,6 +789,33 @@ function bindGkPairings() {
 
   $("#gk-risk-player")?.addEventListener("change", syncRotationEditor);
   $("#gk-risk-level")?.addEventListener("change", saveRotationRisk);
+}
+
+function selectedMatchdays() {
+  const selected = $$(".gk-md-toggle")
+    .filter(cb => cb.checked)
+    .map(cb => Number(cb.value))
+    .filter(md => md >= 1 && md <= 6);
+
+  return selected.length ? selected.sort((a,b) => a-b) : [1];
+}
+
+function ensureAtLeastOneSelectedMatchday(changedBox) {
+  const checked = $$(".gk-md-toggle").filter(cb => cb.checked);
+  if (!checked.length && changedBox) changedBox.checked = true;
+}
+
+function syncMatchdayRange() {
+  const mds = selectedMatchdays();
+  const slider = $("#gk-min-splits");
+  const label = $("#gk-min-splits-value");
+  const header = $("#gk-best-fix-header");
+  if (slider) {
+    slider.max = String(mds.length);
+    if (Number(slider.value) > mds.length) slider.value = String(mds.length);
+  }
+  if (label) label.textContent = `${slider ? Number(slider.value || 0) : 0}/${mds.length}`;
+  if (header) header.textContent = `BEST FIX (${mds.length} MD${mds.length === 1 ? "" : "S"})`;
 }
 
 function syncRotationEditor() {
@@ -917,18 +959,18 @@ function primaryKeeperForClub(club, keeperMap) {
     || null;
 }
 
-function splitCoverage(daysA, daysB) {
+function splitCoverage(daysA, daysB, selectedMds) {
   let split = 0;
   const details = [];
-
+  const selectedSet = new Set(selectedMds);
   for (let md=1; md<=6; md++) {
     const a = daysA[md] || "";
     const b = daysB[md] || "";
-    const isSplit = Boolean(a && b && a !== b);
+    const selected = selectedSet.has(md);
+    const isSplit = Boolean(selected && a && b && a !== b);
     if (isSplit) split++;
-    details.push({md, a, b, split: isSplit});
+    details.push({md, a, b, split: isSplit, selected});
   }
-
   return {split, details};
 }
 
@@ -939,45 +981,29 @@ function normalizeFixtureRating(value) {
   return Math.max(0, Math.min(100, ((n - 20) / 65) * 100));
 }
 
-function pairScoreFromMetrics(sixMdFix, splitCount) {
-  if (!sixMdFix || sixMdFix.average == null || sixMdFix.floor == null) return null;
-
-  const avgNorm = normalizeFixtureRating(sixMdFix.average);
-  const floorNorm = normalizeFixtureRating(sixMdFix.floor);
-  const splitNorm = Math.max(0, Math.min(100, (Number(splitCount || 0) / 6) * 100));
-
+function pairScoreFromMetrics(selectedFix, splitCount, selectedCount) {
+  if (!selectedFix || selectedFix.average == null || selectedFix.floor == null) return null;
+  const avgNorm = normalizeFixtureRating(selectedFix.average);
+  const floorNorm = normalizeFixtureRating(selectedFix.floor);
+  const denominator = Math.max(1, Number(selectedCount || 1));
+  const splitNorm = Math.max(0, Math.min(100, (Number(splitCount || 0) / denominator) * 100));
   if (avgNorm == null || floorNorm == null) return null;
-
-  return (
-    0.60 * avgNorm +
-    0.20 * floorNorm +
-    0.20 * splitNorm
-  );
+  return 0.60 * avgNorm + 0.20 * floorNorm + 0.20 * splitNorm;
 }
 
-function pairFixtureMetric(a, b) {
+function pairFixtureMetric(a, b, selectedMds) {
   const weeklyBest = [];
-
-  for (let md=1; md<=6; md++) {
+  for (const md of selectedMds) {
     const ar = Number(a?.fixtureRatings?.[md]);
     const br = Number(b?.fixtureRatings?.[md]);
     const validA = Number.isFinite(ar);
     const validB = Number.isFinite(br);
-
     if (validA && validB) weeklyBest.push(Math.max(ar, br));
     else if (validA) weeklyBest.push(ar);
     else if (validB) weeklyBest.push(br);
   }
-
-  if (!weeklyBest.length) {
-    return {average: null, floor: null, weeklyBest: []};
-  }
-
-  return {
-    average: weeklyBest.reduce((sum, x) => sum + x, 0) / weeklyBest.length,
-    floor: Math.min(...weeklyBest),
-    weeklyBest,
-  };
+  if (!weeklyBest.length) return {average: null, floor: null, weeklyBest: []};
+  return {average: weeklyBest.reduce((sum, x) => sum + x, 0) / weeklyBest.length, floor: Math.min(...weeklyBest), weeklyBest};
 }
 
 function dayChip(detail, pair) {
@@ -1009,7 +1035,7 @@ function dayChip(detail, pair) {
   const splitSymbol = detail.split ? "✓" : "×";
 
   return `
-    <div class="md-cell">
+    <div class="md-cell ${detail.selected ? "selected-md" : "unselected-md"}">
       ${line(pair.clubA, aFix, "a")}
       ${line(pair.clubB, bFix, "b")}
       <div class="${splitCls}">${esc(aDay)} / ${esc(bDay)} ${splitSymbol}</div>
@@ -1040,6 +1066,8 @@ function renderGkPairings() {
   const tbody = $("#gk-pairing-tbody");
   if (!tbody) return;
 
+  const selectedMds = selectedMatchdays();
+  syncMatchdayRange();
   const minSplits = Number($("#gk-min-splits")?.value || 0);
   const includeClub = $("#gk-include-club")?.value || "";
   const excludeClub = $("#gk-exclude-club")?.value || "";
@@ -1061,7 +1089,7 @@ function renderGkPairings() {
 
       const a = clubMap.get(clubA);
       const b = clubMap.get(clubB);
-      const coverage = splitCoverage(a.days, b.days);
+      const coverage = splitCoverage(a.days, b.days, selectedMds);
       if (coverage.split < minSplits) continue;
 
       const gkA = primaryKeeperForClub(clubA, keeperMap);
@@ -1074,8 +1102,8 @@ function renderGkPairings() {
         (gkB && rotationRisk(gkB) === "high")
       )) continue;
 
-      const sixMdFix = pairFixtureMetric(a, b);
-      const pairScore = pairScoreFromMetrics(sixMdFix, coverage.split);
+      const sixMdFix = pairFixtureMetric(a, b, selectedMds);
+      const pairScore = pairScoreFromMetrics(sixMdFix, coverage.split, selectedMds.length);
 
       pairs.push({
         clubA, clubB, a, b,
@@ -1142,14 +1170,15 @@ function renderGkPairings() {
       current_fix: "Current FIX",
       price: "Lowest Price",
     };
-    summary.innerHTML = `<strong>${pairs.length}</strong> club pair${pairs.length === 1 ? "" : "s"}${esc(anchorText)} meet the current filters. Sorted by ${esc(sortLabels[sortMode] || "Pair Score")}.`;
+    const mdLabel = selectedMds.map(md => `MD${md}`).join(", ");
+    summary.innerHTML = `<strong>${pairs.length}</strong> club pair${pairs.length === 1 ? "" : "s"}${esc(anchorText)} meet the current filters for <strong>${esc(mdLabel)}</strong>. Sorted by ${esc(sortLabels[sortMode] || "Pair Score")}.`;
   }
 
   tbody.innerHTML = "";
 
   for (const pair of pairs) {
     const tr = document.createElement("tr");
-    const coveragePct = Math.round(pair.split / 6 * 100);
+    const coveragePct = Math.round(pair.split / selectedMds.length * 100);
 
     tr.innerHTML = `
       <td class="club-pair-cell">
@@ -1157,16 +1186,16 @@ function renderGkPairings() {
         <span class="gk-secondary">${esc(pair.a.clubName)} / ${esc(pair.b.clubName)}</span>
       </td>
 
-      <td class="pair-score-cell" title="60% six-matchday best-fixture quality · 20% fixture floor · 20% split-day coverage">
+      <td class="pair-score-cell" title="60% selected-matchday best-fixture quality · 20% selected-matchday fixture floor · 20% split-day coverage">
         <strong>${pair.pairScore == null ? "—" : pair.pairScore.toFixed(1)}</strong>
       </td>
 
       <td class="coverage-col">
-        <div class="coverage-score">${pair.split}/6</div>
+        <div class="coverage-score">${pair.split}/${selectedMds.length}</div>
         <div class="coverage-bar"><span style="width:${coveragePct}%"></span></div>
       </td>
 
-      <td title="Average of the stronger GK fixture available in each matchday. Floor = weakest of those six best-available fixtures.">
+      <td title="Average of the stronger GK fixture available across the selected matchdays. Floor = weakest of those selected best-available fixtures.">
         <strong>${pair.sixMdFix.average == null ? "—" : pair.sixMdFix.average.toFixed(1)}</strong>
         <span class="gk-secondary">floor ${pair.sixMdFix.floor == null ? "—" : pair.sixMdFix.floor.toFixed(1)}</span>
       </td>
@@ -1189,5 +1218,170 @@ function renderGkPairings() {
     const tr = document.createElement("tr");
     tr.innerHTML = `<td colspan="13" class="empty-state">No club pairs match these filters.</td>`;
     tbody.append(tr);
+  }
+}
+
+
+function utcDateKey(kickoff) {
+  if (!kickoff) return "";
+  const d = new Date(kickoff);
+  if (Number.isNaN(d.getTime())) return "";
+  return d.toISOString().slice(0, 10);
+}
+
+function utcMinutesOfDay(kickoff) {
+  if (!kickoff) return null;
+  const d = new Date(kickoff);
+  if (Number.isNaN(d.getTime())) return null;
+  return d.getUTCHours() * 60 + d.getUTCMinutes();
+}
+
+function buildScheduleAdvantageRows() {
+  const matches = Array.isArray(state.fixtures?.matches) ? state.fixtures.matches : [];
+  const clubs = new Map();
+
+  // Seed all 18 clubs from player data so every fantasy club appears.
+  for (const p of state.all) {
+    if (!p.Active || !p.Club || clubs.has(p.Club)) continue;
+    clubs.set(p.Club, {
+      club: p.Club,
+      name: p["Club Name"] || p.Club,
+      teamId: String(p["Team ID"] || ""),
+      matchdays: {},
+    });
+  }
+
+  const byMd = new Map();
+  for (const match of matches) {
+    const md = Number(match?.matchday || 0);
+    if (md < 1 || md > 6) continue;
+    if (!byMd.has(md)) byMd.set(md, []);
+    byMd.get(md).push(match);
+  }
+
+  for (let md = 1; md <= 6; md++) {
+    const mdMatches = byMd.get(md) || [];
+    const dates = [...new Set(mdMatches.map(m => utcDateKey(m?.kickoff)).filter(Boolean))].sort();
+
+    // Determine the two kickoff slots independently inside this matchday.
+    const kickoffMinutes = [...new Set(
+      mdMatches.map(m => utcMinutesOfDay(m?.kickoff)).filter(v => v != null)
+    )].sort((a,b) => a-b);
+
+    const earlyMinutes = kickoffMinutes.length ? kickoffMinutes[0] : null;
+
+    for (const match of mdMatches) {
+      const dateKey = utcDateKey(match?.kickoff);
+      const dayNumber = Math.max(1, dates.indexOf(dateKey) + 1);
+      const minutes = utcMinutesOfDay(match?.kickoff);
+      const isEarly = minutes != null && earlyMinutes != null && minutes === earlyMinutes;
+
+      const homeCode = String(match?.home?.code || "");
+      const awayCode = String(match?.away?.code || "");
+      const homeId = String(match?.home?.id || "");
+      const awayId = String(match?.away?.id || "");
+
+      for (const entry of clubs.values()) {
+        let homeAway = "";
+        let opponent = "";
+
+        if (
+          (homeCode && entry.club === homeCode) ||
+          (homeId && entry.teamId === homeId)
+        ) {
+          homeAway = "H";
+          opponent = awayCode || String(match?.away?.name || "");
+        } else if (
+          (awayCode && entry.club === awayCode) ||
+          (awayId && entry.teamId === awayId)
+        ) {
+          homeAway = "A";
+          opponent = homeCode || String(match?.home?.name || "");
+        } else {
+          continue;
+        }
+
+        entry.matchdays[md] = {
+          day: dayNumber,
+          early: isEarly,
+          opponent,
+          homeAway,
+        };
+      }
+    }
+  }
+
+  return [...clubs.values()]
+    .map(entry => {
+      let day1Count = 0;
+      let earlyCount = 0;
+      let bothCount = 0;
+
+      for (let md = 1; md <= 6; md++) {
+        const x = entry.matchdays[md];
+        if (!x) continue;
+        if (x.day === 1) day1Count++;
+        if (x.early) earlyCount++;
+        if (x.day === 1 && x.early) bothCount++;
+      }
+
+      return {...entry, day1Count, earlyCount, bothCount};
+    })
+    .sort((a,b) =>
+      (b.bothCount - a.bothCount) ||
+      (b.day1Count - a.day1Count) ||
+      (b.earlyCount - a.earlyCount) ||
+      a.name.localeCompare(b.name)
+    );
+}
+
+function scheduleCellHtml(item) {
+  if (!item) return `<span class="schedule-empty">—</span>`;
+
+  const cls =
+    item.day === 1 && item.early ? "both" :
+    item.day === 1 ? "day1" :
+    item.early ? "early" : "neutral";
+
+  const slot = item.early ? "EARLY" : "LATE";
+  const opp = item.opponent
+    ? `${item.homeAway === "A" ? "@" : "vs"} ${item.opponent}`
+    : "";
+
+  return `
+    <div class="schedule-cell">
+      <span class="schedule-chip ${cls}">D${item.day} · ${slot}</span>
+      <small>${esc(opp)}</small>
+    </div>
+  `;
+}
+
+function renderScheduleAdvantage() {
+  const tbody = $("#schedule-tbody");
+  if (!tbody) return;
+
+  const rows = buildScheduleAdvantageRows();
+  tbody.innerHTML = "";
+
+  for (const row of rows) {
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td class="schedule-sticky-club">
+        <strong>${esc(row.name)}</strong>
+        <small>${esc(row.club)}</small>
+      </td>
+      ${[1,2,3,4,5,6].map(md => `<td>${scheduleCellHtml(row.matchdays[md])}</td>`).join("")}
+      <td class="schedule-count">${row.day1Count}/6</td>
+      <td class="schedule-count">${row.earlyCount}/6</td>
+      <td class="schedule-count schedule-count-strong">${row.bothCount}/6</td>
+    `;
+    tbody.append(tr);
+  }
+
+  const summary = $("#schedule-summary");
+  if (summary) {
+    const topBoth = rows.length ? Math.max(...rows.map(r => r.bothCount)) : 0;
+    const leaders = rows.filter(r => r.bothCount === topBoth).map(r => r.club).join(", ");
+    summary.innerHTML = `<strong>${rows.length}</strong> clubs across MD1–6. Best D1 + early coverage: <strong>${topBoth}/6</strong>${leaders ? ` (${esc(leaders)})` : ""}.`;
   }
 }
