@@ -583,3 +583,192 @@ tbody tr:hover td { background: #eef5ff; }
   padding: 4px 7px;
 }
 .rotation-editor span { color: var(--muted); }
+
+
+/* v4.4 goalkeeper club-pairing redesign */
+.club-pairing-controls {
+  gap: 18px;
+  align-items: center;
+}
+
+.gk-summary {
+  padding: 9px 14px;
+  border-bottom: 1px solid var(--line);
+  background: #f8f9fc;
+  color: #4c596d;
+  font-size: 12px;
+}
+
+.club-pairing-table {
+  min-width: 1180px;
+  table-layout: auto;
+}
+
+.club-pairing-table th {
+  font-weight: 800;
+}
+
+.club-pairing-table .club-pair-cell {
+  min-width: 170px;
+}
+
+.club-pair-cell strong {
+  display: block;
+  font-size: 13px;
+}
+
+.coverage-col {
+  min-width: 115px;
+}
+
+.coverage-score {
+  font-weight: 800;
+  font-size: 14px;
+}
+
+.coverage-bar {
+  width: 80px;
+  height: 5px;
+  margin-top: 4px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: #e6e9ef;
+}
+
+.coverage-bar span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--purple);
+}
+
+.day-pair {
+  display: inline-block;
+  min-width: 62px;
+  padding: 4px 5px;
+  border-radius: 7px;
+  text-align: center;
+  font-size: 10px;
+  white-space: nowrap;
+}
+
+.day-pair.split {
+  background: #d9f3e3;
+  color: #155b36;
+}
+
+.day-pair.same {
+  background: #f2f3f6;
+  color: #747d8d;
+}
+
+.day-pair b {
+  margin-left: 2px;
+}
+
+.keeper-pair-cell {
+  min-width: 185px;
+}
+
+.keeper-pair-cell > div + div {
+  margin-top: 5px;
+  padding-top: 5px;
+  border-top: 1px solid #edf0f4;
+}
+
+.gk-name {
+  display: block;
+  font-weight: 700;
+}
+
+.gk-secondary {
+  display: block;
+  margin-top: 1px;
+  color: var(--muted);
+  font-size: 10px;
+}
+
+
+/* v4.5 Team + Position sorting + persistent-tab polish */
+.team-position-table th {
+  font-weight: 800;
+}
+
+.team-position-table th[data-tp-sort] {
+  cursor: pointer;
+  user-select: none;
+}
+
+.team-position-table th[data-tp-sort][data-sort-dir="asc"]::after {
+  content: " ▲";
+  color: var(--purple);
+  font-size: 9px;
+}
+
+.team-position-table th[data-tp-sort][data-sort-dir="desc"]::after {
+  content: " ▼";
+  color: var(--purple);
+  font-size: 9px;
+}
+
+.team-position-table th[data-tp-sort]:hover {
+  background: #e7ebf2;
+}
+
+.team-position-table .secondary-score {
+  background: #fafbfc;
+}
+
+.team-position-table .secondary-score .tp-score {
+  opacity: 0.9;
+}
+
+.sort-hint {
+  color: var(--muted);
+  font-size: 11px;
+}
+
+
+/* v4.6 grouped Team + Position FIX / FIX+1 columns */
+.team-position-table .tp-group-row th.tp-group {
+  text-align: center;
+  font-size: 11px;
+  background: #e8ecf3;
+  border-left: 1px solid #d8dde6;
+}
+
+.team-position-table .tp-subhead-row th {
+  text-align: center;
+  font-size: 9px;
+  background: #f2f4f8;
+}
+
+.team-position-table .tp-subhead-row th:nth-child(even) {
+  background: #f7f8fb;
+}
+
+.team-position-table td {
+  text-align: center;
+}
+
+.team-position-table td:first-child,
+.team-position-table td:nth-child(2) {
+  text-align: left;
+}
+
+.team-position-table td.secondary-score {
+  background: #fafbfc;
+}
+
+.team-position-table td.secondary-score .tp-score {
+  opacity: .78;
+  transform: scale(.94);
+}
+
+.team-position-table th[rowspan="2"] {
+  vertical-align: middle;
+}
+
+.team-position-table th[data-tp-sort] {
+  font-weight: 800;
+}

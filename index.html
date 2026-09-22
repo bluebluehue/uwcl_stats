@@ -17,7 +17,7 @@
       <nav class="tabs" aria-label="UWCL tools">
         <button class="tab active" data-tab="players" type="button">Player Table</button>
         <button class="tab" data-tab="team-position" type="button">Team + Position</button>
-        <button class="tab" data-tab="gk-pairings" type="button">GK Pairings</button>
+        <button class="tab" data-tab="gk-pairings" type="button">GK Club Pairings</button>
       </nav>
       <div class="header-status">
         <span>MD <strong id="status-matchday">—</strong></span>
@@ -116,17 +116,36 @@
             <div class="kicker">Fixture targeting</div>
             <h2>Team + Position Fixture Ratings</h2>
           </div>
-          <div class="tool-note">Higher = more attractive fantasy fixture. Current version compares each club’s Opta strength with its opponent, then applies home/away and a modest role lens.</div>
+          <div class="tool-note">Each position shows its current FIX rating and next-matchday FIX+1 rating. Higher = more attractive fantasy fixture.</div>
         </div>
 
         <div class="position-board-controls">
           <label>Show <select id="tp-position"><option value="">All positions</option><option value="GK">GK</option><option value="DEF">DEF</option><option value="MID">MID</option><option value="FWD">FWD</option></select></label>
-          <label>Sort by <select id="tp-sort"><option value="best">Best current rating</option><option value="club">Club</option><option value="following">Best following rating</option></select></label>
+          <span class="sort-hint">Click any column header to sort.</span>
         </div>
 
         <div class="position-board-wrap">
-          <table class="position-board">
-            <thead><tr><th>CLUB</th><th>FIXTURE</th><th>GK</th><th>DEF</th><th>MID</th><th>FWD</th><th>FIX+1</th></tr></thead>
+          <table class="position-board team-position-table">
+            <thead>
+              <tr class="tp-group-row">
+                <th rowspan="2" data-tp-sort="club">CLUB</th>
+                <th rowspan="2" data-tp-sort="fixture">FIXTURE</th>
+                <th colspan="2" class="tp-group">GK</th>
+                <th colspan="2" class="tp-group">DEF</th>
+                <th colspan="2" class="tp-group">MID</th>
+                <th colspan="2" class="tp-group">FWD</th>
+              </tr>
+              <tr class="tp-subhead-row">
+                <th data-tp-sort="gk_fix">FIX</th>
+                <th data-tp-sort="gk_fix1">FIX+1</th>
+                <th data-tp-sort="def_fix">FIX</th>
+                <th data-tp-sort="def_fix1">FIX+1</th>
+                <th data-tp-sort="mid_fix">FIX</th>
+                <th data-tp-sort="mid_fix1">FIX+1</th>
+                <th data-tp-sort="fwd_fix">FIX</th>
+                <th data-tp-sort="fwd_fix1">FIX+1</th>
+              </tr>
+            </thead>
             <tbody id="team-position-tbody"></tbody>
           </table>
         </div>
@@ -138,26 +157,58 @@
         <div class="tool-heading">
           <div>
             <div class="kicker">Squad planning</div>
-            <h2>Goalkeeper Day Pairings</h2>
+            <h2>Goalkeeper Club Pairings</h2>
           </div>
-          <div class="tool-note">Pairs are ranked for different-day coverage across the six league-phase matchdays, then current fixture quality and combined price.</div>
+          <div class="tool-note">
+            Club scheduling comes first. Rows rank club pairs by how often they play on different days across MD1–6.
+            Likely goalkeepers, price and current-week detail are shown secondarily.
+          </div>
         </div>
 
-        <div class="position-board-controls gk-controls">
-          <label>Max combined price <input id="gk-max-price" type="number" step="0.5" placeholder="Any"></label>
+        <div class="position-board-controls gk-controls club-pairing-controls">
           <label class="range-control">Min split matchdays
             <input id="gk-min-splits" type="range" min="0" max="6" step="1" value="4">
             <strong id="gk-min-splits-value">4/6</strong>
           </label>
+
           <label>Must include club
             <select id="gk-include-club"><option value="">Any club</option></select>
           </label>
+
           <label>Exclude club
             <select id="gk-exclude-club"><option value="">None</option></select>
           </label>
-          <label><input id="gk-different-current" type="checkbox" checked> Different days this MD</label>
-          <label><input id="gk-include-uncertain" type="checkbox"> Include uncertain starters</label>
+
+          <label>Max combined GK price
+            <input id="gk-max-price" type="number" step="0.5" placeholder="Any">
+          </label>
+
           <label><input id="gk-hide-high-rotation" type="checkbox"> Hide high rotation risk</label>
+        </div>
+
+        <div class="gk-summary" id="gk-summary">
+          Showing club pairs first. Use “Must include club” to answer questions like: “Which clubs alternate best with Chelsea?”
+        </div>
+
+        <div class="position-board-wrap">
+          <table class="position-board club-pairing-table">
+            <thead>
+              <tr>
+                <th>CLUB PAIR</th>
+                <th class="coverage-col">SPLIT COVERAGE</th>
+                <th>MD1</th>
+                <th>MD2</th>
+                <th>MD3</th>
+                <th>MD4</th>
+                <th>MD5</th>
+                <th>MD6</th>
+                <th>LIKELY GKS</th>
+                <th>COMBINED €</th>
+                <th>CURRENT FIX</th>
+              </tr>
+            </thead>
+            <tbody id="gk-pairing-tbody"></tbody>
+          </table>
         </div>
 
         <div class="rotation-editor">
@@ -168,14 +219,7 @@
             <option value="possible">Possible rotation</option>
             <option value="high">High rotation risk</option>
           </select>
-          <span>Saved only in your browser; it does not alter the shared data.</span>
-        </div>
-
-        <div class="position-board-wrap">
-          <table class="position-board">
-            <thead><tr><th>GK A</th><th>ROLE</th><th>PRICE</th><th>DAY</th><th>GK B</th><th>ROLE</th><th>PRICE</th><th>DAY</th><th>COMBINED</th><th>SPLIT DAYS MD1–6</th><th>CURRENT FIX AVG</th></tr></thead>
-            <tbody id="gk-pairing-tbody"></tbody>
-          </table>
+          <span>Saved only in your browser. This affects the secondary GK detail, not the club scheduling score.</span>
         </div>
       </section>
     </section>

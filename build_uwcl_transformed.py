@@ -796,11 +796,11 @@ def transform() -> dict[str, Any]:
             day_by_match_id,
         )
 
-        next_three = []
+        all_league_phase_fixtures = []
         seen_mds = set()
-        for fixture in upcoming:
+        for fixture in team_fixtures.get(team_id, []):
             md = safe_int(fixture.get("matchday"))
-            if md in seen_mds:
+            if md < 1 or md > 6 or md in seen_mds:
                 continue
             seen_mds.add(md)
             detail = fixture_detail(
@@ -812,9 +812,12 @@ def transform() -> dict[str, Any]:
                 day_by_match_id,
             )
             if detail:
-                next_three.append(detail)
-            if len(next_three) >= 3:
-                break
+                all_league_phase_fixtures.append(detail)
+
+        next_three = [
+            f for f in all_league_phase_fixtures
+            if safe_int(f.get("matchday")) >= current_matchday
+        ][:3]
 
         next_three_ratings = [
             safe_float(f.get("rating"))
@@ -870,6 +873,7 @@ def transform() -> dict[str, Any]:
                 if next_three_ratings else None
             ),
             "Next Three Fixtures": next_three,
+            "League Phase Fixtures": all_league_phase_fixtures,
 
             "Previous Season Minutes": round(metrics["minutes"], 0),
             "Previous Season Points": round(metrics["points"], 0),
