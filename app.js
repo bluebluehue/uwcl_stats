@@ -1236,6 +1236,35 @@ function utcMinutesOfDay(kickoff) {
   return d.getUTCHours() * 60 + d.getUTCMinutes();
 }
 
+function easternKickoffLabel(kickoff) {
+  if (!kickoff) return "";
+  const d = new Date(kickoff);
+  if (Number.isNaN(d.getTime())) return "";
+
+  const parts = new Intl.DateTimeFormat("en-US", {
+    timeZone: "America/New_York",
+    hour: "numeric",
+    minute: "2-digit",
+    hour12: false,
+  }).formatToParts(d);
+
+  const hour = Number(parts.find(p => p.type === "hour")?.value);
+  const minute = Number(parts.find(p => p.type === "minute")?.value);
+
+  if (!Number.isFinite(hour) || !Number.isFinite(minute)) return "";
+
+  // UWCL league-phase kickoff slots are 12:45 PM ET and 3:00 PM ET
+  // for MD1–5. MD6 is simultaneous, but classifying 3:00 PM as late
+  // remains harmless for display.
+  if (hour === 12 && minute === 45) return "EARLY";
+  if (hour === 15 && minute === 0) return "LATE";
+
+  // Defensive fallback for equivalent timestamps if DST/formatting shifts:
+  // anything before 14:00 ET is the early slot; otherwise late.
+  const mins = hour * 60 + minute;
+  return mins < 14 * 60 ? "EARLY" : "LATE";
+}
+
 function buildScheduleAdvantageRows() {
   const matches = Array.isArray(state.fixtures?.matches) ? state.fixtures.matches : [];
   const clubs = new Map();
@@ -1276,13 +1305,6 @@ function buildScheduleAdvantageRows() {
       mdMatches.map(m => utcDateKey(m?.kickoff)).filter(Boolean)
     )].sort();
 
-    // Early/late is determined from the two kickoff slots within the matchweek.
-    // The early slot is 12:45 PM ET; the late slot is 3:00 PM ET.
-    const kickoffMinutes = [...new Set(
-      mdMatches.map(m => utcMinutesOfDay(m?.kickoff)).filter(v => v != null)
-    )].sort((a,b) => a-b);
-    const earlyMinutes = kickoffMinutes.length ? kickoffMinutes[0] : null;
-
     for (const match of mdMatches) {
       const gdId = Number(match?.fantasy_gameday_id);
 
@@ -1297,8 +1319,8 @@ function buildScheduleAdvantageRows() {
       // Defensive guard: there are only two days in each league-phase matchweek.
       dayNumber = dayNumber === 2 ? 2 : 1;
 
-      const minutes = utcMinutesOfDay(match?.kickoff);
-      const isEarly = minutes != null && earlyMinutes != null && minutes === earlyMinutes;
+      const kickoffSlot = easternKickoffLabel(match?.kickoff);
+      const isEarly = kickoffSlot === "EARLY";
 
       const homeCode = String(match?.home?.code || "");
       const awayCode = String(match?.away?.code || "");
@@ -1328,6 +1350,7 @@ function buildScheduleAdvantageRows() {
         entry.matchdays[md] = {
           day: dayNumber,
           early: isEarly,
+          kickoffSlot,
           opponent,
           homeAway,
         };
