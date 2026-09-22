@@ -1261,18 +1261,42 @@ function buildScheduleAdvantageRows() {
 
   for (let md = 1; md <= 6; md++) {
     const mdMatches = byMd.get(md) || [];
-    const dates = [...new Set(mdMatches.map(m => utcDateKey(m?.kickoff)).filter(Boolean))].sort();
 
-    // Determine the two kickoff slots independently inside this matchday.
+    // UEFA's normalized feed already preserves the fantasy game-day id (gdId).
+    // Each league-phase matchweek has exactly two fantasy game-days.
+    // Use that instead of deriving D1/D2 from calendar dates.
+    const gdIds = [...new Set(
+      mdMatches
+        .map(m => Number(m?.fantasy_gameday_id))
+        .filter(v => Number.isFinite(v) && v > 0)
+    )].sort((a,b) => a-b);
+
+    // Fallback only if gdId is unexpectedly missing.
+    const dates = [...new Set(
+      mdMatches.map(m => utcDateKey(m?.kickoff)).filter(Boolean)
+    )].sort();
+
+    // Early/late is determined from the two kickoff slots within the matchweek.
+    // The early slot is 12:45 PM ET; the late slot is 3:00 PM ET.
     const kickoffMinutes = [...new Set(
       mdMatches.map(m => utcMinutesOfDay(m?.kickoff)).filter(v => v != null)
     )].sort((a,b) => a-b);
-
     const earlyMinutes = kickoffMinutes.length ? kickoffMinutes[0] : null;
 
     for (const match of mdMatches) {
-      const dateKey = utcDateKey(match?.kickoff);
-      const dayNumber = Math.max(1, dates.indexOf(dateKey) + 1);
+      const gdId = Number(match?.fantasy_gameday_id);
+
+      let dayNumber;
+      if (Number.isFinite(gdId) && gdIds.includes(gdId)) {
+        dayNumber = gdIds.indexOf(gdId) + 1;
+      } else {
+        const dateKey = utcDateKey(match?.kickoff);
+        dayNumber = Math.min(2, Math.max(1, dates.indexOf(dateKey) + 1));
+      }
+
+      // Defensive guard: there are only two days in each league-phase matchweek.
+      dayNumber = dayNumber === 2 ? 2 : 1;
+
       const minutes = utcMinutesOfDay(match?.kickoff);
       const isEarly = minutes != null && earlyMinutes != null && minutes === earlyMinutes;
 
@@ -1334,7 +1358,6 @@ function buildScheduleAdvantageRows() {
       a.name.localeCompare(b.name)
     );
 }
-
 function scheduleCellHtml(item) {
   if (!item) return `<span class="schedule-empty">—</span>`;
 
