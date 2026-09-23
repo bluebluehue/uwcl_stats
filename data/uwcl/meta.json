@@ -31,7 +31,7 @@
     "teams": "https://gaming.uefa.com/en/uwclfantasy/services/feeds/teams/teams_40_en.json",
     "fixtures": "https://gaming.uefa.com/en/uwclfantasy/services/feeds/fixtures/fixtures_40_en.json"
   },
-  "fetched_at_utc": "2026-09-23T07:51:33.932252+00:00",
+  "fetched_at_utc": "2026-09-23T13:05:48.223168+00:00",
   "preseason_archive": {
     "path": "data/uwcl/archive/2026-09-21-preseason",
     "created_this_run": false
