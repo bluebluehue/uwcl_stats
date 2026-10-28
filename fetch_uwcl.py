@@ -20,7 +20,7 @@ import requests
 BASE_URL = "https://gaming.uefa.com/en/uwclfantasy/services/feeds"
 
 URLS = {
-    "players": f"{BASE_URL}/players/players_40_en_1.json",
+    "players": None,  # resolved from live fixtures matchday
     "teams": f"{BASE_URL}/teams/teams_40_en.json",
     "fixtures": f"{BASE_URL}/fixtures/fixtures_40_en.json",
 }
@@ -348,6 +348,17 @@ def load_nationality_lookup(
 # MATCH REFERENCE
 # ============================================================
 
+def match_weekday(value: Any) -> str:
+    if not value:
+        return ""
+    for fmt in ("%m/%d/%Y %H:%M:%S", "%m/%d/%Y %I:%M:%S %p", "%Y-%m-%dT%H:%M:%S"):
+        try:
+            return datetime.strptime(str(value), fmt).strftime("%a").upper()
+        except ValueError:
+            continue
+    return ""
+
+
 def normalize_match_reference(
     match: dict[str, Any] | None,
 ) -> dict[str, Any] | None:
@@ -385,9 +396,8 @@ def normalize_match_reference(
         "opponent_home_away": clean_string(
             match.get("vsTLoc")
         ),
-        "kickoff": clean_string(
-            match.get("matchDate")
-        ),
+        "kickoff": clean_string(match.get("matchDate")),
+        "weekday": match_weekday(match.get("matchDate")),
     }
 
 
@@ -573,8 +583,7 @@ def normalize_player(
             normalize_status(player),
 
         "historical_stats": {
-            "season":
-                HISTORICAL_STATS_SEASON,
+            "season": CURRENT_SEASON,
 
             "minutes":
                 unwrap_number(
@@ -939,10 +948,8 @@ def normalize_fixture_match(
                 match.get("gdId")
             ),
 
-        "kickoff":
-            clean_string(
-                match.get("dateTime")
-            ),
+        "kickoff": clean_string(match.get("dateTime")),
+        "weekday": match_weekday(match.get("dateTime")),
 
         "lock_time":
             clean_string(
@@ -1262,11 +1269,33 @@ def main() -> int:
     raw_payloads = {}
     feed_status = {}
 
+    # Fetch fixtures first to discover the active matchday. Never infer it
+    # from a hardcoded player-feed suffix or a cached fixture feed.
+    fixtures_payload, fixtures_live = fetch_json("fixtures", URLS["fixtures"])
+    if not fixtures_live:
+        raise RuntimeError("Live fixtures unavailable; refusing stale update")
+    fixture_days = fixtures_payload["data"]["value"]
+    current_days = [d for d in fixture_days if int(unwrap_number(d.get("mdIsCurrent"), 0)) == 1]
+    if len(current_days) != 1:
+        raise RuntimeError(f"Expected one current matchday; found {len(current_days)}")
+    md = int(current_days[0]["mdId"])
+    if not 1 <= md <= 6:
+        raise RuntimeError(f"Unexpected matchday: {md}")
+    URLS["players"] = f"{BASE_URL}/players/players_40_en_{md}.json"
+    print(f"Discovered current matchday: {md}", flush=True)
+
     for name, url in URLS.items():
-        payload, fetched_live = fetch_json(
-            name,
-            url,
-        )
+        if name == "fixtures":
+            payload, fetched_live = fixtures_payload, True
+        else:
+            payload, fetched_live = fetch_json(name, url)
+        if not fetched_live:
+            raise RuntimeError(f"Live {name} unavailable; refusing stale update")
+        if name == "players":
+            records = payload["data"]["value"]["playerList"]
+            md_values = {str(p.get("mdId")) for p in records}
+            if md_values != {str(md)}:
+                raise RuntimeError(f"Player matchday mismatch: expected {md}, found {md_values}")
 
         raw_payloads[name] = payload
         feed_status[name] = (
@@ -1284,11 +1313,9 @@ def main() -> int:
                 payload,
             )
 
-    archived_now = (
-        save_preseason_snapshot(
-            raw_payloads
-        )
-    )
+    # Preserve the pre-existing preseason archive; never create one from
+    # live matchday data after the season has started.
+    archived_now = False
 
     nationality_lookup = (
         load_nationality_lookup()
@@ -1380,14 +1407,10 @@ def main() -> int:
             current_matchday,
 
         "historical_stats": {
-            "season":
-                HISTORICAL_STATS_SEASON,
+            "season": CURRENT_SEASON,
 
             "status":
-                (
-                    "preseason_carried_"
-                    "forward_unverified"
-                ),
+                "live_current_season",
         },
 
         "nationality_data": {
