@@ -7,6 +7,7 @@ import sys
 import time
 from copy import deepcopy
 from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
 from pathlib import Path
 from typing import Any
 
@@ -1269,49 +1270,99 @@ def main() -> int:
     raw_payloads = {}
     feed_status = {}
 
-    # Fetch fixtures first to discover the active matchday. Never infer it
-    # from a hardcoded player-feed suffix or a cached fixture feed.
+    # The fixtures endpoint is stable, but may be inaccessible from GitHub.
+    # Player feeds are matchday-specific: players_40_en_1.json, ..._6.json.
+    # Use the published fixture deadlines to select the appropriate suffix,
+    # even if the cached fixtures still say MD1 is current.
     fixtures_payload, fixtures_live = fetch_json("fixtures", URLS["fixtures"])
     if not fixtures_live:
-        raise RuntimeError("Live fixtures unavailable; refusing stale update")
+        print("WARNING: live fixtures unavailable; using cached schedule "
+              "ONLY to identify the matchday (not as fresh results).", flush=True)
+
     fixture_days = fixtures_payload["data"]["value"]
-    current_days = [d for d in fixture_days if int(unwrap_number(d.get("mdIsCurrent"), 0)) == 1]
-    if len(current_days) != 1:
-        raise RuntimeError(f"Expected one current matchday; found {len(current_days)}")
-    md = int(current_days[0]["mdId"])
+    if not isinstance(fixture_days, list) or len(fixture_days) < 6:
+        raise RuntimeError("No valid fixtures schedule available")
+
+    def matchday_from_schedule(days):
+        now = datetime.now(ZoneInfo("Europe/Paris"))
+        deadlines = []
+        for day in days:
+            try:
+                deadline = datetime.strptime(day["deadline"], "%m/%d/%y %I:%M:%S %p")
+                deadline = deadline.replace(tzinfo=ZoneInfo("Europe/Paris"))
+                deadlines.append((deadline, int(day["mdId"])))
+            except (KeyError, TypeError, ValueError) as exc:
+                raise RuntimeError(f"Invalid fixture deadline: {day!r}: {exc}") from exc
+        deadlines.sort()
+        passed = [md for deadline, md in deadlines if deadline <= now]
+        return passed[-1] if passed else deadlines[0][1]
+
+    schedule_md = matchday_from_schedule(fixture_days)
+    current_days = [d for d in fixture_days
+                    if int(unwrap_number(d.get("mdIsCurrent"), 0)) == 1]
+    live_md = int(current_days[0]["mdId"]) if len(current_days) == 1 else None
+    # UEFA may mark the next round current ahead of its deadline. Trust live
+    # metadata when present; never trust a stale cached mdIsCurrent flag.
+    md = live_md if fixtures_live and live_md is not None else schedule_md
     if not 1 <= md <= 6:
         raise RuntimeError(f"Unexpected matchday: {md}")
-    URLS["players"] = f"{BASE_URL}/players/players_40_en_{md}.json"
-    print(f"Discovered current matchday: {md}", flush=True)
+    print(f"Selected matchday {md} (schedule={schedule_md}, "
+          f"live fixture marker={live_md}, fixtures_live={fixtures_live})", flush=True)
 
-    for name, url in URLS.items():
-        if name == "fixtures":
-            payload, fetched_live = fixtures_payload, True
-        else:
-            payload, fetched_live = fetch_json(name, url)
-        if not fetched_live:
-            raise RuntimeError(f"Live {name} unavailable; refusing stale update")
-        if name == "players":
-            records = payload["data"]["value"]["playerList"]
-            md_values = {str(p.get("mdId")) for p in records}
-            if md_values != {str(md)}:
-                raise RuntimeError(f"Player matchday mismatch: expected {md}, found {md_values}")
+    # When fixtures are cached, probe only the scheduled MD (and the previous
+    # MD as a fallback near a rollover). Never accept an arbitrary future feed.
+    candidate_mds = [md] if fixtures_live else list(dict.fromkeys([md, max(1, md - 1)]))
+    players_payload = None
+    for candidate in candidate_mds:
+        player_url = f"{BASE_URL}/players/players_40_en_{candidate}.json"
+        candidate_payload, candidate_live = fetch_json("players", player_url)
+        if not candidate_live:
+            continue
+        records = candidate_payload["data"]["value"]["playerList"]
+        md_values = {str(p.get("mdId")) for p in records}
+        if md_values != {str(candidate)}:
+            print(f"WARNING: player feed {candidate} has unexpected mdIds "
+                  f"{md_values}; skipping", flush=True)
+            continue
+        if candidate != md:
+            # Do not publish previous-round data as if it were current.
+            print(f"WARNING: MD{md} unavailable; MD{candidate} is live, "
+                  "but refusing to publish stale player data.", flush=True)
+            break
+        players_payload = candidate_payload
+        break
+    if players_payload is None:
+        raise RuntimeError(f"Live player feed for MD{md} unavailable; "
+                           "preserving last-known-good data")
 
-        raw_payloads[name] = payload
-        feed_status[name] = (
-            "live"
-            if fetched_live
-            else "cached_last_known_good"
-        )
+    teams_payload, teams_live = fetch_json("teams", URLS["teams"])
+    if not teams_live:
+        # Team metadata is stable; cached team identities can safely be used
+        # with fresh MD player data, unlike cached player points.
+        print("WARNING: using cached teams metadata", flush=True)
 
-        # Never overwrite the committed last-known-good raw file
-        # with fallback data. Only save a genuinely live response.
-        if fetched_live:
-            write_json(
-                RAW_DIR
-                / f"{name}_raw.json",
-                payload,
-            )
+    # Copy fixtures so we can correct an obsolete MD1 marker without changing
+    # the committed raw cached schedule. This also drives meta.current_matchday.
+    normalized_fixtures_payload = deepcopy(fixtures_payload)
+    for day in normalized_fixtures_payload["data"]["value"]:
+        day["mdIsCurrent"] = 1 if int(day["mdId"]) == md else 0
+
+    raw_payloads = {
+        "fixtures": normalized_fixtures_payload,
+        "teams": teams_payload,
+        "players": players_payload,
+    }
+    feed_status = {
+        "fixtures": "live" if fixtures_live else "cached_schedule_with_corrected_matchday",
+        "teams": "live" if teams_live else "cached_metadata",
+        "players": f"live_md{md}",
+    }
+    # All validation and live-player checks finish BEFORE writing raw files.
+    write_json(RAW_DIR / "players_raw.json", players_payload)
+    if teams_live:
+        write_json(RAW_DIR / "teams_raw.json", teams_payload)
+    if fixtures_live:
+        write_json(RAW_DIR / "fixtures_raw.json", fixtures_payload)
 
     # Preserve the pre-existing preseason archive; never create one from
     # live matchday data after the season has started.
