@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import subprocess
 import sys
 import time
 from copy import deepcopy
@@ -47,26 +48,27 @@ POSITION_MAP = {
     4: "FWD",
 }
 
-REQUEST_HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/153.0.0.0 Safari/537.36"
-    ),
-    "Accept": "application/json,text/plain,*/*",
-    "Accept-Language": "en-US,en;q=0.9",
-    "Accept-Encoding": "gzip, deflate",
-    "Referer": "https://gaming.uefa.com/en/uwclfantasy/create-team",
-}
-
-# Keep failed GitHub-runner requests short. If UEFA is temporarily unreachable,
-# the script falls back to the last committed raw feed instead of hanging/failing.
-CONNECT_TIMEOUT = 8
-READ_TIMEOUT = 15
-MAX_ATTEMPTS = 2
+# The GitHub Actions diagnostic on 2026-10-29 confirmed that UEFA responds
+# immediately to a minimal User-Agent and curl, but times out for browser headers.
+REQUEST_HEADERS = {"User-Agent": "UWCL-Diagnostic/1.0"}
+CONNECT_TIMEOUT = 5
+READ_TIMEOUT = 8
+MAX_ATTEMPTS = 1
 
 SESSION = requests.Session()
+SESSION.headers.clear()
 SESSION.headers.update(REQUEST_HEADERS)
+
+
+def fetch_with_curl(url: str) -> Any:
+    """Fallback transport; only return validated JSON, never an error page."""
+    result = subprocess.run(
+        ["curl", "-4", "--http1.1", "--location", "--fail", "--silent",
+         "--show-error", "--max-time", "12", "--connect-timeout", "5",
+         "--header", "User-Agent: UWCL-Diagnostic/1.0", url],
+        capture_output=True, text=True, timeout=15, check=True,
+    )
+    return json.loads(result.stdout)
 
 
 # ============================================================
@@ -267,6 +269,15 @@ def fetch_json(
 
             if attempt < MAX_ATTEMPTS:
                 time.sleep(2)
+
+    try:
+        print(f"Trying curl fallback for {name}...", flush=True)
+        payload = fetch_with_curl(url)
+        validate_feed_payload(name, payload)
+        print(f"Live {name} feed received via curl.", flush=True)
+        return payload, True
+    except (subprocess.SubprocessError, ValueError, RuntimeError, OSError) as exc:
+        print(f"WARNING: curl fallback for {name} failed: {exc}", flush=True)
 
     cached = load_cached_feed(name)
 
