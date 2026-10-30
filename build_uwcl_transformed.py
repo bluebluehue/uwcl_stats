@@ -893,6 +893,13 @@ def transform() -> dict[str, Any]:
 
             "Current Matchday Points": safe_float((player.get("current_matchday") or {}).get("points")),
             "Current Matchday Played": bool((player.get("current_matchday") or {}).get("played")),
+            "Matchday Points": player.get("matchday_points", {}),
+            "MD1 Points": (player.get("matchday_points") or {}).get("1"),
+            "MD2 Points": (player.get("matchday_points") or {}).get("2"),
+            "MD3 Points": (player.get("matchday_points") or {}).get("3"),
+            "MD4 Points": (player.get("matchday_points") or {}).get("4"),
+            "MD5 Points": (player.get("matchday_points") or {}).get("5"),
+            "MD6 Points": (player.get("matchday_points") or {}).get("6"),
         }
         rows.append(row)
 

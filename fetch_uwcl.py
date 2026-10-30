@@ -1368,6 +1368,38 @@ def main() -> int:
         "teams": "live" if teams_live else "cached_metadata",
         "players": f"live_md{md}",
     }
+    # Preserve matchday-specific fantasy scores independently of the active feed.
+    # Once a round is over, fetch its final scores once and keep them across
+    # subsequent matchday transitions. Never overwrite a saved round with zeros.
+    history_path = DATA_DIR / "matchday_points.json"
+    if history_path.exists():
+        history = json.loads(history_path.read_text(encoding="utf-8"))
+    else:
+        history = {"season": CURRENT_SEASON, "points_by_matchday": {}}
+    by_md = history.setdefault("points_by_matchday", {})
+    for past_md in range(1, md):
+        key = str(past_md)
+        if key in by_md and len(by_md[key]) >= 500:
+            continue
+        past_url = f"{BASE_URL}/players/players_40_en_{past_md}.json"
+        try:
+            past_payload, is_live = fetch_json("players", past_url)
+            if not is_live:
+                print(f"WARNING: historical MD{past_md} feed unavailable; keeping saved scores", flush=True)
+                continue
+            past_records = past_payload["data"]["value"]["playerList"]
+            if {str(p.get("mdId")) for p in past_records} != {key} or len(past_records) < 500:
+                print(f"WARNING: historical MD{past_md} feed invalid; keeping saved scores", flush=True)
+                continue
+            by_md[key] = {str(p["id"]): p.get("curGDPts", 0) for p in past_records}
+        except Exception as exc:
+            print(f"WARNING: unable to retrieve historical MD{past_md}: {exc}", flush=True)
+    # Capture active round as well; it may still be in progress.
+    current_records = players_payload["data"]["value"]["playerList"]
+    by_md[str(md)] = {str(p["id"]): p.get("curGDPts", 0) for p in current_records}
+    history["season"] = CURRENT_SEASON
+    write_json(history_path, history)
+
     # All validation and live-player checks finish BEFORE writing raw files.
     write_json(RAW_DIR / "players_raw.json", players_payload)
     if teams_live:
@@ -1387,6 +1419,15 @@ def main() -> int:
         raw_payloads["players"],
         nationality_lookup,
     )
+
+    # Add per-round scores without changing existing player fields.
+    for player in players:
+        pid = str(player["id"])
+        player["matchday_points"] = {
+            round_id: points[pid]
+            for round_id, points in by_md.items()
+            if pid in points
+        }
 
     teams = normalize_teams(
         raw_payloads["teams"]
