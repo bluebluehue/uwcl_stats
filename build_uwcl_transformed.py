@@ -313,53 +313,73 @@ def historical_metrics(player: dict[str, Any]) -> dict[str, float]:
     }
 
 
-def build_form_ratings(
-    rows: list[dict[str, Any]],
-) -> None:
-    """
-    Preseason EURO PRIOR, not current form.
+def build_form_ratings(rows: list[dict[str, Any]], current_md: int) -> None:
+    """Current-season form: recent matchdays matter; fixtures remain separate.
 
-    This intentionally excludes price/value. Price belongs to a separate
-    value decision, not a performance/form signal.
+    Recent = MD3 (65%) + MD2 (35%) at MD4, advancing with each
+    completed MD. Winsorizing scores at a position's 90th percentile
+    reduces the impact of a one-off spectacular matchday.
     """
     by_position: dict[str, list[dict[str, Any]]] = defaultdict(list)
     for row in rows:
         by_position[str(row.get("Position") or "")].append(row)
 
+    # Historical scores are present only for completed matchdays. The current
+    # game's matchday often appears as 0 before kickoff: do not use that.
+    completed_mds = [md for md in range(1, min(current_md, 7))
+                     if any(r.get(f"MD{md} Points") is not None for r in rows)]
+    recent_mds = completed_mds[-2:]
+
     for position_rows in by_position.values():
-        p90_pop = [
-            safe_float(r.get("Historical Points Per 90"))
-            for r in position_rows
-        ]
-        total_pop = [
-            safe_float(r.get("Previous Season Points"))
-            for r in position_rows
-        ]
+        p90_pop = [safe_float(r.get("Historical Points Per 90")) for r in position_rows]
+        total_pop = [safe_float(r.get("Previous Season Points")) for r in position_rows]
+        caps = {}
+        for md in recent_mds:
+            observed = sorted(max(0.0, safe_float(r.get(f"MD{md} Points")))
+                              for r in position_rows if r.get(f"MD{md} Points") is not None)
+            caps[md] = max(12.0, 2.0 * observed[min(len(observed) - 1, int(0.90 * len(observed)))]) if observed else 12.0
 
-        for row in position_rows:
-            p90_pct = percentile_rank(
-                safe_float(row.get("Historical Points Per 90")),
-                p90_pop,
-            )
-            total_pct = percentile_rank(
-                safe_float(row.get("Previous Season Points")),
-                total_pop,
-            )
+        def recent_score(row):
+            if not recent_mds:
+                return None
+            weights = [0.35, 0.65] if len(recent_mds) == 2 else [1.0]
+            values = [row.get(f"MD{md} Points") for md in recent_mds]
+            if all(v is None for v in values):
+                return None
+            # Only use known results; missing data must never be treated as 0.
+            numerator = denominator = 0.0
+            for md, val, weight in zip(recent_mds, values, weights):
+                if val is None:
+                    continue
+                numerator += weight * min(safe_float(val), caps[md])
+                denominator += weight
+            return numerator / denominator if denominator else None
 
-            raw = 0.65 * p90_pct + 0.35 * total_pct
-
+        recent_values = [recent_score(r) for r in position_rows]
+        recent_pop = [v for v in recent_values if v is not None]
+        for row, rec in zip(position_rows, recent_values):
+            season_pct = (0.65 * percentile_rank(safe_float(row.get("Historical Points Per 90")), p90_pop)
+                          + 0.35 * percentile_rank(safe_float(row.get("Previous Season Points")), total_pop))
+            if rec is None:
+                raw = season_pct
+                method = "Season-only fallback: matchday history unavailable"
+            else:
+                recent_pct = percentile_rank(rec, recent_pop)
+                raw = 0.65 * recent_pct + 0.35 * season_pct
+                method = (f"65% recent MD{recent_mds[-1]} and MD{recent_mds[0]} "
+                          "position-relative performance (latest weighted 65%, prior 35%; "
+                          "spike cap of at least 12 points (2× positional 90th percentile)) + 35% season output "
+                          "(65% points/90, 35% total points).")
             minutes = safe_float(row.get("Previous Season Minutes"))
-            confidence = min(1.0, minutes / 720.0)
-
-            rating = 50.0 + confidence * (raw - 50.0)
-
+            confidence = min(1.0, max(0.0, minutes) / max(90.0, 90.0 * max(1, len(completed_mds))))
+            # Moderated shrink: three actual matchdays constitute meaningful data.
+            reliability = 0.60 + 0.40 * confidence
+            rating = 50.0 + reliability * (raw - 50.0)
             row["Form Rating"] = round(clamp(rating), 1)
             row["Form Confidence"] = round(confidence, 3)
-            row["Form Rating Method"] = (
-                "2025/26 UWCL performance prior: 65% position-relative "
-                "fantasy points/90 + 35% total fantasy points; "
-                "shrunk toward 50 below 720 minutes. Price is excluded."
-            )
+            row["Form Recent MDs"] = recent_mds
+            row["Form Recent Weighted Points"] = round(rec, 2) if rec is not None else None
+            row["Form Rating Method"] = (method + " Confidence moderates limited minutes; price excluded.")
 
 
 def load_gk_role_overrides() -> dict[str, dict[str, Any]]:
@@ -702,7 +722,7 @@ def build_team_position_fixture_ratings(
         "season": "2026/27",
         "current_matchday": current_matchday,
         "model": {
-            "status": "provisional_preseason_v1",
+            "status": "current_season_recent_form_v2",
             "note": (
                 "Team-position fixture ratings use the Opta matchup edge (own team versus "
                 "opponent) with modest position lenses. They are not xG/market-derived attack "
@@ -903,7 +923,7 @@ def transform() -> dict[str, Any]:
         }
         rows.append(row)
 
-    build_form_ratings(rows)
+    build_form_ratings(rows, current_matchday)
     assign_gk_roles(rows)
     apply_comparison_and_decision(rows)
 
@@ -929,7 +949,7 @@ def transform() -> dict[str, Any]:
         "current_matchday": current_matchday,
         "count": len(rows),
         "model": {
-            "status": "provisional_preseason_v1",
+            "status": "current_season_recent_form_v2",
             "fixture": {
                 "method": "own-team Opta minus opponent Opta, standardized by UWCL Opta spread, plus home/away adjustment",
                 "primary_strength_metric": "Opta rating",
