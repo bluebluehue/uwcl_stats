@@ -56,6 +56,7 @@
           </div>
           <div class="check-filters">
             <label><input id="filter-active" type="checkbox" checked> Active only</label>
+            <label><input id="filter-recent-points" type="checkbox" title="Shows players with nonzero fantasy points in either of the last two completed matchdays; a proxy for appearances, not an exact minutes-played filter"> Nonzero points in last 2 MDs</label>
             <label><input id="filter-flagged" type="checkbox"> Flagged only</label>
             <button id="reset-filters" class="link-button" type="button">Reset</button>
           </div>
@@ -91,7 +92,7 @@
                 <th data-sort="decision">DECISION</th><th data-sort="fix">FIX</th><th data-sort="fix1">FIX+1</th>
                 <th data-sort="form" title="Before MD1 this is prior European form; it will transition to recent domestic + UWCL form">FORM</th>
                 <th data-sort="position">POS</th><th data-sort="value" class="num">VAL</th><th data-sort="selected" class="num">S%</th><th data-sort="trend" class="num">Δ%</th>
-                <th data-sort="points" class="num">PTS</th><th data-sort="p90" class="num">P/90</th><th data-sort="ga" class="num">G+A</th><th data-sort="br" class="num">BR</th><th data-sort="cs" class="num">CS</th><th data-sort="saves" class="num">SV</th><th data-sort="potm" class="num">POTM</th>
+                <th data-sort="points" class="num">PTS</th><th data-sort="md1" class="num" title="Official fantasy points in matchday 1">MD1</th><th data-sort="md2" class="num" title="Official fantasy points in matchday 2">MD2</th><th data-sort="md3" class="num" title="Official fantasy points in matchday 3">MD3</th><th data-sort="md4" class="num" title="Official fantasy points in matchday 4">MD4</th><th data-sort="md5" class="num" title="Official fantasy points in matchday 5">MD5</th><th data-sort="md6" class="num" title="Official fantasy points in matchday 6">MD6</th><th data-sort="p90" class="num">P/90</th><th data-sort="ga" class="num">G+A</th><th data-sort="br" class="num">BR</th><th data-sort="cs" class="num">CS</th><th data-sort="saves" class="num">SV</th><th data-sort="potm" class="num">POTM</th>
               </tr>
             </thead>
             <tbody id="player-tbody"></tbody>
@@ -299,6 +300,10 @@
     </div>
   </main>
 
+  <dialog id="player-profile-dialog" class="player-profile-dialog" aria-labelledby="player-profile-heading">
+    <div class="profile-header"><h2 id="player-profile-heading">Player profile</h2><button type="button" id="player-profile-close" aria-label="Close player profile">✕</button></div>
+    <div id="player-profile-content"></div>
+  </dialog>
   <script src="app.js" defer></script>
 </body>
 </html>

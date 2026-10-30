@@ -971,3 +971,22 @@ tbody tr:hover td { background: #eef5ff; }
 .schedule-empty {
   color: #a1a8b3;
 }
+
+/* Clickable player details */
+.player-profile-trigger{appearance:none;border:0;background:none;color:#4330bd;font:inherit;font-weight:700;text-align:left;cursor:pointer;padding:3px 0;text-decoration:underline;text-decoration-color:transparent;text-underline-offset:3px}
+.player-profile-trigger:hover,.player-profile-trigger:focus-visible{text-decoration-color:currentColor}
+.player-profile-dialog{width:min(760px,calc(100vw - 24px));max-height:min(88vh,900px);border:1px solid #d9d9e5;border-radius:16px;padding:24px;background:#fff;color:#23233a;box-shadow:0 20px 80px #0004;overflow:auto}
+.player-profile-dialog::backdrop{background:#14152b99}
+.profile-header{display:flex;justify-content:space-between;gap:12px;align-items:center;border-bottom:1px solid #e5e5ee;padding-bottom:12px}
+.profile-header h2{margin:0;font-size:24px}
+#player-profile-close{font-size:20px;border:0;background:#f1f0fa;border-radius:8px;padding:8px 12px;cursor:pointer}
+.profile-subtitle{font-weight:600;color:#595775;margin:14px 0}
+.profile-section{margin:22px 0}.profile-section h3{font-size:15px;color:#4330bd;margin:0 0 10px}
+.profile-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:8px;margin:0}
+.profile-stat{background:#f7f7fb;padding:10px;border-radius:9px;min-width:0;overflow-wrap:anywhere}
+.profile-stat dt{font-size:12px;color:#62627a;margin-bottom:5px}.profile-stat dd{font-size:15px;font-weight:650;margin:0}
+.profile-note{font-size:12px;color:#666;margin-top:20px}
+
+/* Official historical matchday score cells */
+#player-table .md-points{font-variant-numeric:tabular-nums;min-width:40px}
+#player-table th[data-sort^="md"]{white-space:nowrap}

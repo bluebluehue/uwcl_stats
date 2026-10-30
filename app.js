@@ -2,6 +2,7 @@ const DATA_PATH = "data/uwcl/transformed_data.json";
 const META_PATH = "data/uwcl/meta.json";
 const TEAM_POSITION_PATH = "data/uwcl/team_position_fixture_ratings.json";
 const FIXTURES_PATH = "data/uwcl/fixtures.json";
+const PLAYER_DETAILS_PATH = "data/uwcl/players.json";
 
 const STORAGE = {
   team: "uwcl-stats-my-team",
@@ -12,6 +13,7 @@ const STORAGE = {
 
 const state = {
   all: [],
+  playerDetails: new Map(),
   filtered: [],
   sortKey: "decision",
   sortDir: "desc",
@@ -40,6 +42,7 @@ const els = {
   saved: $("#filter-saved"),
   active: $("#filter-active"),
   flagged: $("#filter-flagged"),
+  recentPoints: $("#filter-recent-points"),
   maxValue: $("#filter-max-value"),
   minDecision: $("#filter-min-decision"),
   minFix: $("#filter-min-fix"),
@@ -56,16 +59,19 @@ async function init() {
   loadSaved();
 
   try {
-    const [payload, meta, teamPosition, fixtures] = await Promise.all([
+    const [payload, meta, teamPosition, fixtures, playerDetails] = await Promise.all([
       fetch(DATA_PATH, { cache: "no-store" }).then(checkJson),
       fetch(META_PATH, { cache: "no-store" }).then(checkJson),
       fetch(TEAM_POSITION_PATH, { cache: "no-store" }).then(checkJson),
       fetch(FIXTURES_PATH, { cache: "no-store" }).then(checkJson),
+      fetch(PLAYER_DETAILS_PATH, { cache: "no-store" }).then(checkJson),
     ]);
 
     state.all = Array.isArray(payload.players) ? payload.players : [];
+    state.playerDetails = new Map((playerDetails.players || []).map(p => [String(p.id), p]));
     state.teamPosition = teamPosition;
     state.fixtures = fixtures;
+    state.currentMatchday = Number(meta.current_matchday) || 4;
 
     populateFilters();
     bind();
@@ -218,6 +224,7 @@ function bind() {
     els.saved,
     els.active,
     els.flagged,
+    els.recentPoints,
     els.maxValue,
     els.minDecision,
     els.minFix,
@@ -327,6 +334,7 @@ function resetFilters() {
   els.saved.value = "";
   els.active.checked = true;
   els.flagged.checked = false;
+  els.recentPoints.checked = false;
   els.maxValue.value = "";
   els.minDecision.value = "";
   els.minFix.value = "";
@@ -361,6 +369,11 @@ function apply() {
   );
 
   state.filtered = state.all.filter((p) => {
+    if (els.recentPoints.checked) {
+      const completed = completedMatchdays();
+      const recent = completed.slice(-2);
+      if (!recent.length || !recent.some(md => { const v = matchdayScore(p, md); return v !== null && v !== 0; })) return false;
+    }
     const id = String(p["Player ID"]);
 
     if (
@@ -551,6 +564,7 @@ function defaultSortDir(key) {
     "selected",
     "trend",
     "points",
+    "md1", "md2", "md3", "md4", "md5", "md6",
     "p90",
     "ga",
     "br",
@@ -562,7 +576,27 @@ function defaultSortDir(key) {
     : "asc";
 }
 
+
+// A value of zero on the current/upcoming MD is a feed placeholder, not a completed score.
+function completedMatchdays() {
+  const current = Number(state.currentMatchday) || 1;
+  return Array.from({length: Math.max(0, Math.min(6, current - 1))}, (_,i) => i+1);
+}
+function matchdayScore(p, md) {
+  if (!completedMatchdays().includes(md)) return null;
+  const raw = p[`MD${md} Points`] ?? p["Matchday Points"]?.[String(md)];
+  if (raw === null || raw === undefined || raw === "") return null;
+  const value = Number(raw);
+  return Number.isFinite(value) ? value : null;
+}
+function matchdayTooltip(p, md) {
+  const score = matchdayScore(p, md);
+  if (score === null) return `MD${md}: not yet completed or points unavailable`;
+  return `MD${md}: ${score} official UEFA fantasy point${score === 1 ? "" : "s"}.\nA matchday-specific action breakdown (goals, minutes, assists, etc.) is not included in this source. A zero score does not prove the player did not appear.`;
+}
+
 function sortValue(p, key) {
+  if (/^md[1-6]$/.test(key)) return matchdayScore(p, Number(key.slice(2)));
   const map = {
     name: "Name",
     club: "Club",
@@ -670,12 +704,16 @@ function buildRow(p) {
     p["Player ID"]
   );
 
-  cell(
-    tr,
-    p["Name"] || "—",
-    "player-name sticky-name",
-    statusTitle(p)
-  );
+  const nameTd = document.createElement("td");
+  nameTd.className = "player-name sticky-name";
+  const nameButton = document.createElement("button");
+  nameButton.type = "button";
+  nameButton.className = "player-profile-trigger";
+  nameButton.textContent = p["Name"] || "—";
+  nameButton.title = "Open player profile";
+  nameButton.addEventListener("click", () => openPlayerProfile(p));
+  nameTd.append(nameButton);
+  tr.append(nameTd);
 
   tr.append(
     saveCell(
@@ -789,6 +827,11 @@ function buildRow(p) {
     ),
     "num"
   );
+
+  for (let md = 1; md <= 6; md++) {
+    const score = matchdayScore(p, md);
+    cell(tr, score === null ? "—" : String(score), "num md-points", matchdayTooltip(p, md));
+  }
 
   cell(
     tr,
@@ -1387,6 +1430,7 @@ function exportCsv(
     "Selected Percentage",
     "Transfer Trend Percentage",
     "Previous Season Points",
+    "MD1 Points", "MD2 Points", "MD3 Points", "MD4 Points", "MD5 Points", "MD6 Points",
     "Historical Points Per 90",
     "Total Goals",
     "Total Assists",
@@ -4147,3 +4191,67 @@ function renderScheduleAdvantage() {
     `;
   }
 }
+
+// Player profile: source UEFA data and model-derived values are clearly separated.
+let previousProfileFocus = null;
+function profileValue(value) {
+  if (value === null || value === undefined || value === "") return "—";
+  if (typeof value === "boolean") return value ? "Yes" : "No";
+  if (Array.isArray(value)) return value.map(profileValue).join(", ");
+  if (typeof value === "object") return JSON.stringify(value);
+  return String(value);
+}
+function profileLabel(key) {
+  return key.replace(/_/g, " ").replace(/([a-z])([A-Z])/g, "$1 $2")
+    .replace(/\b\w/g, c => c.toUpperCase());
+}
+function profileSection(title, obj) {
+  if (!obj || typeof obj !== "object") return "";
+  const rows = Object.entries(obj).filter(([, v]) => v !== null && v !== undefined && typeof v !== "object")
+    .map(([k, v]) => `<div class="profile-stat"><dt>${esc(profileLabel(k))}</dt><dd>${esc(profileValue(v))}</dd></div>`).join("");
+  return rows ? `<section class="profile-section"><h3>${esc(title)}</h3><dl class="profile-grid">${rows}</dl></section>` : "";
+}
+function openPlayerProfile(row) {
+  const dialog = document.getElementById("player-profile-dialog");
+  const body = document.getElementById("player-profile-content");
+  const player = state.playerDetails.get(String(row["Player ID"]));
+  previousProfileFocus = document.activeElement;
+  document.getElementById("player-profile-heading").textContent = row["Name"] || "Player profile";
+  let html = `<p class="profile-subtitle">${esc(row["Club Name"] || row["Club"] || "")} · ${esc(row["Position"] || "")} · ${esc(row["Nationality"] || "")}</p>`;
+  const overview = {
+    "Price (€m)": row["Value"], "Total fantasy points": row["Previous Season Points"],
+    "Selected (%)": row["Selected Percentage"], "Decision rating (model)": row["Decision Rating"],
+    "Fixture rating (model)": row["Comparison Fixture Rating"],
+    "Following fixture rating (model)": row["Comparison Following Fixture Rating"],
+    "Form rating (model)": row["Comparison Form Rating"],
+  };
+  html += profileSection("Fantasy overview", overview);
+  html += profileSection("Matchday points (official UEFA scores)", Object.fromEntries(Array.from({length:6}, (_,i) => [`MD${i+1}`, matchdayScore(row, i+1) ?? "Not played yet"])));
+  html += profileSection("Upcoming fixture", {
+    "Opponent": row["Next Fixture Opponent Name"], "Home / away": row["Next Fixture H/A"],
+    "Kickoff": row["Next Fixture Kickoff"], "Following opponent": row["Following Fixture Opponent"]
+  });
+  if (player) {
+    html += profileSection("UEFA season statistics", player.historical_stats);
+    html += profileSection("UEFA current matchday", {
+      "Matchday": player.current_matchday?.matchday,
+      "Points": player.current_matchday?.points,
+      "Played": player.current_matchday?.played,
+    });
+    html += profileSection("Transfers and ownership", player.transfer_activity);
+    html += profileSection("UEFA availability", player.status);
+    html += profileSection("Additional UEFA statistics", player.uefa_extra);
+    html += profileSection("UEFA category metrics", player.uefa_categories);
+  }
+  const excluded = new Set(["Name", "Club", "Club Name", "Nationality", "Position", "Player ID", "Value", "Selected Percentage", "Previous Season Points", "Decision Rating", "Comparison Fixture Rating", "Comparison Following Fixture Rating", "Comparison Form Rating", "Next Fixture Opponent Name", "Next Fixture H/A", "Next Fixture Kickoff", "Following Fixture Opponent"]);
+  html += profileSection("All additional app fields", Object.fromEntries(Object.entries(row).filter(([k,v]) => !excluded.has(k) && typeof v !== "object")));
+  html += `<p class="profile-note">Fantasy and season statistics: UEFA. Decision, fixture and form ratings: UWCL Stats model. MD1–MD6 scores come from UEFA matchday history. Detailed scoring-action breakdowns and exact matchday appearances are not yet available from this data feed.</p>`;
+  body.innerHTML = html;
+  dialog.showModal();
+}
+document.addEventListener("DOMContentLoaded", () => {
+  const dialog = document.getElementById("player-profile-dialog");
+  document.getElementById("player-profile-close").addEventListener("click", () => dialog.close());
+  dialog.addEventListener("click", event => { if (event.target === dialog) dialog.close(); });
+  dialog.addEventListener("close", () => previousProfileFocus?.focus());
+});
