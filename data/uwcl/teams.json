@@ -14,16 +14,17 @@
         "name": "Pot 1"
       },
       "next_match": {
-        "matchday": "1",
+        "matchday": "4",
         "team_id": "81199",
         "team": "Arsenal",
         "team_code": "ARS",
-        "home_away": "H",
-        "opponent_id": "2611087",
-        "opponent": "HB Køge",
-        "opponent_code": "HBK",
-        "opponent_home_away": "A",
-        "kickoff": "09/22/2026 21:00:00"
+        "home_away": "A",
+        "opponent_id": "2601945",
+        "opponent": "Barcelona",
+        "opponent_code": "BAR",
+        "opponent_home_away": "H",
+        "kickoff": "11/11/2026 18:45:00",
+        "weekday": "WED"
       }
     },
     {
@@ -37,16 +38,17 @@
         "name": "Pot 3"
       },
       "next_match": {
-        "matchday": "1",
+        "matchday": "4",
         "team_id": "2612002",
         "team": "Austria Wien",
         "team_code": "AUS",
         "home_away": "A",
-        "opponent_id": "2600827",
-        "opponent": "Chelsea",
-        "opponent_code": "CHE",
+        "opponent_id": "2610349",
+        "opponent": "Benfica",
+        "opponent_code": "BEN",
         "opponent_home_away": "H",
-        "kickoff": "09/23/2026 21:00:00"
+        "kickoff": "11/11/2026 21:00:00",
+        "weekday": "WED"
       }
     },
     {
@@ -60,16 +62,17 @@
         "name": "Pot 1"
       },
       "next_match": {
-        "matchday": "1",
+        "matchday": "4",
         "team_id": "2601945",
         "team": "Barcelona",
         "team_code": "BAR",
         "home_away": "H",
-        "opponent_id": "2609779",
-        "opponent": "Paris",
-        "opponent_code": "PAR",
+        "opponent_id": "81199",
+        "opponent": "Arsenal",
+        "opponent_code": "ARS",
         "opponent_home_away": "A",
-        "kickoff": "09/23/2026 21:00:00"
+        "kickoff": "11/11/2026 18:45:00",
+        "weekday": "WED"
       }
     },
     {
@@ -83,16 +86,17 @@
         "name": "Pot 1"
       },
       "next_match": {
-        "matchday": "1",
+        "matchday": "4",
         "team_id": "2600661",
         "team": "Bayern",
         "team_code": "BAY",
-        "home_away": "H",
-        "opponent_id": "2603520",
-        "opponent": "Man City",
-        "opponent_code": "MCI",
-        "opponent_home_away": "A",
-        "kickoff": "09/22/2026 18:45:00"
+        "home_away": "A",
+        "opponent_id": "2600841",
+        "opponent": "Paris SG",
+        "opponent_code": "PSG",
+        "opponent_home_away": "H",
+        "kickoff": "11/10/2026 21:00:00",
+        "weekday": "TUE"
       }
     },
     {
@@ -106,16 +110,17 @@
         "name": "Pot 2"
       },
       "next_match": {
-        "matchday": "1",
+        "matchday": "4",
         "team_id": "2610349",
         "team": "Benfica",
         "team_code": "BEN",
-        "home_away": "A",
-        "opponent_id": "2609590",
-        "opponent": "Juventus",
-        "opponent_code": "JUV",
-        "opponent_home_away": "H",
-        "kickoff": "09/22/2026 21:00:00"
+        "home_away": "H",
+        "opponent_id": "2612002",
+        "opponent": "Austria Wien",
+        "opponent_code": "AUS",
+        "opponent_home_away": "A",
+        "kickoff": "11/11/2026 21:00:00",
+        "weekday": "WED"
       }
     },
     {
@@ -129,16 +134,17 @@
         "name": "Pot 1"
       },
       "next_match": {
-        "matchday": "1",
+        "matchday": "4",
         "team_id": "2600827",
         "team": "Chelsea",
         "team_code": "CHE",
-        "home_away": "H",
-        "opponent_id": "2612002",
-        "opponent": "Austria Wien",
-        "opponent_code": "AUS",
-        "opponent_home_away": "A",
-        "kickoff": "09/23/2026 21:00:00"
+        "home_away": "A",
+        "opponent_id": "2600867",
+        "opponent": "Häcken",
+        "opponent_code": "HAC",
+        "opponent_home_away": "H",
+        "kickoff": "11/10/2026 18:45:00",
+        "weekday": "TUE"
       }
     },
     {
@@ -152,16 +158,17 @@
         "name": "Pot 3"
       },
       "next_match": {
-        "matchday": "1",
+        "matchday": "4",
         "team_id": "2611087",
         "team": "HB Køge",
         "team_code": "HBK",
         "home_away": "A",
-        "opponent_id": "81199",
-        "opponent": "Arsenal",
-        "opponent_code": "ARS",
+        "opponent_id": "2601983",
+        "opponent": "OH Leuven",
+        "opponent_code": "OHL",
         "opponent_home_away": "H",
-        "kickoff": "09/22/2026 21:00:00"
+        "kickoff": "11/11/2026 18:45:00",
+        "weekday": "WED"
       }
     },
     {
@@ -175,16 +182,17 @@
         "name": "Pot 2"
       },
       "next_match": {
-        "matchday": "1",
+        "matchday": "4",
         "team_id": "2600867",
         "team": "Häcken",
         "team_code": "HAC",
-        "home_away": "A",
-        "opponent_id": "2609776",
-        "opponent": "Inter",
-        "opponent_code": "INT",
-        "opponent_home_away": "H",
-        "kickoff": "09/22/2026 18:45:00"
+        "home_away": "H",
+        "opponent_id": "2600827",
+        "opponent": "Chelsea",
+        "opponent_code": "CHE",
+        "opponent_home_away": "A",
+        "kickoff": "11/10/2026 18:45:00",
+        "weekday": "TUE"
       }
     },
     {
@@ -198,16 +206,17 @@
         "name": "Pot 3"
       },
       "next_match": {
-        "matchday": "1",
+        "matchday": "4",
         "team_id": "2609776",
         "team": "Inter",
         "team_code": "INT",
         "home_away": "H",
-        "opponent_id": "2600867",
-        "opponent": "Häcken",
-        "opponent_code": "HAC",
+        "opponent_id": "2603520",
+        "opponent": "Man City",
+        "opponent_code": "MCI",
         "opponent_home_away": "A",
-        "kickoff": "09/22/2026 18:45:00"
+        "kickoff": "11/10/2026 21:00:00",
+        "weekday": "TUE"
       }
     },
     {
@@ -221,16 +230,17 @@
         "name": "Pot 2"
       },
       "next_match": {
-        "matchday": "1",
+        "matchday": "4",
         "team_id": "2609590",
         "team": "Juventus",
         "team_code": "JUV",
         "home_away": "H",
-        "opponent_id": "2610349",
-        "opponent": "Benfica",
-        "opponent_code": "BEN",
+        "opponent_id": "2600241",
+        "opponent": "OL Lyonnes",
+        "opponent_code": "LYO",
         "opponent_home_away": "A",
-        "kickoff": "09/22/2026 21:00:00"
+        "kickoff": "11/11/2026 21:00:00",
+        "weekday": "WED"
       }
     },
     {
@@ -244,16 +254,17 @@
         "name": "Pot 3"
       },
       "next_match": {
-        "matchday": "1",
+        "matchday": "4",
         "team_id": "2603520",
         "team": "Man City",
         "team_code": "MCI",
         "home_away": "A",
-        "opponent_id": "2600661",
-        "opponent": "Bayern",
-        "opponent_code": "BAY",
+        "opponent_id": "2609776",
+        "opponent": "Inter",
+        "opponent_code": "INT",
         "opponent_home_away": "H",
-        "kickoff": "09/22/2026 18:45:00"
+        "kickoff": "11/10/2026 21:00:00",
+        "weekday": "TUE"
       }
     },
     {
@@ -267,16 +278,17 @@
         "name": "Pot 3"
       },
       "next_match": {
-        "matchday": "1",
+        "matchday": "4",
         "team_id": "2601983",
         "team": "OH Leuven",
         "team_code": "OHL",
         "home_away": "H",
-        "opponent_id": "2610208",
-        "opponent": "Roma",
-        "opponent_code": "ROM",
+        "opponent_id": "2611087",
+        "opponent": "HB Køge",
+        "opponent_code": "HBK",
         "opponent_home_away": "A",
-        "kickoff": "09/23/2026 18:45:00"
+        "kickoff": "11/11/2026 18:45:00",
+        "weekday": "WED"
       }
     },
     {
@@ -290,16 +302,17 @@
         "name": "Pot 1"
       },
       "next_match": {
-        "matchday": "1",
+        "matchday": "4",
         "team_id": "2600241",
         "team": "OL Lyonnes",
         "team_code": "LYO",
         "home_away": "A",
-        "opponent_id": "2611086",
-        "opponent": "Servette",
-        "opponent_code": "SER",
+        "opponent_id": "2609590",
+        "opponent": "Juventus",
+        "opponent_code": "JUV",
         "opponent_home_away": "H",
-        "kickoff": "09/23/2026 18:45:00"
+        "kickoff": "11/11/2026 21:00:00",
+        "weekday": "WED"
       }
     },
     {
@@ -313,16 +326,17 @@
         "name": "Pot 2"
       },
       "next_match": {
-        "matchday": "1",
+        "matchday": "4",
         "team_id": "2609779",
         "team": "Paris",
         "team_code": "PAR",
         "home_away": "A",
-        "opponent_id": "2601945",
-        "opponent": "Barcelona",
-        "opponent_code": "BAR",
+        "opponent_id": "2611347",
+        "opponent": "Real Madrid",
+        "opponent_code": "RMA",
         "opponent_home_away": "H",
-        "kickoff": "09/23/2026 21:00:00"
+        "kickoff": "11/10/2026 18:45:00",
+        "weekday": "TUE"
       }
     },
     {
@@ -336,16 +350,17 @@
         "name": "Pot 1"
       },
       "next_match": {
-        "matchday": "1",
+        "matchday": "4",
         "team_id": "2600841",
         "team": "Paris SG",
         "team_code": "PSG",
-        "home_away": "A",
-        "opponent_id": "2611347",
-        "opponent": "Real Madrid",
-        "opponent_code": "RMA",
-        "opponent_home_away": "H",
-        "kickoff": "09/22/2026 21:00:00"
+        "home_away": "H",
+        "opponent_id": "2600661",
+        "opponent": "Bayern",
+        "opponent_code": "BAY",
+        "opponent_home_away": "A",
+        "kickoff": "11/10/2026 21:00:00",
+        "weekday": "TUE"
       }
     },
     {
@@ -359,16 +374,17 @@
         "name": "Pot 2"
       },
       "next_match": {
-        "matchday": "1",
+        "matchday": "4",
         "team_id": "2611347",
         "team": "Real Madrid",
         "team_code": "RMA",
         "home_away": "H",
-        "opponent_id": "2600841",
-        "opponent": "Paris SG",
-        "opponent_code": "PSG",
+        "opponent_id": "2609779",
+        "opponent": "Paris",
+        "opponent_code": "PAR",
         "opponent_home_away": "A",
-        "kickoff": "09/22/2026 21:00:00"
+        "kickoff": "11/10/2026 18:45:00",
+        "weekday": "TUE"
       }
     },
     {
@@ -382,16 +398,17 @@
         "name": "Pot 2"
       },
       "next_match": {
-        "matchday": "1",
+        "matchday": "4",
         "team_id": "2610208",
         "team": "Roma",
         "team_code": "ROM",
-        "home_away": "A",
-        "opponent_id": "2601983",
-        "opponent": "OH Leuven",
-        "opponent_code": "OHL",
-        "opponent_home_away": "H",
-        "kickoff": "09/23/2026 18:45:00"
+        "home_away": "H",
+        "opponent_id": "2611086",
+        "opponent": "Servette",
+        "opponent_code": "SER",
+        "opponent_home_away": "A",
+        "kickoff": "11/10/2026 21:00:00",
+        "weekday": "TUE"
       }
     },
     {
@@ -405,16 +422,17 @@
         "name": "Pot 3"
       },
       "next_match": {
-        "matchday": "1",
+        "matchday": "4",
         "team_id": "2611086",
         "team": "Servette",
         "team_code": "SER",
-        "home_away": "H",
-        "opponent_id": "2600241",
-        "opponent": "OL Lyonnes",
-        "opponent_code": "LYO",
-        "opponent_home_away": "A",
-        "kickoff": "09/23/2026 18:45:00"
+        "home_away": "A",
+        "opponent_id": "2610208",
+        "opponent": "Roma",
+        "opponent_code": "ROM",
+        "opponent_home_away": "H",
+        "kickoff": "11/10/2026 21:00:00",
+        "weekday": "TUE"
       }
     }
   ]

@@ -1,24 +1,24 @@
 {
   "competition": "UWCL",
   "season": "2026/27",
-  "current_matchday": 1,
+  "current_matchday": 4,
   "historical_stats": {
-    "season": "2025/26",
-    "status": "preseason_carried_forward_unverified"
+    "season": "2026/27",
+    "status": "live_current_season"
   },
   "nationality_data": {
     "source": "UEFA squad-page reference file",
     "master_file": "data/uwcl/nationalities_master.json",
     "matched_players": 575,
     "unmatched_players": 38,
-    "active_players": 573,
+    "active_players": 574,
     "active_matched_players": 573,
-    "active_unmatched_players": 0
+    "active_unmatched_players": 1
   },
   "feed_status": {
-    "players": "cached_last_known_good",
-    "teams": "cached_last_known_good",
-    "fixtures": "cached_last_known_good"
+    "fixtures": "live",
+    "teams": "live",
+    "players": "live_md4"
   },
   "counts": {
     "players": 613,
@@ -27,11 +27,11 @@
     "matchdays": 6
   },
   "sources": {
-    "players": "https://gaming.uefa.com/en/uwclfantasy/services/feeds/players/players_40_en_1.json",
+    "players": null,
     "teams": "https://gaming.uefa.com/en/uwclfantasy/services/feeds/teams/teams_40_en.json",
     "fixtures": "https://gaming.uefa.com/en/uwclfantasy/services/feeds/fixtures/fixtures_40_en.json"
   },
-  "fetched_at_utc": "2026-10-28T08:49:14.290994+00:00",
+  "fetched_at_utc": "2026-10-30T15:08:08.433980+00:00",
   "preseason_archive": {
     "path": "data/uwcl/archive/2026-09-21-preseason",
     "created_this_run": false
