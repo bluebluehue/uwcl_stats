@@ -3,7 +3,7 @@
   "season": "2026/27",
   "current_matchday": 4,
   "model": {
-    "status": "provisional_preseason_v1",
+    "status": "current_season_recent_form_v2",
     "note": "Team-position fixture ratings use the Opta matchup edge (own team versus opponent) with modest position lenses. They are not xG/market-derived attack and clean-sheet probabilities yet."
   },
   "teams": [
