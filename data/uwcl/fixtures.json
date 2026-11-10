@@ -81,9 +81,9 @@
         "2050560",
         "2050559",
         "2050564",
-        "2050561",
         "2050562",
-        "2050563"
+        "2050563",
+        "2050561"
       ]
     },
     {
@@ -1155,38 +1155,6 @@
       }
     },
     {
-      "match_id": "2050561",
-      "matchday": 4,
-      "fantasy_gameday_id": "8",
-      "kickoff": "11/11/2026 18:45:00",
-      "weekday": "WED",
-      "lock_time": "11/11/2026 18:45:00",
-      "home": {
-        "id": "2601945",
-        "name": "Barcelona",
-        "code": "BAR",
-        "score": ""
-      },
-      "away": {
-        "id": "81199",
-        "name": "Arsenal",
-        "code": "ARS",
-        "score": ""
-      },
-      "status": "0",
-      "is_live": false,
-      "feed_live": false,
-      "locked": false,
-      "postponed": false,
-      "lineup_announced": false,
-      "venue": {
-        "stadium_id": "57776",
-        "stadium": "Camp Nou",
-        "city": "Barcelona",
-        "country_code": "ESP"
-      }
-    },
-    {
       "match_id": "2050564",
       "matchday": 4,
       "fantasy_gameday_id": "8",
@@ -1283,9 +1251,41 @@
       }
     },
     {
+      "match_id": "2050561",
+      "matchday": 4,
+      "fantasy_gameday_id": "9",
+      "kickoff": "11/12/2026 18:45:00",
+      "weekday": "THU",
+      "lock_time": "11/12/2026 18:45:00",
+      "home": {
+        "id": "2601945",
+        "name": "Barcelona",
+        "code": "BAR",
+        "score": ""
+      },
+      "away": {
+        "id": "81199",
+        "name": "Arsenal",
+        "code": "ARS",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "57776",
+        "stadium": "Camp Nou",
+        "city": "Barcelona",
+        "country_code": "ESP"
+      }
+    },
+    {
       "match_id": "2050566",
       "matchday": 5,
-      "fantasy_gameday_id": "9",
+      "fantasy_gameday_id": "10",
       "kickoff": "11/18/2026 18:45:00",
       "weekday": "WED",
       "lock_time": "11/18/2026 18:45:00",
@@ -1317,7 +1317,7 @@
     {
       "match_id": "2050568",
       "matchday": 5,
-      "fantasy_gameday_id": "9",
+      "fantasy_gameday_id": "10",
       "kickoff": "11/18/2026 18:45:00",
       "weekday": "WED",
       "lock_time": "11/18/2026 18:45:00",
@@ -1349,7 +1349,7 @@
     {
       "match_id": "2050565",
       "matchday": 5,
-      "fantasy_gameday_id": "9",
+      "fantasy_gameday_id": "10",
       "kickoff": "11/18/2026 21:00:00",
       "weekday": "WED",
       "lock_time": "11/18/2026 21:00:00",
@@ -1381,7 +1381,7 @@
     {
       "match_id": "2050567",
       "matchday": 5,
-      "fantasy_gameday_id": "9",
+      "fantasy_gameday_id": "10",
       "kickoff": "11/18/2026 21:00:00",
       "weekday": "WED",
       "lock_time": "11/18/2026 21:00:00",
@@ -1413,7 +1413,7 @@
     {
       "match_id": "2050572",
       "matchday": 5,
-      "fantasy_gameday_id": "10",
+      "fantasy_gameday_id": "11",
       "kickoff": "11/19/2026 18:45:00",
       "weekday": "THU",
       "lock_time": "11/19/2026 18:45:00",
@@ -1445,7 +1445,7 @@
     {
       "match_id": "2050573",
       "matchday": 5,
-      "fantasy_gameday_id": "10",
+      "fantasy_gameday_id": "11",
       "kickoff": "11/19/2026 18:45:00",
       "weekday": "THU",
       "lock_time": "11/19/2026 18:45:00",
@@ -1477,7 +1477,7 @@
     {
       "match_id": "2050569",
       "matchday": 5,
-      "fantasy_gameday_id": "10",
+      "fantasy_gameday_id": "11",
       "kickoff": "11/19/2026 21:00:00",
       "weekday": "THU",
       "lock_time": "11/19/2026 21:00:00",
@@ -1509,7 +1509,7 @@
     {
       "match_id": "2050570",
       "matchday": 5,
-      "fantasy_gameday_id": "10",
+      "fantasy_gameday_id": "11",
       "kickoff": "11/19/2026 21:00:00",
       "weekday": "THU",
       "lock_time": "11/19/2026 21:00:00",
@@ -1541,7 +1541,7 @@
     {
       "match_id": "2050571",
       "matchday": 5,
-      "fantasy_gameday_id": "10",
+      "fantasy_gameday_id": "11",
       "kickoff": "11/19/2026 21:00:00",
       "weekday": "THU",
       "lock_time": "11/19/2026 21:00:00",
@@ -1573,7 +1573,7 @@
     {
       "match_id": "2050574",
       "matchday": 6,
-      "fantasy_gameday_id": "11",
+      "fantasy_gameday_id": "12",
       "kickoff": "12/16/2026 21:00:00",
       "weekday": "WED",
       "lock_time": "12/16/2026 21:00:00",
@@ -1605,7 +1605,7 @@
     {
       "match_id": "2050575",
       "matchday": 6,
-      "fantasy_gameday_id": "11",
+      "fantasy_gameday_id": "12",
       "kickoff": "12/16/2026 21:00:00",
       "weekday": "WED",
       "lock_time": "12/16/2026 21:00:00",
@@ -1637,7 +1637,7 @@
     {
       "match_id": "2050576",
       "matchday": 6,
-      "fantasy_gameday_id": "11",
+      "fantasy_gameday_id": "12",
       "kickoff": "12/16/2026 21:00:00",
       "weekday": "WED",
       "lock_time": "12/16/2026 21:00:00",
@@ -1669,7 +1669,7 @@
     {
       "match_id": "2050577",
       "matchday": 6,
-      "fantasy_gameday_id": "11",
+      "fantasy_gameday_id": "12",
       "kickoff": "12/16/2026 21:00:00",
       "weekday": "WED",
       "lock_time": "12/16/2026 21:00:00",
@@ -1701,7 +1701,7 @@
     {
       "match_id": "2050578",
       "matchday": 6,
-      "fantasy_gameday_id": "11",
+      "fantasy_gameday_id": "12",
       "kickoff": "12/16/2026 21:00:00",
       "weekday": "WED",
       "lock_time": "12/16/2026 21:00:00",
@@ -1733,7 +1733,7 @@
     {
       "match_id": "2050579",
       "matchday": 6,
-      "fantasy_gameday_id": "11",
+      "fantasy_gameday_id": "12",
       "kickoff": "12/16/2026 21:00:00",
       "weekday": "WED",
       "lock_time": "12/16/2026 21:00:00",
@@ -1765,7 +1765,7 @@
     {
       "match_id": "2050580",
       "matchday": 6,
-      "fantasy_gameday_id": "11",
+      "fantasy_gameday_id": "12",
       "kickoff": "12/16/2026 21:00:00",
       "weekday": "WED",
       "lock_time": "12/16/2026 21:00:00",
@@ -1797,7 +1797,7 @@
     {
       "match_id": "2050581",
       "matchday": 6,
-      "fantasy_gameday_id": "11",
+      "fantasy_gameday_id": "12",
       "kickoff": "12/16/2026 21:00:00",
       "weekday": "WED",
       "lock_time": "12/16/2026 21:00:00",
@@ -1829,7 +1829,7 @@
     {
       "match_id": "2050582",
       "matchday": 6,
-      "fantasy_gameday_id": "11",
+      "fantasy_gameday_id": "12",
       "kickoff": "12/16/2026 21:00:00",
       "weekday": "WED",
       "lock_time": "12/16/2026 21:00:00",

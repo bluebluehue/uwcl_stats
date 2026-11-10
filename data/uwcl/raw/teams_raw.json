@@ -23,7 +23,7 @@
             "vsTID": "2601945",
             "vsTSCode": "Barcelona",
             "vsCCode": "BAR",
-            "matchDate": "11/11/2026 18:45:00",
+            "matchDate": "11/12/2026 18:45:00",
             "vsTLoc": "H",
             "htPtId": "d034c394-f946-47b0-8de5-9f45998799a0",
             "htPtName": "Pot 1",
@@ -89,7 +89,7 @@
             "vsTID": "81199",
             "vsTSCode": "Arsenal",
             "vsCCode": "ARS",
-            "matchDate": "11/11/2026 18:45:00",
+            "matchDate": "11/12/2026 18:45:00",
             "vsTLoc": "A",
             "htPtId": "d034c394-f946-47b0-8de5-9f45998799a0",
             "htPtName": "Pot 1",
@@ -597,9 +597,9 @@
       }
     ],
     "feedTime": {
-      "utcTime": "11/10/26 2:39:39 AM",
-      "istTime": "11/10/26 8:09:39 AM",
-      "cestTime": "11/10/26 3:39:39 AM"
+      "utcTime": "11/10/26 11:45:19 AM",
+      "istTime": "11/10/26 5:15:19 PM",
+      "cestTime": "11/10/26 12:45:19 PM"
     }
   },
   "meta": {
@@ -607,9 +607,9 @@
     "retVal": 1,
     "success": true,
     "timestamp": {
-      "utcTime": "11/10/26 2:39:39 AM",
-      "istTime": "11/10/26 8:09:39 AM",
-      "cestTime": "11/10/26 3:39:39 AM"
+      "utcTime": "11/10/26 11:45:19 AM",
+      "istTime": "11/10/26 5:15:19 PM",
+      "cestTime": "11/10/26 12:45:19 PM"
     }
   }
 }
