@@ -134,17 +134,17 @@
         "name": "Pot 1"
       },
       "next_match": {
-        "matchday": "4",
+        "matchday": "5",
         "team_id": "2600827",
         "team": "Chelsea",
         "team_code": "CHE",
-        "home_away": "A",
-        "opponent_id": "2600867",
-        "opponent": "Häcken",
-        "opponent_code": "HAC",
-        "opponent_home_away": "H",
-        "kickoff": "11/10/2026 18:45:00",
-        "weekday": "TUE"
+        "home_away": "H",
+        "opponent_id": "2600841",
+        "opponent": "Paris SG",
+        "opponent_code": "PSG",
+        "opponent_home_away": "A",
+        "kickoff": "11/18/2026 21:00:00",
+        "weekday": "WED"
       }
     },
     {
@@ -182,17 +182,17 @@
         "name": "Pot 2"
       },
       "next_match": {
-        "matchday": "4",
+        "matchday": "5",
         "team_id": "2600867",
         "team": "Häcken",
         "team_code": "HAC",
         "home_away": "H",
-        "opponent_id": "2600827",
-        "opponent": "Chelsea",
-        "opponent_code": "CHE",
+        "opponent_id": "2603520",
+        "opponent": "Man City",
+        "opponent_code": "MCI",
         "opponent_home_away": "A",
-        "kickoff": "11/10/2026 18:45:00",
-        "weekday": "TUE"
+        "kickoff": "11/18/2026 18:45:00",
+        "weekday": "WED"
       }
     },
     {
@@ -326,17 +326,17 @@
         "name": "Pot 2"
       },
       "next_match": {
-        "matchday": "4",
+        "matchday": "5",
         "team_id": "2609779",
         "team": "Paris",
         "team_code": "PAR",
-        "home_away": "A",
-        "opponent_id": "2611347",
-        "opponent": "Real Madrid",
-        "opponent_code": "RMA",
-        "opponent_home_away": "H",
-        "kickoff": "11/10/2026 18:45:00",
-        "weekday": "TUE"
+        "home_away": "H",
+        "opponent_id": "2611087",
+        "opponent": "HB Køge",
+        "opponent_code": "HBK",
+        "opponent_home_away": "A",
+        "kickoff": "11/19/2026 18:45:00",
+        "weekday": "THU"
       }
     },
     {
@@ -374,17 +374,17 @@
         "name": "Pot 2"
       },
       "next_match": {
-        "matchday": "4",
+        "matchday": "5",
         "team_id": "2611347",
         "team": "Real Madrid",
         "team_code": "RMA",
         "home_away": "H",
-        "opponent_id": "2609779",
-        "opponent": "Paris",
-        "opponent_code": "PAR",
+        "opponent_id": "2609776",
+        "opponent": "Inter",
+        "opponent_code": "INT",
         "opponent_home_away": "A",
-        "kickoff": "11/10/2026 18:45:00",
-        "weekday": "TUE"
+        "kickoff": "11/18/2026 18:45:00",
+        "weekday": "WED"
       }
     },
     {
