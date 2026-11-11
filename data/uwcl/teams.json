@@ -158,17 +158,17 @@
         "name": "Pot 3"
       },
       "next_match": {
-        "matchday": "4",
+        "matchday": "5",
         "team_id": "2611087",
         "team": "HB Køge",
         "team_code": "HBK",
         "home_away": "A",
-        "opponent_id": "2601983",
-        "opponent": "OH Leuven",
-        "opponent_code": "OHL",
+        "opponent_id": "2609779",
+        "opponent": "Paris",
+        "opponent_code": "PAR",
         "opponent_home_away": "H",
-        "kickoff": "11/11/2026 18:45:00",
-        "weekday": "WED"
+        "kickoff": "11/19/2026 18:45:00",
+        "weekday": "THU"
       }
     },
     {
@@ -230,16 +230,16 @@
         "name": "Pot 2"
       },
       "next_match": {
-        "matchday": "4",
+        "matchday": "5",
         "team_id": "2609590",
         "team": "Juventus",
         "team_code": "JUV",
         "home_away": "H",
-        "opponent_id": "2600241",
-        "opponent": "OL Lyonnes",
-        "opponent_code": "LYO",
+        "opponent_id": "2601983",
+        "opponent": "OH Leuven",
+        "opponent_code": "OHL",
         "opponent_home_away": "A",
-        "kickoff": "11/11/2026 21:00:00",
+        "kickoff": "11/18/2026 21:00:00",
         "weekday": "WED"
       }
     },
@@ -278,16 +278,16 @@
         "name": "Pot 3"
       },
       "next_match": {
-        "matchday": "4",
+        "matchday": "5",
         "team_id": "2601983",
         "team": "OH Leuven",
         "team_code": "OHL",
-        "home_away": "H",
-        "opponent_id": "2611087",
-        "opponent": "HB Køge",
-        "opponent_code": "HBK",
-        "opponent_home_away": "A",
-        "kickoff": "11/11/2026 18:45:00",
+        "home_away": "A",
+        "opponent_id": "2609590",
+        "opponent": "Juventus",
+        "opponent_code": "JUV",
+        "opponent_home_away": "H",
+        "kickoff": "11/18/2026 21:00:00",
         "weekday": "WED"
       }
     },
@@ -302,17 +302,17 @@
         "name": "Pot 1"
       },
       "next_match": {
-        "matchday": "4",
+        "matchday": "5",
         "team_id": "2600241",
         "team": "OL Lyonnes",
         "team_code": "LYO",
         "home_away": "A",
-        "opponent_id": "2609590",
-        "opponent": "Juventus",
-        "opponent_code": "JUV",
+        "opponent_id": "81199",
+        "opponent": "Arsenal",
+        "opponent_code": "ARS",
         "opponent_home_away": "H",
-        "kickoff": "11/11/2026 21:00:00",
-        "weekday": "WED"
+        "kickoff": "11/19/2026 21:00:00",
+        "weekday": "THU"
       }
     },
     {

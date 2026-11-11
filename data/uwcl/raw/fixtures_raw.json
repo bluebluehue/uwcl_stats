@@ -1303,13 +1303,13 @@
       {
         "mdId": 4,
         "phId": 1,
-        "gdIsLocked": 0,
+        "gdIsLocked": 1,
         "gdIsCurrent": 1,
         "subsAllowed": 2,
         "maxSubsCf": 1,
-        "deadline": "11/11/26 6:45:00 PM",
-        "gameday": 8,
-        "gamedayNew": 8,
+        "deadline": "11/12/26 6:45:00 PM",
+        "gameday": 9,
+        "gamedayNew": 9,
         "roundId": 2002258,
         "round": "",
         "mdIsLocked": 1,
@@ -1551,10 +1551,10 @@
             "mId": 2050564,
             "isMatchPostponed": 0,
             "gmIsCurrent": 1,
-            "gmIsLocked": 0,
+            "gmIsLocked": 1,
             "gdId": "8",
-            "isFeedLive": "0",
-            "isLive": 0,
+            "isFeedLive": "1",
+            "isLive": 1,
             "dateTime": "11/11/2026 18:45:00",
             "dateTimeLock": "11/11/2026 18:45:00",
             "htId": 2601983,
@@ -1579,11 +1579,11 @@
             "atAggScore": "0",
             "aggDescription": "",
             "aggFlag": 0,
-            "matchStatus": "0",
+            "matchStatus": "1",
             "teamSc": "",
             "teamScStartDate": "",
             "teamScEndDate": "",
-            "lineupAnnounced": 0,
+            "lineupAnnounced": 1,
             "groupId": 2014097,
             "groupName": "League",
             "stadiumId": 70961,
@@ -1597,10 +1597,10 @@
             "mId": 2050562,
             "isMatchPostponed": 0,
             "gmIsCurrent": 1,
-            "gmIsLocked": 0,
+            "gmIsLocked": 1,
             "gdId": "8",
-            "isFeedLive": "0",
-            "isLive": 0,
+            "isFeedLive": "1",
+            "isLive": 1,
             "dateTime": "11/11/2026 21:00:00",
             "dateTimeLock": "11/11/2026 21:00:00",
             "htId": 2609590,
@@ -1625,11 +1625,11 @@
             "atAggScore": "0",
             "aggDescription": "",
             "aggFlag": 0,
-            "matchStatus": "0",
+            "matchStatus": "1",
             "teamSc": "",
             "teamScStartDate": "",
             "teamScEndDate": "",
-            "lineupAnnounced": 0,
+            "lineupAnnounced": 1,
             "groupId": 2014097,
             "groupName": "League",
             "stadiumId": 250005419,
@@ -1642,7 +1642,7 @@
           {
             "mId": 2050561,
             "isMatchPostponed": 0,
-            "gmIsCurrent": 0,
+            "gmIsCurrent": 1,
             "gmIsLocked": 0,
             "gdId": "9",
             "isFeedLive": "0",
@@ -1688,7 +1688,7 @@
           {
             "mId": 2050563,
             "isMatchPostponed": 0,
-            "gmIsCurrent": 0,
+            "gmIsCurrent": 1,
             "gmIsLocked": 0,
             "gdId": "9",
             "isFeedLive": "0",
@@ -2601,9 +2601,9 @@
       }
     ],
     "feedTime": {
-      "utcTime": "11/11/26 2:02:45 PM",
-      "istTime": "11/11/26 7:32:45 PM",
-      "cestTime": "11/11/26 3:02:45 PM"
+      "utcTime": "11/11/26 9:08:07 PM",
+      "istTime": "11/12/26 2:38:07 AM",
+      "cestTime": "11/11/26 10:08:07 PM"
     }
   },
   "meta": {
@@ -2611,9 +2611,9 @@
     "retVal": 1,
     "success": true,
     "timestamp": {
-      "utcTime": "11/11/26 2:02:45 PM",
-      "istTime": "11/11/26 7:32:45 PM",
-      "cestTime": "11/11/26 3:02:45 PM"
+      "utcTime": "11/11/26 9:08:07 PM",
+      "istTime": "11/12/26 2:38:07 AM",
+      "cestTime": "11/11/26 10:08:07 PM"
     }
   }
 }
