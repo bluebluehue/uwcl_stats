@@ -56,7 +56,7 @@
             "vsTID": "2610349",
             "vsTSCode": "Benfica",
             "vsCCode": "BEN",
-            "matchDate": "11/11/2026 21:00:00",
+            "matchDate": "11/12/2026 21:00:00",
             "vsTLoc": "H",
             "htPtId": "3ff61e44-8bec-4b76-991d-ae3832fe2bd2",
             "htPtName": "Pot 3",
@@ -155,7 +155,7 @@
             "vsTID": "2612002",
             "vsTSCode": "Austria Wien",
             "vsCCode": "AUS",
-            "matchDate": "11/11/2026 21:00:00",
+            "matchDate": "11/12/2026 21:00:00",
             "vsTLoc": "A",
             "htPtId": "131cd507-27ec-413b-a89d-900bdc70f591",
             "htPtName": "Pot 2",
@@ -597,9 +597,9 @@
       }
     ],
     "feedTime": {
-      "utcTime": "11/11/26 5:56:24 AM",
-      "istTime": "11/11/26 11:26:24 AM",
-      "cestTime": "11/11/26 6:56:24 AM"
+      "utcTime": "11/11/26 2:01:24 PM",
+      "istTime": "11/11/26 7:31:24 PM",
+      "cestTime": "11/11/26 3:01:24 PM"
     }
   },
   "meta": {
@@ -607,9 +607,9 @@
     "retVal": 1,
     "success": true,
     "timestamp": {
-      "utcTime": "11/11/26 5:56:24 AM",
-      "istTime": "11/11/26 11:26:24 AM",
-      "cestTime": "11/11/26 6:56:24 AM"
+      "utcTime": "11/11/26 2:01:24 PM",
+      "istTime": "11/11/26 7:31:24 PM",
+      "cestTime": "11/11/26 3:01:24 PM"
     }
   }
 }

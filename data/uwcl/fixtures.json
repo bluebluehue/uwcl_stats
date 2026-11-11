@@ -82,8 +82,8 @@
         "2050559",
         "2050564",
         "2050562",
-        "2050563",
-        "2050561"
+        "2050561",
+        "2050563"
       ]
     },
     {
@@ -96,8 +96,8 @@
       "fantasy_gameday_locked": false,
       "subs_allowed": 2,
       "match_ids": [
-        "2050566",
         "2050568",
+        "2050566",
         "2050567",
         "2050565",
         "2050573",
@@ -1219,38 +1219,6 @@
       }
     },
     {
-      "match_id": "2050563",
-      "matchday": 4,
-      "fantasy_gameday_id": "8",
-      "kickoff": "11/11/2026 21:00:00",
-      "weekday": "WED",
-      "lock_time": "11/11/2026 21:00:00",
-      "home": {
-        "id": "2610349",
-        "name": "Benfica",
-        "code": "BEN",
-        "score": ""
-      },
-      "away": {
-        "id": "2612002",
-        "name": "Austria Wien",
-        "code": "AUS",
-        "score": ""
-      },
-      "status": "0",
-      "is_live": false,
-      "feed_live": false,
-      "locked": false,
-      "postponed": false,
-      "lineup_announced": false,
-      "venue": {
-        "stadium_id": "85265",
-        "stadium": "Estádio do SL Benfica",
-        "city": "Lisbon",
-        "country_code": "POR"
-      }
-    },
-    {
       "match_id": "2050561",
       "matchday": 4,
       "fantasy_gameday_id": "9",
@@ -1280,6 +1248,38 @@
         "stadium": "Camp Nou",
         "city": "Barcelona",
         "country_code": "ESP"
+      }
+    },
+    {
+      "match_id": "2050563",
+      "matchday": 4,
+      "fantasy_gameday_id": "9",
+      "kickoff": "11/12/2026 21:00:00",
+      "weekday": "THU",
+      "lock_time": "11/12/2026 21:00:00",
+      "home": {
+        "id": "2610349",
+        "name": "Benfica",
+        "code": "BEN",
+        "score": ""
+      },
+      "away": {
+        "id": "2612002",
+        "name": "Austria Wien",
+        "code": "AUS",
+        "score": ""
+      },
+      "status": "0",
+      "is_live": false,
+      "feed_live": false,
+      "locked": false,
+      "postponed": false,
+      "lineup_announced": false,
+      "venue": {
+        "stadium_id": "85265",
+        "stadium": "Estádio do SL Benfica",
+        "city": "Lisbon",
+        "country_code": "POR"
       }
     },
     {
