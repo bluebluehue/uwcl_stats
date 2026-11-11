@@ -72,7 +72,7 @@
       "is_current": false,
       "is_locked": true,
       "fantasy_gameday_current": true,
-      "fantasy_gameday_locked": true,
+      "fantasy_gameday_locked": false,
       "subs_allowed": 2,
       "match_ids": [
         "2050557",
@@ -96,12 +96,12 @@
       "fantasy_gameday_locked": false,
       "subs_allowed": 2,
       "match_ids": [
-        "2050568",
         "2050566",
+        "2050568",
         "2050567",
         "2050565",
-        "2050572",
         "2050573",
+        "2050572",
         "2050571",
         "2050570",
         "2050569"
@@ -1005,17 +1005,17 @@
         "id": "2611347",
         "name": "Real Madrid",
         "code": "RMA",
-        "score": ""
+        "score": "3"
       },
       "away": {
         "id": "2609779",
         "name": "Paris",
         "code": "PAR",
-        "score": ""
+        "score": "0"
       },
-      "status": "1",
+      "status": "2",
       "is_live": true,
-      "feed_live": true,
+      "feed_live": false,
       "locked": true,
       "postponed": false,
       "lineup_announced": true,
@@ -1037,17 +1037,17 @@
         "id": "2600867",
         "name": "Häcken",
         "code": "HAC",
-        "score": ""
+        "score": "0"
       },
       "away": {
         "id": "2600827",
         "name": "Chelsea",
         "code": "CHE",
-        "score": ""
+        "score": "0"
       },
-      "status": "1",
+      "status": "2",
       "is_live": true,
-      "feed_live": true,
+      "feed_live": false,
       "locked": true,
       "postponed": false,
       "lineup_announced": true,
@@ -1069,18 +1069,18 @@
         "id": "2600841",
         "name": "Paris SG",
         "code": "PSG",
-        "score": ""
+        "score": "1"
       },
       "away": {
         "id": "2600661",
         "name": "Bayern",
         "code": "BAY",
-        "score": ""
+        "score": "2"
       },
-      "status": "0",
-      "is_live": false,
+      "status": "2",
+      "is_live": true,
       "feed_live": false,
-      "locked": false,
+      "locked": true,
       "postponed": false,
       "lineup_announced": true,
       "venue": {
@@ -1101,18 +1101,18 @@
         "id": "2610208",
         "name": "Roma",
         "code": "ROM",
-        "score": ""
+        "score": "2"
       },
       "away": {
         "id": "2611086",
         "name": "Servette",
         "code": "SER",
-        "score": ""
+        "score": "1"
       },
-      "status": "0",
-      "is_live": false,
+      "status": "2",
+      "is_live": true,
       "feed_live": false,
-      "locked": false,
+      "locked": true,
       "postponed": false,
       "lineup_announced": true,
       "venue": {
@@ -1133,18 +1133,18 @@
         "id": "2609776",
         "name": "Inter",
         "code": "INT",
-        "score": ""
+        "score": "1"
       },
       "away": {
         "id": "2603520",
         "name": "Man City",
         "code": "MCI",
-        "score": ""
+        "score": "4"
       },
-      "status": "0",
-      "is_live": false,
+      "status": "2",
+      "is_live": true,
       "feed_live": false,
-      "locked": false,
+      "locked": true,
       "postponed": false,
       "lineup_announced": true,
       "venue": {
