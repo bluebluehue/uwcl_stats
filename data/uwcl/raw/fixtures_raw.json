@@ -1303,7 +1303,7 @@
       {
         "mdId": 4,
         "phId": 1,
-        "gdIsLocked": 1,
+        "gdIsLocked": 0,
         "gdIsCurrent": 1,
         "subsAllowed": 2,
         "maxSubsCf": 1,
@@ -1550,11 +1550,11 @@
           {
             "mId": 2050564,
             "isMatchPostponed": 0,
-            "gmIsCurrent": 1,
+            "gmIsCurrent": 2,
             "gmIsLocked": 1,
             "gdId": "8",
-            "isFeedLive": "1",
-            "isLive": 1,
+            "isFeedLive": "2",
+            "isLive": 2,
             "dateTime": "11/11/2026 18:45:00",
             "dateTimeLock": "11/11/2026 18:45:00",
             "htId": 2601983,
@@ -1573,13 +1573,13 @@
             "atPtResName": "draw_pot_3",
             "gameNo": "36651",
             "mdName": "Match 34",
-            "htScore": "",
-            "atScore": "",
+            "htScore": "1",
+            "atScore": "1",
             "htAggScore": "0",
             "atAggScore": "0",
             "aggDescription": "",
             "aggFlag": 0,
-            "matchStatus": "1",
+            "matchStatus": "2",
             "teamSc": "",
             "teamScStartDate": "",
             "teamScEndDate": "",
@@ -1596,11 +1596,11 @@
           {
             "mId": 2050562,
             "isMatchPostponed": 0,
-            "gmIsCurrent": 1,
+            "gmIsCurrent": 2,
             "gmIsLocked": 1,
             "gdId": "8",
-            "isFeedLive": "1",
-            "isLive": 1,
+            "isFeedLive": "2",
+            "isLive": 2,
             "dateTime": "11/11/2026 21:00:00",
             "dateTimeLock": "11/11/2026 21:00:00",
             "htId": 2609590,
@@ -1619,13 +1619,13 @@
             "atPtResName": "draw_pot_1",
             "gameNo": "36651",
             "mdName": "Match 33",
-            "htScore": "",
-            "atScore": "",
+            "htScore": "0",
+            "atScore": "6",
             "htAggScore": "0",
             "atAggScore": "0",
             "aggDescription": "",
             "aggFlag": 0,
-            "matchStatus": "1",
+            "matchStatus": "2",
             "teamSc": "",
             "teamScStartDate": "",
             "teamScEndDate": "",
@@ -2601,9 +2601,9 @@
       }
     ],
     "feedTime": {
-      "utcTime": "11/11/26 9:08:07 PM",
-      "istTime": "11/12/26 2:38:07 AM",
-      "cestTime": "11/11/26 10:08:07 PM"
+      "utcTime": "11/12/26 2:10:03 AM",
+      "istTime": "11/12/26 7:40:03 AM",
+      "cestTime": "11/12/26 3:10:03 AM"
     }
   },
   "meta": {
@@ -2611,9 +2611,9 @@
     "retVal": 1,
     "success": true,
     "timestamp": {
-      "utcTime": "11/11/26 9:08:07 PM",
-      "istTime": "11/12/26 2:38:07 AM",
-      "cestTime": "11/11/26 10:08:07 PM"
+      "utcTime": "11/12/26 2:10:03 AM",
+      "istTime": "11/12/26 7:40:03 AM",
+      "cestTime": "11/12/26 3:10:03 AM"
     }
   }
 }

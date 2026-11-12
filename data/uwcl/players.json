@@ -604,8 +604,8 @@
       },
       "active": true,
       "status": {
-        "code": "D",
-        "label": "Doubtful",
+        "code": "",
+        "label": "",
         "availability_text": "In contention to start next game"
       },
       "historical_stats": {
@@ -2559,8 +2559,8 @@
       },
       "active": true,
       "status": {
-        "code": "",
-        "label": "",
+        "code": "D",
+        "label": "Doubtful",
         "availability_text": "In contention to start next game"
       },
       "historical_stats": {
@@ -3761,8 +3761,8 @@
           "opponent": "Benfica",
           "opponent_code": "BEN",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -3876,8 +3876,8 @@
           "opponent": "Benfica",
           "opponent_code": "BEN",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -3991,8 +3991,8 @@
           "opponent": "Benfica",
           "opponent_code": "BEN",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -4106,8 +4106,8 @@
           "opponent": "Benfica",
           "opponent_code": "BEN",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -4221,8 +4221,8 @@
           "opponent": "Benfica",
           "opponent_code": "BEN",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -4336,8 +4336,8 @@
           "opponent": "Benfica",
           "opponent_code": "BEN",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -4451,8 +4451,8 @@
           "opponent": "Benfica",
           "opponent_code": "BEN",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -4566,8 +4566,8 @@
           "opponent": "Benfica",
           "opponent_code": "BEN",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -4681,8 +4681,8 @@
           "opponent": "Benfica",
           "opponent_code": "BEN",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -4744,8 +4744,8 @@
       },
       "active": true,
       "status": {
-        "code": "I",
-        "label": "Injured",
+        "code": "D",
+        "label": "Doubtful",
         "availability_text": "Unlikely to start next game"
       },
       "historical_stats": {
@@ -4796,8 +4796,8 @@
           "opponent": "Benfica",
           "opponent_code": "BEN",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -4911,8 +4911,8 @@
           "opponent": "Benfica",
           "opponent_code": "BEN",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -5026,8 +5026,8 @@
           "opponent": "Benfica",
           "opponent_code": "BEN",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -5141,8 +5141,8 @@
           "opponent": "Benfica",
           "opponent_code": "BEN",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -5256,8 +5256,8 @@
           "opponent": "Benfica",
           "opponent_code": "BEN",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -5371,8 +5371,8 @@
           "opponent": "Benfica",
           "opponent_code": "BEN",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -5486,8 +5486,8 @@
           "opponent": "Benfica",
           "opponent_code": "BEN",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -5601,8 +5601,8 @@
           "opponent": "Benfica",
           "opponent_code": "BEN",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -5716,8 +5716,8 @@
           "opponent": "Benfica",
           "opponent_code": "BEN",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -5831,8 +5831,8 @@
           "opponent": "Benfica",
           "opponent_code": "BEN",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -5894,9 +5894,9 @@
       },
       "active": true,
       "status": {
-        "code": "",
-        "label": "",
-        "availability_text": "In contention to start next game"
+        "code": "I",
+        "label": "Injured",
+        "availability_text": "Unlikely to start next game"
       },
       "historical_stats": {
         "season": "2026/27",
@@ -5946,8 +5946,8 @@
           "opponent": "Benfica",
           "opponent_code": "BEN",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -6061,8 +6061,8 @@
           "opponent": "Benfica",
           "opponent_code": "BEN",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -6176,8 +6176,8 @@
           "opponent": "Benfica",
           "opponent_code": "BEN",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -6291,8 +6291,8 @@
           "opponent": "Benfica",
           "opponent_code": "BEN",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -6406,8 +6406,8 @@
           "opponent": "Benfica",
           "opponent_code": "BEN",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -7044,8 +7044,8 @@
       },
       "active": true,
       "status": {
-        "code": "I",
-        "label": "Injured",
+        "code": "D",
+        "label": "Doubtful",
         "availability_text": "Unlikely to start next game"
       },
       "historical_stats": {
@@ -12909,9 +12909,9 @@
       },
       "active": true,
       "status": {
-        "code": "",
-        "label": "",
-        "availability_text": "In contention to start next game"
+        "code": "S",
+        "label": "Suspended",
+        "availability_text": ""
       },
       "historical_stats": {
         "season": "2026/27",
@@ -14226,8 +14226,8 @@
           "opponent": "Austria Wien",
           "opponent_code": "AUS",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -14341,8 +14341,8 @@
           "opponent": "Austria Wien",
           "opponent_code": "AUS",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -14456,8 +14456,8 @@
           "opponent": "Austria Wien",
           "opponent_code": "AUS",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -14571,8 +14571,8 @@
           "opponent": "Austria Wien",
           "opponent_code": "AUS",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -14686,8 +14686,8 @@
           "opponent": "Austria Wien",
           "opponent_code": "AUS",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -14801,8 +14801,8 @@
           "opponent": "Austria Wien",
           "opponent_code": "AUS",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -14916,8 +14916,8 @@
           "opponent": "Austria Wien",
           "opponent_code": "AUS",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -15031,8 +15031,8 @@
           "opponent": "Austria Wien",
           "opponent_code": "AUS",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -15146,8 +15146,8 @@
           "opponent": "Austria Wien",
           "opponent_code": "AUS",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -15261,8 +15261,8 @@
           "opponent": "Austria Wien",
           "opponent_code": "AUS",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -15376,8 +15376,8 @@
           "opponent": "Austria Wien",
           "opponent_code": "AUS",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -15491,8 +15491,8 @@
           "opponent": "Austria Wien",
           "opponent_code": "AUS",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -15606,8 +15606,8 @@
           "opponent": "Austria Wien",
           "opponent_code": "AUS",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -15721,8 +15721,8 @@
           "opponent": "Austria Wien",
           "opponent_code": "AUS",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -15836,8 +15836,8 @@
           "opponent": "Austria Wien",
           "opponent_code": "AUS",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -15951,8 +15951,8 @@
           "opponent": "Austria Wien",
           "opponent_code": "AUS",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -16066,8 +16066,8 @@
           "opponent": "Austria Wien",
           "opponent_code": "AUS",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -16181,8 +16181,8 @@
           "opponent": "Austria Wien",
           "opponent_code": "AUS",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -16296,8 +16296,8 @@
           "opponent": "Austria Wien",
           "opponent_code": "AUS",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -16411,8 +16411,8 @@
           "opponent": "Austria Wien",
           "opponent_code": "AUS",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -16526,8 +16526,8 @@
           "opponent": "Austria Wien",
           "opponent_code": "AUS",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -16641,8 +16641,8 @@
           "opponent": "Austria Wien",
           "opponent_code": "AUS",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -16756,8 +16756,8 @@
           "opponent": "Austria Wien",
           "opponent_code": "AUS",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -16871,8 +16871,8 @@
           "opponent": "Austria Wien",
           "opponent_code": "AUS",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -16986,8 +16986,8 @@
           "opponent": "Austria Wien",
           "opponent_code": "AUS",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -17101,8 +17101,8 @@
           "opponent": "Austria Wien",
           "opponent_code": "AUS",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -17216,8 +17216,8 @@
           "opponent": "Austria Wien",
           "opponent_code": "AUS",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -17331,8 +17331,8 @@
           "opponent": "Austria Wien",
           "opponent_code": "AUS",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -17446,8 +17446,8 @@
           "opponent": "Austria Wien",
           "opponent_code": "AUS",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -17561,8 +17561,8 @@
           "opponent": "Austria Wien",
           "opponent_code": "AUS",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -17676,8 +17676,8 @@
           "opponent": "Austria Wien",
           "opponent_code": "AUS",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -17791,8 +17791,8 @@
           "opponent": "Austria Wien",
           "opponent_code": "AUS",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -17906,8 +17906,8 @@
           "opponent": "Austria Wien",
           "opponent_code": "AUS",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -18021,8 +18021,8 @@
           "opponent": "Austria Wien",
           "opponent_code": "AUS",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/12/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -21232,17 +21232,17 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2611087",
           "team": "HB Køge",
           "team_code": "HBK",
           "home_away": "A",
-          "opponent_id": "2601983",
-          "opponent": "OH Leuven",
-          "opponent_code": "OHL",
+          "opponent_id": "2609779",
+          "opponent": "Paris",
+          "opponent_code": "PAR",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 18:45:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 18:45:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -21347,17 +21347,17 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2611087",
           "team": "HB Køge",
           "team_code": "HBK",
           "home_away": "A",
-          "opponent_id": "2601983",
-          "opponent": "OH Leuven",
-          "opponent_code": "OHL",
+          "opponent_id": "2609779",
+          "opponent": "Paris",
+          "opponent_code": "PAR",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 18:45:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 18:45:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -21462,17 +21462,17 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2611087",
           "team": "HB Køge",
           "team_code": "HBK",
           "home_away": "A",
-          "opponent_id": "2601983",
-          "opponent": "OH Leuven",
-          "opponent_code": "OHL",
+          "opponent_id": "2609779",
+          "opponent": "Paris",
+          "opponent_code": "PAR",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 18:45:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 18:45:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -21540,12 +21540,12 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 270,
-        "fantasy_points": 9,
+        "minutes": 360,
+        "fantasy_points": 14,
         "goals": 0,
         "assists": 1,
         "clean_sheets": 0,
-        "goals_conceded": 10,
+        "goals_conceded": 11,
         "yellow_cards": 0,
         "red_cards": 0,
         "own_goals": 0,
@@ -21554,7 +21554,7 @@
         "penalties_earned": 0,
         "saves": 0,
         "penalty_misses": 0,
-        "ball_recoveries": 15,
+        "ball_recoveries": 25,
         "goals_outside_box": 0,
         "player_of_match_awards": 0,
         "player_of_match_points": 0
@@ -21577,17 +21577,17 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2611087",
           "team": "HB Køge",
           "team_code": "HBK",
           "home_away": "A",
-          "opponent_id": "2601983",
-          "opponent": "OH Leuven",
-          "opponent_code": "OHL",
+          "opponent_id": "2609779",
+          "opponent": "Paris",
+          "opponent_code": "PAR",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 18:45:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 18:45:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -21609,9 +21609,9 @@
       },
       "uefa_extra": {
         "rating": 0.0,
-        "avg_player_points": 3.0,
-        "avg_player_value": 2.0,
-        "last_gameday_points": 0.0,
+        "avg_player_points": 3.5,
+        "avg_player_value": 3.1,
+        "last_gameday_points": 5.0,
         "daily_total_points": 0.0,
         "pot_id": "3ff61e44-8bec-4b76-991d-ae3832fe2bd2",
         "pot_name": "Pot 3"
@@ -21692,17 +21692,17 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2611087",
           "team": "HB Køge",
           "team_code": "HBK",
           "home_away": "A",
-          "opponent_id": "2601983",
-          "opponent": "OH Leuven",
-          "opponent_code": "OHL",
+          "opponent_id": "2609779",
+          "opponent": "Paris",
+          "opponent_code": "PAR",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 18:45:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 18:45:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -21770,12 +21770,12 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 270,
-        "fantasy_points": 12,
+        "minutes": 360,
+        "fantasy_points": 16,
         "goals": 1,
         "assists": 0,
         "clean_sheets": 0,
-        "goals_conceded": 10,
+        "goals_conceded": 11,
         "yellow_cards": 0,
         "red_cards": 0,
         "own_goals": 0,
@@ -21784,7 +21784,7 @@
         "penalties_earned": 0,
         "saves": 0,
         "penalty_misses": 0,
-        "ball_recoveries": 14,
+        "ball_recoveries": 21,
         "goals_outside_box": 0,
         "player_of_match_awards": 0,
         "player_of_match_points": 0
@@ -21807,17 +21807,17 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2611087",
           "team": "HB Køge",
           "team_code": "HBK",
           "home_away": "A",
-          "opponent_id": "2601983",
-          "opponent": "OH Leuven",
-          "opponent_code": "OHL",
+          "opponent_id": "2609779",
+          "opponent": "Paris",
+          "opponent_code": "PAR",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 18:45:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 18:45:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -21840,8 +21840,8 @@
       "uefa_extra": {
         "rating": 0.0,
         "avg_player_points": 4.0,
-        "avg_player_value": 2.7,
-        "last_gameday_points": 0.0,
+        "avg_player_value": 3.6,
+        "last_gameday_points": 4.0,
         "daily_total_points": 0.0,
         "pot_id": "3ff61e44-8bec-4b76-991d-ae3832fe2bd2",
         "pot_name": "Pot 3"
@@ -21885,12 +21885,12 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 270,
-        "fantasy_points": 6,
+        "minutes": 360,
+        "fantasy_points": 11,
         "goals": 0,
         "assists": 0,
         "clean_sheets": 0,
-        "goals_conceded": 10,
+        "goals_conceded": 11,
         "yellow_cards": 0,
         "red_cards": 0,
         "own_goals": 0,
@@ -21899,7 +21899,7 @@
         "penalties_earned": 0,
         "saves": 0,
         "penalty_misses": 0,
-        "ball_recoveries": 18,
+        "ball_recoveries": 27,
         "goals_outside_box": 0,
         "player_of_match_awards": 0,
         "player_of_match_points": 0
@@ -21922,17 +21922,17 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2611087",
           "team": "HB Køge",
           "team_code": "HBK",
           "home_away": "A",
-          "opponent_id": "2601983",
-          "opponent": "OH Leuven",
-          "opponent_code": "OHL",
+          "opponent_id": "2609779",
+          "opponent": "Paris",
+          "opponent_code": "PAR",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 18:45:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 18:45:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -21954,9 +21954,9 @@
       },
       "uefa_extra": {
         "rating": 0.0,
-        "avg_player_points": 2.0,
-        "avg_player_value": 1.3,
-        "last_gameday_points": 0.0,
+        "avg_player_points": 2.8,
+        "avg_player_value": 2.4,
+        "last_gameday_points": 5.0,
         "daily_total_points": 0.0,
         "pot_id": "3ff61e44-8bec-4b76-991d-ae3832fe2bd2",
         "pot_name": "Pot 3"
@@ -22037,17 +22037,17 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2611087",
           "team": "HB Køge",
           "team_code": "HBK",
           "home_away": "A",
-          "opponent_id": "2601983",
-          "opponent": "OH Leuven",
-          "opponent_code": "OHL",
+          "opponent_id": "2609779",
+          "opponent": "Paris",
+          "opponent_code": "PAR",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 18:45:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 18:45:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -22115,12 +22115,12 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 269,
-        "fantasy_points": 8,
-        "goals": 0,
+        "minutes": 359,
+        "fantasy_points": 18,
+        "goals": 1,
         "assists": 0,
         "clean_sheets": 0,
-        "goals_conceded": 10,
+        "goals_conceded": 11,
         "yellow_cards": 0,
         "red_cards": 0,
         "own_goals": 0,
@@ -22129,7 +22129,7 @@
         "penalties_earned": 0,
         "saves": 0,
         "penalty_misses": 0,
-        "ball_recoveries": 21,
+        "ball_recoveries": 27,
         "goals_outside_box": 0,
         "player_of_match_awards": 0,
         "player_of_match_points": 0
@@ -22152,17 +22152,17 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2611087",
           "team": "HB Køge",
           "team_code": "HBK",
           "home_away": "A",
-          "opponent_id": "2601983",
-          "opponent": "OH Leuven",
-          "opponent_code": "OHL",
+          "opponent_id": "2609779",
+          "opponent": "Paris",
+          "opponent_code": "PAR",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 18:45:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 18:45:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -22184,9 +22184,9 @@
       },
       "uefa_extra": {
         "rating": 0.0,
-        "avg_player_points": 2.7,
-        "avg_player_value": 2.0,
-        "last_gameday_points": 0.0,
+        "avg_player_points": 4.5,
+        "avg_player_value": 4.5,
+        "last_gameday_points": 10.0,
         "daily_total_points": 0.0,
         "pot_id": "3ff61e44-8bec-4b76-991d-ae3832fe2bd2",
         "pot_name": "Pot 3"
@@ -22267,17 +22267,17 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2611087",
           "team": "HB Køge",
           "team_code": "HBK",
           "home_away": "A",
-          "opponent_id": "2601983",
-          "opponent": "OH Leuven",
-          "opponent_code": "OHL",
+          "opponent_id": "2609779",
+          "opponent": "Paris",
+          "opponent_code": "PAR",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 18:45:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 18:45:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -22382,17 +22382,17 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2611087",
           "team": "HB Køge",
           "team_code": "HBK",
           "home_away": "A",
-          "opponent_id": "2601983",
-          "opponent": "OH Leuven",
-          "opponent_code": "OHL",
+          "opponent_id": "2609779",
+          "opponent": "Paris",
+          "opponent_code": "PAR",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 18:45:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 18:45:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -22460,8 +22460,8 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 121,
-        "fantasy_points": 8,
+        "minutes": 154,
+        "fantasy_points": 9,
         "goals": 1,
         "assists": 0,
         "clean_sheets": 0,
@@ -22497,17 +22497,17 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2611087",
           "team": "HB Køge",
           "team_code": "HBK",
           "home_away": "A",
-          "opponent_id": "2601983",
-          "opponent": "OH Leuven",
-          "opponent_code": "OHL",
+          "opponent_id": "2609779",
+          "opponent": "Paris",
+          "opponent_code": "PAR",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 18:45:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 18:45:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -22529,9 +22529,9 @@
       },
       "uefa_extra": {
         "rating": 0.0,
-        "avg_player_points": 2.7,
-        "avg_player_value": 1.6,
-        "last_gameday_points": 0.0,
+        "avg_player_points": 2.3,
+        "avg_player_value": 1.8,
+        "last_gameday_points": 1.0,
         "daily_total_points": 0.0,
         "pot_id": "3ff61e44-8bec-4b76-991d-ae3832fe2bd2",
         "pot_name": "Pot 3"
@@ -22612,17 +22612,17 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2611087",
           "team": "HB Køge",
           "team_code": "HBK",
           "home_away": "A",
-          "opponent_id": "2601983",
-          "opponent": "OH Leuven",
-          "opponent_code": "OHL",
+          "opponent_id": "2609779",
+          "opponent": "Paris",
+          "opponent_code": "PAR",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 18:45:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 18:45:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -22690,8 +22690,8 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 224,
-        "fantasy_points": 16,
+        "minutes": 314,
+        "fantasy_points": 18,
         "goals": 1,
         "assists": 1,
         "clean_sheets": 0,
@@ -22704,7 +22704,7 @@
         "penalties_earned": 0,
         "saves": 0,
         "penalty_misses": 0,
-        "ball_recoveries": 4,
+        "ball_recoveries": 5,
         "goals_outside_box": 0,
         "player_of_match_awards": 1,
         "player_of_match_points": 3
@@ -22727,17 +22727,17 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2611087",
           "team": "HB Køge",
           "team_code": "HBK",
           "home_away": "A",
-          "opponent_id": "2601983",
-          "opponent": "OH Leuven",
-          "opponent_code": "OHL",
+          "opponent_id": "2609779",
+          "opponent": "Paris",
+          "opponent_code": "PAR",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 18:45:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 18:45:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -22759,9 +22759,9 @@
       },
       "uefa_extra": {
         "rating": 0.0,
-        "avg_player_points": 5.3,
-        "avg_player_value": 2.7,
-        "last_gameday_points": 0.0,
+        "avg_player_points": 4.5,
+        "avg_player_value": 3.0,
+        "last_gameday_points": 2.0,
         "daily_total_points": 0.0,
         "pot_id": "3ff61e44-8bec-4b76-991d-ae3832fe2bd2",
         "pot_name": "Pot 3"
@@ -22842,17 +22842,17 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2611087",
           "team": "HB Køge",
           "team_code": "HBK",
           "home_away": "A",
-          "opponent_id": "2601983",
-          "opponent": "OH Leuven",
-          "opponent_code": "OHL",
+          "opponent_id": "2609779",
+          "opponent": "Paris",
+          "opponent_code": "PAR",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 18:45:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 18:45:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -22957,17 +22957,17 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2611087",
           "team": "HB Køge",
           "team_code": "HBK",
           "home_away": "A",
-          "opponent_id": "2601983",
-          "opponent": "OH Leuven",
-          "opponent_code": "OHL",
+          "opponent_id": "2609779",
+          "opponent": "Paris",
+          "opponent_code": "PAR",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 18:45:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 18:45:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -23035,8 +23035,8 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 161,
-        "fantasy_points": 8,
+        "minutes": 236,
+        "fantasy_points": 10,
         "goals": 1,
         "assists": 0,
         "clean_sheets": 0,
@@ -23072,17 +23072,17 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2611087",
           "team": "HB Køge",
           "team_code": "HBK",
           "home_away": "A",
-          "opponent_id": "2601983",
-          "opponent": "OH Leuven",
-          "opponent_code": "OHL",
+          "opponent_id": "2609779",
+          "opponent": "Paris",
+          "opponent_code": "PAR",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 18:45:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 18:45:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -23104,9 +23104,9 @@
       },
       "uefa_extra": {
         "rating": 0.0,
-        "avg_player_points": 4.0,
-        "avg_player_value": 1.3,
-        "last_gameday_points": 0.0,
+        "avg_player_points": 3.3,
+        "avg_player_value": 1.7,
+        "last_gameday_points": 2.0,
         "daily_total_points": 0.0,
         "pot_id": "3ff61e44-8bec-4b76-991d-ae3832fe2bd2",
         "pot_name": "Pot 3"
@@ -23150,8 +23150,8 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 95,
-        "fantasy_points": 3,
+        "minutes": 152,
+        "fantasy_points": 4,
         "goals": 0,
         "assists": 0,
         "clean_sheets": 0,
@@ -23164,7 +23164,7 @@
         "penalties_earned": 0,
         "saves": 0,
         "penalty_misses": 0,
-        "ball_recoveries": 2,
+        "ball_recoveries": 4,
         "goals_outside_box": 0,
         "player_of_match_awards": 0,
         "player_of_match_points": 0
@@ -23187,17 +23187,17 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2611087",
           "team": "HB Køge",
           "team_code": "HBK",
           "home_away": "A",
-          "opponent_id": "2601983",
-          "opponent": "OH Leuven",
-          "opponent_code": "OHL",
+          "opponent_id": "2609779",
+          "opponent": "Paris",
+          "opponent_code": "PAR",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 18:45:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 18:45:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -23219,9 +23219,9 @@
       },
       "uefa_extra": {
         "rating": 0.0,
-        "avg_player_points": 1.5,
-        "avg_player_value": 0.5,
-        "last_gameday_points": 0.0,
+        "avg_player_points": 1.3,
+        "avg_player_value": 0.7,
+        "last_gameday_points": 1.0,
         "daily_total_points": 0.0,
         "pot_id": "3ff61e44-8bec-4b76-991d-ae3832fe2bd2",
         "pot_name": "Pot 3"
@@ -23302,17 +23302,17 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2611087",
           "team": "HB Køge",
           "team_code": "HBK",
           "home_away": "A",
-          "opponent_id": "2601983",
-          "opponent": "OH Leuven",
-          "opponent_code": "OHL",
+          "opponent_id": "2609779",
+          "opponent": "Paris",
+          "opponent_code": "PAR",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 18:45:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 18:45:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -23417,17 +23417,17 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2611087",
           "team": "HB Køge",
           "team_code": "HBK",
           "home_away": "A",
-          "opponent_id": "2601983",
-          "opponent": "OH Leuven",
-          "opponent_code": "OHL",
+          "opponent_id": "2609779",
+          "opponent": "Paris",
+          "opponent_code": "PAR",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 18:45:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 18:45:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -23495,19 +23495,19 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 90,
-        "fantasy_points": 1,
+        "minutes": 180,
+        "fantasy_points": 4,
         "goals": 0,
         "assists": 0,
         "clean_sheets": 0,
-        "goals_conceded": 1,
+        "goals_conceded": 2,
         "yellow_cards": 1,
         "red_cards": 0,
         "own_goals": 0,
         "penalties_saved": 0,
         "penalties_conceded": 0,
         "penalties_earned": 0,
-        "saves": 1,
+        "saves": 5,
         "penalty_misses": 0,
         "ball_recoveries": 0,
         "goals_outside_box": 0,
@@ -23532,17 +23532,17 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2611087",
           "team": "HB Køge",
           "team_code": "HBK",
           "home_away": "A",
-          "opponent_id": "2601983",
-          "opponent": "OH Leuven",
-          "opponent_code": "OHL",
+          "opponent_id": "2609779",
+          "opponent": "Paris",
+          "opponent_code": "PAR",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 18:45:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 18:45:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -23564,9 +23564,9 @@
       },
       "uefa_extra": {
         "rating": 0.0,
-        "avg_player_points": 1.0,
-        "avg_player_value": 0.3,
-        "last_gameday_points": 0.0,
+        "avg_player_points": 2.0,
+        "avg_player_value": 1.0,
+        "last_gameday_points": 3.0,
         "daily_total_points": 0.0,
         "pot_id": "3ff61e44-8bec-4b76-991d-ae3832fe2bd2",
         "pot_name": "Pot 3"
@@ -23647,17 +23647,17 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2611087",
           "team": "HB Køge",
           "team_code": "HBK",
           "home_away": "A",
-          "opponent_id": "2601983",
-          "opponent": "OH Leuven",
-          "opponent_code": "OHL",
+          "opponent_id": "2609779",
+          "opponent": "Paris",
+          "opponent_code": "PAR",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 18:45:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 18:45:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -23762,17 +23762,17 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2611087",
           "team": "HB Køge",
           "team_code": "HBK",
           "home_away": "A",
-          "opponent_id": "2601983",
-          "opponent": "OH Leuven",
-          "opponent_code": "OHL",
+          "opponent_id": "2609779",
+          "opponent": "Paris",
+          "opponent_code": "PAR",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 18:45:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 18:45:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -23840,8 +23840,8 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 94,
-        "fantasy_points": 3,
+        "minutes": 110,
+        "fantasy_points": 4,
         "goals": 0,
         "assists": 0,
         "clean_sheets": 0,
@@ -23854,7 +23854,7 @@
         "penalties_earned": 0,
         "saves": 0,
         "penalty_misses": 0,
-        "ball_recoveries": 3,
+        "ball_recoveries": 4,
         "goals_outside_box": 0,
         "player_of_match_awards": 0,
         "player_of_match_points": 0
@@ -23877,17 +23877,17 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2611087",
           "team": "HB Køge",
           "team_code": "HBK",
           "home_away": "A",
-          "opponent_id": "2601983",
-          "opponent": "OH Leuven",
-          "opponent_code": "OHL",
+          "opponent_id": "2609779",
+          "opponent": "Paris",
+          "opponent_code": "PAR",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 18:45:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 18:45:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -23909,9 +23909,9 @@
       },
       "uefa_extra": {
         "rating": 0.0,
-        "avg_player_points": 1.5,
-        "avg_player_value": 0.7,
-        "last_gameday_points": 0.0,
+        "avg_player_points": 1.3,
+        "avg_player_value": 0.9,
+        "last_gameday_points": 1.0,
         "daily_total_points": 0.0,
         "pot_id": "3ff61e44-8bec-4b76-991d-ae3832fe2bd2",
         "pot_name": "Pot 3"
@@ -23955,8 +23955,8 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 11,
-        "fantasy_points": 0,
+        "minutes": 15,
+        "fantasy_points": 1,
         "goals": 0,
         "assists": 0,
         "clean_sheets": 0,
@@ -23992,17 +23992,17 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2611087",
           "team": "HB Køge",
           "team_code": "HBK",
           "home_away": "A",
-          "opponent_id": "2601983",
-          "opponent": "OH Leuven",
-          "opponent_code": "OHL",
+          "opponent_id": "2609779",
+          "opponent": "Paris",
+          "opponent_code": "PAR",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 18:45:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 18:45:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -24024,9 +24024,9 @@
       },
       "uefa_extra": {
         "rating": 0.0,
-        "avg_player_points": 0.0,
-        "avg_player_value": 0.0,
-        "last_gameday_points": 0.0,
+        "avg_player_points": 0.5,
+        "avg_player_value": 0.2,
+        "last_gameday_points": 1.0,
         "daily_total_points": 0.0,
         "pot_id": "3ff61e44-8bec-4b76-991d-ae3832fe2bd2",
         "pot_name": "Pot 3"
@@ -24070,8 +24070,8 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 270,
-        "fantasy_points": 16,
+        "minutes": 360,
+        "fantasy_points": 23,
         "goals": 0,
         "assists": 2,
         "clean_sheets": 0,
@@ -24084,10 +24084,10 @@
         "penalties_earned": 0,
         "saves": 0,
         "penalty_misses": 0,
-        "ball_recoveries": 17,
+        "ball_recoveries": 25,
         "goals_outside_box": 0,
-        "player_of_match_awards": 0,
-        "player_of_match_points": 0
+        "player_of_match_awards": 1,
+        "player_of_match_points": 3
       },
       "current_matchday": {
         "matchday": "3",
@@ -24107,17 +24107,17 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2611087",
           "team": "HB Køge",
           "team_code": "HBK",
           "home_away": "A",
-          "opponent_id": "2601983",
-          "opponent": "OH Leuven",
-          "opponent_code": "OHL",
+          "opponent_id": "2609779",
+          "opponent": "Paris",
+          "opponent_code": "PAR",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 18:45:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 18:45:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -24139,9 +24139,9 @@
       },
       "uefa_extra": {
         "rating": 0.0,
-        "avg_player_points": 5.3,
-        "avg_player_value": 2.9,
-        "last_gameday_points": 0.0,
+        "avg_player_points": 5.8,
+        "avg_player_value": 4.2,
+        "last_gameday_points": 7.0,
         "daily_total_points": 0.0,
         "pot_id": "3ff61e44-8bec-4b76-991d-ae3832fe2bd2",
         "pot_name": "Pot 3"
@@ -24185,8 +24185,8 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 233,
-        "fantasy_points": 10,
+        "minutes": 320,
+        "fantasy_points": 15,
         "goals": 0,
         "assists": 0,
         "clean_sheets": 1,
@@ -24199,7 +24199,7 @@
         "penalties_earned": 0,
         "saves": 0,
         "penalty_misses": 0,
-        "ball_recoveries": 18,
+        "ball_recoveries": 27,
         "goals_outside_box": 0,
         "player_of_match_awards": 0,
         "player_of_match_points": 0
@@ -24222,17 +24222,17 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2611087",
           "team": "HB Køge",
           "team_code": "HBK",
           "home_away": "A",
-          "opponent_id": "2601983",
-          "opponent": "OH Leuven",
-          "opponent_code": "OHL",
+          "opponent_id": "2609779",
+          "opponent": "Paris",
+          "opponent_code": "PAR",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 18:45:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 18:45:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -24254,9 +24254,9 @@
       },
       "uefa_extra": {
         "rating": 0.0,
-        "avg_player_points": 3.3,
-        "avg_player_value": 2.2,
-        "last_gameday_points": 0.0,
+        "avg_player_points": 3.8,
+        "avg_player_value": 3.3,
+        "last_gameday_points": 5.0,
         "daily_total_points": 0.0,
         "pot_id": "3ff61e44-8bec-4b76-991d-ae3832fe2bd2",
         "pot_name": "Pot 3"
@@ -24337,17 +24337,17 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2611087",
           "team": "HB Køge",
           "team_code": "HBK",
           "home_away": "A",
-          "opponent_id": "2601983",
-          "opponent": "OH Leuven",
-          "opponent_code": "OHL",
+          "opponent_id": "2609779",
+          "opponent": "Paris",
+          "opponent_code": "PAR",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 18:45:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 18:45:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -24415,13 +24415,13 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 140,
-        "fantasy_points": 7,
+        "minutes": 227,
+        "fantasy_points": 11,
         "goals": 0,
-        "assists": 1,
+        "assists": 2,
         "clean_sheets": 0,
         "goals_conceded": 0,
-        "yellow_cards": 0,
+        "yellow_cards": 1,
         "red_cards": 0,
         "own_goals": 0,
         "penalties_saved": 0,
@@ -24429,7 +24429,7 @@
         "penalties_earned": 0,
         "saves": 0,
         "penalty_misses": 0,
-        "ball_recoveries": 2,
+        "ball_recoveries": 4,
         "goals_outside_box": 0,
         "player_of_match_awards": 0,
         "player_of_match_points": 0
@@ -24452,17 +24452,17 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2611087",
           "team": "HB Køge",
           "team_code": "HBK",
           "home_away": "A",
-          "opponent_id": "2601983",
-          "opponent": "OH Leuven",
-          "opponent_code": "OHL",
+          "opponent_id": "2609779",
+          "opponent": "Paris",
+          "opponent_code": "PAR",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 18:45:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 18:45:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -24484,9 +24484,9 @@
       },
       "uefa_extra": {
         "rating": 0.0,
-        "avg_player_points": 2.3,
-        "avg_player_value": 1.6,
-        "last_gameday_points": 0.0,
+        "avg_player_points": 2.8,
+        "avg_player_value": 2.4,
+        "last_gameday_points": 4.0,
         "daily_total_points": 0.0,
         "pot_id": "3ff61e44-8bec-4b76-991d-ae3832fe2bd2",
         "pot_name": "Pot 3"
@@ -24530,8 +24530,8 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 154,
-        "fantasy_points": 4,
+        "minutes": 157,
+        "fantasy_points": 5,
         "goals": 0,
         "assists": 0,
         "clean_sheets": 0,
@@ -24567,17 +24567,17 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2611087",
           "team": "HB Køge",
           "team_code": "HBK",
           "home_away": "A",
-          "opponent_id": "2601983",
-          "opponent": "OH Leuven",
-          "opponent_code": "OHL",
+          "opponent_id": "2609779",
+          "opponent": "Paris",
+          "opponent_code": "PAR",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 18:45:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 18:45:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -24600,8 +24600,8 @@
       "uefa_extra": {
         "rating": 0.0,
         "avg_player_points": 1.3,
-        "avg_player_value": 0.9,
-        "last_gameday_points": 0.0,
+        "avg_player_value": 1.1,
+        "last_gameday_points": 1.0,
         "daily_total_points": 0.0,
         "pot_id": "3ff61e44-8bec-4b76-991d-ae3832fe2bd2",
         "pot_name": "Pot 3"
@@ -31660,12 +31660,12 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 156,
+        "minutes": 246,
         "fantasy_points": 13,
         "goals": 0,
         "assists": 0,
         "clean_sheets": 1,
-        "goals_conceded": 2,
+        "goals_conceded": 8,
         "yellow_cards": 1,
         "red_cards": 0,
         "own_goals": 0,
@@ -31674,7 +31674,7 @@
         "penalties_earned": 0,
         "saves": 0,
         "penalty_misses": 0,
-        "ball_recoveries": 15,
+        "ball_recoveries": 18,
         "goals_outside_box": 0,
         "player_of_match_awards": 1,
         "player_of_match_points": 3
@@ -31697,16 +31697,16 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2609590",
           "team": "Juventus",
           "team_code": "JUV",
           "home_away": "H",
-          "opponent_id": "2600241",
-          "opponent": "OL Lyonnes",
-          "opponent_code": "LYO",
+          "opponent_id": "2601983",
+          "opponent": "OH Leuven",
+          "opponent_code": "OHL",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -31729,7 +31729,7 @@
       },
       "uefa_extra": {
         "rating": 0.0,
-        "avg_player_points": 6.5,
+        "avg_player_points": 4.3,
         "avg_player_value": 2.6,
         "last_gameday_points": 0.0,
         "daily_total_points": 0.0,
@@ -31812,16 +31812,16 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2609590",
           "team": "Juventus",
           "team_code": "JUV",
           "home_away": "H",
-          "opponent_id": "2600241",
-          "opponent": "OL Lyonnes",
-          "opponent_code": "LYO",
+          "opponent_id": "2601983",
+          "opponent": "OH Leuven",
+          "opponent_code": "OHL",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -31927,16 +31927,16 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2609590",
           "team": "Juventus",
           "team_code": "JUV",
           "home_away": "H",
-          "opponent_id": "2600241",
-          "opponent": "OL Lyonnes",
-          "opponent_code": "LYO",
+          "opponent_id": "2601983",
+          "opponent": "OH Leuven",
+          "opponent_code": "OHL",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -32005,12 +32005,12 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 270,
-        "fantasy_points": 15,
+        "minutes": 340,
+        "fantasy_points": 17,
         "goals": 0,
         "assists": 0,
         "clean_sheets": 1,
-        "goals_conceded": 3,
+        "goals_conceded": 6,
         "yellow_cards": 0,
         "red_cards": 0,
         "own_goals": 0,
@@ -32019,7 +32019,7 @@
         "penalties_earned": 1,
         "saves": 0,
         "penalty_misses": 0,
-        "ball_recoveries": 14,
+        "ball_recoveries": 17,
         "goals_outside_box": 0,
         "player_of_match_awards": 0,
         "player_of_match_points": 0
@@ -32042,16 +32042,16 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2609590",
           "team": "Juventus",
           "team_code": "JUV",
           "home_away": "H",
-          "opponent_id": "2600241",
-          "opponent": "OL Lyonnes",
-          "opponent_code": "LYO",
+          "opponent_id": "2601983",
+          "opponent": "OH Leuven",
+          "opponent_code": "OHL",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -32074,9 +32074,9 @@
       },
       "uefa_extra": {
         "rating": 0.0,
-        "avg_player_points": 5.0,
-        "avg_player_value": 3.3,
-        "last_gameday_points": 0.0,
+        "avg_player_points": 4.3,
+        "avg_player_value": 3.8,
+        "last_gameday_points": 2.0,
         "daily_total_points": 0.0,
         "pot_id": "131cd507-27ec-413b-a89d-900bdc70f591",
         "pot_name": "Pot 2"
@@ -32157,16 +32157,16 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2609590",
           "team": "Juventus",
           "team_code": "JUV",
           "home_away": "H",
-          "opponent_id": "2600241",
-          "opponent": "OL Lyonnes",
-          "opponent_code": "LYO",
+          "opponent_id": "2601983",
+          "opponent": "OH Leuven",
+          "opponent_code": "OHL",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -32235,12 +32235,12 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 205,
+        "minutes": 295,
         "fantasy_points": 20,
         "goals": 1,
         "assists": 0,
         "clean_sheets": 1,
-        "goals_conceded": 1,
+        "goals_conceded": 7,
         "yellow_cards": 0,
         "red_cards": 0,
         "own_goals": 0,
@@ -32249,7 +32249,7 @@
         "penalties_earned": 0,
         "saves": 0,
         "penalty_misses": 0,
-        "ball_recoveries": 18,
+        "ball_recoveries": 23,
         "goals_outside_box": 0,
         "player_of_match_awards": 0,
         "player_of_match_points": 0
@@ -32272,16 +32272,16 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2609590",
           "team": "Juventus",
           "team_code": "JUV",
           "home_away": "H",
-          "opponent_id": "2600241",
-          "opponent": "OL Lyonnes",
-          "opponent_code": "LYO",
+          "opponent_id": "2601983",
+          "opponent": "OH Leuven",
+          "opponent_code": "OHL",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -32304,7 +32304,7 @@
       },
       "uefa_extra": {
         "rating": 0.0,
-        "avg_player_points": 6.7,
+        "avg_player_points": 5.0,
         "avg_player_value": 5.0,
         "last_gameday_points": 0.0,
         "daily_total_points": 0.0,
@@ -32350,13 +32350,13 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 76,
-        "fantasy_points": 8,
+        "minutes": 166,
+        "fantasy_points": 6,
         "goals": 0,
         "assists": 0,
         "clean_sheets": 1,
-        "goals_conceded": 0,
-        "yellow_cards": 0,
+        "goals_conceded": 6,
+        "yellow_cards": 1,
         "red_cards": 0,
         "own_goals": 0,
         "penalties_saved": 0,
@@ -32364,7 +32364,7 @@
         "penalties_earned": 0,
         "saves": 0,
         "penalty_misses": 0,
-        "ball_recoveries": 3,
+        "ball_recoveries": 5,
         "goals_outside_box": 0,
         "player_of_match_awards": 0,
         "player_of_match_points": 0
@@ -32387,16 +32387,16 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2609590",
           "team": "Juventus",
           "team_code": "JUV",
           "home_away": "H",
-          "opponent_id": "2600241",
-          "opponent": "OL Lyonnes",
-          "opponent_code": "LYO",
+          "opponent_id": "2601983",
+          "opponent": "OH Leuven",
+          "opponent_code": "OHL",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -32419,9 +32419,9 @@
       },
       "uefa_extra": {
         "rating": 0.0,
-        "avg_player_points": 4.0,
-        "avg_player_value": 2.0,
-        "last_gameday_points": 0.0,
+        "avg_player_points": 2.0,
+        "avg_player_value": 1.5,
+        "last_gameday_points": -2.0,
         "daily_total_points": 0.0,
         "pot_id": "131cd507-27ec-413b-a89d-900bdc70f591",
         "pot_name": "Pot 2"
@@ -32502,16 +32502,16 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2609590",
           "team": "Juventus",
           "team_code": "JUV",
           "home_away": "H",
-          "opponent_id": "2600241",
-          "opponent": "OL Lyonnes",
-          "opponent_code": "LYO",
+          "opponent_id": "2601983",
+          "opponent": "OH Leuven",
+          "opponent_code": "OHL",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -32617,16 +32617,16 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2609590",
           "team": "Juventus",
           "team_code": "JUV",
           "home_away": "H",
-          "opponent_id": "2600241",
-          "opponent": "OL Lyonnes",
-          "opponent_code": "LYO",
+          "opponent_id": "2601983",
+          "opponent": "OH Leuven",
+          "opponent_code": "OHL",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -32695,8 +32695,8 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 267,
-        "fantasy_points": 18,
+        "minutes": 325,
+        "fantasy_points": 19,
         "goals": 3,
         "assists": 0,
         "clean_sheets": 0,
@@ -32732,16 +32732,16 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2609590",
           "team": "Juventus",
           "team_code": "JUV",
           "home_away": "H",
-          "opponent_id": "2600241",
-          "opponent": "OL Lyonnes",
-          "opponent_code": "LYO",
+          "opponent_id": "2601983",
+          "opponent": "OH Leuven",
+          "opponent_code": "OHL",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -32764,9 +32764,9 @@
       },
       "uefa_extra": {
         "rating": 0.0,
-        "avg_player_points": 6.0,
-        "avg_player_value": 2.4,
-        "last_gameday_points": 0.0,
+        "avg_player_points": 4.8,
+        "avg_player_value": 2.5,
+        "last_gameday_points": 1.0,
         "daily_total_points": 0.0,
         "pot_id": "131cd507-27ec-413b-a89d-900bdc70f591",
         "pot_name": "Pot 2"
@@ -32810,8 +32810,8 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 169,
-        "fantasy_points": 8,
+        "minutes": 201,
+        "fantasy_points": 9,
         "goals": 0,
         "assists": 1,
         "clean_sheets": 0,
@@ -32847,16 +32847,16 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2609590",
           "team": "Juventus",
           "team_code": "JUV",
           "home_away": "H",
-          "opponent_id": "2600241",
-          "opponent": "OL Lyonnes",
-          "opponent_code": "LYO",
+          "opponent_id": "2601983",
+          "opponent": "OH Leuven",
+          "opponent_code": "OHL",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -32879,9 +32879,9 @@
       },
       "uefa_extra": {
         "rating": 0.0,
-        "avg_player_points": 2.7,
-        "avg_player_value": 1.2,
-        "last_gameday_points": 0.0,
+        "avg_player_points": 2.3,
+        "avg_player_value": 1.4,
+        "last_gameday_points": 1.0,
         "daily_total_points": 0.0,
         "pot_id": "131cd507-27ec-413b-a89d-900bdc70f591",
         "pot_name": "Pot 2"
@@ -32962,16 +32962,16 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2609590",
           "team": "Juventus",
           "team_code": "JUV",
           "home_away": "H",
-          "opponent_id": "2600241",
-          "opponent": "OL Lyonnes",
-          "opponent_code": "LYO",
+          "opponent_id": "2601983",
+          "opponent": "OH Leuven",
+          "opponent_code": "OHL",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -33077,16 +33077,16 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2609590",
           "team": "Juventus",
           "team_code": "JUV",
           "home_away": "H",
-          "opponent_id": "2600241",
-          "opponent": "OL Lyonnes",
-          "opponent_code": "LYO",
+          "opponent_id": "2601983",
+          "opponent": "OH Leuven",
+          "opponent_code": "OHL",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -33155,8 +33155,8 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 45,
-        "fantasy_points": 1,
+        "minutes": 90,
+        "fantasy_points": 2,
         "goals": 0,
         "assists": 0,
         "clean_sheets": 0,
@@ -33169,7 +33169,7 @@
         "penalties_earned": 0,
         "saves": 0,
         "penalty_misses": 0,
-        "ball_recoveries": 0,
+        "ball_recoveries": 1,
         "goals_outside_box": 0,
         "player_of_match_awards": 0,
         "player_of_match_points": 0
@@ -33192,16 +33192,16 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2609590",
           "team": "Juventus",
           "team_code": "JUV",
           "home_away": "H",
-          "opponent_id": "2600241",
-          "opponent": "OL Lyonnes",
-          "opponent_code": "LYO",
+          "opponent_id": "2601983",
+          "opponent": "OH Leuven",
+          "opponent_code": "OHL",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -33225,8 +33225,8 @@
       "uefa_extra": {
         "rating": 0.0,
         "avg_player_points": 1.0,
-        "avg_player_value": 0.1,
-        "last_gameday_points": 0.0,
+        "avg_player_value": 0.3,
+        "last_gameday_points": 1.0,
         "daily_total_points": 0.0,
         "pot_id": "131cd507-27ec-413b-a89d-900bdc70f591",
         "pot_name": "Pot 2"
@@ -33307,16 +33307,16 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2609590",
           "team": "Juventus",
           "team_code": "JUV",
           "home_away": "H",
-          "opponent_id": "2600241",
-          "opponent": "OL Lyonnes",
-          "opponent_code": "LYO",
+          "opponent_id": "2601983",
+          "opponent": "OH Leuven",
+          "opponent_code": "OHL",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -33422,16 +33422,16 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2609590",
           "team": "Juventus",
           "team_code": "JUV",
           "home_away": "H",
-          "opponent_id": "2600241",
-          "opponent": "OL Lyonnes",
-          "opponent_code": "LYO",
+          "opponent_id": "2601983",
+          "opponent": "OH Leuven",
+          "opponent_code": "OHL",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -33500,19 +33500,19 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 180,
-        "fantasy_points": 7,
+        "minutes": 270,
+        "fantasy_points": 12,
         "goals": 0,
         "assists": 0,
         "clean_sheets": 1,
-        "goals_conceded": 2,
+        "goals_conceded": 8,
         "yellow_cards": 0,
         "red_cards": 0,
         "own_goals": 0,
-        "penalties_saved": 0,
+        "penalties_saved": 1,
         "penalties_conceded": 0,
         "penalties_earned": 0,
-        "saves": 3,
+        "saves": 8,
         "penalty_misses": 0,
         "ball_recoveries": 0,
         "goals_outside_box": 0,
@@ -33537,16 +33537,16 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2609590",
           "team": "Juventus",
           "team_code": "JUV",
           "home_away": "H",
-          "opponent_id": "2600241",
-          "opponent": "OL Lyonnes",
-          "opponent_code": "LYO",
+          "opponent_id": "2601983",
+          "opponent": "OH Leuven",
+          "opponent_code": "OHL",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -33569,9 +33569,9 @@
       },
       "uefa_extra": {
         "rating": 0.0,
-        "avg_player_points": 3.5,
-        "avg_player_value": 1.4,
-        "last_gameday_points": 0.0,
+        "avg_player_points": 4.0,
+        "avg_player_value": 2.4,
+        "last_gameday_points": 5.0,
         "daily_total_points": 0.0,
         "pot_id": "131cd507-27ec-413b-a89d-900bdc70f591",
         "pot_name": "Pot 2"
@@ -33652,16 +33652,16 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2609590",
           "team": "Juventus",
           "team_code": "JUV",
           "home_away": "H",
-          "opponent_id": "2600241",
-          "opponent": "OL Lyonnes",
-          "opponent_code": "LYO",
+          "opponent_id": "2601983",
+          "opponent": "OH Leuven",
+          "opponent_code": "OHL",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -33767,16 +33767,16 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2609590",
           "team": "Juventus",
           "team_code": "JUV",
           "home_away": "H",
-          "opponent_id": "2600241",
-          "opponent": "OL Lyonnes",
-          "opponent_code": "LYO",
+          "opponent_id": "2601983",
+          "opponent": "OH Leuven",
+          "opponent_code": "OHL",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -33882,16 +33882,16 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2609590",
           "team": "Juventus",
           "team_code": "JUV",
           "home_away": "H",
-          "opponent_id": "2600241",
-          "opponent": "OL Lyonnes",
-          "opponent_code": "LYO",
+          "opponent_id": "2601983",
+          "opponent": "OH Leuven",
+          "opponent_code": "OHL",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -33997,16 +33997,16 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2609590",
           "team": "Juventus",
           "team_code": "JUV",
           "home_away": "H",
-          "opponent_id": "2600241",
-          "opponent": "OL Lyonnes",
-          "opponent_code": "LYO",
+          "opponent_id": "2601983",
+          "opponent": "OH Leuven",
+          "opponent_code": "OHL",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -34112,16 +34112,16 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2609590",
           "team": "Juventus",
           "team_code": "JUV",
           "home_away": "H",
-          "opponent_id": "2600241",
-          "opponent": "OL Lyonnes",
-          "opponent_code": "LYO",
+          "opponent_id": "2601983",
+          "opponent": "OH Leuven",
+          "opponent_code": "OHL",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -34227,16 +34227,16 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2609590",
           "team": "Juventus",
           "team_code": "JUV",
           "home_away": "H",
-          "opponent_id": "2600241",
-          "opponent": "OL Lyonnes",
-          "opponent_code": "LYO",
+          "opponent_id": "2601983",
+          "opponent": "OH Leuven",
+          "opponent_code": "OHL",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -34342,16 +34342,16 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2609590",
           "team": "Juventus",
           "team_code": "JUV",
           "home_away": "H",
-          "opponent_id": "2600241",
-          "opponent": "OL Lyonnes",
-          "opponent_code": "LYO",
+          "opponent_id": "2601983",
+          "opponent": "OH Leuven",
+          "opponent_code": "OHL",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -34420,8 +34420,8 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 0,
-        "fantasy_points": 0,
+        "minutes": 10,
+        "fantasy_points": 1,
         "goals": 0,
         "assists": 0,
         "clean_sheets": 0,
@@ -34457,16 +34457,16 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2609590",
           "team": "Juventus",
           "team_code": "JUV",
           "home_away": "H",
-          "opponent_id": "2600241",
-          "opponent": "OL Lyonnes",
-          "opponent_code": "LYO",
+          "opponent_id": "2601983",
+          "opponent": "OH Leuven",
+          "opponent_code": "OHL",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -34489,9 +34489,9 @@
       },
       "uefa_extra": {
         "rating": 0.0,
-        "avg_player_points": 0.0,
-        "avg_player_value": 0.0,
-        "last_gameday_points": 0.0,
+        "avg_player_points": 1.0,
+        "avg_player_value": 0.2,
+        "last_gameday_points": 1.0,
         "daily_total_points": 0.0,
         "pot_id": "131cd507-27ec-413b-a89d-900bdc70f591",
         "pot_name": "Pot 2"
@@ -34535,8 +34535,8 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 131,
-        "fantasy_points": 4,
+        "minutes": 221,
+        "fantasy_points": 6,
         "goals": 0,
         "assists": 0,
         "clean_sheets": 0,
@@ -34549,7 +34549,7 @@
         "penalties_earned": 0,
         "saves": 0,
         "penalty_misses": 0,
-        "ball_recoveries": 4,
+        "ball_recoveries": 5,
         "goals_outside_box": 0,
         "player_of_match_awards": 0,
         "player_of_match_points": 0
@@ -34572,16 +34572,16 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2609590",
           "team": "Juventus",
           "team_code": "JUV",
           "home_away": "H",
-          "opponent_id": "2600241",
-          "opponent": "OL Lyonnes",
-          "opponent_code": "LYO",
+          "opponent_id": "2601983",
+          "opponent": "OH Leuven",
+          "opponent_code": "OHL",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -34604,9 +34604,9 @@
       },
       "uefa_extra": {
         "rating": 0.0,
-        "avg_player_points": 1.3,
-        "avg_player_value": 0.9,
-        "last_gameday_points": 0.0,
+        "avg_player_points": 1.5,
+        "avg_player_value": 1.3,
+        "last_gameday_points": 2.0,
         "daily_total_points": 0.0,
         "pot_id": "131cd507-27ec-413b-a89d-900bdc70f591",
         "pot_name": "Pot 2"
@@ -34687,16 +34687,16 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2609590",
           "team": "Juventus",
           "team_code": "JUV",
           "home_away": "H",
-          "opponent_id": "2600241",
-          "opponent": "OL Lyonnes",
-          "opponent_code": "LYO",
+          "opponent_id": "2601983",
+          "opponent": "OH Leuven",
+          "opponent_code": "OHL",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -34802,16 +34802,16 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2609590",
           "team": "Juventus",
           "team_code": "JUV",
           "home_away": "H",
-          "opponent_id": "2600241",
-          "opponent": "OL Lyonnes",
-          "opponent_code": "LYO",
+          "opponent_id": "2601983",
+          "opponent": "OH Leuven",
+          "opponent_code": "OHL",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -34880,8 +34880,8 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 263,
-        "fantasy_points": 26,
+        "minutes": 308,
+        "fantasy_points": 28,
         "goals": 0,
         "assists": 3,
         "clean_sheets": 1,
@@ -34894,7 +34894,7 @@
         "penalties_earned": 0,
         "saves": 0,
         "penalty_misses": 0,
-        "ball_recoveries": 22,
+        "ball_recoveries": 26,
         "goals_outside_box": 0,
         "player_of_match_awards": 1,
         "player_of_match_points": 3
@@ -34917,16 +34917,16 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2609590",
           "team": "Juventus",
           "team_code": "JUV",
           "home_away": "H",
-          "opponent_id": "2600241",
-          "opponent": "OL Lyonnes",
-          "opponent_code": "LYO",
+          "opponent_id": "2601983",
+          "opponent": "OH Leuven",
+          "opponent_code": "OHL",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -34949,9 +34949,9 @@
       },
       "uefa_extra": {
         "rating": 0.0,
-        "avg_player_points": 8.7,
-        "avg_player_value": 4.3,
-        "last_gameday_points": 0.0,
+        "avg_player_points": 7.0,
+        "avg_player_value": 4.7,
+        "last_gameday_points": 2.0,
         "daily_total_points": 0.0,
         "pot_id": "131cd507-27ec-413b-a89d-900bdc70f591",
         "pot_name": "Pot 2"
@@ -34995,8 +34995,8 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 190,
-        "fantasy_points": 18,
+        "minutes": 235,
+        "fantasy_points": 19,
         "goals": 1,
         "assists": 1,
         "clean_sheets": 1,
@@ -35009,7 +35009,7 @@
         "penalties_earned": 0,
         "saves": 0,
         "penalty_misses": 0,
-        "ball_recoveries": 16,
+        "ball_recoveries": 17,
         "goals_outside_box": 1,
         "player_of_match_awards": 0,
         "player_of_match_points": 0
@@ -35032,16 +35032,16 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2609590",
           "team": "Juventus",
           "team_code": "JUV",
           "home_away": "H",
-          "opponent_id": "2600241",
-          "opponent": "OL Lyonnes",
-          "opponent_code": "LYO",
+          "opponent_id": "2601983",
+          "opponent": "OH Leuven",
+          "opponent_code": "OHL",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -35064,9 +35064,9 @@
       },
       "uefa_extra": {
         "rating": 0.0,
-        "avg_player_points": 6.0,
-        "avg_player_value": 4.0,
-        "last_gameday_points": 0.0,
+        "avg_player_points": 4.8,
+        "avg_player_value": 4.2,
+        "last_gameday_points": 1.0,
         "daily_total_points": 0.0,
         "pot_id": "131cd507-27ec-413b-a89d-900bdc70f591",
         "pot_name": "Pot 2"
@@ -35147,16 +35147,16 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2609590",
           "team": "Juventus",
           "team_code": "JUV",
           "home_away": "H",
-          "opponent_id": "2600241",
-          "opponent": "OL Lyonnes",
-          "opponent_code": "LYO",
+          "opponent_id": "2601983",
+          "opponent": "OH Leuven",
+          "opponent_code": "OHL",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -35225,8 +35225,8 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 108,
-        "fantasy_points": 5,
+        "minutes": 198,
+        "fantasy_points": 10,
         "goals": 0,
         "assists": 0,
         "clean_sheets": 0,
@@ -35239,7 +35239,7 @@
         "penalties_earned": 0,
         "saves": 0,
         "penalty_misses": 0,
-        "ball_recoveries": 7,
+        "ball_recoveries": 18,
         "goals_outside_box": 0,
         "player_of_match_awards": 0,
         "player_of_match_points": 0
@@ -35262,16 +35262,16 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2609590",
           "team": "Juventus",
           "team_code": "JUV",
           "home_away": "H",
-          "opponent_id": "2600241",
-          "opponent": "OL Lyonnes",
-          "opponent_code": "LYO",
+          "opponent_id": "2601983",
+          "opponent": "OH Leuven",
+          "opponent_code": "OHL",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -35294,9 +35294,9 @@
       },
       "uefa_extra": {
         "rating": 0.0,
-        "avg_player_points": 2.5,
-        "avg_player_value": 1.0,
-        "last_gameday_points": 0.0,
+        "avg_player_points": 3.3,
+        "avg_player_value": 2.0,
+        "last_gameday_points": 5.0,
         "daily_total_points": 0.0,
         "pot_id": "131cd507-27ec-413b-a89d-900bdc70f591",
         "pot_name": "Pot 2"
@@ -35340,8 +35340,8 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 67,
-        "fantasy_points": 9,
+        "minutes": 112,
+        "fantasy_points": 10,
         "goals": 1,
         "assists": 0,
         "clean_sheets": 1,
@@ -35354,7 +35354,7 @@
         "penalties_earned": 0,
         "saves": 0,
         "penalty_misses": 0,
-        "ball_recoveries": 1,
+        "ball_recoveries": 2,
         "goals_outside_box": 0,
         "player_of_match_awards": 0,
         "player_of_match_points": 0
@@ -35377,16 +35377,16 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2609590",
           "team": "Juventus",
           "team_code": "JUV",
           "home_away": "H",
-          "opponent_id": "2600241",
-          "opponent": "OL Lyonnes",
-          "opponent_code": "LYO",
+          "opponent_id": "2601983",
+          "opponent": "OH Leuven",
+          "opponent_code": "OHL",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -35409,9 +35409,9 @@
       },
       "uefa_extra": {
         "rating": 0.0,
-        "avg_player_points": 4.5,
-        "avg_player_value": 2.0,
-        "last_gameday_points": 0.0,
+        "avg_player_points": 3.3,
+        "avg_player_value": 2.2,
+        "last_gameday_points": 1.0,
         "daily_total_points": 0.0,
         "pot_id": "131cd507-27ec-413b-a89d-900bdc70f591",
         "pot_name": "Pot 2"
@@ -35455,8 +35455,8 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 1,
-        "fantasy_points": 1,
+        "minutes": 21,
+        "fantasy_points": 2,
         "goals": 0,
         "assists": 0,
         "clean_sheets": 0,
@@ -35492,16 +35492,16 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2609590",
           "team": "Juventus",
           "team_code": "JUV",
           "home_away": "H",
-          "opponent_id": "2600241",
-          "opponent": "OL Lyonnes",
-          "opponent_code": "LYO",
+          "opponent_id": "2601983",
+          "opponent": "OH Leuven",
+          "opponent_code": "OHL",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -35525,8 +35525,8 @@
       "uefa_extra": {
         "rating": 0.0,
         "avg_player_points": 1.0,
-        "avg_player_value": 0.2,
-        "last_gameday_points": 0.0,
+        "avg_player_value": 0.4,
+        "last_gameday_points": 1.0,
         "daily_total_points": 0.0,
         "pot_id": "131cd507-27ec-413b-a89d-900bdc70f591",
         "pot_name": "Pot 2"
@@ -35570,8 +35570,8 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 188,
-        "fantasy_points": 13,
+        "minutes": 269,
+        "fantasy_points": 15,
         "goals": 1,
         "assists": 0,
         "clean_sheets": 1,
@@ -35584,7 +35584,7 @@
         "penalties_earned": 0,
         "saves": 0,
         "penalty_misses": 0,
-        "ball_recoveries": 8,
+        "ball_recoveries": 9,
         "goals_outside_box": 0,
         "player_of_match_awards": 0,
         "player_of_match_points": 0
@@ -35607,16 +35607,16 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2609590",
           "team": "Juventus",
           "team_code": "JUV",
           "home_away": "H",
-          "opponent_id": "2600241",
-          "opponent": "OL Lyonnes",
-          "opponent_code": "LYO",
+          "opponent_id": "2601983",
+          "opponent": "OH Leuven",
+          "opponent_code": "OHL",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -35639,9 +35639,9 @@
       },
       "uefa_extra": {
         "rating": 0.0,
-        "avg_player_points": 4.3,
-        "avg_player_value": 1.9,
-        "last_gameday_points": 0.0,
+        "avg_player_points": 3.8,
+        "avg_player_value": 2.1,
+        "last_gameday_points": 2.0,
         "daily_total_points": 0.0,
         "pot_id": "131cd507-27ec-413b-a89d-900bdc70f591",
         "pot_name": "Pot 2"
@@ -35722,16 +35722,16 @@
           "weekday": "THU"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2609590",
           "team": "Juventus",
           "team_code": "JUV",
           "home_away": "H",
-          "opponent_id": "2600241",
-          "opponent": "OL Lyonnes",
-          "opponent_code": "LYO",
+          "opponent_id": "2601983",
+          "opponent": "OH Leuven",
+          "opponent_code": "OHL",
           "opponent_home_away": "A",
-          "kickoff": "11/11/2026 21:00:00",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -39250,12 +39250,12 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 109,
-        "fantasy_points": 2,
+        "minutes": 125,
+        "fantasy_points": 3,
         "goals": 0,
         "assists": 0,
         "clean_sheets": 0,
-        "goals_conceded": 6,
+        "goals_conceded": 7,
         "yellow_cards": 0,
         "red_cards": 0,
         "own_goals": 0,
@@ -39264,7 +39264,7 @@
         "penalties_earned": 0,
         "saves": 0,
         "penalty_misses": 0,
-        "ball_recoveries": 4,
+        "ball_recoveries": 6,
         "goals_outside_box": 0,
         "player_of_match_awards": 0,
         "player_of_match_points": 0
@@ -39287,16 +39287,16 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2601983",
           "team": "OH Leuven",
           "team_code": "OHL",
-          "home_away": "H",
-          "opponent_id": "2611087",
-          "opponent": "HB Køge",
-          "opponent_code": "HBK",
-          "opponent_home_away": "A",
-          "kickoff": "11/11/2026 18:45:00",
+          "home_away": "A",
+          "opponent_id": "2609590",
+          "opponent": "Juventus",
+          "opponent_code": "JUV",
+          "opponent_home_away": "H",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -39320,8 +39320,8 @@
       "uefa_extra": {
         "rating": 0.0,
         "avg_player_points": 1.0,
-        "avg_player_value": 0.5,
-        "last_gameday_points": 0.0,
+        "avg_player_value": 0.8,
+        "last_gameday_points": 1.0,
         "daily_total_points": 0.0,
         "pot_id": "3ff61e44-8bec-4b76-991d-ae3832fe2bd2",
         "pot_name": "Pot 3"
@@ -39402,16 +39402,16 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2601983",
           "team": "OH Leuven",
           "team_code": "OHL",
-          "home_away": "H",
-          "opponent_id": "2611087",
-          "opponent": "HB Køge",
-          "opponent_code": "HBK",
-          "opponent_home_away": "A",
-          "kickoff": "11/11/2026 18:45:00",
+          "home_away": "A",
+          "opponent_id": "2609590",
+          "opponent": "Juventus",
+          "opponent_code": "JUV",
+          "opponent_home_away": "H",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -39517,16 +39517,16 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2601983",
           "team": "OH Leuven",
           "team_code": "OHL",
-          "home_away": "H",
-          "opponent_id": "2611087",
-          "opponent": "HB Køge",
-          "opponent_code": "HBK",
-          "opponent_home_away": "A",
-          "kickoff": "11/11/2026 18:45:00",
+          "home_away": "A",
+          "opponent_id": "2609590",
+          "opponent": "Juventus",
+          "opponent_code": "JUV",
+          "opponent_home_away": "H",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -39632,16 +39632,16 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2601983",
           "team": "OH Leuven",
           "team_code": "OHL",
-          "home_away": "H",
-          "opponent_id": "2611087",
-          "opponent": "HB Køge",
-          "opponent_code": "HBK",
-          "opponent_home_away": "A",
-          "kickoff": "11/11/2026 18:45:00",
+          "home_away": "A",
+          "opponent_id": "2609590",
+          "opponent": "Juventus",
+          "opponent_code": "JUV",
+          "opponent_home_away": "H",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -39747,16 +39747,16 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2601983",
           "team": "OH Leuven",
           "team_code": "OHL",
-          "home_away": "H",
-          "opponent_id": "2611087",
-          "opponent": "HB Køge",
-          "opponent_code": "HBK",
-          "opponent_home_away": "A",
-          "kickoff": "11/11/2026 18:45:00",
+          "home_away": "A",
+          "opponent_id": "2609590",
+          "opponent": "Juventus",
+          "opponent_code": "JUV",
+          "opponent_home_away": "H",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -39862,16 +39862,16 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2601983",
           "team": "OH Leuven",
           "team_code": "OHL",
-          "home_away": "H",
-          "opponent_id": "2611087",
-          "opponent": "HB Køge",
-          "opponent_code": "HBK",
-          "opponent_home_away": "A",
-          "kickoff": "11/11/2026 18:45:00",
+          "home_away": "A",
+          "opponent_id": "2609590",
+          "opponent": "Juventus",
+          "opponent_code": "JUV",
+          "opponent_home_away": "H",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -39940,12 +39940,12 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 98,
-        "fantasy_points": 2,
+        "minutes": 114,
+        "fantasy_points": 6,
         "goals": 0,
-        "assists": 0,
+        "assists": 1,
         "clean_sheets": 0,
-        "goals_conceded": 5,
+        "goals_conceded": 6,
         "yellow_cards": 0,
         "red_cards": 0,
         "own_goals": 0,
@@ -39954,7 +39954,7 @@
         "penalties_earned": 0,
         "saves": 0,
         "penalty_misses": 0,
-        "ball_recoveries": 3,
+        "ball_recoveries": 4,
         "goals_outside_box": 0,
         "player_of_match_awards": 0,
         "player_of_match_points": 0
@@ -39977,16 +39977,16 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2601983",
           "team": "OH Leuven",
           "team_code": "OHL",
-          "home_away": "H",
-          "opponent_id": "2611087",
-          "opponent": "HB Køge",
-          "opponent_code": "HBK",
-          "opponent_home_away": "A",
-          "kickoff": "11/11/2026 18:45:00",
+          "home_away": "A",
+          "opponent_id": "2609590",
+          "opponent": "Juventus",
+          "opponent_code": "JUV",
+          "opponent_home_away": "H",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -40009,9 +40009,9 @@
       },
       "uefa_extra": {
         "rating": 0.0,
-        "avg_player_points": 1.0,
-        "avg_player_value": 0.5,
-        "last_gameday_points": 0.0,
+        "avg_player_points": 2.0,
+        "avg_player_value": 1.5,
+        "last_gameday_points": 4.0,
         "daily_total_points": 0.0,
         "pot_id": "3ff61e44-8bec-4b76-991d-ae3832fe2bd2",
         "pot_name": "Pot 3"
@@ -40055,12 +40055,12 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 263,
-        "fantasy_points": 12,
+        "minutes": 353,
+        "fantasy_points": 19,
         "goals": 0,
         "assists": 0,
         "clean_sheets": 1,
-        "goals_conceded": 9,
+        "goals_conceded": 10,
         "yellow_cards": 0,
         "red_cards": 0,
         "own_goals": 0,
@@ -40069,7 +40069,7 @@
         "penalties_earned": 0,
         "saves": 0,
         "penalty_misses": 0,
-        "ball_recoveries": 20,
+        "ball_recoveries": 35,
         "goals_outside_box": 0,
         "player_of_match_awards": 0,
         "player_of_match_points": 0
@@ -40092,16 +40092,16 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2601983",
           "team": "OH Leuven",
           "team_code": "OHL",
-          "home_away": "H",
-          "opponent_id": "2611087",
-          "opponent": "HB Køge",
-          "opponent_code": "HBK",
-          "opponent_home_away": "A",
-          "kickoff": "11/11/2026 18:45:00",
+          "home_away": "A",
+          "opponent_id": "2609590",
+          "opponent": "Juventus",
+          "opponent_code": "JUV",
+          "opponent_home_away": "H",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -40124,9 +40124,9 @@
       },
       "uefa_extra": {
         "rating": 0.0,
-        "avg_player_points": 4.0,
-        "avg_player_value": 2.6,
-        "last_gameday_points": 0.0,
+        "avg_player_points": 4.8,
+        "avg_player_value": 4.1,
+        "last_gameday_points": 7.0,
         "daily_total_points": 0.0,
         "pot_id": "3ff61e44-8bec-4b76-991d-ae3832fe2bd2",
         "pot_name": "Pot 3"
@@ -40170,11 +40170,11 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 180,
-        "fantasy_points": 11,
+        "minutes": 254,
+        "fantasy_points": 20,
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 1,
+        "clean_sheets": 2,
         "goals_conceded": 5,
         "yellow_cards": 0,
         "red_cards": 0,
@@ -40184,7 +40184,7 @@
         "penalties_earned": 0,
         "saves": 0,
         "penalty_misses": 0,
-        "ball_recoveries": 17,
+        "ball_recoveries": 28,
         "goals_outside_box": 0,
         "player_of_match_awards": 0,
         "player_of_match_points": 0
@@ -40207,16 +40207,16 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2601983",
           "team": "OH Leuven",
           "team_code": "OHL",
-          "home_away": "H",
-          "opponent_id": "2611087",
-          "opponent": "HB Køge",
-          "opponent_code": "HBK",
-          "opponent_home_away": "A",
-          "kickoff": "11/11/2026 18:45:00",
+          "home_away": "A",
+          "opponent_id": "2609590",
+          "opponent": "Juventus",
+          "opponent_code": "JUV",
+          "opponent_home_away": "H",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -40239,9 +40239,9 @@
       },
       "uefa_extra": {
         "rating": 0.0,
-        "avg_player_points": 5.5,
-        "avg_player_value": 2.4,
-        "last_gameday_points": 0.0,
+        "avg_player_points": 6.7,
+        "avg_player_value": 4.4,
+        "last_gameday_points": 9.0,
         "daily_total_points": 0.0,
         "pot_id": "3ff61e44-8bec-4b76-991d-ae3832fe2bd2",
         "pot_name": "Pot 3"
@@ -40322,16 +40322,16 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2601983",
           "team": "OH Leuven",
           "team_code": "OHL",
-          "home_away": "H",
-          "opponent_id": "2611087",
-          "opponent": "HB Køge",
-          "opponent_code": "HBK",
-          "opponent_home_away": "A",
-          "kickoff": "11/11/2026 18:45:00",
+          "home_away": "A",
+          "opponent_id": "2609590",
+          "opponent": "Juventus",
+          "opponent_code": "JUV",
+          "opponent_home_away": "H",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -40400,12 +40400,12 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 180,
-        "fantasy_points": 9,
+        "minutes": 270,
+        "fantasy_points": 13,
         "goals": 0,
         "assists": 0,
         "clean_sheets": 1,
-        "goals_conceded": 5,
+        "goals_conceded": 6,
         "yellow_cards": 0,
         "red_cards": 0,
         "own_goals": 0,
@@ -40414,7 +40414,7 @@
         "penalties_earned": 0,
         "saves": 0,
         "penalty_misses": 0,
-        "ball_recoveries": 10,
+        "ball_recoveries": 16,
         "goals_outside_box": 0,
         "player_of_match_awards": 0,
         "player_of_match_points": 0
@@ -40437,16 +40437,16 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2601983",
           "team": "OH Leuven",
           "team_code": "OHL",
-          "home_away": "H",
-          "opponent_id": "2611087",
-          "opponent": "HB Køge",
-          "opponent_code": "HBK",
-          "opponent_home_away": "A",
-          "kickoff": "11/11/2026 18:45:00",
+          "home_away": "A",
+          "opponent_id": "2609590",
+          "opponent": "Juventus",
+          "opponent_code": "JUV",
+          "opponent_home_away": "H",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -40469,9 +40469,9 @@
       },
       "uefa_extra": {
         "rating": 0.0,
-        "avg_player_points": 4.5,
-        "avg_player_value": 2.0,
-        "last_gameday_points": 0.0,
+        "avg_player_points": 4.3,
+        "avg_player_value": 2.8,
+        "last_gameday_points": 4.0,
         "daily_total_points": 0.0,
         "pot_id": "3ff61e44-8bec-4b76-991d-ae3832fe2bd2",
         "pot_name": "Pot 3"
@@ -40515,13 +40515,13 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 270,
-        "fantasy_points": 11,
+        "minutes": 360,
+        "fantasy_points": 12,
         "goals": 0,
         "assists": 0,
         "clean_sheets": 1,
-        "goals_conceded": 10,
-        "yellow_cards": 0,
+        "goals_conceded": 11,
+        "yellow_cards": 1,
         "red_cards": 0,
         "own_goals": 0,
         "penalties_saved": 0,
@@ -40529,7 +40529,7 @@
         "penalties_earned": 0,
         "saves": 0,
         "penalty_misses": 0,
-        "ball_recoveries": 17,
+        "ball_recoveries": 19,
         "goals_outside_box": 0,
         "player_of_match_awards": 0,
         "player_of_match_points": 0
@@ -40552,16 +40552,16 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2601983",
           "team": "OH Leuven",
           "team_code": "OHL",
-          "home_away": "H",
-          "opponent_id": "2611087",
-          "opponent": "HB Køge",
-          "opponent_code": "HBK",
-          "opponent_home_away": "A",
-          "kickoff": "11/11/2026 18:45:00",
+          "home_away": "A",
+          "opponent_id": "2609590",
+          "opponent": "Juventus",
+          "opponent_code": "JUV",
+          "opponent_home_away": "H",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -40584,9 +40584,9 @@
       },
       "uefa_extra": {
         "rating": 0.0,
-        "avg_player_points": 3.7,
-        "avg_player_value": 2.4,
-        "last_gameday_points": 0.0,
+        "avg_player_points": 3.0,
+        "avg_player_value": 2.6,
+        "last_gameday_points": 1.0,
         "daily_total_points": 0.0,
         "pot_id": "3ff61e44-8bec-4b76-991d-ae3832fe2bd2",
         "pot_name": "Pot 3"
@@ -40667,16 +40667,16 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2601983",
           "team": "OH Leuven",
           "team_code": "OHL",
-          "home_away": "H",
-          "opponent_id": "2611087",
-          "opponent": "HB Køge",
-          "opponent_code": "HBK",
-          "opponent_home_away": "A",
-          "kickoff": "11/11/2026 18:45:00",
+          "home_away": "A",
+          "opponent_id": "2609590",
+          "opponent": "Juventus",
+          "opponent_code": "JUV",
+          "opponent_home_away": "H",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -40782,16 +40782,16 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2601983",
           "team": "OH Leuven",
           "team_code": "OHL",
-          "home_away": "H",
-          "opponent_id": "2611087",
-          "opponent": "HB Køge",
-          "opponent_code": "HBK",
-          "opponent_home_away": "A",
-          "kickoff": "11/11/2026 18:45:00",
+          "home_away": "A",
+          "opponent_id": "2609590",
+          "opponent": "Juventus",
+          "opponent_code": "JUV",
+          "opponent_home_away": "H",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -40897,16 +40897,16 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2601983",
           "team": "OH Leuven",
           "team_code": "OHL",
-          "home_away": "H",
-          "opponent_id": "2611087",
-          "opponent": "HB Køge",
-          "opponent_code": "HBK",
-          "opponent_home_away": "A",
-          "kickoff": "11/11/2026 18:45:00",
+          "home_away": "A",
+          "opponent_id": "2609590",
+          "opponent": "Juventus",
+          "opponent_code": "JUV",
+          "opponent_home_away": "H",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -40975,8 +40975,8 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 238,
-        "fantasy_points": 7,
+        "minutes": 312,
+        "fantasy_points": 9,
         "goals": 0,
         "assists": 0,
         "clean_sheets": 0,
@@ -41012,16 +41012,16 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2601983",
           "team": "OH Leuven",
           "team_code": "OHL",
-          "home_away": "H",
-          "opponent_id": "2611087",
-          "opponent": "HB Køge",
-          "opponent_code": "HBK",
-          "opponent_home_away": "A",
-          "kickoff": "11/11/2026 18:45:00",
+          "home_away": "A",
+          "opponent_id": "2609590",
+          "opponent": "Juventus",
+          "opponent_code": "JUV",
+          "opponent_home_away": "H",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -41045,8 +41045,8 @@
       "uefa_extra": {
         "rating": 0.0,
         "avg_player_points": 2.3,
-        "avg_player_value": 1.4,
-        "last_gameday_points": 0.0,
+        "avg_player_value": 1.8,
+        "last_gameday_points": 2.0,
         "daily_total_points": 0.0,
         "pot_id": "3ff61e44-8bec-4b76-991d-ae3832fe2bd2",
         "pot_name": "Pot 3"
@@ -41090,8 +41090,8 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 102,
-        "fantasy_points": 4,
+        "minutes": 109,
+        "fantasy_points": 5,
         "goals": 0,
         "assists": 0,
         "clean_sheets": 0,
@@ -41127,16 +41127,16 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2601983",
           "team": "OH Leuven",
           "team_code": "OHL",
-          "home_away": "H",
-          "opponent_id": "2611087",
-          "opponent": "HB Køge",
-          "opponent_code": "HBK",
-          "opponent_home_away": "A",
-          "kickoff": "11/11/2026 18:45:00",
+          "home_away": "A",
+          "opponent_id": "2609590",
+          "opponent": "Juventus",
+          "opponent_code": "JUV",
+          "opponent_home_away": "H",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -41160,8 +41160,8 @@
       "uefa_extra": {
         "rating": 0.0,
         "avg_player_points": 1.3,
-        "avg_player_value": 0.6,
-        "last_gameday_points": 0.0,
+        "avg_player_value": 0.8,
+        "last_gameday_points": 1.0,
         "daily_total_points": 0.0,
         "pot_id": "3ff61e44-8bec-4b76-991d-ae3832fe2bd2",
         "pot_name": "Pot 3"
@@ -41205,9 +41205,9 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 225,
-        "fantasy_points": 13,
-        "goals": 1,
+        "minutes": 315,
+        "fantasy_points": 19,
+        "goals": 2,
         "assists": 0,
         "clean_sheets": 0,
         "goals_conceded": 0,
@@ -41242,16 +41242,16 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2601983",
           "team": "OH Leuven",
           "team_code": "OHL",
-          "home_away": "H",
-          "opponent_id": "2611087",
-          "opponent": "HB Køge",
-          "opponent_code": "HBK",
-          "opponent_home_away": "A",
-          "kickoff": "11/11/2026 18:45:00",
+          "home_away": "A",
+          "opponent_id": "2609590",
+          "opponent": "Juventus",
+          "opponent_code": "JUV",
+          "opponent_home_away": "H",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -41274,9 +41274,9 @@
       },
       "uefa_extra": {
         "rating": 0.0,
-        "avg_player_points": 4.3,
-        "avg_player_value": 1.9,
-        "last_gameday_points": 0.0,
+        "avg_player_points": 4.8,
+        "avg_player_value": 2.7,
+        "last_gameday_points": 6.0,
         "daily_total_points": 0.0,
         "pot_id": "3ff61e44-8bec-4b76-991d-ae3832fe2bd2",
         "pot_name": "Pot 3"
@@ -41320,8 +41320,8 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 187,
-        "fantasy_points": 5,
+        "minutes": 212,
+        "fantasy_points": 6,
         "goals": 0,
         "assists": 0,
         "clean_sheets": 0,
@@ -41334,7 +41334,7 @@
         "penalties_earned": 0,
         "saves": 0,
         "penalty_misses": 0,
-        "ball_recoveries": 3,
+        "ball_recoveries": 4,
         "goals_outside_box": 0,
         "player_of_match_awards": 0,
         "player_of_match_points": 0
@@ -41357,16 +41357,16 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2601983",
           "team": "OH Leuven",
           "team_code": "OHL",
-          "home_away": "H",
-          "opponent_id": "2611087",
-          "opponent": "HB Køge",
-          "opponent_code": "HBK",
-          "opponent_home_away": "A",
-          "kickoff": "11/11/2026 18:45:00",
+          "home_away": "A",
+          "opponent_id": "2609590",
+          "opponent": "Juventus",
+          "opponent_code": "JUV",
+          "opponent_home_away": "H",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -41389,9 +41389,9 @@
       },
       "uefa_extra": {
         "rating": 0.0,
-        "avg_player_points": 1.7,
-        "avg_player_value": 0.7,
-        "last_gameday_points": 0.0,
+        "avg_player_points": 1.5,
+        "avg_player_value": 0.9,
+        "last_gameday_points": 1.0,
         "daily_total_points": 0.0,
         "pot_id": "3ff61e44-8bec-4b76-991d-ae3832fe2bd2",
         "pot_name": "Pot 3"
@@ -41472,16 +41472,16 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2601983",
           "team": "OH Leuven",
           "team_code": "OHL",
-          "home_away": "H",
-          "opponent_id": "2611087",
-          "opponent": "HB Køge",
-          "opponent_code": "HBK",
-          "opponent_home_away": "A",
-          "kickoff": "11/11/2026 18:45:00",
+          "home_away": "A",
+          "opponent_id": "2609590",
+          "opponent": "Juventus",
+          "opponent_code": "JUV",
+          "opponent_home_away": "H",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -41587,16 +41587,16 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2601983",
           "team": "OH Leuven",
           "team_code": "OHL",
-          "home_away": "H",
-          "opponent_id": "2611087",
-          "opponent": "HB Køge",
-          "opponent_code": "HBK",
-          "opponent_home_away": "A",
-          "kickoff": "11/11/2026 18:45:00",
+          "home_away": "A",
+          "opponent_id": "2609590",
+          "opponent": "Juventus",
+          "opponent_code": "JUV",
+          "opponent_home_away": "H",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -41702,16 +41702,16 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2601983",
           "team": "OH Leuven",
           "team_code": "OHL",
-          "home_away": "H",
-          "opponent_id": "2611087",
-          "opponent": "HB Køge",
-          "opponent_code": "HBK",
-          "opponent_home_away": "A",
-          "kickoff": "11/11/2026 18:45:00",
+          "home_away": "A",
+          "opponent_id": "2609590",
+          "opponent": "Juventus",
+          "opponent_code": "JUV",
+          "opponent_home_away": "H",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -41817,16 +41817,16 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2601983",
           "team": "OH Leuven",
           "team_code": "OHL",
-          "home_away": "H",
-          "opponent_id": "2611087",
-          "opponent": "HB Køge",
-          "opponent_code": "HBK",
-          "opponent_home_away": "A",
-          "kickoff": "11/11/2026 18:45:00",
+          "home_away": "A",
+          "opponent_id": "2609590",
+          "opponent": "Juventus",
+          "opponent_code": "JUV",
+          "opponent_home_away": "H",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -41932,16 +41932,16 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2601983",
           "team": "OH Leuven",
           "team_code": "OHL",
-          "home_away": "H",
-          "opponent_id": "2611087",
-          "opponent": "HB Køge",
-          "opponent_code": "HBK",
-          "opponent_home_away": "A",
-          "kickoff": "11/11/2026 18:45:00",
+          "home_away": "A",
+          "opponent_id": "2609590",
+          "opponent": "Juventus",
+          "opponent_code": "JUV",
+          "opponent_home_away": "H",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -42047,16 +42047,16 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2601983",
           "team": "OH Leuven",
           "team_code": "OHL",
-          "home_away": "H",
-          "opponent_id": "2611087",
-          "opponent": "HB Køge",
-          "opponent_code": "HBK",
-          "opponent_home_away": "A",
-          "kickoff": "11/11/2026 18:45:00",
+          "home_away": "A",
+          "opponent_id": "2609590",
+          "opponent": "Juventus",
+          "opponent_code": "JUV",
+          "opponent_home_away": "H",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -42125,19 +42125,19 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 270,
-        "fantasy_points": 9,
+        "minutes": 360,
+        "fantasy_points": 14,
         "goals": 0,
         "assists": 0,
         "clean_sheets": 1,
-        "goals_conceded": 10,
+        "goals_conceded": 11,
         "yellow_cards": 0,
         "red_cards": 0,
         "own_goals": 0,
         "penalties_saved": 0,
         "penalties_conceded": 0,
         "penalties_earned": 0,
-        "saves": 11,
+        "saves": 20,
         "penalty_misses": 0,
         "ball_recoveries": 0,
         "goals_outside_box": 0,
@@ -42162,16 +42162,16 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2601983",
           "team": "OH Leuven",
           "team_code": "OHL",
-          "home_away": "H",
-          "opponent_id": "2611087",
-          "opponent": "HB Køge",
-          "opponent_code": "HBK",
-          "opponent_home_away": "A",
-          "kickoff": "11/11/2026 18:45:00",
+          "home_away": "A",
+          "opponent_id": "2609590",
+          "opponent": "Juventus",
+          "opponent_code": "JUV",
+          "opponent_home_away": "H",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -42194,9 +42194,9 @@
       },
       "uefa_extra": {
         "rating": 0.0,
-        "avg_player_points": 3.0,
-        "avg_player_value": 2.0,
-        "last_gameday_points": 0.0,
+        "avg_player_points": 3.5,
+        "avg_player_value": 3.0,
+        "last_gameday_points": 5.0,
         "daily_total_points": 0.0,
         "pot_id": "3ff61e44-8bec-4b76-991d-ae3832fe2bd2",
         "pot_name": "Pot 3"
@@ -42240,8 +42240,8 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 245,
-        "fantasy_points": 9,
+        "minutes": 335,
+        "fantasy_points": 12,
         "goals": 0,
         "assists": 0,
         "clean_sheets": 1,
@@ -42254,7 +42254,7 @@
         "penalties_earned": 0,
         "saves": 0,
         "penalty_misses": 0,
-        "ball_recoveries": 8,
+        "ball_recoveries": 13,
         "goals_outside_box": 0,
         "player_of_match_awards": 0,
         "player_of_match_points": 0
@@ -42277,16 +42277,16 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2601983",
           "team": "OH Leuven",
           "team_code": "OHL",
-          "home_away": "H",
-          "opponent_id": "2611087",
-          "opponent": "HB Køge",
-          "opponent_code": "HBK",
-          "opponent_home_away": "A",
-          "kickoff": "11/11/2026 18:45:00",
+          "home_away": "A",
+          "opponent_id": "2609590",
+          "opponent": "Juventus",
+          "opponent_code": "JUV",
+          "opponent_home_away": "H",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -42310,8 +42310,8 @@
       "uefa_extra": {
         "rating": 0.0,
         "avg_player_points": 3.0,
-        "avg_player_value": 1.5,
-        "last_gameday_points": 0.0,
+        "avg_player_value": 2.0,
+        "last_gameday_points": 3.0,
         "daily_total_points": 0.0,
         "pot_id": "3ff61e44-8bec-4b76-991d-ae3832fe2bd2",
         "pot_name": "Pot 3"
@@ -42392,16 +42392,16 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2601983",
           "team": "OH Leuven",
           "team_code": "OHL",
-          "home_away": "H",
-          "opponent_id": "2611087",
-          "opponent": "HB Køge",
-          "opponent_code": "HBK",
-          "opponent_home_away": "A",
-          "kickoff": "11/11/2026 18:45:00",
+          "home_away": "A",
+          "opponent_id": "2609590",
+          "opponent": "Juventus",
+          "opponent_code": "JUV",
+          "opponent_home_away": "H",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -42507,16 +42507,16 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2601983",
           "team": "OH Leuven",
           "team_code": "OHL",
-          "home_away": "H",
-          "opponent_id": "2611087",
-          "opponent": "HB Køge",
-          "opponent_code": "HBK",
-          "opponent_home_away": "A",
-          "kickoff": "11/11/2026 18:45:00",
+          "home_away": "A",
+          "opponent_id": "2609590",
+          "opponent": "Juventus",
+          "opponent_code": "JUV",
+          "opponent_home_away": "H",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -42622,16 +42622,16 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2601983",
           "team": "OH Leuven",
           "team_code": "OHL",
-          "home_away": "H",
-          "opponent_id": "2611087",
-          "opponent": "HB Køge",
-          "opponent_code": "HBK",
-          "opponent_home_away": "A",
-          "kickoff": "11/11/2026 18:45:00",
+          "home_away": "A",
+          "opponent_id": "2609590",
+          "opponent": "Juventus",
+          "opponent_code": "JUV",
+          "opponent_home_away": "H",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -42737,16 +42737,16 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2601983",
           "team": "OH Leuven",
           "team_code": "OHL",
-          "home_away": "H",
-          "opponent_id": "2611087",
-          "opponent": "HB Køge",
-          "opponent_code": "HBK",
-          "opponent_home_away": "A",
-          "kickoff": "11/11/2026 18:45:00",
+          "home_away": "A",
+          "opponent_id": "2609590",
+          "opponent": "Juventus",
+          "opponent_code": "JUV",
+          "opponent_home_away": "H",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -42852,16 +42852,16 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2601983",
           "team": "OH Leuven",
           "team_code": "OHL",
-          "home_away": "H",
-          "opponent_id": "2611087",
-          "opponent": "HB Køge",
-          "opponent_code": "HBK",
-          "opponent_home_away": "A",
-          "kickoff": "11/11/2026 18:45:00",
+          "home_away": "A",
+          "opponent_id": "2609590",
+          "opponent": "Juventus",
+          "opponent_code": "JUV",
+          "opponent_home_away": "H",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -42930,8 +42930,8 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 253,
-        "fantasy_points": 8,
+        "minutes": 343,
+        "fantasy_points": 11,
         "goals": 0,
         "assists": 0,
         "clean_sheets": 1,
@@ -42944,7 +42944,7 @@
         "penalties_earned": 0,
         "saves": 0,
         "penalty_misses": 0,
-        "ball_recoveries": 6,
+        "ball_recoveries": 11,
         "goals_outside_box": 0,
         "player_of_match_awards": 0,
         "player_of_match_points": 0
@@ -42967,16 +42967,16 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2601983",
           "team": "OH Leuven",
           "team_code": "OHL",
-          "home_away": "H",
-          "opponent_id": "2611087",
-          "opponent": "HB Køge",
-          "opponent_code": "HBK",
-          "opponent_home_away": "A",
-          "kickoff": "11/11/2026 18:45:00",
+          "home_away": "A",
+          "opponent_id": "2609590",
+          "opponent": "Juventus",
+          "opponent_code": "JUV",
+          "opponent_home_away": "H",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -42999,9 +42999,9 @@
       },
       "uefa_extra": {
         "rating": 0.0,
-        "avg_player_points": 2.7,
-        "avg_player_value": 1.3,
-        "last_gameday_points": 0.0,
+        "avg_player_points": 2.8,
+        "avg_player_value": 1.8,
+        "last_gameday_points": 3.0,
         "daily_total_points": 0.0,
         "pot_id": "3ff61e44-8bec-4b76-991d-ae3832fe2bd2",
         "pot_name": "Pot 3"
@@ -43045,11 +43045,11 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 150,
-        "fantasy_points": 8,
+        "minutes": 215,
+        "fantasy_points": 12,
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 1,
+        "clean_sheets": 2,
         "goals_conceded": 0,
         "yellow_cards": 0,
         "red_cards": 0,
@@ -43059,7 +43059,7 @@
         "penalties_earned": 0,
         "saves": 0,
         "penalty_misses": 0,
-        "ball_recoveries": 11,
+        "ball_recoveries": 14,
         "goals_outside_box": 0,
         "player_of_match_awards": 0,
         "player_of_match_points": 0
@@ -43082,16 +43082,16 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2601983",
           "team": "OH Leuven",
           "team_code": "OHL",
-          "home_away": "H",
-          "opponent_id": "2611087",
-          "opponent": "HB Køge",
-          "opponent_code": "HBK",
-          "opponent_home_away": "A",
-          "kickoff": "11/11/2026 18:45:00",
+          "home_away": "A",
+          "opponent_id": "2609590",
+          "opponent": "Juventus",
+          "opponent_code": "JUV",
+          "opponent_home_away": "H",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -43115,8 +43115,8 @@
       "uefa_extra": {
         "rating": 0.0,
         "avg_player_points": 4.0,
-        "avg_player_value": 1.2,
-        "last_gameday_points": 0.0,
+        "avg_player_value": 1.9,
+        "last_gameday_points": 4.0,
         "daily_total_points": 0.0,
         "pot_id": "3ff61e44-8bec-4b76-991d-ae3832fe2bd2",
         "pot_name": "Pot 3"
@@ -43197,16 +43197,16 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2601983",
           "team": "OH Leuven",
           "team_code": "OHL",
-          "home_away": "H",
-          "opponent_id": "2611087",
-          "opponent": "HB Køge",
-          "opponent_code": "HBK",
-          "opponent_home_away": "A",
-          "kickoff": "11/11/2026 18:45:00",
+          "home_away": "A",
+          "opponent_id": "2609590",
+          "opponent": "Juventus",
+          "opponent_code": "JUV",
+          "opponent_home_away": "H",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -43275,8 +43275,8 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 47,
-        "fantasy_points": 4,
+        "minutes": 131,
+        "fantasy_points": 7,
         "goals": 0,
         "assists": 1,
         "clean_sheets": 0,
@@ -43289,7 +43289,7 @@
         "penalties_earned": 0,
         "saves": 0,
         "penalty_misses": 0,
-        "ball_recoveries": 2,
+        "ball_recoveries": 5,
         "goals_outside_box": 0,
         "player_of_match_awards": 0,
         "player_of_match_points": 0
@@ -43312,16 +43312,16 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2601983",
           "team": "OH Leuven",
           "team_code": "OHL",
-          "home_away": "H",
-          "opponent_id": "2611087",
-          "opponent": "HB Køge",
-          "opponent_code": "HBK",
-          "opponent_home_away": "A",
-          "kickoff": "11/11/2026 18:45:00",
+          "home_away": "A",
+          "opponent_id": "2609590",
+          "opponent": "Juventus",
+          "opponent_code": "JUV",
+          "opponent_home_away": "H",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -43344,9 +43344,9 @@
       },
       "uefa_extra": {
         "rating": 0.0,
-        "avg_player_points": 2.0,
-        "avg_player_value": 0.9,
-        "last_gameday_points": 0.0,
+        "avg_player_points": 2.3,
+        "avg_player_value": 1.6,
+        "last_gameday_points": 3.0,
         "daily_total_points": 0.0,
         "pot_id": "3ff61e44-8bec-4b76-991d-ae3832fe2bd2",
         "pot_name": "Pot 3"
@@ -43427,16 +43427,16 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2601983",
           "team": "OH Leuven",
           "team_code": "OHL",
-          "home_away": "H",
-          "opponent_id": "2611087",
-          "opponent": "HB Køge",
-          "opponent_code": "HBK",
-          "opponent_home_away": "A",
-          "kickoff": "11/11/2026 18:45:00",
+          "home_away": "A",
+          "opponent_id": "2609590",
+          "opponent": "Juventus",
+          "opponent_code": "JUV",
+          "opponent_home_away": "H",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -43542,16 +43542,16 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2601983",
           "team": "OH Leuven",
           "team_code": "OHL",
-          "home_away": "H",
-          "opponent_id": "2611087",
-          "opponent": "HB Køge",
-          "opponent_code": "HBK",
-          "opponent_home_away": "A",
-          "kickoff": "11/11/2026 18:45:00",
+          "home_away": "A",
+          "opponent_id": "2609590",
+          "opponent": "Juventus",
+          "opponent_code": "JUV",
+          "opponent_home_away": "H",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -43657,16 +43657,16 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2601983",
           "team": "OH Leuven",
           "team_code": "OHL",
-          "home_away": "H",
-          "opponent_id": "2611087",
-          "opponent": "HB Køge",
-          "opponent_code": "HBK",
-          "opponent_home_away": "A",
-          "kickoff": "11/11/2026 18:45:00",
+          "home_away": "A",
+          "opponent_id": "2609590",
+          "opponent": "Juventus",
+          "opponent_code": "JUV",
+          "opponent_home_away": "H",
+          "kickoff": "11/18/2026 21:00:00",
           "weekday": "WED"
         }
       },
@@ -43772,17 +43772,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -43887,17 +43887,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -44002,17 +44002,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -44117,17 +44117,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -44232,17 +44232,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -44347,17 +44347,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -44462,17 +44462,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -44577,17 +44577,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -44692,17 +44692,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -44807,17 +44807,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -44922,17 +44922,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -45037,17 +45037,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -45152,17 +45152,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -45267,17 +45267,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -45345,11 +45345,11 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 252,
-        "fantasy_points": 23,
+        "minutes": 342,
+        "fantasy_points": 29,
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 3,
+        "clean_sheets": 4,
         "goals_conceded": 0,
         "yellow_cards": 0,
         "red_cards": 0,
@@ -45359,7 +45359,7 @@
         "penalties_earned": 0,
         "saves": 0,
         "penalty_misses": 0,
-        "ball_recoveries": 16,
+        "ball_recoveries": 18,
         "goals_outside_box": 0,
         "player_of_match_awards": 0,
         "player_of_match_points": 0
@@ -45382,17 +45382,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -45414,9 +45414,9 @@
       },
       "uefa_extra": {
         "rating": 0.0,
-        "avg_player_points": 7.7,
-        "avg_player_value": 4.6,
-        "last_gameday_points": 0.0,
+        "avg_player_points": 7.3,
+        "avg_player_value": 5.8,
+        "last_gameday_points": 6.0,
         "daily_total_points": 0.0,
         "pot_id": "d034c394-f946-47b0-8de5-9f45998799a0",
         "pot_name": "Pot 1"
@@ -45460,8 +45460,8 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 182,
-        "fantasy_points": 18,
+        "minutes": 198,
+        "fantasy_points": 20,
         "goals": 0,
         "assists": 1,
         "clean_sheets": 2,
@@ -45474,7 +45474,7 @@
         "penalties_earned": 0,
         "saves": 0,
         "penalty_misses": 0,
-        "ball_recoveries": 11,
+        "ball_recoveries": 14,
         "goals_outside_box": 0,
         "player_of_match_awards": 0,
         "player_of_match_points": 0
@@ -45497,17 +45497,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -45529,9 +45529,9 @@
       },
       "uefa_extra": {
         "rating": 0.0,
-        "avg_player_points": 6.0,
-        "avg_player_value": 4.4,
-        "last_gameday_points": 0.0,
+        "avg_player_points": 5.0,
+        "avg_player_value": 4.9,
+        "last_gameday_points": 2.0,
         "daily_total_points": 0.0,
         "pot_id": "d034c394-f946-47b0-8de5-9f45998799a0",
         "pot_name": "Pot 1"
@@ -45612,17 +45612,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -45727,17 +45727,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -45805,11 +45805,11 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 74,
-        "fantasy_points": 8,
+        "minutes": 149,
+        "fantasy_points": 16,
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 1,
+        "clean_sheets": 2,
         "goals_conceded": 0,
         "yellow_cards": 0,
         "red_cards": 0,
@@ -45819,7 +45819,7 @@
         "penalties_earned": 0,
         "saves": 0,
         "penalty_misses": 0,
-        "ball_recoveries": 7,
+        "ball_recoveries": 15,
         "goals_outside_box": 0,
         "player_of_match_awards": 0,
         "player_of_match_points": 0
@@ -45842,17 +45842,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -45875,8 +45875,8 @@
       "uefa_extra": {
         "rating": 0.0,
         "avg_player_points": 8.0,
-        "avg_player_value": 2.0,
-        "last_gameday_points": 0.0,
+        "avg_player_value": 4.0,
+        "last_gameday_points": 8.0,
         "daily_total_points": 0.0,
         "pot_id": "d034c394-f946-47b0-8de5-9f45998799a0",
         "pot_name": "Pot 1"
@@ -45920,11 +45920,11 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 105,
-        "fantasy_points": 14,
-        "goals": 0,
+        "minutes": 195,
+        "fantasy_points": 25,
+        "goals": 1,
         "assists": 1,
-        "clean_sheets": 1,
+        "clean_sheets": 2,
         "goals_conceded": 0,
         "yellow_cards": 0,
         "red_cards": 0,
@@ -45933,8 +45933,8 @@
         "penalties_conceded": 0,
         "penalties_earned": 0,
         "saves": 0,
-        "penalty_misses": 0,
-        "ball_recoveries": 14,
+        "penalty_misses": 1,
+        "ball_recoveries": 19,
         "goals_outside_box": 0,
         "player_of_match_awards": 0,
         "player_of_match_points": 0
@@ -45957,17 +45957,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -45989,9 +45989,9 @@
       },
       "uefa_extra": {
         "rating": 0.0,
-        "avg_player_points": 7.0,
-        "avg_player_value": 2.3,
-        "last_gameday_points": 0.0,
+        "avg_player_points": 8.3,
+        "avg_player_value": 4.2,
+        "last_gameday_points": 11.0,
         "daily_total_points": 0.0,
         "pot_id": "d034c394-f946-47b0-8de5-9f45998799a0",
         "pot_name": "Pot 1"
@@ -46072,17 +46072,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -46150,8 +46150,8 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 116,
-        "fantasy_points": 7,
+        "minutes": 141,
+        "fantasy_points": 8,
         "goals": 0,
         "assists": 1,
         "clean_sheets": 0,
@@ -46187,17 +46187,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -46219,9 +46219,9 @@
       },
       "uefa_extra": {
         "rating": 0.0,
-        "avg_player_points": 2.3,
-        "avg_player_value": 0.8,
-        "last_gameday_points": 0.0,
+        "avg_player_points": 2.0,
+        "avg_player_value": 0.9,
+        "last_gameday_points": 1.0,
         "daily_total_points": 0.0,
         "pot_id": "d034c394-f946-47b0-8de5-9f45998799a0",
         "pot_name": "Pot 1"
@@ -46302,17 +46302,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -46417,17 +46417,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -46532,17 +46532,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -46647,17 +46647,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -46762,17 +46762,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -46840,9 +46840,9 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 195,
-        "fantasy_points": 30,
-        "goals": 5,
+        "minutes": 260,
+        "fantasy_points": 41,
+        "goals": 7,
         "assists": 0,
         "clean_sheets": 0,
         "goals_conceded": 0,
@@ -46854,7 +46854,7 @@
         "penalties_earned": 0,
         "saves": 0,
         "penalty_misses": 0,
-        "ball_recoveries": 2,
+        "ball_recoveries": 5,
         "goals_outside_box": 1,
         "player_of_match_awards": 1,
         "player_of_match_points": 3
@@ -46877,17 +46877,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -46909,9 +46909,9 @@
       },
       "uefa_extra": {
         "rating": 0.0,
-        "avg_player_points": 10.0,
-        "avg_player_value": 4.9,
-        "last_gameday_points": 0.0,
+        "avg_player_points": 10.3,
+        "avg_player_value": 6.7,
+        "last_gameday_points": 11.0,
         "daily_total_points": 0.0,
         "pot_id": "d034c394-f946-47b0-8de5-9f45998799a0",
         "pot_name": "Pot 1"
@@ -46955,9 +46955,9 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 222,
-        "fantasy_points": 17,
-        "goals": 2,
+        "minutes": 312,
+        "fantasy_points": 27,
+        "goals": 3,
         "assists": 1,
         "clean_sheets": 0,
         "goals_conceded": 0,
@@ -46969,10 +46969,10 @@
         "penalties_earned": 0,
         "saves": 0,
         "penalty_misses": 0,
-        "ball_recoveries": 4,
+        "ball_recoveries": 7,
         "goals_outside_box": 0,
-        "player_of_match_awards": 0,
-        "player_of_match_points": 0
+        "player_of_match_awards": 1,
+        "player_of_match_points": 3
       },
       "current_matchday": {
         "matchday": "3",
@@ -46992,17 +46992,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -47024,9 +47024,9 @@
       },
       "uefa_extra": {
         "rating": 0.0,
-        "avg_player_points": 5.7,
-        "avg_player_value": 2.6,
-        "last_gameday_points": 0.0,
+        "avg_player_points": 6.8,
+        "avg_player_value": 4.1,
+        "last_gameday_points": 10.0,
         "daily_total_points": 0.0,
         "pot_id": "d034c394-f946-47b0-8de5-9f45998799a0",
         "pot_name": "Pot 1"
@@ -47107,17 +47107,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -47185,10 +47185,10 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 256,
-        "fantasy_points": 19,
+        "minutes": 287,
+        "fantasy_points": 23,
         "goals": 0,
-        "assists": 4,
+        "assists": 5,
         "clean_sheets": 0,
         "goals_conceded": 0,
         "yellow_cards": 0,
@@ -47222,17 +47222,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -47254,9 +47254,9 @@
       },
       "uefa_extra": {
         "rating": 0.0,
-        "avg_player_points": 6.3,
-        "avg_player_value": 2.4,
-        "last_gameday_points": 0.0,
+        "avg_player_points": 5.8,
+        "avg_player_value": 2.8,
+        "last_gameday_points": 4.0,
         "daily_total_points": 0.0,
         "pot_id": "d034c394-f946-47b0-8de5-9f45998799a0",
         "pot_name": "Pot 1"
@@ -47337,17 +47337,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -47415,10 +47415,10 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 101,
-        "fantasy_points": 4,
+        "minutes": 161,
+        "fantasy_points": 10,
         "goals": 0,
-        "assists": 0,
+        "assists": 1,
         "clean_sheets": 0,
         "goals_conceded": 0,
         "yellow_cards": 0,
@@ -47429,7 +47429,7 @@
         "penalties_earned": 0,
         "saves": 0,
         "penalty_misses": 0,
-        "ball_recoveries": 3,
+        "ball_recoveries": 7,
         "goals_outside_box": 0,
         "player_of_match_awards": 0,
         "player_of_match_points": 0
@@ -47452,17 +47452,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -47484,9 +47484,9 @@
       },
       "uefa_extra": {
         "rating": 0.0,
-        "avg_player_points": 1.3,
-        "avg_player_value": 0.6,
-        "last_gameday_points": 0.0,
+        "avg_player_points": 2.5,
+        "avg_player_value": 1.4,
+        "last_gameday_points": 6.0,
         "daily_total_points": 0.0,
         "pot_id": "d034c394-f946-47b0-8de5-9f45998799a0",
         "pot_name": "Pot 1"
@@ -47530,8 +47530,8 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 45,
-        "fantasy_points": 18,
+        "minutes": 110,
+        "fantasy_points": 22,
         "goals": 3,
         "assists": 0,
         "clean_sheets": 0,
@@ -47544,7 +47544,7 @@
         "penalties_earned": 0,
         "saves": 0,
         "penalty_misses": 0,
-        "ball_recoveries": 4,
+        "ball_recoveries": 12,
         "goals_outside_box": 0,
         "player_of_match_awards": 1,
         "player_of_match_points": 3
@@ -47567,17 +47567,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -47599,9 +47599,9 @@
       },
       "uefa_extra": {
         "rating": 0.0,
-        "avg_player_points": 9.0,
-        "avg_player_value": 3.0,
-        "last_gameday_points": 0.0,
+        "avg_player_points": 7.3,
+        "avg_player_value": 3.7,
+        "last_gameday_points": 4.0,
         "daily_total_points": 0.0,
         "pot_id": "d034c394-f946-47b0-8de5-9f45998799a0",
         "pot_name": "Pot 1"
@@ -47682,17 +47682,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -47797,17 +47797,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -47912,17 +47912,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -48027,17 +48027,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -48142,17 +48142,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -48220,11 +48220,11 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 270,
-        "fantasy_points": 18,
+        "minutes": 360,
+        "fantasy_points": 24,
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 3,
+        "clean_sheets": 4,
         "goals_conceded": 0,
         "yellow_cards": 0,
         "red_cards": 0,
@@ -48232,7 +48232,7 @@
         "penalties_saved": 0,
         "penalties_conceded": 0,
         "penalties_earned": 0,
-        "saves": 4,
+        "saves": 6,
         "penalty_misses": 0,
         "ball_recoveries": 0,
         "goals_outside_box": 0,
@@ -48257,17 +48257,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -48290,8 +48290,8 @@
       "uefa_extra": {
         "rating": 0.0,
         "avg_player_points": 6.0,
-        "avg_player_value": 4.5,
-        "last_gameday_points": 0.0,
+        "avg_player_value": 6.0,
+        "last_gameday_points": 6.0,
         "daily_total_points": 0.0,
         "pot_id": "d034c394-f946-47b0-8de5-9f45998799a0",
         "pot_name": "Pot 1"
@@ -48372,17 +48372,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -48487,17 +48487,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -48602,17 +48602,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -48717,17 +48717,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -48832,17 +48832,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -48947,17 +48947,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -49025,11 +49025,11 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 270,
-        "fantasy_points": 16,
+        "minutes": 345,
+        "fantasy_points": 21,
         "goals": 0,
         "assists": 0,
-        "clean_sheets": 3,
+        "clean_sheets": 4,
         "goals_conceded": 0,
         "yellow_cards": 0,
         "red_cards": 0,
@@ -49039,7 +49039,7 @@
         "penalties_earned": 0,
         "saves": 0,
         "penalty_misses": 0,
-        "ball_recoveries": 22,
+        "ball_recoveries": 28,
         "goals_outside_box": 0,
         "player_of_match_awards": 0,
         "player_of_match_points": 0
@@ -49062,17 +49062,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -49095,8 +49095,8 @@
       "uefa_extra": {
         "rating": 0.0,
         "avg_player_points": 5.3,
-        "avg_player_value": 3.2,
-        "last_gameday_points": 0.0,
+        "avg_player_value": 4.2,
+        "last_gameday_points": 5.0,
         "daily_total_points": 0.0,
         "pot_id": "d034c394-f946-47b0-8de5-9f45998799a0",
         "pot_name": "Pot 1"
@@ -49177,17 +49177,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -49292,17 +49292,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -49370,8 +49370,8 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 48,
-        "fantasy_points": 7,
+        "minutes": 64,
+        "fantasy_points": 8,
         "goals": 1,
         "assists": 0,
         "clean_sheets": 0,
@@ -49384,7 +49384,7 @@
         "penalties_earned": 0,
         "saves": 0,
         "penalty_misses": 0,
-        "ball_recoveries": 1,
+        "ball_recoveries": 3,
         "goals_outside_box": 0,
         "player_of_match_awards": 0,
         "player_of_match_points": 0
@@ -49407,17 +49407,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -49439,9 +49439,9 @@
       },
       "uefa_extra": {
         "rating": 0.0,
-        "avg_player_points": 3.5,
-        "avg_player_value": 1.6,
-        "last_gameday_points": 0.0,
+        "avg_player_points": 2.7,
+        "avg_player_value": 1.8,
+        "last_gameday_points": 1.0,
         "daily_total_points": 0.0,
         "pot_id": "d034c394-f946-47b0-8de5-9f45998799a0",
         "pot_name": "Pot 1"
@@ -49522,17 +49522,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -49637,17 +49637,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -49715,11 +49715,11 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 184,
-        "fantasy_points": 15,
+        "minutes": 274,
+        "fantasy_points": 24,
         "goals": 0,
-        "assists": 2,
-        "clean_sheets": 2,
+        "assists": 4,
+        "clean_sheets": 3,
         "goals_conceded": 0,
         "yellow_cards": 1,
         "red_cards": 0,
@@ -49729,7 +49729,7 @@
         "penalties_earned": 0,
         "saves": 0,
         "penalty_misses": 0,
-        "ball_recoveries": 12,
+        "ball_recoveries": 14,
         "goals_outside_box": 0,
         "player_of_match_awards": 0,
         "player_of_match_points": 0
@@ -49752,17 +49752,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -49784,9 +49784,9 @@
       },
       "uefa_extra": {
         "rating": 0.0,
-        "avg_player_points": 5.0,
-        "avg_player_value": 2.1,
-        "last_gameday_points": 0.0,
+        "avg_player_points": 6.0,
+        "avg_player_value": 3.4,
+        "last_gameday_points": 9.0,
         "daily_total_points": 0.0,
         "pot_id": "d034c394-f946-47b0-8de5-9f45998799a0",
         "pot_name": "Pot 1"
@@ -49867,17 +49867,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -49982,17 +49982,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -50060,9 +50060,9 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 0,
-        "fantasy_points": 0,
-        "goals": 0,
+        "minutes": 26,
+        "fantasy_points": 6,
+        "goals": 1,
         "assists": 0,
         "clean_sheets": 0,
         "goals_conceded": 0,
@@ -50074,7 +50074,7 @@
         "penalties_earned": 0,
         "saves": 0,
         "penalty_misses": 0,
-        "ball_recoveries": 0,
+        "ball_recoveries": 1,
         "goals_outside_box": 0,
         "player_of_match_awards": 0,
         "player_of_match_points": 0
@@ -50097,17 +50097,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -50129,9 +50129,9 @@
       },
       "uefa_extra": {
         "rating": 0.0,
-        "avg_player_points": 0.0,
-        "avg_player_value": 0.0,
-        "last_gameday_points": 0.0,
+        "avg_player_points": 6.0,
+        "avg_player_value": 1.3,
+        "last_gameday_points": 6.0,
         "daily_total_points": 0.0,
         "pot_id": "d034c394-f946-47b0-8de5-9f45998799a0",
         "pot_name": "Pot 1"
@@ -50175,13 +50175,13 @@
       },
       "historical_stats": {
         "season": "2026/27",
-        "minutes": 252,
-        "fantasy_points": 20,
-        "goals": 1,
+        "minutes": 342,
+        "fantasy_points": 29,
+        "goals": 2,
         "assists": 1,
-        "clean_sheets": 3,
+        "clean_sheets": 4,
         "goals_conceded": 0,
-        "yellow_cards": 0,
+        "yellow_cards": 1,
         "red_cards": 0,
         "own_goals": 0,
         "penalties_saved": 0,
@@ -50189,7 +50189,7 @@
         "penalties_earned": 0,
         "saves": 0,
         "penalty_misses": 0,
-        "ball_recoveries": 11,
+        "ball_recoveries": 18,
         "goals_outside_box": 1,
         "player_of_match_awards": 0,
         "player_of_match_points": 0
@@ -50212,17 +50212,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -50244,9 +50244,9 @@
       },
       "uefa_extra": {
         "rating": 0.0,
-        "avg_player_points": 6.7,
-        "avg_player_value": 3.6,
-        "last_gameday_points": 0.0,
+        "avg_player_points": 7.3,
+        "avg_player_value": 5.3,
+        "last_gameday_points": 9.0,
         "daily_total_points": 0.0,
         "pot_id": "d034c394-f946-47b0-8de5-9f45998799a0",
         "pot_name": "Pot 1"
@@ -50327,17 +50327,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -50442,17 +50442,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {
@@ -50557,17 +50557,17 @@
           "weekday": "WED"
         },
         "next_match": {
-          "matchday": "4",
+          "matchday": "5",
           "team_id": "2600241",
           "team": "OL Lyonnes",
           "team_code": "LYO",
           "home_away": "A",
-          "opponent_id": "2609590",
-          "opponent": "Juventus",
-          "opponent_code": "JUV",
+          "opponent_id": "81199",
+          "opponent": "Arsenal",
+          "opponent_code": "ARS",
           "opponent_home_away": "H",
-          "kickoff": "11/11/2026 21:00:00",
-          "weekday": "WED"
+          "kickoff": "11/19/2026 21:00:00",
+          "weekday": "THU"
         }
       },
       "uefa_categories": {

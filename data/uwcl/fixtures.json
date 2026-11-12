@@ -72,7 +72,7 @@
       "is_current": false,
       "is_locked": true,
       "fantasy_gameday_current": true,
-      "fantasy_gameday_locked": true,
+      "fantasy_gameday_locked": false,
       "subs_allowed": 2,
       "match_ids": [
         "2050557",
@@ -1165,17 +1165,17 @@
         "id": "2601983",
         "name": "OH Leuven",
         "code": "OHL",
-        "score": ""
+        "score": "1"
       },
       "away": {
         "id": "2611087",
         "name": "HB Køge",
         "code": "HBK",
-        "score": ""
+        "score": "1"
       },
-      "status": "1",
+      "status": "2",
       "is_live": true,
-      "feed_live": true,
+      "feed_live": false,
       "locked": true,
       "postponed": false,
       "lineup_announced": true,
@@ -1197,17 +1197,17 @@
         "id": "2609590",
         "name": "Juventus",
         "code": "JUV",
-        "score": ""
+        "score": "0"
       },
       "away": {
         "id": "2600241",
         "name": "OL Lyonnes",
         "code": "LYO",
-        "score": ""
+        "score": "6"
       },
-      "status": "1",
+      "status": "2",
       "is_live": true,
-      "feed_live": true,
+      "feed_live": false,
       "locked": true,
       "postponed": false,
       "lineup_announced": true,
