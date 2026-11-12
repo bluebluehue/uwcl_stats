@@ -14,16 +14,16 @@
         "name": "Pot 1"
       },
       "next_match": {
-        "matchday": "4",
+        "matchday": "5",
         "team_id": "81199",
         "team": "Arsenal",
         "team_code": "ARS",
-        "home_away": "A",
-        "opponent_id": "2601945",
-        "opponent": "Barcelona",
-        "opponent_code": "BAR",
-        "opponent_home_away": "H",
-        "kickoff": "11/12/2026 18:45:00",
+        "home_away": "H",
+        "opponent_id": "2600241",
+        "opponent": "OL Lyonnes",
+        "opponent_code": "LYO",
+        "opponent_home_away": "A",
+        "kickoff": "11/19/2026 21:00:00",
         "weekday": "THU"
       }
     },
@@ -62,16 +62,16 @@
         "name": "Pot 1"
       },
       "next_match": {
-        "matchday": "4",
+        "matchday": "5",
         "team_id": "2601945",
         "team": "Barcelona",
         "team_code": "BAR",
         "home_away": "H",
-        "opponent_id": "81199",
-        "opponent": "Arsenal",
-        "opponent_code": "ARS",
+        "opponent_id": "2611086",
+        "opponent": "Servette",
+        "opponent_code": "SER",
         "opponent_home_away": "A",
-        "kickoff": "11/12/2026 18:45:00",
+        "kickoff": "11/19/2026 21:00:00",
         "weekday": "THU"
       }
     },

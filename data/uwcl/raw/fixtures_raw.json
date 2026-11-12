@@ -1303,7 +1303,7 @@
       {
         "mdId": 4,
         "phId": 1,
-        "gdIsLocked": 0,
+        "gdIsLocked": 1,
         "gdIsCurrent": 1,
         "subsAllowed": 2,
         "maxSubsCf": 1,
@@ -1314,7 +1314,7 @@
         "round": "",
         "mdIsLocked": 1,
         "mdIsCurrent": 1,
-        "isActNewUser": 1,
+        "isActNewUser": 0,
         "showLeaderboards": 1,
         "match": [
           {
@@ -1643,10 +1643,10 @@
             "mId": 2050561,
             "isMatchPostponed": 0,
             "gmIsCurrent": 1,
-            "gmIsLocked": 0,
+            "gmIsLocked": 1,
             "gdId": "9",
-            "isFeedLive": "0",
-            "isLive": 0,
+            "isFeedLive": "1",
+            "isLive": 1,
             "dateTime": "11/12/2026 18:45:00",
             "dateTimeLock": "11/12/2026 18:45:00",
             "htId": 2601945,
@@ -1671,11 +1671,11 @@
             "atAggScore": "0",
             "aggDescription": "",
             "aggFlag": 0,
-            "matchStatus": "0",
+            "matchStatus": "1",
             "teamSc": "",
             "teamScStartDate": "",
             "teamScEndDate": "",
-            "lineupAnnounced": 0,
+            "lineupAnnounced": 1,
             "groupId": 2014097,
             "groupName": "League",
             "stadiumId": 57776,
@@ -1747,13 +1747,13 @@
         "round": "",
         "mdIsLocked": 0,
         "mdIsCurrent": 1,
-        "isActNewUser": 0,
+        "isActNewUser": 1,
         "showLeaderboards": 0,
         "match": [
           {
             "mId": 2050568,
             "isMatchPostponed": 0,
-            "gmIsCurrent": 0,
+            "gmIsCurrent": 1,
             "gmIsLocked": 0,
             "gdId": "10",
             "isFeedLive": "0",
@@ -1799,7 +1799,7 @@
           {
             "mId": 2050566,
             "isMatchPostponed": 0,
-            "gmIsCurrent": 0,
+            "gmIsCurrent": 1,
             "gmIsLocked": 0,
             "gdId": "10",
             "isFeedLive": "0",
@@ -1845,7 +1845,7 @@
           {
             "mId": 2050567,
             "isMatchPostponed": 0,
-            "gmIsCurrent": 0,
+            "gmIsCurrent": 1,
             "gmIsLocked": 0,
             "gdId": "10",
             "isFeedLive": "0",
@@ -1891,7 +1891,7 @@
           {
             "mId": 2050565,
             "isMatchPostponed": 0,
-            "gmIsCurrent": 0,
+            "gmIsCurrent": 1,
             "gmIsLocked": 0,
             "gdId": "10",
             "isFeedLive": "0",
@@ -2601,9 +2601,9 @@
       }
     ],
     "feedTime": {
-      "utcTime": "11/12/26 10:15:07 AM",
-      "istTime": "11/12/26 3:45:07 PM",
-      "cestTime": "11/12/26 11:15:07 AM"
+      "utcTime": "11/12/26 6:20:26 PM",
+      "istTime": "11/12/26 11:50:26 PM",
+      "cestTime": "11/12/26 7:20:26 PM"
     }
   },
   "meta": {
@@ -2611,9 +2611,9 @@
     "retVal": 1,
     "success": true,
     "timestamp": {
-      "utcTime": "11/12/26 10:15:07 AM",
-      "istTime": "11/12/26 3:45:07 PM",
-      "cestTime": "11/12/26 11:15:07 AM"
+      "utcTime": "11/12/26 6:20:26 PM",
+      "istTime": "11/12/26 11:50:26 PM",
+      "cestTime": "11/12/26 7:20:26 PM"
     }
   }
 }

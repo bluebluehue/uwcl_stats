@@ -1,7 +1,7 @@
 {
   "competition": "UWCL",
   "season": "2026/27",
-  "current_matchday": 3,
+  "current_matchday": 4,
   "historical_stats": {
     "season": "2026/27",
     "status": "live_current_season"
@@ -18,7 +18,7 @@
   "feed_status": {
     "fixtures": "live",
     "teams": "live",
-    "players": "live_md3"
+    "players": "live_md4"
   },
   "counts": {
     "players": 613,
@@ -31,7 +31,7 @@
     "teams": "https://gaming.uefa.com/en/uwclfantasy/services/feeds/teams/teams_40_en.json",
     "fixtures": "https://gaming.uefa.com/en/uwclfantasy/services/feeds/fixtures/fixtures_40_en.json"
   },
-  "fetched_at_utc": "2026-11-12T10:26:02.168527+00:00",
+  "fetched_at_utc": "2026-11-12T18:28:39.422316+00:00",
   "preseason_archive": {
     "path": "data/uwcl/archive/2026-09-21-preseason",
     "created_this_run": false
