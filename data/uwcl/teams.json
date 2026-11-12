@@ -38,16 +38,16 @@
         "name": "Pot 3"
       },
       "next_match": {
-        "matchday": "4",
+        "matchday": "5",
         "team_id": "2612002",
         "team": "Austria Wien",
         "team_code": "AUS",
-        "home_away": "A",
-        "opponent_id": "2610349",
-        "opponent": "Benfica",
-        "opponent_code": "BEN",
-        "opponent_home_away": "H",
-        "kickoff": "11/12/2026 21:00:00",
+        "home_away": "H",
+        "opponent_id": "2600661",
+        "opponent": "Bayern",
+        "opponent_code": "BAY",
+        "opponent_home_away": "A",
+        "kickoff": "11/19/2026 18:45:00",
         "weekday": "THU"
       }
     },
@@ -110,16 +110,16 @@
         "name": "Pot 2"
       },
       "next_match": {
-        "matchday": "4",
+        "matchday": "5",
         "team_id": "2610349",
         "team": "Benfica",
         "team_code": "BEN",
         "home_away": "H",
-        "opponent_id": "2612002",
-        "opponent": "Austria Wien",
-        "opponent_code": "AUS",
+        "opponent_id": "2610208",
+        "opponent": "Roma",
+        "opponent_code": "ROM",
         "opponent_home_away": "A",
-        "kickoff": "11/12/2026 21:00:00",
+        "kickoff": "11/19/2026 21:00:00",
         "weekday": "THU"
       }
     },

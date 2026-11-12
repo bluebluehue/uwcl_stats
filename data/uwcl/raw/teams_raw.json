@@ -48,22 +48,22 @@
         "htStatus": "",
         "upcomingMatchesList": [
           {
-            "mdId": "4",
+            "mdId": "5",
             "tId": "2612002",
             "tSCode": "Austria Wien",
             "cCode": "AUS",
-            "tLoc": "A",
-            "vsTID": "2610349",
-            "vsTSCode": "Benfica",
-            "vsCCode": "BEN",
-            "matchDate": "11/12/2026 21:00:00",
-            "vsTLoc": "H",
+            "tLoc": "H",
+            "vsTID": "2600661",
+            "vsTSCode": "Bayern",
+            "vsCCode": "BAY",
+            "matchDate": "11/19/2026 18:45:00",
+            "vsTLoc": "A",
             "htPtId": "3ff61e44-8bec-4b76-991d-ae3832fe2bd2",
             "htPtName": "Pot 3",
             "htPtResName": "draw_pot_3",
-            "atPtId": "131cd507-27ec-413b-a89d-900bdc70f591",
-            "atPtName": "Pot 2",
-            "atPtResName": "draw_pot_2"
+            "atPtId": "d034c394-f946-47b0-8de5-9f45998799a0",
+            "atPtName": "Pot 1",
+            "atPtResName": "draw_pot_1"
           }
         ]
       },
@@ -147,22 +147,22 @@
         "htStatus": "",
         "upcomingMatchesList": [
           {
-            "mdId": "4",
+            "mdId": "5",
             "tId": "2610349",
             "tSCode": "Benfica",
             "cCode": "BEN",
             "tLoc": "H",
-            "vsTID": "2612002",
-            "vsTSCode": "Austria Wien",
-            "vsCCode": "AUS",
-            "matchDate": "11/12/2026 21:00:00",
+            "vsTID": "2610208",
+            "vsTSCode": "Roma",
+            "vsCCode": "ROM",
+            "matchDate": "11/19/2026 21:00:00",
             "vsTLoc": "A",
             "htPtId": "131cd507-27ec-413b-a89d-900bdc70f591",
             "htPtName": "Pot 2",
             "htPtResName": "draw_pot_2",
-            "atPtId": "3ff61e44-8bec-4b76-991d-ae3832fe2bd2",
-            "atPtName": "Pot 3",
-            "atPtResName": "draw_pot_3"
+            "atPtId": "131cd507-27ec-413b-a89d-900bdc70f591",
+            "atPtName": "Pot 2",
+            "atPtResName": "draw_pot_2"
           }
         ]
       },
@@ -597,9 +597,9 @@
       }
     ],
     "feedTime": {
-      "utcTime": "11/12/26 6:19:04 PM",
-      "istTime": "11/12/26 11:49:04 PM",
-      "cestTime": "11/12/26 7:19:04 PM"
+      "utcTime": "11/12/26 11:24:06 PM",
+      "istTime": "11/13/26 4:54:06 AM",
+      "cestTime": "11/13/26 12:24:06 AM"
     }
   },
   "meta": {
@@ -607,9 +607,9 @@
     "retVal": 1,
     "success": true,
     "timestamp": {
-      "utcTime": "11/12/26 6:19:04 PM",
-      "istTime": "11/12/26 11:49:04 PM",
-      "cestTime": "11/12/26 7:19:04 PM"
+      "utcTime": "11/12/26 11:24:06 PM",
+      "istTime": "11/13/26 4:54:06 AM",
+      "cestTime": "11/13/26 12:24:06 AM"
     }
   }
 }

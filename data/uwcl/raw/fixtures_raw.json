@@ -1304,7 +1304,7 @@
         "mdId": 4,
         "phId": 1,
         "gdIsLocked": 1,
-        "gdIsCurrent": 1,
+        "gdIsCurrent": 2,
         "subsAllowed": 2,
         "maxSubsCf": 1,
         "deadline": "11/12/26 6:45:00 PM",
@@ -1313,7 +1313,7 @@
         "roundId": 2002258,
         "round": "",
         "mdIsLocked": 1,
-        "mdIsCurrent": 1,
+        "mdIsCurrent": 2,
         "isActNewUser": 0,
         "showLeaderboards": 1,
         "match": [
@@ -1642,11 +1642,11 @@
           {
             "mId": 2050561,
             "isMatchPostponed": 0,
-            "gmIsCurrent": 1,
+            "gmIsCurrent": 2,
             "gmIsLocked": 1,
             "gdId": "9",
-            "isFeedLive": "1",
-            "isLive": 1,
+            "isFeedLive": "2",
+            "isLive": 2,
             "dateTime": "11/12/2026 18:45:00",
             "dateTimeLock": "11/12/2026 18:45:00",
             "htId": 2601945,
@@ -1665,13 +1665,13 @@
             "atPtResName": "draw_pot_1",
             "gameNo": "36651",
             "mdName": "Match 35",
-            "htScore": "",
-            "atScore": "",
+            "htScore": "1",
+            "atScore": "1",
             "htAggScore": "0",
             "atAggScore": "0",
             "aggDescription": "",
             "aggFlag": 0,
-            "matchStatus": "1",
+            "matchStatus": "2",
             "teamSc": "",
             "teamScStartDate": "",
             "teamScEndDate": "",
@@ -1688,11 +1688,11 @@
           {
             "mId": 2050563,
             "isMatchPostponed": 0,
-            "gmIsCurrent": 1,
-            "gmIsLocked": 0,
+            "gmIsCurrent": 2,
+            "gmIsLocked": 1,
             "gdId": "9",
-            "isFeedLive": "0",
-            "isLive": 0,
+            "isFeedLive": "2",
+            "isLive": 2,
             "dateTime": "11/12/2026 21:00:00",
             "dateTimeLock": "11/12/2026 21:00:00",
             "htId": 2610349,
@@ -1711,17 +1711,17 @@
             "atPtResName": "draw_pot_3",
             "gameNo": "36651",
             "mdName": "Match 36",
-            "htScore": "",
-            "atScore": "",
+            "htScore": "3",
+            "atScore": "1",
             "htAggScore": "0",
             "atAggScore": "0",
             "aggDescription": "",
             "aggFlag": 0,
-            "matchStatus": "0",
+            "matchStatus": "2",
             "teamSc": "",
             "teamScStartDate": "",
             "teamScEndDate": "",
-            "lineupAnnounced": 0,
+            "lineupAnnounced": 1,
             "groupId": 2014097,
             "groupName": "League",
             "stadiumId": 85265,
@@ -2601,9 +2601,9 @@
       }
     ],
     "feedTime": {
-      "utcTime": "11/12/26 6:20:26 PM",
-      "istTime": "11/12/26 11:50:26 PM",
-      "cestTime": "11/12/26 7:20:26 PM"
+      "utcTime": "11/12/26 11:25:27 PM",
+      "istTime": "11/13/26 4:55:27 AM",
+      "cestTime": "11/13/26 12:25:27 AM"
     }
   },
   "meta": {
@@ -2611,9 +2611,9 @@
     "retVal": 1,
     "success": true,
     "timestamp": {
-      "utcTime": "11/12/26 6:20:26 PM",
-      "istTime": "11/12/26 11:50:26 PM",
-      "cestTime": "11/12/26 7:20:26 PM"
+      "utcTime": "11/12/26 11:25:27 PM",
+      "istTime": "11/13/26 4:55:27 AM",
+      "cestTime": "11/13/26 12:25:27 AM"
     }
   }
 }
