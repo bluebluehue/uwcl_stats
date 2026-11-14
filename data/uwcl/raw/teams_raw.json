@@ -597,9 +597,9 @@
       }
     ],
     "feedTime": {
-      "utcTime": "11/13/26 11:39:57 PM",
-      "istTime": "11/14/26 5:09:57 AM",
-      "cestTime": "11/14/26 12:39:57 AM"
+      "utcTime": "11/14/26 4:40:48 AM",
+      "istTime": "11/14/26 10:10:48 AM",
+      "cestTime": "11/14/26 5:40:48 AM"
     }
   },
   "meta": {
@@ -607,9 +607,9 @@
     "retVal": 1,
     "success": true,
     "timestamp": {
-      "utcTime": "11/13/26 11:39:57 PM",
-      "istTime": "11/14/26 5:09:57 AM",
-      "cestTime": "11/14/26 12:39:57 AM"
+      "utcTime": "11/14/26 4:40:48 AM",
+      "istTime": "11/14/26 10:10:48 AM",
+      "cestTime": "11/14/26 5:40:48 AM"
     }
   }
 }
