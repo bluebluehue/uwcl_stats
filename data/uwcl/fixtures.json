@@ -93,7 +93,7 @@
       "is_current": false,
       "is_locked": true,
       "fantasy_gameday_current": true,
-      "fantasy_gameday_locked": true,
+      "fantasy_gameday_locked": false,
       "subs_allowed": 2,
       "match_ids": [
         "2050568",
@@ -1293,17 +1293,17 @@
         "id": "2611347",
         "name": "Real Madrid",
         "code": "RMA",
-        "score": ""
+        "score": "3"
       },
       "away": {
         "id": "2609776",
         "name": "Inter",
         "code": "INT",
-        "score": ""
+        "score": "1"
       },
-      "status": "1",
+      "status": "2",
       "is_live": true,
-      "feed_live": true,
+      "feed_live": false,
       "locked": true,
       "postponed": false,
       "lineup_announced": true,
@@ -1325,17 +1325,17 @@
         "id": "2600867",
         "name": "Häcken",
         "code": "HAC",
-        "score": ""
+        "score": "0"
       },
       "away": {
         "id": "2603520",
         "name": "Man City",
         "code": "MCI",
-        "score": ""
+        "score": "2"
       },
-      "status": "1",
+      "status": "2",
       "is_live": true,
-      "feed_live": true,
+      "feed_live": false,
       "locked": true,
       "postponed": false,
       "lineup_announced": true,
@@ -1357,20 +1357,20 @@
         "id": "2600827",
         "name": "Chelsea",
         "code": "CHE",
-        "score": ""
+        "score": "1"
       },
       "away": {
         "id": "2600841",
         "name": "Paris SG",
         "code": "PSG",
-        "score": ""
+        "score": "0"
       },
-      "status": "0",
-      "is_live": false,
+      "status": "2",
+      "is_live": true,
       "feed_live": false,
-      "locked": false,
+      "locked": true,
       "postponed": false,
-      "lineup_announced": false,
+      "lineup_announced": true,
       "venue": {
         "stadium_id": "250005820",
         "stadium": "AFC Wimbledon Stadium",
@@ -1389,20 +1389,20 @@
         "id": "2609590",
         "name": "Juventus",
         "code": "JUV",
-        "score": ""
+        "score": "2"
       },
       "away": {
         "id": "2601983",
         "name": "OH Leuven",
         "code": "OHL",
-        "score": ""
+        "score": "0"
       },
-      "status": "0",
-      "is_live": false,
+      "status": "2",
+      "is_live": true,
       "feed_live": false,
-      "locked": false,
+      "locked": true,
       "postponed": false,
-      "lineup_announced": false,
+      "lineup_announced": true,
       "venue": {
         "stadium_id": "250005419",
         "stadium": "Pozzo - Lamarmora",
