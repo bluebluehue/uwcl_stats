@@ -1970,7 +1970,7 @@
             "teamSc": "",
             "teamScStartDate": "",
             "teamScEndDate": "",
-            "lineupAnnounced": 0,
+            "lineupAnnounced": 1,
             "groupId": 2014097,
             "groupName": "League",
             "stadiumId": 62718,
@@ -2016,7 +2016,7 @@
             "teamSc": "",
             "teamScStartDate": "",
             "teamScEndDate": "",
-            "lineupAnnounced": 0,
+            "lineupAnnounced": 1,
             "groupId": 2014097,
             "groupName": "League",
             "stadiumId": 72072,
@@ -2601,9 +2601,9 @@
       }
     ],
     "feedTime": {
-      "utcTime": "11/19/26 7:00:30 AM",
-      "istTime": "11/19/26 12:30:30 PM",
-      "cestTime": "11/19/26 8:00:30 AM"
+      "utcTime": "11/19/26 5:06:53 PM",
+      "istTime": "11/19/26 10:36:53 PM",
+      "cestTime": "11/19/26 6:06:53 PM"
     }
   },
   "meta": {
@@ -2611,9 +2611,9 @@
     "retVal": 1,
     "success": true,
     "timestamp": {
-      "utcTime": "11/19/26 7:00:30 AM",
-      "istTime": "11/19/26 12:30:30 PM",
-      "cestTime": "11/19/26 8:00:30 AM"
+      "utcTime": "11/19/26 5:06:53 PM",
+      "istTime": "11/19/26 10:36:53 PM",
+      "cestTime": "11/19/26 6:06:53 PM"
     }
   }
 }

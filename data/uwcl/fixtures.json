@@ -1434,7 +1434,7 @@
       "feed_live": false,
       "locked": false,
       "postponed": false,
-      "lineup_announced": false,
+      "lineup_announced": true,
       "venue": {
         "stadium_id": "72072",
         "stadium": "Stade Charléty",
@@ -1466,7 +1466,7 @@
       "feed_live": false,
       "locked": false,
       "postponed": false,
-      "lineup_announced": false,
+      "lineup_announced": true,
       "venue": {
         "stadium_id": "62718",
         "stadium": "Franz-Horr-Stadion",
