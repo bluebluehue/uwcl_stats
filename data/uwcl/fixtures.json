@@ -69,7 +69,7 @@
       "matchday": 4,
       "phase_id": 1,
       "deadline": "11/12/26 6:45:00 PM",
-      "is_current": true,
+      "is_current": false,
       "is_locked": true,
       "fantasy_gameday_current": true,
       "fantasy_gameday_locked": true,
@@ -93,7 +93,7 @@
       "is_current": false,
       "is_locked": true,
       "fantasy_gameday_current": true,
-      "fantasy_gameday_locked": false,
+      "fantasy_gameday_locked": true,
       "subs_allowed": 2,
       "match_ids": [
         "2050568",
@@ -111,7 +111,7 @@
       "matchday": 6,
       "phase_id": 1,
       "deadline": "12/16/26 9:00:00 PM",
-      "is_current": false,
+      "is_current": true,
       "is_locked": false,
       "fantasy_gameday_current": true,
       "fantasy_gameday_locked": false,
@@ -1421,18 +1421,18 @@
         "id": "2609779",
         "name": "Paris",
         "code": "PAR",
-        "score": ""
+        "score": "2"
       },
       "away": {
         "id": "2611087",
         "name": "HB Køge",
         "code": "HBK",
-        "score": ""
+        "score": "1"
       },
-      "status": "0",
-      "is_live": false,
+      "status": "2",
+      "is_live": true,
       "feed_live": false,
-      "locked": false,
+      "locked": true,
       "postponed": false,
       "lineup_announced": true,
       "venue": {
@@ -1453,18 +1453,18 @@
         "id": "2612002",
         "name": "Austria Wien",
         "code": "AUS",
-        "score": ""
+        "score": "0"
       },
       "away": {
         "id": "2600661",
         "name": "Bayern",
         "code": "BAY",
-        "score": ""
+        "score": "4"
       },
-      "status": "0",
-      "is_live": false,
+      "status": "2",
+      "is_live": true,
       "feed_live": false,
-      "locked": false,
+      "locked": true,
       "postponed": false,
       "lineup_announced": true,
       "venue": {
@@ -1485,20 +1485,20 @@
         "id": "2601945",
         "name": "Barcelona",
         "code": "BAR",
-        "score": ""
+        "score": "6"
       },
       "away": {
         "id": "2611086",
         "name": "Servette",
         "code": "SER",
-        "score": ""
+        "score": "0"
       },
-      "status": "0",
-      "is_live": false,
+      "status": "2",
+      "is_live": true,
       "feed_live": false,
-      "locked": false,
+      "locked": true,
       "postponed": false,
-      "lineup_announced": false,
+      "lineup_announced": true,
       "venue": {
         "stadium_id": "75214",
         "stadium": "Estadi Johan Cruyff",
@@ -1517,20 +1517,20 @@
         "id": "81199",
         "name": "Arsenal",
         "code": "ARS",
-        "score": ""
+        "score": "0"
       },
       "away": {
         "id": "2600241",
         "name": "OL Lyonnes",
         "code": "LYO",
-        "score": ""
+        "score": "2"
       },
-      "status": "0",
-      "is_live": false,
+      "status": "2",
+      "is_live": true,
       "feed_live": false,
-      "locked": false,
+      "locked": true,
       "postponed": false,
-      "lineup_announced": false,
+      "lineup_announced": true,
       "venue": {
         "stadium_id": "79574",
         "stadium": "Meadow Park",
@@ -1549,20 +1549,20 @@
         "id": "2610349",
         "name": "Benfica",
         "code": "BEN",
-        "score": ""
+        "score": "2"
       },
       "away": {
         "id": "2610208",
         "name": "Roma",
         "code": "ROM",
-        "score": ""
+        "score": "3"
       },
-      "status": "0",
-      "is_live": false,
+      "status": "2",
+      "is_live": true,
       "feed_live": false,
-      "locked": false,
+      "locked": true,
       "postponed": false,
-      "lineup_announced": false,
+      "lineup_announced": true,
       "venue": {
         "stadium_id": "85265",
         "stadium": "Estádio do SL Benfica",

@@ -15,22 +15,22 @@
         "htStatus": "",
         "upcomingMatchesList": [
           {
-            "mdId": "5",
+            "mdId": "6",
             "tId": "81199",
             "tSCode": "Arsenal",
             "cCode": "ARS",
-            "tLoc": "H",
-            "vsTID": "2600241",
-            "vsTSCode": "OL Lyonnes",
-            "vsCCode": "LYO",
-            "matchDate": "11/19/2026 21:00:00",
-            "vsTLoc": "A",
+            "tLoc": "A",
+            "vsTID": "2609776",
+            "vsTSCode": "Inter",
+            "vsCCode": "INT",
+            "matchDate": "12/16/2026 21:00:00",
+            "vsTLoc": "H",
             "htPtId": "d034c394-f946-47b0-8de5-9f45998799a0",
             "htPtName": "Pot 1",
             "htPtResName": "draw_pot_1",
-            "atPtId": "d034c394-f946-47b0-8de5-9f45998799a0",
-            "atPtName": "Pot 1",
-            "atPtResName": "draw_pot_1"
+            "atPtId": "3ff61e44-8bec-4b76-991d-ae3832fe2bd2",
+            "atPtName": "Pot 3",
+            "atPtResName": "draw_pot_3"
           }
         ]
       },
@@ -48,22 +48,22 @@
         "htStatus": "",
         "upcomingMatchesList": [
           {
-            "mdId": "5",
+            "mdId": "6",
             "tId": "2612002",
             "tSCode": "Austria Wien",
             "cCode": "AUS",
-            "tLoc": "H",
-            "vsTID": "2600661",
-            "vsTSCode": "Bayern",
-            "vsCCode": "BAY",
-            "matchDate": "11/19/2026 18:45:00",
-            "vsTLoc": "A",
+            "tLoc": "A",
+            "vsTID": "2603520",
+            "vsTSCode": "Man City",
+            "vsCCode": "MCI",
+            "matchDate": "12/16/2026 21:00:00",
+            "vsTLoc": "H",
             "htPtId": "3ff61e44-8bec-4b76-991d-ae3832fe2bd2",
             "htPtName": "Pot 3",
             "htPtResName": "draw_pot_3",
-            "atPtId": "d034c394-f946-47b0-8de5-9f45998799a0",
-            "atPtName": "Pot 1",
-            "atPtResName": "draw_pot_1"
+            "atPtId": "3ff61e44-8bec-4b76-991d-ae3832fe2bd2",
+            "atPtName": "Pot 3",
+            "atPtResName": "draw_pot_3"
           }
         ]
       },
@@ -81,22 +81,22 @@
         "htStatus": "",
         "upcomingMatchesList": [
           {
-            "mdId": "5",
+            "mdId": "6",
             "tId": "2601945",
             "tSCode": "Barcelona",
             "cCode": "BAR",
-            "tLoc": "H",
-            "vsTID": "2611086",
-            "vsTSCode": "Servette",
-            "vsCCode": "SER",
-            "matchDate": "11/19/2026 21:00:00",
-            "vsTLoc": "A",
+            "tLoc": "A",
+            "vsTID": "2600661",
+            "vsTSCode": "Bayern",
+            "vsCCode": "BAY",
+            "matchDate": "12/16/2026 21:00:00",
+            "vsTLoc": "H",
             "htPtId": "d034c394-f946-47b0-8de5-9f45998799a0",
             "htPtName": "Pot 1",
             "htPtResName": "draw_pot_1",
-            "atPtId": "3ff61e44-8bec-4b76-991d-ae3832fe2bd2",
-            "atPtName": "Pot 3",
-            "atPtResName": "draw_pot_3"
+            "atPtId": "d034c394-f946-47b0-8de5-9f45998799a0",
+            "atPtName": "Pot 1",
+            "atPtResName": "draw_pot_1"
           }
         ]
       },
@@ -114,22 +114,22 @@
         "htStatus": "",
         "upcomingMatchesList": [
           {
-            "mdId": "5",
+            "mdId": "6",
             "tId": "2600661",
             "tSCode": "Bayern",
             "cCode": "BAY",
-            "tLoc": "A",
-            "vsTID": "2612002",
-            "vsTSCode": "Austria Wien",
-            "vsCCode": "AUS",
-            "matchDate": "11/19/2026 18:45:00",
-            "vsTLoc": "H",
+            "tLoc": "H",
+            "vsTID": "2601945",
+            "vsTSCode": "Barcelona",
+            "vsCCode": "BAR",
+            "matchDate": "12/16/2026 21:00:00",
+            "vsTLoc": "A",
             "htPtId": "d034c394-f946-47b0-8de5-9f45998799a0",
             "htPtName": "Pot 1",
             "htPtResName": "draw_pot_1",
-            "atPtId": "3ff61e44-8bec-4b76-991d-ae3832fe2bd2",
-            "atPtName": "Pot 3",
-            "atPtResName": "draw_pot_3"
+            "atPtId": "d034c394-f946-47b0-8de5-9f45998799a0",
+            "atPtName": "Pot 1",
+            "atPtResName": "draw_pot_1"
           }
         ]
       },
@@ -147,22 +147,22 @@
         "htStatus": "",
         "upcomingMatchesList": [
           {
-            "mdId": "5",
+            "mdId": "6",
             "tId": "2610349",
             "tSCode": "Benfica",
             "cCode": "BEN",
-            "tLoc": "H",
-            "vsTID": "2610208",
-            "vsTSCode": "Roma",
-            "vsCCode": "ROM",
-            "matchDate": "11/19/2026 21:00:00",
-            "vsTLoc": "A",
+            "tLoc": "A",
+            "vsTID": "2611087",
+            "vsTSCode": "HB Køge",
+            "vsCCode": "HBK",
+            "matchDate": "12/16/2026 21:00:00",
+            "vsTLoc": "H",
             "htPtId": "131cd507-27ec-413b-a89d-900bdc70f591",
             "htPtName": "Pot 2",
             "htPtResName": "draw_pot_2",
-            "atPtId": "131cd507-27ec-413b-a89d-900bdc70f591",
-            "atPtName": "Pot 2",
-            "atPtResName": "draw_pot_2"
+            "atPtId": "3ff61e44-8bec-4b76-991d-ae3832fe2bd2",
+            "atPtName": "Pot 3",
+            "atPtResName": "draw_pot_3"
           }
         ]
       },
@@ -246,16 +246,16 @@
         "htStatus": "",
         "upcomingMatchesList": [
           {
-            "mdId": "5",
+            "mdId": "6",
             "tId": "2611087",
             "tSCode": "HB Køge",
             "cCode": "HBK",
-            "tLoc": "A",
-            "vsTID": "2609779",
-            "vsTSCode": "Paris",
-            "vsCCode": "PAR",
-            "matchDate": "11/19/2026 18:45:00",
-            "vsTLoc": "H",
+            "tLoc": "H",
+            "vsTID": "2610349",
+            "vsTSCode": "Benfica",
+            "vsCCode": "BEN",
+            "matchDate": "12/16/2026 21:00:00",
+            "vsTLoc": "A",
             "htPtId": "3ff61e44-8bec-4b76-991d-ae3832fe2bd2",
             "htPtName": "Pot 3",
             "htPtResName": "draw_pot_3",
@@ -411,22 +411,22 @@
         "htStatus": "",
         "upcomingMatchesList": [
           {
-            "mdId": "5",
+            "mdId": "6",
             "tId": "2600241",
             "tSCode": "OL Lyonnes",
             "cCode": "LYO",
-            "tLoc": "A",
-            "vsTID": "81199",
-            "vsTSCode": "Arsenal",
-            "vsCCode": "ARS",
-            "matchDate": "11/19/2026 21:00:00",
-            "vsTLoc": "H",
+            "tLoc": "H",
+            "vsTID": "2600867",
+            "vsTSCode": "Häcken",
+            "vsCCode": "HAC",
+            "matchDate": "12/16/2026 21:00:00",
+            "vsTLoc": "A",
             "htPtId": "d034c394-f946-47b0-8de5-9f45998799a0",
             "htPtName": "Pot 1",
             "htPtResName": "draw_pot_1",
-            "atPtId": "d034c394-f946-47b0-8de5-9f45998799a0",
-            "atPtName": "Pot 1",
-            "atPtResName": "draw_pot_1"
+            "atPtId": "131cd507-27ec-413b-a89d-900bdc70f591",
+            "atPtName": "Pot 2",
+            "atPtResName": "draw_pot_2"
           }
         ]
       },
@@ -444,16 +444,16 @@
         "htStatus": "",
         "upcomingMatchesList": [
           {
-            "mdId": "5",
+            "mdId": "6",
             "tId": "2609779",
             "tSCode": "Paris",
             "cCode": "PAR",
-            "tLoc": "H",
-            "vsTID": "2611087",
-            "vsTSCode": "HB Køge",
-            "vsCCode": "HBK",
-            "matchDate": "11/19/2026 18:45:00",
-            "vsTLoc": "A",
+            "tLoc": "A",
+            "vsTID": "2611086",
+            "vsTSCode": "Servette",
+            "vsCCode": "SER",
+            "matchDate": "12/16/2026 21:00:00",
+            "vsTLoc": "H",
             "htPtId": "131cd507-27ec-413b-a89d-900bdc70f591",
             "htPtName": "Pot 2",
             "htPtResName": "draw_pot_2",
@@ -543,16 +543,16 @@
         "htStatus": "",
         "upcomingMatchesList": [
           {
-            "mdId": "5",
+            "mdId": "6",
             "tId": "2610208",
             "tSCode": "Roma",
             "cCode": "ROM",
-            "tLoc": "A",
-            "vsTID": "2610349",
-            "vsTSCode": "Benfica",
-            "vsCCode": "BEN",
-            "matchDate": "11/19/2026 21:00:00",
-            "vsTLoc": "H",
+            "tLoc": "H",
+            "vsTID": "2611347",
+            "vsTSCode": "Real Madrid",
+            "vsCCode": "RMA",
+            "matchDate": "12/16/2026 21:00:00",
+            "vsTLoc": "A",
             "htPtId": "131cd507-27ec-413b-a89d-900bdc70f591",
             "htPtName": "Pot 2",
             "htPtResName": "draw_pot_2",
@@ -576,30 +576,30 @@
         "htStatus": "",
         "upcomingMatchesList": [
           {
-            "mdId": "5",
+            "mdId": "6",
             "tId": "2611086",
             "tSCode": "Servette",
             "cCode": "SER",
-            "tLoc": "A",
-            "vsTID": "2601945",
-            "vsTSCode": "Barcelona",
-            "vsCCode": "BAR",
-            "matchDate": "11/19/2026 21:00:00",
-            "vsTLoc": "H",
+            "tLoc": "H",
+            "vsTID": "2609779",
+            "vsTSCode": "Paris",
+            "vsCCode": "PAR",
+            "matchDate": "12/16/2026 21:00:00",
+            "vsTLoc": "A",
             "htPtId": "3ff61e44-8bec-4b76-991d-ae3832fe2bd2",
             "htPtName": "Pot 3",
             "htPtResName": "draw_pot_3",
-            "atPtId": "d034c394-f946-47b0-8de5-9f45998799a0",
-            "atPtName": "Pot 1",
-            "atPtResName": "draw_pot_1"
+            "atPtId": "131cd507-27ec-413b-a89d-900bdc70f591",
+            "atPtName": "Pot 2",
+            "atPtResName": "draw_pot_2"
           }
         ]
       }
     ],
     "feedTime": {
-      "utcTime": "11/19/26 5:05:39 PM",
-      "istTime": "11/19/26 10:35:39 PM",
-      "cestTime": "11/19/26 6:05:39 PM"
+      "utcTime": "11/19/26 11:09:31 PM",
+      "istTime": "11/20/26 4:39:31 AM",
+      "cestTime": "11/20/26 12:09:31 AM"
     }
   },
   "meta": {
@@ -607,9 +607,9 @@
     "retVal": 1,
     "success": true,
     "timestamp": {
-      "utcTime": "11/19/26 5:05:39 PM",
-      "istTime": "11/19/26 10:35:39 PM",
-      "cestTime": "11/19/26 6:05:39 PM"
+      "utcTime": "11/19/26 11:09:31 PM",
+      "istTime": "11/20/26 4:39:31 AM",
+      "cestTime": "11/20/26 12:09:31 AM"
     }
   }
 }
