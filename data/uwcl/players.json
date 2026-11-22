@@ -140,7 +140,7 @@
       "selected_pct": 8.0,
       "transfer_activity": {
         "transfers_in": 2,
-        "transfers_out": 69,
+        "transfers_out": 73,
         "selected_in_pct": 0.0,
         "selected_out_pct": 1.0
       },
@@ -373,7 +373,7 @@
       "price": 5.5,
       "selected_pct": 14.0,
       "transfer_activity": {
-        "transfers_in": 26,
+        "transfers_in": 27,
         "transfers_out": 44,
         "selected_in_pct": 0.0,
         "selected_out_pct": 1.0
@@ -441,7 +441,7 @@
         "category2": 0.0,
         "category3": 1.0,
         "category4": 0.5,
-        "category5": 0.2,
+        "category5": 0.4,
         "category6": 0.0,
         "category7": 0.0,
         "category8": 0.0,
@@ -491,7 +491,7 @@
       "selected_pct": 2.0,
       "transfer_activity": {
         "transfers_in": 2,
-        "transfers_out": 10,
+        "transfers_out": 11,
         "selected_in_pct": 0.0,
         "selected_out_pct": 0.0
       },
@@ -607,8 +607,8 @@
       "price": 6.0,
       "selected_pct": 21.0,
       "transfer_activity": {
-        "transfers_in": 39,
-        "transfers_out": 113,
+        "transfers_in": 40,
+        "transfers_out": 117,
         "selected_in_pct": 1.0,
         "selected_out_pct": 2.0
       },
@@ -675,7 +675,7 @@
         "category2": 0.0,
         "category3": 0.0,
         "category4": 0.7,
-        "category5": 0.5,
+        "category5": 0.6,
         "category6": 0.0,
         "category7": 0.0,
         "category8": 0.0,
@@ -842,7 +842,7 @@
       "selected_pct": 5.0,
       "transfer_activity": {
         "transfers_in": 20,
-        "transfers_out": 32,
+        "transfers_out": 33,
         "selected_in_pct": 0.0,
         "selected_out_pct": 1.0
       },
@@ -908,7 +908,7 @@
         "category1": 0.0,
         "category2": 0.0,
         "category3": 0.0,
-        "category4": 0.4,
+        "category4": 0.3,
         "category5": 0.5,
         "category6": 0.0,
         "category7": 0.0,
@@ -959,7 +959,7 @@
       "selected_pct": 46.0,
       "transfer_activity": {
         "transfers_in": 85,
-        "transfers_out": 131,
+        "transfers_out": 135,
         "selected_in_pct": 1.0,
         "selected_out_pct": 2.0
       },
@@ -1025,8 +1025,8 @@
         "category1": 0.0,
         "category2": 0.0,
         "category3": 9.0,
-        "category4": 1.5,
-        "category5": 0.8,
+        "category4": 1.4,
+        "category5": 0.5,
         "category6": 0.0,
         "category7": 0.0,
         "category8": 0.0,
@@ -1193,7 +1193,7 @@
       "selected_pct": 0.0,
       "transfer_activity": {
         "transfers_in": 0,
-        "transfers_out": 1,
+        "transfers_out": 2,
         "selected_in_pct": 0.0,
         "selected_out_pct": 0.0
       },
@@ -1895,7 +1895,7 @@
       "selected_pct": 2.0,
       "transfer_activity": {
         "transfers_in": 0,
-        "transfers_out": 13,
+        "transfers_out": 15,
         "selected_in_pct": 0.0,
         "selected_out_pct": 0.0
       },
@@ -2480,7 +2480,7 @@
       "selected_pct": 6.0,
       "transfer_activity": {
         "transfers_in": 1,
-        "transfers_out": 28,
+        "transfers_out": 29,
         "selected_in_pct": 0.0,
         "selected_out_pct": 0.0
       },
@@ -2713,7 +2713,7 @@
       "price": 6.8,
       "selected_pct": 16.0,
       "transfer_activity": {
-        "transfers_in": 88,
+        "transfers_in": 90,
         "transfers_out": 73,
         "selected_in_pct": 2.0,
         "selected_out_pct": 1.0
@@ -2781,7 +2781,7 @@
         "category2": 0.0,
         "category3": 0.0,
         "category4": 1.5,
-        "category5": 1.3,
+        "category5": 1.2,
         "category6": 0.0,
         "category7": 0.0,
         "category8": 0.0,
@@ -3299,7 +3299,7 @@
       "selected_pct": 7.0,
       "transfer_activity": {
         "transfers_in": 1,
-        "transfers_out": 45,
+        "transfers_out": 46,
         "selected_in_pct": 0.0,
         "selected_out_pct": 1.0
       },
@@ -3533,7 +3533,7 @@
       "selected_pct": 10.0,
       "transfer_activity": {
         "transfers_in": 7,
-        "transfers_out": 53,
+        "transfers_out": 54,
         "selected_in_pct": 0.0,
         "selected_out_pct": 1.0
       },
@@ -5288,7 +5288,7 @@
       "selected_pct": 0.0,
       "transfer_activity": {
         "transfers_in": 0,
-        "transfers_out": 2,
+        "transfers_out": 3,
         "selected_in_pct": 0.0,
         "selected_out_pct": 0.0
       },
@@ -7042,7 +7042,7 @@
       "price": 5.7,
       "selected_pct": 17.0,
       "transfer_activity": {
-        "transfers_in": 152,
+        "transfers_in": 157,
         "transfers_out": 19,
         "selected_in_pct": 3.0,
         "selected_out_pct": 0.0
@@ -7109,8 +7109,8 @@
         "category1": 0.0,
         "category2": 0.0,
         "category3": 0.0,
-        "category4": 2.6,
-        "category5": 2.6,
+        "category4": 2.7,
+        "category5": 2.9,
         "category6": 0.0,
         "category7": 0.0,
         "category8": 0.0,
@@ -7159,8 +7159,8 @@
       "price": 6.0,
       "selected_pct": 6.0,
       "transfer_activity": {
-        "transfers_in": 14,
-        "transfers_out": 25,
+        "transfers_in": 15,
+        "transfers_out": 26,
         "selected_in_pct": 0.0,
         "selected_out_pct": 0.0
       },
@@ -7226,8 +7226,8 @@
         "category1": 0.0,
         "category2": 0.0,
         "category3": 0.0,
-        "category4": 0.2,
-        "category5": 0.5,
+        "category4": 0.3,
+        "category5": 0.6,
         "category6": 0.0,
         "category7": 0.0,
         "category8": 0.0,
@@ -8446,8 +8446,8 @@
       "price": 10.7,
       "selected_pct": 67.0,
       "transfer_activity": {
-        "transfers_in": 22,
-        "transfers_out": 327,
+        "transfers_in": 23,
+        "transfers_out": 328,
         "selected_in_pct": 0.0,
         "selected_out_pct": 6.0
       },
@@ -8982,7 +8982,7 @@
         "category2": 0.0,
         "category3": 1.0,
         "category4": 0.5,
-        "category5": 0.6,
+        "category5": 0.5,
         "category6": 0.0,
         "category7": 0.0,
         "category8": 0.0,
@@ -9266,7 +9266,7 @@
       "selected_pct": 25.0,
       "transfer_activity": {
         "transfers_in": 53,
-        "transfers_out": 22,
+        "transfers_out": 24,
         "selected_in_pct": 1.0,
         "selected_out_pct": 0.0
       },
@@ -9333,7 +9333,7 @@
         "category2": 0.0,
         "category3": 7.0,
         "category4": 0.9,
-        "category5": 1.1,
+        "category5": 1.0,
         "category6": 0.0,
         "category7": 0.0,
         "category8": 0.0,
@@ -9499,10 +9499,10 @@
       "price": 9.8,
       "selected_pct": 52.0,
       "transfer_activity": {
-        "transfers_in": 115,
-        "transfers_out": 199,
+        "transfers_in": 118,
+        "transfers_out": 208,
         "selected_in_pct": 2.0,
-        "selected_out_pct": 3.0
+        "selected_out_pct": 4.0
       },
       "active": true,
       "status": {
@@ -9567,7 +9567,7 @@
         "category2": 0.0,
         "category3": 10.0,
         "category4": 2.0,
-        "category5": 1.7,
+        "category5": 2.1,
         "category6": 0.0,
         "category7": 0.0,
         "category8": 0.0,
@@ -9616,10 +9616,10 @@
       "price": 6.4,
       "selected_pct": 4.0,
       "transfer_activity": {
-        "transfers_in": 17,
+        "transfers_in": 18,
         "transfers_out": 29,
         "selected_in_pct": 0.0,
-        "selected_out_pct": 1.0
+        "selected_out_pct": 0.0
       },
       "active": true,
       "status": {
@@ -9733,7 +9733,7 @@
       "price": 9.3,
       "selected_pct": 38.0,
       "transfer_activity": {
-        "transfers_in": 352,
+        "transfers_in": 357,
         "transfers_out": 17,
         "selected_in_pct": 6.0,
         "selected_out_pct": 0.0
@@ -9801,7 +9801,7 @@
         "category2": 0.0,
         "category3": 7.0,
         "category4": 6.1,
-        "category5": 5.2,
+        "category5": 5.3,
         "category6": 0.0,
         "category7": 0.0,
         "category8": 0.0,
@@ -9968,7 +9968,7 @@
       "selected_pct": 4.0,
       "transfer_activity": {
         "transfers_in": 1,
-        "transfers_out": 36,
+        "transfers_out": 39,
         "selected_in_pct": 0.0,
         "selected_out_pct": 1.0
       },
@@ -10435,7 +10435,7 @@
       "price": 6.7,
       "selected_pct": 6.0,
       "transfer_activity": {
-        "transfers_in": 10,
+        "transfers_in": 11,
         "transfers_out": 28,
         "selected_in_pct": 0.0,
         "selected_out_pct": 0.0
@@ -10503,7 +10503,7 @@
         "category2": 0.0,
         "category3": 1.0,
         "category4": 0.2,
-        "category5": 0.4,
+        "category5": 0.5,
         "category6": 0.0,
         "category7": 0.0,
         "category8": 0.0,
@@ -10903,8 +10903,8 @@
       "price": 5.1,
       "selected_pct": 19.0,
       "transfer_activity": {
-        "transfers_in": 75,
-        "transfers_out": 47,
+        "transfers_in": 77,
+        "transfers_out": 48,
         "selected_in_pct": 1.0,
         "selected_out_pct": 1.0
       },
@@ -10971,7 +10971,7 @@
         "category2": 0.0,
         "category3": 0.0,
         "category4": 1.3,
-        "category5": 1.7,
+        "category5": 1.9,
         "category6": 0.0,
         "category7": 0.0,
         "category8": 0.0,
@@ -11021,7 +11021,7 @@
       "selected_pct": 12.0,
       "transfer_activity": {
         "transfers_in": 12,
-        "transfers_out": 79,
+        "transfers_out": 81,
         "selected_in_pct": 0.0,
         "selected_out_pct": 1.0
       },
@@ -11088,7 +11088,7 @@
         "category2": 0.0,
         "category3": 0.0,
         "category4": 0.2,
-        "category5": 0.2,
+        "category5": 0.1,
         "category6": 0.0,
         "category7": 0.0,
         "category8": 0.0,
@@ -11723,7 +11723,7 @@
       "selected_pct": 6.0,
       "transfer_activity": {
         "transfers_in": 4,
-        "transfers_out": 29,
+        "transfers_out": 30,
         "selected_in_pct": 0.0,
         "selected_out_pct": 1.0
       },
@@ -12307,8 +12307,8 @@
       "price": 7.6,
       "selected_pct": 23.0,
       "transfer_activity": {
-        "transfers_in": 101,
-        "transfers_out": 94,
+        "transfers_in": 102,
+        "transfers_out": 95,
         "selected_in_pct": 2.0,
         "selected_out_pct": 2.0
       },
@@ -12541,8 +12541,8 @@
       "price": 5.5,
       "selected_pct": 21.0,
       "transfer_activity": {
-        "transfers_in": 59,
-        "transfers_out": 58,
+        "transfers_in": 62,
+        "transfers_out": 59,
         "selected_in_pct": 1.0,
         "selected_out_pct": 1.0
       },
@@ -12608,8 +12608,8 @@
         "category1": 0.0,
         "category2": 0.0,
         "category3": 0.0,
-        "category4": 1.0,
-        "category5": 1.1,
+        "category4": 1.1,
+        "category5": 1.5,
         "category6": 0.0,
         "category7": 0.0,
         "category8": 0.0,
@@ -13477,9 +13477,9 @@
       "price": 8.5,
       "selected_pct": 40.0,
       "transfer_activity": {
-        "transfers_in": 202,
+        "transfers_in": 207,
         "transfers_out": 53,
-        "selected_in_pct": 3.0,
+        "selected_in_pct": 4.0,
         "selected_out_pct": 1.0
       },
       "active": true,
@@ -13545,7 +13545,7 @@
         "category2": 0.0,
         "category3": 2.0,
         "category4": 3.5,
-        "category5": 5.0,
+        "category5": 4.7,
         "category6": 0.0,
         "category7": 0.0,
         "category8": 0.0,
@@ -13829,7 +13829,7 @@
       "selected_pct": 19.0,
       "transfer_activity": {
         "transfers_in": 14,
-        "transfers_out": 81,
+        "transfers_out": 82,
         "selected_in_pct": 0.0,
         "selected_out_pct": 1.0
       },
@@ -13896,7 +13896,7 @@
         "category2": 0.0,
         "category3": 0.0,
         "category4": 0.2,
-        "category5": 0.5,
+        "category5": 0.4,
         "category6": 0.0,
         "category7": 0.0,
         "category8": 0.0,
@@ -14832,7 +14832,7 @@
         "category2": 0.0,
         "category3": 0.0,
         "category4": 0.2,
-        "category5": 0.2,
+        "category5": 0.1,
         "category6": 0.0,
         "category7": 0.0,
         "category8": 0.0,
@@ -14998,7 +14998,7 @@
       "price": 5.0,
       "selected_pct": 4.0,
       "transfer_activity": {
-        "transfers_in": 5,
+        "transfers_in": 6,
         "transfers_out": 11,
         "selected_in_pct": 0.0,
         "selected_out_pct": 0.0
@@ -15232,8 +15232,8 @@
       "price": 4.3,
       "selected_pct": 24.0,
       "transfer_activity": {
-        "transfers_in": 46,
-        "transfers_out": 128,
+        "transfers_in": 47,
+        "transfers_out": 130,
         "selected_in_pct": 1.0,
         "selected_out_pct": 2.0
       },
@@ -15300,7 +15300,7 @@
         "category2": 0.0,
         "category3": 0.0,
         "category4": 0.8,
-        "category5": 1.1,
+        "category5": 1.0,
         "category6": 0.0,
         "category7": 0.0,
         "category8": 0.0,
@@ -16871,7 +16871,7 @@
       "selected_pct": 12.0,
       "transfer_activity": {
         "transfers_in": 10,
-        "transfers_out": 53,
+        "transfers_out": 54,
         "selected_in_pct": 0.0,
         "selected_out_pct": 1.0
       },
@@ -18575,8 +18575,8 @@
         "category1": 0.0,
         "category2": 0.0,
         "category3": 1.0,
-        "category4": 2.8,
-        "category5": 3.3,
+        "category4": 2.7,
+        "category5": 2.4,
         "category6": 0.0,
         "category7": 0.0,
         "category8": 0.0,
@@ -18692,7 +18692,7 @@
         "category1": 0.0,
         "category2": 0.0,
         "category3": 0.0,
-        "category4": 0.4,
+        "category4": 0.3,
         "category5": 0.2,
         "category6": 0.0,
         "category7": 0.0,
@@ -18810,7 +18810,7 @@
         "category2": 0.0,
         "category3": 0.0,
         "category4": 0.1,
-        "category5": 0.4,
+        "category5": 0.2,
         "category6": 0.0,
         "category7": 0.0,
         "category8": 0.0,
@@ -18859,8 +18859,8 @@
       "price": 5.6,
       "selected_pct": 26.0,
       "transfer_activity": {
-        "transfers_in": 123,
-        "transfers_out": 76,
+        "transfers_in": 127,
+        "transfers_out": 78,
         "selected_in_pct": 2.0,
         "selected_out_pct": 1.0
       },
@@ -18926,8 +18926,8 @@
         "category1": 0.0,
         "category2": 0.0,
         "category3": 2.0,
-        "category4": 2.1,
-        "category5": 2.2,
+        "category4": 2.2,
+        "category5": 2.8,
         "category6": 0.0,
         "category7": 0.0,
         "category8": 0.0,
@@ -19327,7 +19327,7 @@
       "price": 5.0,
       "selected_pct": 19.0,
       "transfer_activity": {
-        "transfers_in": 391,
+        "transfers_in": 400,
         "transfers_out": 5,
         "selected_in_pct": 7.0,
         "selected_out_pct": 0.0
@@ -19395,7 +19395,7 @@
         "category2": 0.0,
         "category3": 1.0,
         "category4": 6.8,
-        "category5": 6.2,
+        "category5": 6.4,
         "category6": 0.0,
         "category7": 0.0,
         "category8": 0.0,
@@ -19795,7 +19795,7 @@
       "price": 5.5,
       "selected_pct": 17.0,
       "transfer_activity": {
-        "transfers_in": 116,
+        "transfers_in": 119,
         "transfers_out": 22,
         "selected_in_pct": 2.0,
         "selected_out_pct": 0.0
@@ -19863,7 +19863,7 @@
         "category2": 0.0,
         "category3": 0.0,
         "category4": 2.0,
-        "category5": 1.6,
+        "category5": 1.8,
         "category6": 0.0,
         "category7": 0.0,
         "category8": 0.0,
@@ -19913,7 +19913,7 @@
       "selected_pct": 4.0,
       "transfer_activity": {
         "transfers_in": 9,
-        "transfers_out": 26,
+        "transfers_out": 27,
         "selected_in_pct": 0.0,
         "selected_out_pct": 0.0
       },
@@ -20732,7 +20732,7 @@
       "selected_pct": 4.0,
       "transfer_activity": {
         "transfers_in": 3,
-        "transfers_out": 40,
+        "transfers_out": 41,
         "selected_in_pct": 0.0,
         "selected_out_pct": 1.0
       },
@@ -21433,8 +21433,8 @@
       "price": 6.4,
       "selected_pct": 26.0,
       "transfer_activity": {
-        "transfers_in": 149,
-        "transfers_out": 102,
+        "transfers_in": 151,
+        "transfers_out": 103,
         "selected_in_pct": 3.0,
         "selected_out_pct": 2.0
       },
@@ -21501,7 +21501,7 @@
         "category2": 0.0,
         "category3": 5.0,
         "category4": 2.6,
-        "category5": 3.5,
+        "category5": 3.4,
         "category6": 0.0,
         "category7": 0.0,
         "category8": 0.0,
@@ -23539,7 +23539,7 @@
       "price": 5.8,
       "selected_pct": 0.0,
       "transfer_activity": {
-        "transfers_in": 0,
+        "transfers_in": 1,
         "transfers_out": 0,
         "selected_in_pct": 0.0,
         "selected_out_pct": 0.0
@@ -23607,7 +23607,7 @@
         "category2": 0.0,
         "category3": 0.0,
         "category4": 0.0,
-        "category5": 0.0,
+        "category5": 0.1,
         "category6": 0.0,
         "category7": 0.0,
         "category8": 0.0,
@@ -23890,7 +23890,7 @@
       "price": 3.8,
       "selected_pct": 1.0,
       "transfer_activity": {
-        "transfers_in": 13,
+        "transfers_in": 14,
         "transfers_out": 2,
         "selected_in_pct": 0.0,
         "selected_out_pct": 0.0
@@ -23958,7 +23958,7 @@
         "category2": 0.0,
         "category3": 0.0,
         "category4": 0.2,
-        "category5": 0.7,
+        "category5": 0.8,
         "category6": 0.0,
         "category7": 0.0,
         "category8": 0.0,
@@ -24475,7 +24475,7 @@
       "price": 5.6,
       "selected_pct": 1.0,
       "transfer_activity": {
-        "transfers_in": 11,
+        "transfers_in": 12,
         "transfers_out": 15,
         "selected_in_pct": 0.0,
         "selected_out_pct": 0.0
@@ -24543,7 +24543,7 @@
         "category2": 0.0,
         "category3": 0.0,
         "category4": 0.2,
-        "category5": 0.1,
+        "category5": 0.2,
         "category6": 0.0,
         "category7": 0.0,
         "category8": 0.0,
@@ -25061,7 +25061,7 @@
       "selected_pct": 2.0,
       "transfer_activity": {
         "transfers_in": 6,
-        "transfers_out": 20,
+        "transfers_out": 21,
         "selected_in_pct": 0.0,
         "selected_out_pct": 0.0
       },
@@ -27401,7 +27401,7 @@
       "selected_pct": 0.0,
       "transfer_activity": {
         "transfers_in": 0,
-        "transfers_out": 0,
+        "transfers_out": 1,
         "selected_in_pct": 0.0,
         "selected_out_pct": 0.0
       },
@@ -28687,8 +28687,8 @@
       "price": 5.0,
       "selected_pct": 2.0,
       "transfer_activity": {
-        "transfers_in": 2,
-        "transfers_out": 19,
+        "transfers_in": 3,
+        "transfers_out": 20,
         "selected_in_pct": 0.0,
         "selected_out_pct": 0.0
       },
@@ -28754,7 +28754,7 @@
         "category1": 0.0,
         "category2": 0.0,
         "category3": 0.0,
-        "category4": 0.0,
+        "category4": 0.1,
         "category5": 0.2,
         "category6": 0.0,
         "category7": 0.0,
@@ -28804,7 +28804,7 @@
       "price": 3.8,
       "selected_pct": 0.0,
       "transfer_activity": {
-        "transfers_in": 1,
+        "transfers_in": 2,
         "transfers_out": 0,
         "selected_in_pct": 0.0,
         "selected_out_pct": 0.0
@@ -29156,7 +29156,7 @@
       "selected_pct": 4.0,
       "transfer_activity": {
         "transfers_in": 3,
-        "transfers_out": 28,
+        "transfers_out": 29,
         "selected_in_pct": 0.0,
         "selected_out_pct": 0.0
       },
@@ -29507,7 +29507,7 @@
       "selected_pct": 3.0,
       "transfer_activity": {
         "transfers_in": 1,
-        "transfers_out": 38,
+        "transfers_out": 39,
         "selected_in_pct": 0.0,
         "selected_out_pct": 1.0
       },
@@ -31262,7 +31262,7 @@
       "selected_pct": 2.0,
       "transfer_activity": {
         "transfers_in": 0,
-        "transfers_out": 9,
+        "transfers_out": 10,
         "selected_in_pct": 0.0,
         "selected_out_pct": 0.0
       },
@@ -32432,7 +32432,7 @@
       "selected_pct": 0.0,
       "transfer_activity": {
         "transfers_in": 0,
-        "transfers_out": 3,
+        "transfers_out": 4,
         "selected_in_pct": 0.0,
         "selected_out_pct": 0.0
       },
@@ -32616,7 +32616,7 @@
         "category2": 0.0,
         "category3": 0.0,
         "category4": 0.6,
-        "category5": 1.1,
+        "category5": 0.8,
         "category6": 0.0,
         "category7": 0.0,
         "category8": 0.0,
@@ -34072,7 +34072,7 @@
         "transfers_in": 10,
         "transfers_out": 29,
         "selected_in_pct": 0.0,
-        "selected_out_pct": 1.0
+        "selected_out_pct": 0.0
       },
       "active": true,
       "status": {
@@ -35473,7 +35473,7 @@
       "price": 6.3,
       "selected_pct": 8.0,
       "transfer_activity": {
-        "transfers_in": 170,
+        "transfers_in": 175,
         "transfers_out": 42,
         "selected_in_pct": 3.0,
         "selected_out_pct": 1.0
@@ -35540,8 +35540,8 @@
         "category1": 0.0,
         "category2": 0.0,
         "category3": 1.0,
-        "category4": 2.9,
-        "category5": 3.0,
+        "category4": 3.0,
+        "category5": 3.3,
         "category6": 0.0,
         "category7": 0.0,
         "category8": 0.0,
@@ -36175,7 +36175,7 @@
       "price": 7.0,
       "selected_pct": 6.0,
       "transfer_activity": {
-        "transfers_in": 9,
+        "transfers_in": 11,
         "transfers_out": 38,
         "selected_in_pct": 0.0,
         "selected_out_pct": 1.0
@@ -36243,7 +36243,7 @@
         "category2": 0.0,
         "category3": 0.0,
         "category4": 0.2,
-        "category5": 0.2,
+        "category5": 0.4,
         "category6": 0.0,
         "category7": 0.0,
         "category8": 0.0,
@@ -36410,7 +36410,7 @@
       "selected_pct": 12.0,
       "transfer_activity": {
         "transfers_in": 1,
-        "transfers_out": 160,
+        "transfers_out": 162,
         "selected_in_pct": 0.0,
         "selected_out_pct": 3.0
       },
@@ -36527,7 +36527,7 @@
       "selected_pct": 4.0,
       "transfer_activity": {
         "transfers_in": 53,
-        "transfers_out": 9,
+        "transfers_out": 10,
         "selected_in_pct": 1.0,
         "selected_out_pct": 0.0
       },
@@ -36594,7 +36594,7 @@
         "category2": 0.0,
         "category3": 0.0,
         "category4": 0.9,
-        "category5": 1.1,
+        "category5": 1.0,
         "category6": 0.0,
         "category7": 0.0,
         "category8": 0.0,
@@ -36877,7 +36877,7 @@
       "price": 5.4,
       "selected_pct": 10.0,
       "transfer_activity": {
-        "transfers_in": 208,
+        "transfers_in": 211,
         "transfers_out": 6,
         "selected_in_pct": 4.0,
         "selected_out_pct": 0.0
@@ -36945,7 +36945,7 @@
         "category2": 0.0,
         "category3": 0.0,
         "category4": 3.6,
-        "category5": 3.1,
+        "category5": 2.9,
         "category6": 0.0,
         "category7": 0.0,
         "category8": 0.0,
@@ -37229,7 +37229,7 @@
       "selected_pct": 3.0,
       "transfer_activity": {
         "transfers_in": 0,
-        "transfers_out": 27,
+        "transfers_out": 28,
         "selected_in_pct": 0.0,
         "selected_out_pct": 0.0
       },
@@ -37697,7 +37697,7 @@
       "selected_pct": 1.0,
       "transfer_activity": {
         "transfers_in": 0,
-        "transfers_out": 0,
+        "transfers_out": 1,
         "selected_in_pct": 0.0,
         "selected_out_pct": 0.0
       },
@@ -38047,8 +38047,8 @@
       "price": 9.5,
       "selected_pct": 26.0,
       "transfer_activity": {
-        "transfers_in": 138,
-        "transfers_out": 36,
+        "transfers_in": 139,
+        "transfers_out": 37,
         "selected_in_pct": 2.0,
         "selected_out_pct": 1.0
       },
@@ -38115,7 +38115,7 @@
         "category2": 0.0,
         "category3": 5.0,
         "category4": 2.4,
-        "category5": 2.1,
+        "category5": 1.9,
         "category6": 0.0,
         "category7": 0.0,
         "category8": 0.0,
@@ -38164,7 +38164,7 @@
       "price": 7.0,
       "selected_pct": 6.0,
       "transfer_activity": {
-        "transfers_in": 174,
+        "transfers_in": 176,
         "transfers_out": 10,
         "selected_in_pct": 3.0,
         "selected_out_pct": 0.0
@@ -38516,7 +38516,7 @@
       "selected_pct": 8.0,
       "transfer_activity": {
         "transfers_in": 75,
-        "transfers_out": 15,
+        "transfers_out": 16,
         "selected_in_pct": 1.0,
         "selected_out_pct": 0.0
       },
@@ -38583,7 +38583,7 @@
         "category2": 0.0,
         "category3": 0.0,
         "category4": 1.3,
-        "category5": 1.3,
+        "category5": 1.2,
         "category6": 0.0,
         "category7": 0.0,
         "category8": 0.0,
@@ -38632,7 +38632,7 @@
       "price": 5.5,
       "selected_pct": 4.0,
       "transfer_activity": {
-        "transfers_in": 6,
+        "transfers_in": 7,
         "transfers_out": 11,
         "selected_in_pct": 0.0,
         "selected_out_pct": 0.0
@@ -38700,7 +38700,7 @@
         "category2": 0.0,
         "category3": 0.0,
         "category4": 0.1,
-        "category5": 0.1,
+        "category5": 0.2,
         "category6": 0.0,
         "category7": 0.0,
         "category8": 0.0,
@@ -38867,7 +38867,7 @@
       "selected_pct": 4.0,
       "transfer_activity": {
         "transfers_in": 36,
-        "transfers_out": 39,
+        "transfers_out": 40,
         "selected_in_pct": 1.0,
         "selected_out_pct": 1.0
       },
@@ -39284,7 +39284,7 @@
         "category1": 0.0,
         "category2": 0.0,
         "category3": 0.0,
-        "category4": 1.0,
+        "category4": 0.9,
         "category5": 0.5,
         "category6": 0.0,
         "category7": 0.0,
@@ -39803,7 +39803,7 @@
       "selected_pct": 11.0,
       "transfer_activity": {
         "transfers_in": 21,
-        "transfers_out": 37,
+        "transfers_out": 38,
         "selected_in_pct": 0.0,
         "selected_out_pct": 1.0
       },
@@ -40622,7 +40622,7 @@
       "selected_pct": 1.0,
       "transfer_activity": {
         "transfers_in": 0,
-        "transfers_out": 0,
+        "transfers_out": 1,
         "selected_in_pct": 0.0,
         "selected_out_pct": 0.0
       },
@@ -45653,7 +45653,7 @@
       "selected_pct": 0.0,
       "transfer_activity": {
         "transfers_in": 0,
-        "transfers_out": 1,
+        "transfers_out": 2,
         "selected_in_pct": 0.0,
         "selected_out_pct": 0.0
       },
@@ -46120,8 +46120,8 @@
       "price": 5.0,
       "selected_pct": 35.0,
       "transfer_activity": {
-        "transfers_in": 129,
-        "transfers_out": 50,
+        "transfers_in": 131,
+        "transfers_out": 51,
         "selected_in_pct": 2.0,
         "selected_out_pct": 1.0
       },
@@ -46188,7 +46188,7 @@
         "category2": 0.0,
         "category3": 0.0,
         "category4": 2.2,
-        "category5": 2.8,
+        "category5": 2.9,
         "category6": 0.0,
         "category7": 0.0,
         "category8": 0.0,
@@ -46238,7 +46238,7 @@
       "selected_pct": 7.0,
       "transfer_activity": {
         "transfers_in": 7,
-        "transfers_out": 60,
+        "transfers_out": 62,
         "selected_in_pct": 0.0,
         "selected_out_pct": 1.0
       },
@@ -46705,8 +46705,8 @@
       "price": 6.1,
       "selected_pct": 20.0,
       "transfer_activity": {
-        "transfers_in": 185,
-        "transfers_out": 23,
+        "transfers_in": 187,
+        "transfers_out": 24,
         "selected_in_pct": 3.0,
         "selected_out_pct": 0.0
       },
@@ -46773,7 +46773,7 @@
         "category2": 0.0,
         "category3": 0.0,
         "category4": 3.2,
-        "category5": 4.2,
+        "category5": 3.9,
         "category6": 0.0,
         "category7": 0.0,
         "category8": 0.0,
@@ -47641,8 +47641,8 @@
       "price": 6.6,
       "selected_pct": 17.0,
       "transfer_activity": {
-        "transfers_in": 290,
-        "transfers_out": 12,
+        "transfers_in": 296,
+        "transfers_out": 13,
         "selected_in_pct": 5.0,
         "selected_out_pct": 0.0
       },
@@ -47709,7 +47709,7 @@
         "category2": 0.0,
         "category3": 2.0,
         "category4": 5.0,
-        "category5": 3.8,
+        "category5": 4.0,
         "category6": 0.0,
         "category7": 0.0,
         "category8": 0.0,
@@ -47758,8 +47758,8 @@
       "price": 6.7,
       "selected_pct": 16.0,
       "transfer_activity": {
-        "transfers_in": 122,
-        "transfers_out": 22,
+        "transfers_in": 124,
+        "transfers_out": 23,
         "selected_in_pct": 2.0,
         "selected_out_pct": 0.0
       },
@@ -48929,7 +48929,7 @@
       "selected_pct": 0.0,
       "transfer_activity": {
         "transfers_in": 0,
-        "transfers_out": 0,
+        "transfers_out": 1,
         "selected_in_pct": 0.0,
         "selected_out_pct": 0.0
       },
@@ -49045,7 +49045,7 @@
       "price": 4.0,
       "selected_pct": 11.0,
       "transfer_activity": {
-        "transfers_in": 139,
+        "transfers_in": 141,
         "transfers_out": 24,
         "selected_in_pct": 2.0,
         "selected_out_pct": 0.0
@@ -49631,7 +49631,7 @@
       "selected_pct": 5.0,
       "transfer_activity": {
         "transfers_in": 2,
-        "transfers_out": 35,
+        "transfers_out": 37,
         "selected_in_pct": 0.0,
         "selected_out_pct": 1.0
       },
@@ -49932,7 +49932,7 @@
         "category2": 0.0,
         "category3": 0.0,
         "category4": 0.1,
-        "category5": 0.2,
+        "category5": 0.1,
         "category6": 0.0,
         "category7": 0.0,
         "category8": 0.0,
@@ -50452,7 +50452,7 @@
         "transfers_in": 2,
         "transfers_out": 29,
         "selected_in_pct": 0.0,
-        "selected_out_pct": 1.0
+        "selected_out_pct": 0.0
       },
       "active": true,
       "status": {
@@ -50566,7 +50566,7 @@
       "price": 7.1,
       "selected_pct": 28.0,
       "transfer_activity": {
-        "transfers_in": 164,
+        "transfers_in": 167,
         "transfers_out": 20,
         "selected_in_pct": 3.0,
         "selected_out_pct": 0.0
@@ -51035,7 +51035,7 @@
       "selected_pct": 11.0,
       "transfer_activity": {
         "transfers_in": 83,
-        "transfers_out": 56,
+        "transfers_out": 58,
         "selected_in_pct": 1.0,
         "selected_out_pct": 1.0
       },
@@ -51971,7 +51971,7 @@
       "selected_pct": 1.0,
       "transfer_activity": {
         "transfers_in": 1,
-        "transfers_out": 2,
+        "transfers_out": 3,
         "selected_in_pct": 0.0,
         "selected_out_pct": 0.0
       },
@@ -55247,7 +55247,7 @@
       "selected_pct": 1.0,
       "transfer_activity": {
         "transfers_in": 0,
-        "transfers_out": 4,
+        "transfers_out": 5,
         "selected_in_pct": 0.0,
         "selected_out_pct": 0.0
       },
@@ -57236,7 +57236,7 @@
       "selected_pct": 0.0,
       "transfer_activity": {
         "transfers_in": 0,
-        "transfers_out": 0,
+        "transfers_out": 1,
         "selected_in_pct": 0.0,
         "selected_out_pct": 0.0
       },
@@ -57586,8 +57586,8 @@
       "price": 6.8,
       "selected_pct": 7.0,
       "transfer_activity": {
-        "transfers_in": 55,
-        "transfers_out": 49,
+        "transfers_in": 56,
+        "transfers_out": 50,
         "selected_in_pct": 1.0,
         "selected_out_pct": 1.0
       },
@@ -57654,7 +57654,7 @@
         "category2": 0.0,
         "category3": 1.0,
         "category4": 1.0,
-        "category5": 1.2,
+        "category5": 1.1,
         "category6": 0.0,
         "category7": 0.0,
         "category8": 0.0,
@@ -57704,7 +57704,7 @@
       "selected_pct": 1.0,
       "transfer_activity": {
         "transfers_in": 0,
-        "transfers_out": 10,
+        "transfers_out": 11,
         "selected_in_pct": 0.0,
         "selected_out_pct": 0.0
       },
@@ -59693,7 +59693,7 @@
       "selected_pct": 10.0,
       "transfer_activity": {
         "transfers_in": 2,
-        "transfers_out": 154,
+        "transfers_out": 157,
         "selected_in_pct": 0.0,
         "selected_out_pct": 3.0
       },
@@ -60277,7 +60277,7 @@
       "price": 5.0,
       "selected_pct": 3.0,
       "transfer_activity": {
-        "transfers_in": 4,
+        "transfers_in": 6,
         "transfers_out": 14,
         "selected_in_pct": 0.0,
         "selected_out_pct": 0.0
@@ -60345,7 +60345,7 @@
         "category2": 0.0,
         "category3": 0.0,
         "category4": 0.1,
-        "category5": 0.0,
+        "category5": 0.2,
         "category6": 0.0,
         "category7": 0.0,
         "category8": 0.0,
@@ -60511,8 +60511,8 @@
       "price": 6.0,
       "selected_pct": 8.0,
       "transfer_activity": {
-        "transfers_in": 37,
-        "transfers_out": 31,
+        "transfers_in": 38,
+        "transfers_out": 32,
         "selected_in_pct": 1.0,
         "selected_out_pct": 1.0
       },
@@ -60579,7 +60579,7 @@
         "category2": 0.0,
         "category3": 0.0,
         "category4": 0.6,
-        "category5": 0.2,
+        "category5": 0.4,
         "category6": 0.0,
         "category7": 0.0,
         "category8": 0.0,
@@ -60745,7 +60745,7 @@
       "price": 5.0,
       "selected_pct": 2.0,
       "transfer_activity": {
-        "transfers_in": 12,
+        "transfers_in": 14,
         "transfers_out": 4,
         "selected_in_pct": 0.0,
         "selected_out_pct": 0.0
@@ -60813,7 +60813,7 @@
         "category2": 0.0,
         "category3": 0.0,
         "category4": 0.2,
-        "category5": 0.1,
+        "category5": 0.2,
         "category6": 0.0,
         "category7": 0.0,
         "category8": 0.0,
@@ -62150,7 +62150,7 @@
       "selected_pct": 10.0,
       "transfer_activity": {
         "transfers_in": 21,
-        "transfers_out": 60,
+        "transfers_out": 61,
         "selected_in_pct": 0.0,
         "selected_out_pct": 1.0
       },
@@ -62267,7 +62267,7 @@
       "selected_pct": 1.0,
       "transfer_activity": {
         "transfers_in": 3,
-        "transfers_out": 3,
+        "transfers_out": 4,
         "selected_in_pct": 0.0,
         "selected_out_pct": 0.0
       },
@@ -62919,7 +62919,7 @@
         "category2": 0.0,
         "category3": 0.0,
         "category4": 0.0,
-        "category5": 0.2,
+        "category5": 0.1,
         "category6": 0.0,
         "category7": 0.0,
         "category8": 0.0,
@@ -63670,7 +63670,7 @@
       "price": 6.0,
       "selected_pct": 1.0,
       "transfer_activity": {
-        "transfers_in": 2,
+        "transfers_in": 3,
         "transfers_out": 8,
         "selected_in_pct": 0.0,
         "selected_out_pct": 0.0
@@ -63737,7 +63737,7 @@
         "category1": 0.0,
         "category2": 0.0,
         "category3": 0.0,
-        "category4": 0.0,
+        "category4": 0.1,
         "category5": 0.1,
         "category6": 0.0,
         "category7": 0.0,
@@ -64021,8 +64021,8 @@
       "price": 8.5,
       "selected_pct": 18.0,
       "transfer_activity": {
-        "transfers_in": 148,
-        "transfers_out": 54,
+        "transfers_in": 149,
+        "transfers_out": 55,
         "selected_in_pct": 3.0,
         "selected_out_pct": 1.0
       },
@@ -64088,8 +64088,8 @@
         "category1": 0.0,
         "category2": 0.0,
         "category3": 3.0,
-        "category4": 2.6,
-        "category5": 2.8,
+        "category4": 2.5,
+        "category5": 2.5,
         "category6": 0.0,
         "category7": 0.0,
         "category8": 0.0,
@@ -64958,7 +64958,7 @@
       "selected_pct": 2.0,
       "transfer_activity": {
         "transfers_in": 1,
-        "transfers_out": 8,
+        "transfers_out": 9,
         "selected_in_pct": 0.0,
         "selected_out_pct": 0.0
       },
@@ -65309,7 +65309,7 @@
       "selected_pct": 1.0,
       "transfer_activity": {
         "transfers_in": 0,
-        "transfers_out": 4,
+        "transfers_out": 5,
         "selected_in_pct": 0.0,
         "selected_out_pct": 0.0
       },
@@ -67298,7 +67298,7 @@
       "selected_pct": 1.0,
       "transfer_activity": {
         "transfers_in": 0,
-        "transfers_out": 35,
+        "transfers_out": 36,
         "selected_in_pct": 0.0,
         "selected_out_pct": 1.0
       },
@@ -67649,7 +67649,7 @@
       "selected_pct": 6.0,
       "transfer_activity": {
         "transfers_in": 0,
-        "transfers_out": 76,
+        "transfers_out": 78,
         "selected_in_pct": 0.0,
         "selected_out_pct": 1.0
       },
@@ -67882,7 +67882,7 @@
       "price": 4.9,
       "selected_pct": 0.0,
       "transfer_activity": {
-        "transfers_in": 40,
+        "transfers_in": 42,
         "transfers_out": 1,
         "selected_in_pct": 1.0,
         "selected_out_pct": 0.0
@@ -67950,7 +67950,7 @@
         "category2": 0.0,
         "category3": 0.0,
         "category4": 0.7,
-        "category5": 0.9,
+        "category5": 1.2,
         "category6": 0.0,
         "category7": 0.0,
         "category8": 0.0,
@@ -70691,7 +70691,7 @@
       "selected_pct": 1.0,
       "transfer_activity": {
         "transfers_in": 5,
-        "transfers_out": 1,
+        "transfers_out": 2,
         "selected_in_pct": 0.0,
         "selected_out_pct": 0.0
       },
@@ -70924,7 +70924,7 @@
       "price": 5.5,
       "selected_pct": 0.0,
       "transfer_activity": {
-        "transfers_in": 1,
+        "transfers_in": 2,
         "transfers_out": 1,
         "selected_in_pct": 0.0,
         "selected_out_pct": 0.0
@@ -70992,7 +70992,7 @@
         "category2": 0.0,
         "category3": 0.0,
         "category4": 0.0,
-        "category5": 0.0,
+        "category5": 0.1,
         "category6": 0.0,
         "category7": 0.0,
         "category8": 0.0,
