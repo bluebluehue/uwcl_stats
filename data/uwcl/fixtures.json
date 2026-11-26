@@ -1724,10 +1724,10 @@
       "postponed": false,
       "lineup_announced": false,
       "venue": {
-        "stadium_id": "0",
-        "stadium": "",
-        "city": "",
-        "country_code": ""
+        "stadium_id": "250002587",
+        "stadium": "MCFC Academy Stadium",
+        "city": "Manchester",
+        "country_code": "ENG"
       }
     },
     {

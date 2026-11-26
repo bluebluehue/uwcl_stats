@@ -2314,12 +2314,12 @@
             "lineupAnnounced": 0,
             "groupId": 2014097,
             "groupName": "League",
-            "stadiumId": 0,
-            "stadiumName": "",
-            "stadiumThumb": "",
-            "venueId": 0,
-            "venueName": "",
-            "venueCountryCode": ""
+            "stadiumId": 250002587,
+            "stadiumName": "MCFC Academy Stadium",
+            "stadiumThumb": "https://img.uefa.com/imgml/stadium/matchinfo/w1/250002587.jpg",
+            "venueId": 2179,
+            "venueName": "Manchester",
+            "venueCountryCode": "ENG"
           },
           {
             "mId": 2050577,
@@ -2601,9 +2601,9 @@
       }
     ],
     "feedTime": {
-      "utcTime": "11/26/26 4:44:40 AM",
-      "istTime": "11/26/26 10:14:40 AM",
-      "cestTime": "11/26/26 5:44:40 AM"
+      "utcTime": "11/26/26 2:51:07 PM",
+      "istTime": "11/26/26 8:21:07 PM",
+      "cestTime": "11/26/26 3:51:07 PM"
     }
   },
   "meta": {
@@ -2611,9 +2611,9 @@
     "retVal": 1,
     "success": true,
     "timestamp": {
-      "utcTime": "11/26/26 4:44:40 AM",
-      "istTime": "11/26/26 10:14:40 AM",
-      "cestTime": "11/26/26 5:44:40 AM"
+      "utcTime": "11/26/26 2:51:07 PM",
+      "istTime": "11/26/26 8:21:07 PM",
+      "cestTime": "11/26/26 3:51:07 PM"
     }
   }
 }
